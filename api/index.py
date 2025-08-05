@@ -735,16 +735,31 @@ def chat_legal():
         all_docs = library.get_all_documents()
         documents = []
         
-        # Buscar en contenido de archivos
-        query_lower = user_query.lower()
+        # Buscar en contenido de archivos con múltiples términos
+        query_terms = user_query.lower().split()
         for doc in all_docs:
             content_result = library.get_document_content(doc['nombre_archivo'])
             if content_result['success']:
                 content = content_result['raw_content'].lower()
                 title = doc['titulo'].lower()
+                filename = doc['nombre_archivo'].lower()
                 
-                # Si encuentra la consulta en el contenido o título
-                if query_lower in content or query_lower in title:
+                # Búsqueda más inteligente: cualquier término o combinaciones
+                found = False
+                for term in query_terms:
+                    if term in content or term in title or term in filename:
+                        found = True
+                        break
+                
+                # Búsqueda específica para decretos
+                if "decreto" in query_lower and any(term.isdigit() for term in query_terms):
+                    numbers = [term for term in query_terms if term.isdigit()]
+                    for num in numbers:
+                        if num in filename or num in title:
+                            found = True
+                            break
+                
+                if found:
                     documents.append({
                         'nombre_archivo': doc['nombre_archivo'],
                         'titulo': doc['titulo'],
