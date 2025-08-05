@@ -1,0 +1,2012 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz Legal INSOFT - Repositorio Normativo ISO 27001</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+        
+        :root {
+            --primary-blue: #1e40af;
+            --primary-blue-light: #3b82f6;
+            --primary-blue-dark: #1e3a8a;
+            --accent-gold: #f59e0b;
+            --accent-green: #10b981;
+            --accent-red: #ef4444;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-800: #1f2937;
+            --gray-900: #111827;
+        }
+        
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background: #f8fafc;
+            color: #1e293b;
+        }
+        
+        .legal-text { 
+            font-family: 'Crimson Text', serif; 
+            line-height: 1.8;
+            text-align: justify;
+        }
+        
+        .glass-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .corporate-gradient {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-blue-dark) 100%);
+        }
+        
+        .legal-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .legal-card:hover {
+            border-color: var(--primary-blue-light);
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px rgba(59, 130, 246, 0.1);
+        }
+        
+        .reference-tag {
+            background: linear-gradient(135deg, var(--accent-gold) 0%, #f97316 100%);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            display: inline-block;
+            margin: 2px;
+        }
+        
+        .status-badge {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .status-vigente { background: var(--accent-green); color: white; }
+        .status-derogada { background: var(--accent-red); color: white; }
+        .status-parcial { background: var(--accent-gold); color: white; }
+        
+        .nav-item {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border-radius: 8px;
+            color: #374151;
+            border: 1px solid transparent;
+        }
+        
+        .nav-item:hover {
+            background: #f3f4f6;
+            color: var(--primary-blue);
+            border-color: #e5e7eb;
+            transform: translateX(8px);
+        }
+        
+        .nav-item.active {
+            background: var(--primary-blue);
+            color: white;
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+        }
+        
+        .search-input {
+            background: white;
+            border: 1px solid #e5e7eb;
+            color: #1f2937;
+            transition: all 0.3s ease;
+        }
+        
+        .search-input:focus {
+            background: white;
+            border-color: var(--primary-blue-light);
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+        }
+        
+        .search-input::placeholder {
+            color: #9ca3af;
+        }
+        
+        /* Override for search inputs in dark backgrounds */
+        .hero-search .search-input {
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: #1f2937;
+        }
+        
+        .hero-search .search-input:focus {
+            background: white;
+            border-color: var(--primary-blue-light);
+        }
+        
+        .hero-search .search-input::placeholder {
+            color: #6b7280;
+        }
+        
+        .type-filter {
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            color: #4b5563;
+            transition: all 0.3s ease;
+        }
+        
+        .type-filter:hover {
+            background: #f3f4f6;
+            border-color: var(--primary-blue-light);
+        }
+        
+        .type-filter.active {
+            background: var(--primary-blue);
+            color: white;
+            border-color: var(--primary-blue-light);
+        }
+        
+        .article-navigation {
+            position: sticky;
+            top: 20px;
+            max-height: calc(100vh - 40px);
+            overflow-y: auto;
+        }
+        
+        .sticky-search {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 300px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transform: translateY(-120%);
+            transition: transform 0.3s ease;
+        }
+        
+        .sticky-search.show {
+            transform: translateY(0);
+        }
+        
+        .article-nav-item {
+            padding: 8px 16px;
+            margin: 2px 0;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 0.875rem;
+            border-left: 3px solid transparent;
+        }
+        
+        .article-nav-item:hover {
+            background: rgba(59, 130, 246, 0.1);
+            border-left-color: var(--primary-blue-light);
+        }
+        
+        .article-nav-item.active {
+            background: rgba(59, 130, 246, 0.2);
+            border-left-color: var(--primary-blue);
+            color: var(--primary-blue-light);
+        }
+        
+        .chart-container {
+            position: relative;
+            height: 300px;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .fade-in-up {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+        
+        .text-shadow {
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .scrollbar-thin {
+            scrollbar-width: thin;
+            scrollbar-color: rgba(59, 130, 246, 0.5) transparent;
+        }
+        
+        .scrollbar-thin::-webkit-scrollbar {
+            width: 6px;
+        }
+        
+        .scrollbar-thin::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        
+        .scrollbar-thin::-webkit-scrollbar-thumb {
+            background: rgba(59, 130, 246, 0.5);
+            border-radius: 3px;
+        }
+        
+        .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+            background: rgba(59, 130, 246, 0.8);
+        }
+
+        /* Legal Document Styles - Mejorados para texto plano legible */
+        .document-content {
+            line-height: 1.7 !important;
+            color: #374151 !important;
+            font-size: 1.1rem !important; /* Tamaño legible */
+            font-family: 'Inter', 'Segoe UI', 'SF Pro Text', system-ui, sans-serif !important; /* Tipografía clara */
+            max-width: none;
+            padding: 2rem;
+            background: white !important;
+            border-radius: 0.75rem !important;
+            margin: 1rem 0 !important;
+        }
+        
+        .document-content pre {
+            line-height: 1.7 !important;
+            color: #374151 !important;
+            font-size: 1.1rem !important;
+            font-family: 'Inter', 'Segoe UI', 'SF Pro Text', system-ui, sans-serif !important;
+            white-space: pre-wrap !important;
+            word-wrap: break-word !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            background: transparent !important;
+            border: none !important;
+        }
+        
+        .document-content h1, .ley-titulo {
+            color: white !important;
+            font-size: 2.25rem !important; /* Más grande */
+            font-weight: 700 !important;
+            margin-bottom: 2rem !important;
+            text-align: center !important;
+            letter-spacing: -0.025em;
+            background: linear-gradient(135deg, #1e40af, #3b82f6) !important;
+            padding: 1.5rem 2rem !important;
+            border-radius: 1rem !important;
+            box-shadow: 0 8px 25px -5px rgba(59, 130, 246, 0.3);
+        }
+        
+        .document-content h2, .titulo {
+            color: #34d399 !important;
+            font-size: 1.875rem !important; /* Más grande */
+            font-weight: 600 !important;
+            margin: 2.5rem 0 1.5rem 0 !important;
+            letter-spacing: -0.025em;
+            background: rgba(52, 211, 153, 0.1) !important;
+            border: 2px solid #34d399 !important;
+            padding: 1rem 2rem !important;
+            border-radius: 0.75rem !important;
+            text-align: center !important;
+        }
+        
+        .document-content h3 {
+            color: #fbbf24 !important;
+            font-size: 1.5rem !important; /* Más grande */
+            font-weight: 600 !important;
+            margin: 2rem 0 1rem 0 !important;
+            letter-spacing: -0.025em;
+        }
+        
+        .document-content h4 {
+            color: #a78bfa !important;
+            font-size: 1.25rem !important; /* Más grande */
+            font-weight: 600 !important;
+            margin: 1.5rem 0 0.75rem 0 !important;
+        }
+        
+        .document-content p {
+            margin-bottom: 1.5rem !important; /* Más espacio */
+            text-align: justify !important;
+            font-size: 1.15rem !important; /* Texto más grande */
+            line-height: 1.75 !important; /* Mejor espaciado */
+            color: #e5e7eb !important; /* Color más suave */
+        }
+        
+        .document-content .articulo {
+            background: rgba(37, 99, 235, 0.15) !important; /* Más visible */
+            border-left: 6px solid #2563eb !important; /* Borde más grueso */
+            padding: 2rem !important; /* Más padding */
+            margin: 2.5rem 0 !important; /* Más espacio */
+            border-radius: 0.75rem !important;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important; /* Sombra */
+        }
+        
+        .document-content .paragrafo {
+            background: rgba(16, 185, 129, 0.15) !important; /* Más visible */
+            border-left: 4px solid #10b981 !important;
+            padding: 1.5rem !important; /* Más padding */
+            margin: 1.5rem 0 !important; /* Más espacio */
+            border-radius: 0.5rem !important;
+            box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.1);
+        }
+        
+        .document-content .legal-list-item {
+            color: #d1d5db !important;
+            margin: 0.75rem 0 !important; /* Más espacio */
+            padding-left: 1.5rem !important; /* Más indentación */
+            font-size: 1.05rem !important; /* Ligeramente más grande */
+        }
+        
+        .document-content .congreso-decreta {
+            text-align: center !important;
+            font-weight: 700 !important;
+            color: #fbbf24 !important;
+            margin: 2rem 0 !important;
+            font-size: 1.25rem !important; /* Más grande */
+            letter-spacing: 0.025em;
+        }
+        
+        .document-content strong {
+            color: #60a5fa !important;
+            font-weight: 600 !important;
+        }
+
+        /* Search highlight styles */
+        .search-highlight {
+            background-color: #fbbf24 !important;
+            color: #1f2937 !important;
+            padding: 0.2rem 0.4rem !important;
+            border-radius: 0.25rem !important;
+            font-weight: 600 !important;
+        }
+    </style>
+</head>
+<body class="text-white min-h-screen" x-data="matrizLegal()">
+    
+    <!-- Header Principal -->
+    <header class="corporate-gradient shadow-2xl relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20"></div>
+        <div class="container mx-auto px-6 py-6 relative z-10">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-6">
+                    <div class="w-16 h-16 bg-white/10 backdrop-blur-lg rounded-xl flex items-center justify-center border border-white/20">
+                        <i class="fas fa-shield-alt text-2xl text-white"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-3xl font-bold text-shadow">Matriz Legal INSOFT</h1>
+                        <p class="text-blue-100 text-lg font-medium">Repositorio Normativo ISO 27001 - Colombia</p>
+                        <p class="text-blue-200 text-sm opacity-90" x-text="`${repositoryStats.total} documentos procesados • Base de datos completa`"></p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center space-x-6">
+                    <!-- Búsqueda Global -->
+                    <div class="relative hero-search">
+                        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                            <i class="fas fa-search text-gray-500"></i>
+                        </div>
+                        <input type="text" 
+                               x-model="globalSearch"
+                               @input="performGlobalSearch()"
+                               class="search-input pl-10 pr-4 py-3 rounded-xl w-80 text-sm"
+                               placeholder="Buscar en toda la normatividad...">
+                    </div>
+                    
+                    <!-- Estadísticas Rápidas -->
+                    <div class="glass-card px-6 py-3 rounded-xl">
+                        <div class="flex items-center justify-center">
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-green-300" x-text="repositoryStats.total"></div>
+                                <div class="text-sm text-gray-300 uppercase tracking-wide">Normas Disponibles</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="flex min-h-screen">
+        <!-- Enhanced Sidebar Navigation -->
+        <nav class="w-80 bg-white border-r border-gray-200 p-6">
+            <div class="space-y-3">
+                <!-- Dashboard -->
+                <div class="nav-item p-4 cursor-pointer" 
+                     :class="activeView === 'dashboard' ? 'active' : ''"
+                     @click="setActiveView('dashboard')">
+                    <div class="flex items-center space-x-4">
+                        <i class="fas fa-chart-line text-lg w-5"></i>
+                        <div>
+                            <div class="font-semibold">Dashboard</div>
+                            <div class="text-xs text-gray-400">Vista general del repositorio</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Chatbot Legal -->
+                <div class="nav-item p-4 cursor-pointer" 
+                     :class="activeView === 'chatbot' ? 'active' : ''"
+                     @click="setActiveView('chatbot')">
+                    <div class="flex items-center space-x-4">
+                        <i class="fas fa-robot text-lg w-5"></i>
+                        <div>
+                            <div class="font-semibold">Asistente Legal</div>
+                            <div class="text-xs text-gray-400">Consultas especializadas con IA</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Explorar Normas -->
+                <div class="nav-item p-4 cursor-pointer"
+                     :class="activeView === 'explorar' ? 'active' : ''"
+                     @click="setActiveView('explorar')">
+                    <div class="flex items-center space-x-4">
+                        <i class="fas fa-book-open text-lg w-5"></i>
+                        <div>
+                            <div class="font-semibold">Explorar Normas</div>
+                            <div class="text-xs text-gray-400">Navegar por categorías</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Documento Individual -->
+                <div class="nav-item p-4 cursor-pointer"
+                     :class="activeView === 'documento' ? 'active' : ''"
+                     @click="setActiveView('documento')">
+                    <div class="flex items-center space-x-4">
+                        <i class="fas fa-file-alt text-lg w-5"></i>
+                        <div>
+                            <div class="font-semibold">Visor de Documento</div>
+                            <div class="text-xs text-gray-400">Leer texto completo</div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <!-- Filtros Rápidos -->
+            <div class="mt-8">
+                <h3 class="text-sm font-semibold text-gray-600 mb-4 uppercase tracking-wider">Filtros Rápidos</h3>
+                <div class="space-y-2">
+                    <template x-for="tipo in tiposDocumento" :key="tipo.key">
+                        <button @click="toggleTipoFilter(tipo.key)"
+                                :class="selectedTipos.includes(tipo.key) ? 'type-filter active' : 'type-filter'"
+                                class="w-full text-left px-3 py-2 rounded-lg text-sm transition-all">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center space-x-3">
+                                    <i :class="tipo.icon" class="text-sm w-4"></i>
+                                    <span x-text="tipo.name"></span>
+                                </div>
+                                <span class="text-xs opacity-60" x-text="tipo.count"></span>
+                            </div>
+                        </button>
+                    </template>
+                </div>
+            </div>
+            
+            <!-- Documento Destacado -->
+            <div class="mt-8 glass-card p-5 rounded-xl">
+                <div class="flex items-center space-x-3 mb-3">
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <h3 class="text-sm font-semibold text-gray-300 uppercase tracking-wider">Destacado</h3>
+                </div>
+                <div class="space-y-2">
+                    <div class="font-semibold text-blue-300">Ley 1581 de 2012</div>
+                    <div class="text-xs text-gray-400">Protección de Datos Personales</div>
+                    <div class="flex flex-wrap gap-1 mt-2">
+                        <span class="reference-tag">ISO 27001</span>
+                        <span class="reference-tag">GDPR</span>
+                    </div>
+                    <button @click="viewDocument('ley_1581_2012')" 
+                            class="w-full mt-3 bg-blue-600 hover:bg-blue-700 px-3 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Ver Documento
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Estado del Sistema -->
+            <div class="mt-6 glass-card p-4 rounded-xl">
+                <div class="flex items-center space-x-3 mb-3">
+                    <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                    <h3 class="text-xs font-semibold text-gray-300 uppercase tracking-wider">Estado del Sistema</h3>
+                </div>
+                <div class="space-y-2 text-xs">
+                    <div class="flex justify-between">
+                        <span class="text-gray-400">Base de datos:</span>
+                        <span class="text-green-400">Activa</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="text-gray-400">Última actualización:</span>
+                        <span class="text-gray-300">Hoy</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="text-gray-400">Integridad:</span>
+                        <span class="text-green-400">100%</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="flex-1 bg-gray-50">
+            
+            <!-- Dashboard View -->
+            <div x-show="activeView === 'dashboard'" class="p-8 space-y-8 fade-in-up">
+                <!-- Hero Section -->
+                <div class="text-center mb-12">
+                    <h1 class="text-4xl font-bold text-gray-900 mb-4">Repositorio Normativo Colombiano</h1>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto" x-text="`Sistema integral de gestión legal para cumplimiento ISO 27001 con ${repositoryStats.total} documentos procesados y validados`"></p>
+                </div>
+                
+                <!-- Statistics Cards -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                    <div class="glass-card p-6 rounded-2xl">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-gray-400 text-sm font-medium uppercase tracking-wide">Total Normas</p>
+                                <p class="text-4xl font-bold text-blue-400 mt-2" x-text="repositoryStats.total"></p>
+                            </div>
+                            <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
+                                <i class="fas fa-balance-scale text-2xl text-white"></i>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex items-center text-sm">
+                            <span class="text-green-400" x-text="`+${repositoryStats.total}`"></span>
+                            <span class="text-gray-400 ml-2">documentos activos</span>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card p-6 rounded-2xl">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-gray-400 text-sm font-medium uppercase tracking-wide">Categorías</p>
+                                <p class="text-4xl font-bold text-green-400 mt-2">6</p>
+                            </div>
+                            <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center">
+                                <i class="fas fa-tags text-2xl text-white"></i>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex items-center text-sm">
+                            <span class="text-green-400">100%</span>
+                            <span class="text-gray-400 ml-2">cobertura legal</span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="glass-card p-6 rounded-2xl">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-gray-400 text-sm font-medium uppercase tracking-wide">Búsquedas</p>
+                                <p class="text-4xl font-bold text-yellow-400 mt-2">∞</p>
+                            </div>
+                            <div class="w-16 h-16 bg-gradient-to-br from-yellow-500 to-orange-500 rounded-xl flex items-center justify-center">
+                                <i class="fas fa-search text-2xl text-white"></i>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex items-center text-sm">
+                            <span class="text-yellow-400">Texto completo</span>
+                            <span class="text-gray-400 ml-2">disponible</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Charts Section -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+                    <div class="glass-card p-6 rounded-2xl">
+                        <h3 class="text-xl font-bold mb-6">Distribución por Tipo de Norma</h3>
+                        <div class="chart-container">
+                            <canvas id="tipoChart"></canvas>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card p-6 rounded-2xl">
+                        <h3 class="text-xl font-bold mb-6">Cronología Normativa</h3>
+                        <div class="chart-container">
+                            <canvas id="cronologiaChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Featured Document -->
+                <div class="glass-card p-8 rounded-2xl">
+                    <div class="flex items-start justify-between mb-6">
+                        <div>
+                            <h2 class="text-2xl font-bold text-white mb-2">
+                                <i class="fas fa-star text-yellow-400 mr-3"></i>
+                                Documento Destacado: Ley 1581 de 2012
+                            </h2>
+                            <p class="text-gray-300">Protección de Datos Personales - Base legal para cumplimiento ISO 27001</p>
+                        </div>
+                        <span class="status-badge status-vigente">Vigente</span>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                        <div class="lg:col-span-2">
+                            <h3 class="font-semibold text-blue-300 mb-4">Información General</h3>
+                            <div class="grid grid-cols-2 gap-4 text-sm">
+                                <div>
+                                    <span class="text-gray-400 block">Fecha de expedición:</span>
+                                    <span class="text-white font-medium">17 de octubre de 2012</span>
+                                </div>
+                                <div>
+                                    <span class="text-gray-400 block">Tipo:</span>
+                                    <span class="text-white font-medium">Ley Estatutaria</span>
+                                </div>
+                                <div>
+                                    <span class="text-gray-400 block">Artículos:</span>
+                                    <span class="text-white font-medium">30 artículos</span>
+                                </div>
+                                <div>
+                                    <span class="text-gray-400 block">Títulos:</span>
+                                    <span class="text-white font-medium">9 títulos</span>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-6">
+                                <h4 class="font-semibold text-blue-300 mb-3">Objetivos Principales</h4>
+                                <ul class="space-y-2 text-sm text-gray-300">
+                                    <li class="flex items-start space-x-2">
+                                        <i class="fas fa-check text-green-400 mt-1 text-xs"></i>
+                                        <span>Desarrollar el derecho constitucional a conocer, actualizar y rectificar datos personales</span>
+                                    </li>
+                                    <li class="flex items-start space-x-2">
+                                        <i class="fas fa-check text-green-400 mt-1 text-xs"></i>
+                                        <span>Establecer principios rectores para el tratamiento de datos personales</span>
+                                    </li>
+                                    <li class="flex items-start space-x-2">
+                                        <i class="fas fa-check text-green-400 mt-1 text-xs"></i>
+                                        <span>Definir categorías especiales de datos y su protección</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <button @click="viewDocument('ley_1581_2012')" 
+                                    class="w-full mt-6 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 px-6 py-4 rounded-xl font-bold text-white transition-all transform hover:scale-105 shadow-lg">
+                                <i class="fas fa-file-alt mr-2"></i>
+                                Ver Documento Completo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Explorar Normas View -->
+            <div x-show="activeView === 'explorar'" class="p-8 fade-in-up">
+                <div class="mb-8">
+                    <h1 class="text-3xl font-bold text-gray-900 mb-4">Explorar Normatividad</h1>
+                    <p class="text-gray-600 text-lg">Navegue por la colección completa de normas colombianas</p>
+                </div>
+                
+                <!-- Search and Filters -->
+                <div class="glass-card p-6 rounded-2xl mb-8">
+                    <div class="flex flex-col lg:flex-row gap-4">
+                        <div class="flex-1 relative">
+                            <i class="fas fa-search absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                            <input type="text" 
+                                   x-model="searchTerm"
+                                   @input="filterDocuments()"
+                                   class="search-input w-full pl-12 pr-4 py-4 rounded-xl text-lg"
+                                   placeholder="Buscar por título, número, año o contenido...">
+                        </div>
+                        <div class="flex gap-3">
+                            <select x-model="yearFilter" @change="filterDocuments()" class="search-input px-4 py-4 rounded-xl">
+                                <option value="">Todos los años</option>
+                                <template x-for="year in availableYears" :key="year">
+                                    <option :value="year" x-text="year"></option>
+                                </template>
+                            </select>
+                            <button @click="resetFilters()" class="bg-red-600 hover:bg-red-700 px-6 py-4 rounded-xl font-medium transition-colors">
+                                <i class="fas fa-times mr-2"></i>Limpiar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Documents Grid -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+                    <template x-for="doc in filteredDocuments" :key="doc.id || doc.document_id || doc.nombre_archivo">
+                        <div class="legal-card p-6 rounded-2xl cursor-pointer" @click="viewDocument(doc.nombre_archivo)">
+                            <div class="flex items-start justify-between mb-4">
+                                <div class="flex items-center space-x-3">
+                                    <i :class="getDocumentIcon(doc.tipo_norma)" class="text-2xl text-blue-400"></i>
+                                    <div>
+                                        <h3 class="font-bold text-gray-900 text-lg" x-text="doc.titulo"></h3>
+                                        <p class="text-gray-400 text-sm" x-text="`${doc.tipo_norma || 'Documento'} ${doc.numero || ''} de ${doc.año || 'N/A'}`"></p>
+                                    </div>
+                                </div>
+                                <span class="status-badge status-vigente">Vigente</span>
+                            </div>
+                            
+                            <div class="space-y-3">
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-calendar mr-2 text-gray-500"></i>
+                                    <span x-text="doc.fecha_ingreso ? formatDate(doc.fecha_ingreso) : 'Fecha no disponible'"></span>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="mt-4 pt-4 border-t border-gray-700">
+                                <div class="flex items-center justify-between">
+                                    <span class="text-xs text-gray-400 uppercase tracking-wide">ISO 27001 Relevante</span>
+                                    <i class="fas fa-arrow-right text-blue-400"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+                
+                <!-- No Results -->
+                <div x-show="filteredDocuments.length === 0" class="text-center py-12">
+                    <i class="fas fa-search text-6xl text-gray-600 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-400 mb-2">No se encontraron documentos</h3>
+                    <p class="text-gray-500">Intente con otros términos de búsqueda o filtros diferentes</p>
+                </div>
+            </div>
+            
+            <!-- Document Viewer -->
+            <div x-show="activeView === 'documento'" class="p-8 overflow-y-auto scrollbar-thin fade-in-up">
+                    <div class="max-w-4xl mx-auto">
+                        <!-- Document Header -->
+                        <div class="glass-card p-8 rounded-2xl mb-8">
+                            <div class="flex items-start justify-between mb-6">
+                                <div>
+                                    <h1 class="text-3xl font-bold text-gray-900 mb-2" x-text="currentDocument.titulo"></h1>
+                                    <p class="text-gray-600 text-lg" x-text="`${currentDocument.tipo_norma} ${currentDocument.numero} de ${currentDocument.año}`"></p>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <span class="status-badge status-vigente">Vigente</span>
+                                    <button @click="toggleFavorite(currentDocument.id)" class="text-yellow-400 hover:text-yellow-300">
+                                        <i class="fas fa-star text-xl"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
+                                <div>
+                                    <span class="text-gray-500 block mb-1">Fecha de expedición:</span>
+                                    <span class="text-gray-900 font-medium">17 de octubre de 2012</span>
+                                </div>
+                                <div>
+                                    <span class="text-gray-500 block mb-1">Estado de validación:</span>
+                                    <span class="text-green-600 font-medium capitalize" x-text="currentDocument.estado_validacion"></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Document Search -->
+                        <div class="glass-card p-6 rounded-2xl mb-8">
+                            <h4 class="font-semibold text-gray-900 mb-3">Búsqueda en el Documento</h4>
+                            <input type="text" 
+                                   x-model="documentSearch"
+                                   @input="searchInDocument()"
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                                   placeholder="Buscar en este documento...">
+                            
+                            <div x-show="searchResults.length > 0" class="mt-4 space-y-2 max-h-48 overflow-y-auto">
+                                <template x-for="result in searchResults" :key="result.id">
+                                    <div class="text-sm p-3 rounded bg-gray-50 border cursor-pointer hover:bg-gray-100" 
+                                         @click="scrollToSearchResult(result.id)">
+                                        <span class="text-gray-700" x-text="result.context"></span>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+                        
+                        <!-- Document Text -->
+                        <div class="glass-card p-8 rounded-2xl">
+                            <div class="legal-text text-gray-800 text-base leading-relaxed" x-html="currentDocument.contenido"></div>
+                        </div>
+                    </div>
+            </div>
+            
+            <!-- Chatbot Legal View -->
+            <div x-show="activeView === 'chatbot'" class="p-8 space-y-8 fade-in-up">
+                <!-- Header -->
+                <div class="text-center mb-8">
+                    <div class="flex items-center justify-center mb-4">
+                        <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center mr-4">
+                            <i class="fas fa-robot text-2xl text-white"></i>
+                        </div>
+                        <div>
+                            <h1 class="text-4xl font-bold text-gray-900">Asistente Legal</h1>
+                            <p class="text-xl text-gray-600">Consultas especializadas en normativa colombiana</p>
+                        </div>
+                    </div>
+                    <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-4 max-w-4xl mx-auto">
+                        <div class="flex items-start">
+                            <i class="fas fa-info-circle text-yellow-500 mt-1 mr-3"></i>
+                            <div class="text-sm text-yellow-800">
+                                <p><strong>Contexto restrictivo:</strong> Este asistente solo responde basándose en la normativa colombiana disponible en la matriz legal.</p>
+                                <p class="mt-1"><strong>Especialización:</strong> Seguridad de la información, protección de datos personales (Ley 1581/2012), cumplimiento ISO 27001.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Chat Interface -->
+                <div class="max-w-6xl mx-auto">
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                        <!-- Chat Messages -->
+                        <div class="lg:col-span-2">
+                            <div class="glass-card p-6 rounded-2xl h-[500px] flex flex-col">
+                                <div class="flex-1 overflow-y-auto mb-4 space-y-4" id="chat-messages">
+                                    <!-- Welcome Message -->
+                                    <div class="flex items-start space-x-3">
+                                        <div class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
+                                            <i class="fas fa-robot text-white text-sm"></i>
+                                        </div>
+                                        <div class="flex-1">
+                                            <div class="bg-gray-100 rounded-lg p-3">
+                                                <p class="text-gray-800">¡Hola! Soy tu asistente legal especializado en normativa colombiana. Puedo ayudarte con:</p>
+                                                <ul class="mt-2 text-sm text-gray-600 list-disc list-inside">
+                                                    <li>Consultas sobre artículos específicos (ej: "¿Qué dice el artículo 15 de la ley 1581 de 2012?")</li>
+                                                    <li>Búsquedas en circulares, decretos y resoluciones</li>
+                                                    <li>Cumplimiento de seguridad de la información</li>
+                                                    <li>Protección de datos personales</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Chat messages will be populated here -->
+                                    <template x-for="message in chatMessages" :key="message.id">
+                                        <div class="flex items-start space-x-3" :class="message.isUser ? 'flex-row-reverse space-x-reverse' : ''">
+                                            <div class="w-8 h-8 rounded-full flex items-center justify-center" 
+                                                 :class="message.isUser ? 'bg-green-500' : 'bg-blue-500'">
+                                                <i :class="message.isUser ? 'fas fa-user text-white text-sm' : 'fas fa-robot text-white text-sm'"></i>
+                                            </div>
+                                            <div class="flex-1 max-w-xs lg:max-w-md">
+                                                <div class="rounded-lg p-3" :class="message.isUser ? 'bg-green-100' : 'bg-gray-100'">
+                                                    <div class="text-gray-800" x-html="message.content"></div>
+                                                    <template x-if="message.sources && message.sources.length > 0">
+                                                        <div class="mt-2 text-xs text-gray-500">
+                                                            <strong>Fuentes:</strong> <span x-text="message.sources.join(', ')"></span>
+                                                        </div>
+                                                    </template>
+                                                </div>
+                                                <div class="text-xs text-gray-400 mt-1" x-text="message.timestamp"></div>
+                                            </div>
+                                        </div>
+                                    </template>
+                                    
+                                    <!-- Loading indicator -->
+                                    <div x-show="chatLoading" class="flex items-start space-x-3">
+                                        <div class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
+                                            <i class="fas fa-robot text-white text-sm"></i>
+                                        </div>
+                                        <div class="bg-gray-100 rounded-lg p-3">
+                                            <div class="flex items-center space-x-2">
+                                                <div class="animate-spin w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full"></div>
+                                                <span class="text-gray-600">Consultando normativa...</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Input Area -->
+                                <div class="border-t pt-4 flex-shrink-0">
+                                    <form @submit.prevent="sendChatMessage()">
+                                        <div class="flex space-x-2">
+                                            <input type="text" 
+                                                   x-model="chatInput"
+                                                   x-ref="chatInput"
+                                                   :disabled="chatLoading"
+                                                   class="flex-1 px-4 py-3 border-2 border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-base bg-white text-gray-900"
+                                                   placeholder="Escribe tu consulta legal aquí..."
+                                                   autocomplete="off"
+                                                   style="color: #1f2937 !important; background-color: white !important;">
+                                            <button type="submit" 
+                                                    :disabled="chatLoading || !chatInput.trim()"
+                                                    class="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 disabled:opacity-50 disabled:cursor-not-allowed flex items-center">
+                                                <i class="fas fa-paper-plane"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <!-- Quick Examples -->
+                        <div class="space-y-6">
+                            <div class="glass-card p-6 rounded-2xl">
+                                <h3 class="font-semibold text-gray-900 mb-4">Consultas de ejemplo</h3>
+                                <div class="space-y-3">
+                                    <button @click="chatInput = '¿Qué dice el artículo 15 de la ley 1581 de 2012?'; $refs.chatInput?.focus()" 
+                                            class="w-full text-left p-4 bg-blue-50 hover:bg-blue-100 border border-blue-200 rounded-lg text-sm transition-colors cursor-pointer">
+                                        <div class="font-semibold text-blue-800 mb-1">Artículo específico:</div>
+                                        <div class="text-blue-700">¿Qué dice el artículo 15 de la ley 1581 de 2012?</div>
+                                    </button>
+                                    <button @click="chatInput = '¿Cuáles son las obligaciones del responsable del tratamiento de datos?'; $refs.chatInput?.focus()" 
+                                            class="w-full text-left p-4 bg-green-50 hover:bg-green-100 border border-green-200 rounded-lg text-sm transition-colors cursor-pointer">
+                                        <div class="font-semibold text-green-800 mb-1">Consulta general:</div>
+                                        <div class="text-green-700">¿Cuáles son las obligaciones del responsable del tratamiento?</div>
+                                    </button>
+                                    <button @click="chatInput = '¿Qué establece el decreto 1377 sobre políticas de tratamiento?'; $refs.chatInput?.focus()" 
+                                            class="w-full text-left p-4 bg-purple-50 hover:bg-purple-100 border border-purple-200 rounded-lg text-sm transition-colors cursor-pointer">
+                                        <div class="font-semibold text-purple-800 mb-1">Decreto específico:</div>
+                                        <div class="text-purple-700">¿Qué dice el decreto 1377 sobre políticas de tratamiento?</div>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="glass-card p-6 rounded-2xl">
+                                <h3 class="font-semibold text-gray-900 mb-4">Normativa disponible</h3>
+                                <div class="text-sm text-gray-600 space-y-2">
+                                    <div class="flex justify-between">
+                                        <span>Leyes:</span>
+                                        <span class="font-medium">8 documentos</span>
+                                    </div>
+                                    <div class="flex justify-between">
+                                        <span>Decretos:</span>
+                                        <span class="font-medium">9 documentos</span>
+                                    </div>
+                                    <div class="flex justify-between">
+                                        <span>Resoluciones:</span>
+                                        <span class="font-medium">3 documentos</span>
+                                    </div>
+                                    <div class="flex justify-between">
+                                        <span>Circulares:</span>
+                                        <span class="font-medium">2 documentos</span>
+                                    </div>
+                                    <div class="flex justify-between border-t pt-2 mt-2">
+                                        <span class="font-semibold">Total:</span>
+                                        <span class="font-bold" x-text="repositoryStats.total"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sticky Search Box -->
+            <div class="sticky-search" x-show="currentDocument && activeView === 'repository'" :class="{ 'show': showStickySearch }">
+                <h4 class="font-semibold text-gray-900 mb-3">Búsqueda Rápida</h4>
+                <input type="text" 
+                       x-model="documentSearch"
+                       @input="searchInDocument()"
+                       class="w-full px-4 py-3 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                       placeholder="Buscar en documento...">
+                
+                <div x-show="searchResults.length > 0" class="mt-4 space-y-2 max-h-48 overflow-y-auto">
+                    <template x-for="result in searchResults" :key="result.id">
+                        <div class="text-sm p-3 rounded bg-gray-50 border cursor-pointer hover:bg-gray-100" 
+                             @click="scrollToSearchResult(result.id)">
+                            <span class="text-gray-700" x-text="result.context"></span>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </main>
+        
+        <!-- Privacy Policy Modal -->
+        <div x-show="showPrivacyModal" 
+             x-transition:enter="transition ease-out duration-300"
+             x-transition:enter-start="opacity-0"
+             x-transition:enter-end="opacity-100"
+             x-transition:leave="transition ease-in duration-200"
+             x-transition:leave-start="opacity-100"
+             x-transition:leave-end="opacity-0"
+             class="fixed inset-0 z-50 overflow-y-auto"
+             style="display: none;">
+            
+            <div class="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+                <div class="fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75"></div>
+                
+                <div class="inline-block w-full max-w-4xl p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
+                    <div class="flex justify-between items-center mb-6">
+                        <h3 class="text-2xl font-bold text-gray-900">
+                            <i class="fas fa-shield-alt text-blue-600 mr-3"></i>
+                            Política de Tratamiento de Datos Personales
+                        </h3>
+                        <button @click="showPrivacyModal = false" class="text-gray-400 hover:text-gray-600">
+                            <i class="fas fa-times text-xl"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="max-h-96 overflow-y-auto prose prose-blue max-w-none">
+                        <div class="bg-blue-50 p-4 rounded-lg mb-6">
+                            <h4 class="text-lg font-semibold text-blue-900 mb-2">Responsable del Tratamiento</h4>
+                            <p class="text-blue-800">
+                                <strong>Daniel Alejandro Mejía</strong><br>
+                                C.C. 1.053.854.091<br>
+                                Matriz Legal INSOFT
+                            </p>
+                        </div>
+                        
+                        <h4 class="text-lg font-semibold text-gray-900 mb-3">1. Finalidad del Tratamiento</h4>
+                        <p class="text-gray-700 mb-4">
+                            Los datos recopilados tienen únicamente las siguientes finalidades:
+                        </p>
+                        <ul class="text-gray-700 mb-4 list-disc pl-6">
+                            <li>Análisis estadístico del comportamiento de la plataforma</li>
+                            <li>Mantenimiento y mejora técnica del sistema</li>
+                            <li>Investigación y desarrollo de ciencia de datos</li>
+                            <li>Optimización de la experiencia del usuario</li>
+                        </ul>
+                        
+                        <h4 class="text-lg font-semibold text-gray-900 mb-3">2. Datos Recopilados</h4>
+                        <p class="text-gray-700 mb-4">
+                            <strong>Recopilamos únicamente datos técnicos mínimos:</strong>
+                        </p>
+                        <ul class="text-gray-700 mb-4 list-disc pl-6">
+                            <li>Dirección IP (para análisis geográfico agregado)</li>
+                            <li>Fecha y hora de aceptación de esta política</li>
+                            <li>Datos de navegación básicos (páginas visitadas, tiempo de sesión)</li>
+                            <li>Información técnica del dispositivo (navegador, resolución de pantalla)</li>
+                        </ul>
+                        
+                        <div class="bg-green-50 p-4 rounded-lg mb-4">
+                            <h5 class="font-semibold text-green-900 mb-2">
+                                <i class="fas fa-shield-check mr-2"></i>
+                                Compromiso de Privacidad
+                            </h5>
+                            <p class="text-green-800 text-sm">
+                                <strong>NO recopilamos, almacenamos ni procesamos datos personales sensibles.</strong> 
+                                No guardamos información de sesiones más allá de parámetros técnicos ordinarios.
+                            </p>
+                        </div>
+                        
+                        <h4 class="text-lg font-semibold text-gray-900 mb-3">3. Derechos del Titular</h4>
+                        <p class="text-gray-700 mb-4">
+                            Usted tiene derecho a conocer, actualizar, rectificar y suprimir la información recopilada, 
+                            así como revocar la autorización otorgada para el tratamiento de sus datos personales.
+                        </p>
+                        
+                        <h4 class="text-lg font-semibold text-gray-900 mb-3">4. Vigencia</h4>
+                        <p class="text-gray-700 mb-4">
+                            Esta política rige a partir de su aceptación y permanece vigente mientras utilice la plataforma. 
+                            Los datos se conservan únicamente por el tiempo necesario para cumplir las finalidades descritas.
+                        </p>
+                        
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <p class="text-sm text-gray-600">
+                                <strong>Fecha de última actualización:</strong> ${new Date().toLocaleDateString('es-CO')}<br>
+                                <strong>Marco legal:</strong> Ley 1581 de 2012 y Decreto 1377 de 2013
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex justify-between items-center mt-6 pt-4 border-t border-gray-200">
+                        <button @click="showPrivacyModal = false" 
+                                class="px-6 py-3 text-gray-600 border border-gray-300 rounded-xl hover:bg-gray-50 transition-colors">
+                            Leer después
+                        </button>
+                        <button @click="acceptPrivacyPolicy()" 
+                                class="px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl hover:from-blue-700 hover:to-blue-800 transition-colors font-semibold">
+                            <i class="fas fa-check mr-2"></i>
+                            Acepto y Continúo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function matrizLegal() {
+            return {
+                // Navigation State
+                activeView: 'dashboard',
+                
+                // Search and Filters
+                globalSearch: '',
+                searchTerm: '',
+                yearFilter: '',
+                selectedTipos: [],
+                documentSearch: '',
+                showStickySearch: false,
+                
+                // Chatbot variables
+                chatInput: '',
+                chatMessages: [],
+                chatLoading: false,
+                
+                // Privacy Policy
+                showPrivacyModal: false,
+                privacyAccepted: false,
+                
+                // Repository Stats
+                repositoryStats: {
+                    total: 24,
+                    categorias: 6
+                },
+                
+                // Document Types Configuration
+                tiposDocumento: [
+                    { key: 'Ley', name: 'Leyes', icon: 'fas fa-balance-scale', count: 8 },
+                    { key: 'Decreto', name: 'Decretos', icon: 'fas fa-scroll', count: 9 },
+                    { key: 'Circular', name: 'Circulares', icon: 'fas fa-circle', count: 2 },
+                    { key: 'Resolución', name: 'Resoluciones', icon: 'fas fa-gavel', count: 3 },
+                    { key: 'Conpes', name: 'CONPES', icon: 'fas fa-landmark', count: 1 },
+                    { key: 'Constitución', name: 'Constitución', icon: 'fas fa-book', count: 1 }
+                ],
+
+                // Quick Filters (for top bar)
+                quickFilters: [
+                    { key: 'Ley', name: 'Leyes', count: 8 },
+                    { key: 'Decreto', name: 'Decretos', count: 9 },
+                    { key: 'Circular', name: 'Circulares', count: 2 },
+                    { key: 'Resolución', name: 'Resoluciones', count: 3 }
+                ],
+                
+                // Sample Documents Data (would be loaded from API)
+                allDocuments: [
+                    {
+                        id: 1,
+                        nombre_archivo: 'ley_1581_2012',
+                        titulo: 'Ley 1581 de 2012 - Protección de Datos Personales',
+                        tipo_norma: 'Ley',
+                        numero: '1581',
+                        año: 2012,
+                        fecha_ingreso: '2025-08-03T19:59:37',
+                        tamaño_caracteres: 35381,
+                        estado_validacion: 'validado'
+                    },
+                    {
+                        id: 2,
+                        nombre_archivo: 'decreto_1377_2013',
+                        titulo: 'Decreto 1377 de 2013 - Reglamentación Protección Datos',
+                        tipo_norma: 'Decreto',
+                        numero: '1377',
+                        año: 2013,
+                        fecha_ingreso: '2025-08-03T20:03:36',
+                        tamaño_caracteres: 29681,
+                        estado_validacion: 'validado'
+                    },
+                    {
+                        id: 3,
+                        nombre_archivo: 'ley_1480_2011',
+                        titulo: 'Ley 1480 de 2011 - Estatuto del Consumidor',
+                        tipo_norma: 'Ley',
+                        numero: '1480',
+                        año: 2011,
+                        fecha_ingreso: '2025-08-03T20:07:32',
+                        tamaño_caracteres: 122620,
+                        estado_validacion: 'validado'
+                    }
+                ],
+                
+                // Current document state
+                currentDocument: {
+                    titulo: 'Seleccione un documento',
+                    tipo_norma: '',
+                    numero: '',
+                    año: '',
+                    estado_validacion: 'No disponible',
+                    contenido: '<div class="text-center py-12"><p class="text-gray-500">Seleccione un documento para visualizar su contenido</p></div>'
+                },
+                
+                // Document navigation - será llenado dinámicamente por la API
+                documentArticles: [],
+                currentArticle: null,
+                searchResults: [],
+                
+                // Computed properties
+                get filteredDocuments() {
+                    if (!this.allDocuments || !Array.isArray(this.allDocuments)) {
+                        return [];
+                    }
+                    
+                    let filtered = this.allDocuments;
+                    
+                    if (this.searchTerm) {
+                        filtered = filtered.filter(doc => 
+                            (doc.titulo && doc.titulo.toLowerCase().includes(this.searchTerm.toLowerCase())) ||
+                            (doc.numero && doc.numero.toString().includes(this.searchTerm)) ||
+                            (doc.año && doc.año.toString().includes(this.searchTerm))
+                        );
+                    }
+                    
+                    if (this.yearFilter) {
+                        filtered = filtered.filter(doc => doc.año && doc.año.toString() === this.yearFilter);
+                    }
+                    
+                    if (this.selectedTipos.length > 0) {
+                        filtered = filtered.filter(doc => doc.tipo_norma && this.selectedTipos.includes(doc.tipo_norma));
+                    }
+                    
+                    return filtered;
+                },
+                
+                get availableYears() {
+                    if (!this.allDocuments || !Array.isArray(this.allDocuments)) {
+                        return [];
+                    }
+                    const years = [...new Set(this.allDocuments.map(doc => doc.año).filter(year => year && year > 0))];
+                    return years.sort((a, b) => b - a);
+                },
+                
+                // Navigation Methods
+                setActiveView(view) {
+                    this.activeView = view;
+                    
+                    // Initialize charts when dashboard is loaded
+                    if (view === 'dashboard') {
+                        setTimeout(() => this.initializeCharts(), 100);
+                    }
+                },
+                
+                // Search Methods
+                performGlobalSearch() {
+                    console.log('Performing global search:', this.globalSearch);
+                    // Implement global search across all documents
+                },
+                
+                filterDocuments() {
+                    // Reactive filtering is handled by computed property
+                },
+                
+                resetFilters() {
+                    this.searchTerm = '';
+                    this.yearFilter = '';
+                    this.selectedTipos = [];
+                },
+                
+                toggleTipoFilter(tipo) {
+                    // Si ya estamos en explorar, simplemente toggle el filtro
+                    if (this.activeView === 'explorar') {
+                        const index = this.selectedTipos.indexOf(tipo);
+                        if (index > -1) {
+                            this.selectedTipos.splice(index, 1);
+                        } else {
+                            this.selectedTipos.push(tipo);
+                        }
+                    } else {
+                        // Si no estamos en explorar, navegar allí con el filtro aplicado
+                        this.selectedTipos = [tipo]; // Solo aplicar este filtro
+                        this.activeView = 'explorar';
+                        this.resetFilters(); // Limpiar otros filtros
+                        this.selectedTipos = [tipo]; // Mantener solo el filtro seleccionado
+                    }
+                },
+                
+                // Nueva función para aplicar filtro rápido desde cualquier vista
+                applyQuickFilter(tipoKey, tipoName) {
+                    console.log(`🔍 Aplicando filtro rápido: ${tipoName}`);
+                    this.selectedTipos = [tipoKey];
+                    this.activeView = 'explorar';
+                    this.searchTerm = ''; // Limpiar búsqueda
+                    this.yearFilter = ''; // Limpiar filtro de año
+                },
+                
+                // Document Methods
+                async viewDocument(documentId) {
+                    this.activeView = 'documento';
+                    
+                    try {
+                        // 🔄 DUAL SYSTEM: Load document with AI formatting  
+                        const response = await this.loadDocumentContent(documentId);
+                        this.currentDocument = response;
+                        
+                        // Use articles from API if available, otherwise extract manually
+                        if (response.articles && response.articles.length > 0) {
+                            console.log(`📄 Using ${response.articles.length} articles from API`);
+                            this.documentArticles = response.articles.map(article => ({
+                                id: article.id,
+                                titulo: article.title,
+                                preview: `Artículo ${article.number}...`
+                            }));
+                        } else {
+                            console.log(`📄 Extracting articles manually from HTML`);
+                            this.extractDocumentArticles(response.contenido);
+                        }
+                        
+                        // Show formatting info
+                        if (response.formatting === 'groq_ai') {
+                            console.log(`🤖 Document formatted with Groq AI`);
+                        }
+                        
+                    } catch (error) {
+                        console.error('🚫 Error loading document:', error);
+                        // Load sample content for demo
+                        this.loadSampleDocument(documentId);
+                    }
+                },
+                
+                async loadDocumentContent(documentId) {
+                    // 🔄 DUAL SYSTEM: Load from TEXT FILES + Groq AI formatting
+                    try {
+                        console.log(`🔄 Loading document: ${documentId} with AI formatting`);
+                        const response = await fetch(`/api/documents/${documentId}/content`);
+                        const data = await response.json();
+                        
+                        if (data.success) {
+                            console.log(`✅ Document loaded successfully:`, data.data.formatting);
+                            return {
+                                titulo: data.data.titulo,
+                                contenido: data.data.contenido,
+                                articles: data.data.articles || [],
+                                raw_content: data.data.raw_content,
+                                formatting: data.data.formatting || 'basic',
+                                architecture: data.data.architecture || 'dual_system',
+                                word_count: data.data.word_count || 0,
+                                article_count: data.data.article_count || 0,
+                                estado_validacion: 'validado'
+                            };
+                        } else {
+                            throw new Error(`API Error: ${data.error}`);
+                        }
+                    } catch (error) {
+                        console.error('🚫 Error loading from API:', error);
+                        throw error; // Re-throw to trigger fallback
+                    }
+                },
+                
+                loadSampleDocument(documentId) {
+                    this.currentDocument = {
+                        titulo: 'Ley 1581 de 2012',
+                        tipo_norma: 'Ley',
+                        numero: '1581',
+                        año: 2012,
+                        tamaño_caracteres: 35381,
+                        estado_validacion: 'validado',
+                        contenido: this.getSampleLey1581Content()
+                    };
+                    this.extractDocumentArticles(this.currentDocument.contenido);
+                },
+                
+                getSampleLey1581Content() {
+                    // This should not be used - load from API instead
+                    return '<div class="document-content"><p>Cargando documento desde API...</p></div>';
+                },
+                
+                extractDocumentArticles(content) {
+                    // Extract articles from document content for navigation
+                    const articleMatches = content.match(/<div class="articulo"[^>]*id="([^"]*)"[^>]*>[\s\S]*?<h3>([^<]*)<\/h3>[\s\S]*?<p>([^<]{0,100})/g);
+                    
+                    if (articleMatches) {
+                        this.documentArticles = articleMatches.map((match, index) => {
+                            const idMatch = match.match(/id="([^"]*)"/);
+                            const titleMatch = match.match(/<h3>([^<]*)<\/h3>/);
+                            const previewMatch = match.match(/<p>([^<]{0,100})/);
+                            
+                            return {
+                                id: idMatch ? idMatch[1] : `art${index + 1}`,
+                                titulo: titleMatch ? titleMatch[1] : `Artículo ${index + 1}`,
+                                preview: previewMatch ? previewMatch[1] + '...' : 'Vista previa no disponible'
+                            };
+                        });
+                    }
+                },
+                
+                scrollToArticle(articleId) {
+                    this.currentArticle = articleId;
+                    const element = document.getElementById(articleId);
+                    if (element) {
+                        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                },
+                
+                searchInDocument() {
+                    if (!this.documentSearch) {
+                        this.searchResults = [];
+                        this.clearSearchHighlights();
+                        return;
+                    }
+                    
+                    const searchTerm = this.documentSearch.toLowerCase();
+                    if (searchTerm.length < 2) return;
+                    
+                    // 🔍 ENHANCED SEARCH: Find in HTML content with context
+                    const contentElement = document.querySelector('.document-content');
+                    if (!contentElement) return;
+                    
+                    const content = contentElement.innerHTML;
+                    const textContent = contentElement.textContent.toLowerCase();
+                    const results = [];
+                    
+                    let index = textContent.indexOf(searchTerm);
+                    let resultId = 0;
+                    
+                    while (index !== -1 && results.length < 15) {
+                        const start = Math.max(0, index - 80);
+                        const end = Math.min(textContent.length, index + searchTerm.length + 80);
+                        const context = textContent.substring(start, end);
+                        
+                        // Find closest article or paragraph
+                        const beforeText = textContent.substring(0, index);
+                        const articleMatch = beforeText.match(/artículo\s+(\d+)/gi);
+                        const articleNum = articleMatch ? articleMatch[articleMatch.length - 1] : 'Documento';
+                        
+                        results.push({
+                            id: `search-result-${resultId}`,
+                            context: '...' + context + '...',
+                            position: index,
+                            article: articleNum,
+                            resultId: resultId
+                        });
+                        
+                        resultId++;
+                        index = textContent.indexOf(searchTerm, index + 1);
+                    }
+                    
+                    this.searchResults = results;
+                    this.highlightSearchTerm(searchTerm);
+                },
+                
+                highlightSearchTerm(searchTerm) {
+                    const contentElement = document.querySelector('.document-content');
+                    if (!contentElement) return;
+                    
+                    // Clear previous highlights
+                    this.clearSearchHighlights();
+                    
+                    // Add highlights
+                    const walker = document.createTreeWalker(
+                        contentElement,
+                        NodeFilter.SHOW_TEXT,
+                        null,
+                        false
+                    );
+                    
+                    const textNodes = [];
+                    let node;
+                    while (node = walker.nextNode()) {
+                        if (node.textContent.toLowerCase().includes(searchTerm)) {
+                            textNodes.push(node);
+                        }
+                    }
+                    
+                    textNodes.forEach((textNode, index) => {
+                        const parent = textNode.parentNode;
+                        const text = textNode.textContent;
+                        const regex = new RegExp(`(${searchTerm})`, 'gi');
+                        const highlightedHTML = text.replace(regex, `<span class="search-highlight" data-search-id="search-result-${index}">$1</span>`);
+                        
+                        const tempDiv = document.createElement('div');
+                        tempDiv.innerHTML = highlightedHTML;
+                        
+                        while (tempDiv.firstChild) {
+                            parent.insertBefore(tempDiv.firstChild, textNode);
+                        }
+                        parent.removeChild(textNode);
+                    });
+                },
+                
+                clearSearchHighlights() {
+                    const highlights = document.querySelectorAll('.search-highlight');
+                    highlights.forEach(highlight => {
+                        const parent = highlight.parentNode;
+                        parent.replaceChild(document.createTextNode(highlight.textContent), highlight);
+                        parent.normalize();
+                    });
+                },
+                
+                scrollToSearchResult(resultId) {
+                    console.log('🔍 Scrolling to search result:', resultId);
+                    
+                    // Find the search result by position
+                    const result = this.searchResults.find(r => r.id === resultId);
+                    if (!result) return;
+                    
+                    // Find all highlighted elements
+                    const highlights = document.querySelectorAll('.search-highlight');
+                    const targetHighlight = Array.from(highlights)[result.resultId];
+                    
+                    if (targetHighlight) {
+                        // Scroll to the highlighted element
+                        targetHighlight.scrollIntoView({ 
+                            behavior: 'smooth', 
+                            block: 'center',
+                            inline: 'nearest'
+                        });
+                        
+                        // Add temporary flash effect
+                        targetHighlight.style.backgroundColor = '#ef4444';
+                        setTimeout(() => {
+                            targetHighlight.style.backgroundColor = '#fbbf24';
+                        }, 500);
+                    } else {
+                        // Fallback: scroll by position estimation
+                        const contentElement = document.querySelector('.document-content');
+                        if (contentElement) {
+                            const scrollPercent = result.position / contentElement.textContent.length;
+                            const scrollTop = contentElement.scrollHeight * scrollPercent;
+                            contentElement.scrollTop = scrollTop;
+                        }
+                    }
+                },
+                
+                toggleFavorite(documentId) {
+                    console.log('Toggling favorite for document:', documentId);
+                },
+                
+                // Utility Methods
+                getDocumentIcon(tipo) {
+                    const iconMap = {
+                        'Ley': 'fas fa-balance-scale',
+                        'Decreto': 'fas fa-scroll',
+                        'Circular': 'fas fa-circle',
+                        'Resolución': 'fas fa-gavel',
+                        'Conpes': 'fas fa-landmark',
+                        'Constitución': 'fas fa-book'
+                    };
+                    return iconMap[tipo] || 'fas fa-file-alt';
+                },
+                
+                formatDate(dateString) {
+                    return new Date(dateString).toLocaleDateString('es-CO', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric'
+                    });
+                },
+                
+                // Chart Initialization
+                initializeCharts() {
+                    this.initTipoChart();
+                    this.initCronologiaChart();
+                },
+                
+                initTipoChart() {
+                    const ctx = document.getElementById('tipoChart');
+                    if (!ctx) return;
+                    
+                    new Chart(ctx, {
+                        type: 'doughnut',
+                        data: {
+                            labels: this.tiposDocumento.map(t => t.name),
+                            datasets: [{
+                                data: this.tiposDocumento.map(t => t.count),
+                                backgroundColor: [
+                                    '#3b82f6', '#10b981', '#f59e0b', 
+                                    '#ef4444', '#8b5cf6', '#06b6d4'
+                                ],
+                                borderWidth: 0
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: {
+                                legend: {
+                                    position: 'bottom',
+                                    labels: { 
+                                        color: '#374151',
+                                        font: {
+                                            size: 14,
+                                            weight: '600'
+                                        },
+                                        padding: 20
+                                    }
+                                }
+                            }
+                        }
+                    });
+                },
+                
+                initCronologiaChart() {
+                    const ctx = document.getElementById('cronologiaChart');
+                    if (!ctx) return;
+                    
+                    new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: ['1991', '1999', '2008', '2009', '2011', '2012', '2013', '2015', '2022', '2024'],
+                            datasets: [{
+                                label: 'Normas por Año',
+                                data: [1, 1, 1, 2, 1, 3, 2, 4, 2, 1],
+                                borderColor: '#3b82f6',
+                                backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                                fill: true,
+                                tension: 0.4
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: {
+                                legend: {
+                                    labels: { 
+                                        color: '#374151',
+                                        font: {
+                                            size: 14,
+                                            weight: '600'
+                                        }
+                                    }
+                                }
+                            },
+                            scales: {
+                                x: {
+                                    ticks: { 
+                                        color: '#4b5563',
+                                        font: {
+                                            size: 12,
+                                            weight: '500'
+                                        }
+                                    },
+                                    grid: { color: 'rgba(107, 114, 128, 0.2)' }
+                                },
+                                y: {
+                                    ticks: { 
+                                        color: '#4b5563',
+                                        font: {
+                                            size: 12,
+                                            weight: '500'
+                                        }
+                                    },
+                                    grid: { color: 'rgba(107, 114, 128, 0.2)' }
+                                }
+                            }
+                        }
+                    });
+                },
+                
+                // Data Loading
+                async loadRepositoryData() {
+                    console.log('📄 Loading documents from API...');
+                    try {
+                        const response = await fetch('/api/documents');
+                        const data = await response.json();
+                        
+                        if (data.success) {
+                            console.log(`✅ Loaded ${data.count} documents from ${data.source}`);
+                            // Fix document structure - add missing id and ensure unique keys
+                            this.allDocuments = data.data.map((doc, index) => ({
+                                ...doc,
+                                id: doc.document_id || `doc_${index}`, // Ensure every doc has an id
+                                nombre_archivo: doc.document_id, // For compatibility
+                                año: doc.año || doc['a\u00f1o'] || 0, // Handle encoding issues with año
+                                numero: this.fixDocumentNumber(doc.numero || '', doc.document_id), // Fix number extraction
+                                titulo: this.improveDocumentTitle(doc.titulo || 'Documento sin título', doc.document_id), // Improve titles
+                                tipo_norma: this.fixDocumentType(doc.tipo_norma, doc.document_id) // Fix document types
+                            }));
+                            
+                            // Update stats
+                            this.repositoryStats.total = data.total_available || data.count;
+                            
+                            // Update type counts for charts and filters using processed documents
+                            const typeCounts = {};
+                            this.allDocuments.forEach(doc => {
+                                typeCounts[doc.tipo_norma] = (typeCounts[doc.tipo_norma] || 0) + 1;
+                            });
+                            this.repositoryStats.by_type = typeCounts;
+                            
+                            // Update quickFilters with actual counts
+                            this.quickFilters.forEach(filter => {
+                                filter.count = typeCounts[filter.key] || 0;
+                            });
+                            
+                            // Update tiposDocumento counts for sidebar filters
+                            this.tiposDocumento.forEach(tipo => {
+                                // Check for exact match or case-insensitive match
+                                tipo.count = typeCounts[tipo.key] || 
+                                            typeCounts[tipo.key.toLowerCase()] || 
+                                            typeCounts[tipo.key.charAt(0).toUpperCase() + tipo.key.slice(1).toLowerCase()] || 0;
+                            });
+                            
+                        } else {
+                            console.error('❌ Failed to load documents:', data.error);
+                            // Fallback to sample data
+                            this.loadSampleData();
+                        }
+                    } catch (error) {
+                        console.error('🚫 Error loading documents:', error);
+                        // Fallback to sample data
+                        this.loadSampleData();
+                    }
+                },
+                
+                loadSampleData() {
+                    console.log('📄 Loading sample data as fallback...');
+                    this.allDocuments = [
+                        {
+                            id: 1,
+                            nombre_archivo: 'ley_1581_2012',
+                            titulo: 'Ley 1581 de 2012 - Protección de Datos Personales',
+                            tipo_norma: 'Ley',
+                            numero: '1581',
+                            año: 2012,
+                            fecha_ingreso: '2025-08-03T19:59:37',
+                            tamaño_caracteres: 35381,
+                            estado_validacion: 'validado'
+                        },
+                        {
+                            id: 2,
+                            nombre_archivo: 'decreto_1377_2013',
+                            titulo: 'Decreto 1377 de 2013 - Reglamentación Protección Datos',
+                            tipo_norma: 'Decreto',
+                            numero: '1377',
+                            año: 2013,
+                            fecha_ingreso: '2025-08-03T20:03:36',
+                            tamaño_caracteres: 29681,
+                            estado_validacion: 'validado'
+                        },
+                        {
+                            id: 3,
+                            nombre_archivo: 'ley_1480_2011',
+                            titulo: 'Ley 1480 de 2011 - Estatuto del Consumidor',
+                            tipo_norma: 'Ley',
+                            numero: '1480',
+                            año: 2011,
+                            fecha_ingreso: '2025-08-03T20:07:32',
+                            tamaño_caracteres: 122620,
+                            estado_validacion: 'validado'
+                        },
+                        {
+                            id: 4,
+                            nombre_archivo: 'ley_1273_2009',
+                            titulo: 'Ley 1273 de 2009 - Delitos Informáticos',
+                            tipo_norma: 'Ley',
+                            numero: '1273',
+                            año: 2009,
+                            fecha_ingreso: '2025-08-03T20:08:33',
+                            tamaño_caracteres: 9134,
+                            estado_validacion: 'validado'
+                        },
+                        {
+                            id: 5,
+                            nombre_archivo: 'ley_527_1999',
+                            titulo: 'Ley 527 de 1999 - Comercio Electrónico',
+                            tipo_norma: 'Ley',
+                            numero: '527',
+                            año: 1999,
+                            fecha_ingreso: '2025-08-03T20:09:15',
+                            tamaño_caracteres: 35903,
+                            estado_validacion: 'validado'
+                        },
+                        {
+                            id: 6,
+                            nombre_archivo: 'constitucion_politica_1991',
+                            titulo: 'Constitución Política de Colombia de 1991',
+                            tipo_norma: 'Constitución',
+                            numero: '1',
+                            año: 1991,
+                            fecha_ingreso: '2025-08-03T20:10:00',
+                            tamaño_caracteres: 500000,
+                            estado_validacion: 'validado'
+                        }
+                    ];
+                },
+                
+                // Initialization
+                init() {
+                    console.log('Matriz Legal System Initialized');
+                    
+                    // Check privacy policy acceptance
+                    this.checkPrivacyAcceptance();
+                    
+                    // Load additional documents data if needed
+                    this.loadRepositoryData();
+                    
+                    // Initialize charts on dashboard load
+                    if (this.activeView === 'dashboard') {
+                        setTimeout(() => this.initializeCharts(), 500);
+                    }
+                    
+                    // Initialize sticky search scroll listener
+                    this.initializeStickySearch();
+                },
+                
+                initializeStickySearch() {
+                    let lastScrollY = 0;
+                    let ticking = false;
+                    
+                    const updateStickySearch = () => {
+                        const scrollY = window.scrollY;
+                        
+                        // Show sticky search when scrolling down in document view
+                        if (this.currentDocument && this.activeView === 'repository') {
+                            this.showStickySearch = scrollY > 400 && scrollY > lastScrollY;
+                        } else {
+                            this.showStickySearch = false;
+                        }
+                        
+                        lastScrollY = scrollY;
+                        ticking = false;
+                    };
+                    
+                    window.addEventListener('scroll', () => {
+                        if (!ticking) {
+                            requestAnimationFrame(updateStickySearch);
+                            ticking = true;
+                        }
+                    });
+                },
+                
+                // Chatbot functions
+                async sendChatMessage() {
+                    if (!this.chatInput.trim() || this.chatLoading) return;
+                    
+                    const userMessage = this.chatInput.trim();
+                    const timestamp = new Date().toLocaleTimeString();
+                    
+                    // Add user message
+                    this.chatMessages.push({
+                        id: Date.now(),
+                        content: userMessage,
+                        isUser: true,
+                        timestamp: timestamp
+                    });
+                    
+                    // Clear input and set loading
+                    this.chatInput = '';
+                    this.chatLoading = true;
+                    
+                    // Scroll to bottom
+                    this.$nextTick(() => {
+                        const chatContainer = document.getElementById('chat-messages');
+                        chatContainer.scrollTop = chatContainer.scrollHeight;
+                    });
+                    
+                    try {
+                        const response = await fetch('/api/chat', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({
+                                query: userMessage
+                            })
+                        });
+                        
+                        const data = await response.json();
+                        
+                        if (data.success) {
+                            // Format response with markdown support
+                            let formattedResponse = data.response
+                                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')  // Bold
+                                .replace(/\n/g, '<br>');  // Line breaks
+                            
+                            this.chatMessages.push({
+                                id: Date.now() + 1,
+                                content: formattedResponse,
+                                isUser: false,
+                                timestamp: new Date().toLocaleTimeString(),
+                                sources: data.sources || []
+                            });
+                        } else {
+                            this.chatMessages.push({
+                                id: Date.now() + 1,
+                                content: data.response || 'Ha ocurrido un error procesando tu consulta.',
+                                isUser: false,
+                                timestamp: new Date().toLocaleTimeString(),
+                                sources: []
+                            });
+                        }
+                        
+                    } catch (error) {
+                        console.error('Error sending chat message:', error);
+                        this.chatMessages.push({
+                            id: Date.now() + 1,
+                            content: 'Error de conexión. Por favor, verifica que el servidor esté funcionando.',
+                            isUser: false,
+                            timestamp: new Date().toLocaleTimeString(),
+                            sources: []
+                        });
+                    } finally {
+                        this.chatLoading = false;
+                        
+                        // Scroll to bottom
+                        this.$nextTick(() => {
+                            const chatContainer = document.getElementById('chat-messages');
+                            chatContainer.scrollTop = chatContainer.scrollHeight;
+                        });
+                    }
+                },
+
+                // Document Enhancement Functions
+                improveDocumentTitle(originalTitle, documentId) {
+                    // Specific fixes for known documents
+                    const fixes = {
+                        'resolución_dian_165_2023': 'Resolución DIAN 165 de 2023 - Facturación Electrónica',
+                        'resolución_dian_013_2021': 'Resolución DIAN 013 de 2021 - Normatividad Tributaria',
+                        'resolución_500_2021': 'Resolución MinTIC 500 de 2021 - Seguridad Digital',
+                        'circular_f576defa': 'Circular SIC 002 de 2024 - Tratamiento de Datos Personales',
+                        'circular_f8d6a8ba': 'Circular SIC 003 de 2024 - Administradores Societarios',
+                        'conpes_3995_2020': 'CONPES 3995 de 2020 - Política de Transformación Digital',
+                        'constitucion_politica_1991': 'Constitución Política de Colombia de 1991'
+                    };
+
+                    if (fixes[documentId]) {
+                        return fixes[documentId];
+                    }
+
+                    // General improvements
+                    let improved = originalTitle;
+                    
+                    // Fix DIAN documents
+                    if (documentId.includes('dian') && !improved.includes('DIAN')) {
+                        improved = improved.replace('Resolución', 'Resolución DIAN');
+                    }
+                    
+                    // Fix SIC documents  
+                    if (documentId.includes('circular') && !improved.includes('SIC')) {
+                        improved = improved.replace('Circular', 'Circular SIC');
+                    }
+                    
+                    // Fix MinTIC documents
+                    if (documentId.includes('500_2021') && !improved.includes('MinTIC')) {
+                        improved = improved.replace('Resolución', 'Resolución MinTIC');
+                    }
+
+                    return improved;
+                },
+
+                fixDocumentNumber(originalNumber, documentId) {
+                    // Specific fixes for number extraction errors
+                    const numberFixes = {
+                        'resolución_dian_165_2023': '165',
+                        'resolución_dian_013_2021': '013', 
+                        'resolución_500_2021': '500'
+                    };
+
+                    if (numberFixes[documentId]) {
+                        return numberFixes[documentId];
+                    }
+
+                    return originalNumber;
+                },
+
+                fixDocumentType(originalType, documentId) {
+                    // Fix document types that are incorrectly classified
+                    if (documentId === 'constitucion_politica_1991') {
+                        return 'Constitución';
+                    }
+
+                    return originalType;
+                },
+
+                // Privacy Policy Functions
+                checkPrivacyAcceptance() {
+                    const accepted = localStorage.getItem('privacyPolicyAccepted');
+                    if (!accepted) {
+                        setTimeout(() => {
+                            this.showPrivacyModal = true;
+                        }, 2000); // Show after 2 seconds
+                    } else {
+                        this.privacyAccepted = true;
+                    }
+                },
+
+                async acceptPrivacyPolicy() {
+                    try {
+                        // Record acceptance in backend
+                        const response = await fetch('/api/privacy/accept', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({
+                                timestamp: new Date().toISOString(),
+                                user_agent: navigator.userAgent,
+                                screen_resolution: `${screen.width}x${screen.height}`
+                            })
+                        });
+
+                        if (response.ok) {
+                            // Save acceptance locally
+                            localStorage.setItem('privacyPolicyAccepted', new Date().toISOString());
+                            this.privacyAccepted = true;
+                            this.showPrivacyModal = false;
+                            
+                            console.log('✅ Privacy policy accepted and recorded');
+                        }
+                    } catch (error) {
+                        console.error('Error recording privacy acceptance:', error);
+                        // Still allow local acceptance even if backend fails
+                        localStorage.setItem('privacyPolicyAccepted', new Date().toISOString());
+                        this.privacyAccepted = true;
+                        this.showPrivacyModal = false;
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

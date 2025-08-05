@@ -1,0 +1,739 @@
+RESOLUCIÓN 500 de 2021
+(marzo 10)
+por la cual se establecen los lineamientos y estándares para la estrategia de seguridad digital y se adopta el modelo de seguridad y privacidad como habilitador de
+la política de Gobierno Digital.
+[Mostrar]
+Los datos publicados en SUIN-Juriscol son exclusivamente informativos, con fines de divulgación del ordenamiento jurídico colombiano, cuya fuente es el Diario Oficial y la
+jurisprudencia pertinente. La actualización es periódica. El seguimiento y verificación de la evolución normativa y jurisprudencial no implica una función de certificación, ni
+interpretación de la vigencia de las normas por parte del Ministerio.
+La Ministra de Tecnologías de la Información y las Comunicaciones, en ejercicio de sus facultades legales, en especial las que le confiere el Parágrafo. del Artículo 16° del
+Decreto número 2106 de 2019, y
+CONSIDERANDO QUE
+Conforme al principio de “masificación del gobierno en línea” hoy Gobierno Digital, consagrado en el numeral 8 del Artículo 2°° de la Ley 1341 de 2009, las entidades
+públicas deberán adoptar todas las medidas necesarias para garantizar el máximo aprovechamiento de las Tecnologías de la Información y las Comunicaciones (TIC) en
+el desarrollo de sus funciones.
+De acuerdo con el Artículo 2°.2.9.1.2.1 del Decreto número 1078 de 2015 (DUR-TIC), por medio del cual se expide el Decreto Único Reglamentario del sector de
+Tecnologías de la Información y las Comunicaciones, la Política de Gobierno Digital será definida por MinTIC y se desarrollará a través de componentes y habilitadores
+transversales que, acompañados de lineamientos y estándares, permitirán el logro de propósitos que generarán valor público en un entorno de confianza digital a partir
+del aprovechamiento de las TIC.
+Según el numeral 2, del artículo anteriormente citado, los habilitadores transversales de la Política de Gobierno Digital, son los elementos fundamentales de Seguridad y
+privacidad de la Información, Arquitectura y Servicios Ciudadanos Digitales, que permiten el desarrollo de los componentes y el logro de los propósitos de dicha Política.
+El Parágrafo. del Artículo 16° del Decreto número 2106 de 2019, por el cual se dictan normas para simplificar, suprimir y reformar trámites, procesos y procedimientos
+innecesarios existentes en la administración pública, señala que las autoridades deberán disponer de una estrategia de seguridad digital, para la gestión documental
+electrónica y preservación de la información, siguiendo los lineamientos que emita el Ministerio de Tecnologías de la Información y las Comunicaciones.
+Por lo anterior, es necesario que MinTIC establezca los lineamientos generales para la implementación del Modelo de Seguridad y Privacidad de la Información (MSPI), la
+guía de gestión de riesgos de seguridad de la Información y el procedimiento para la gestión de los incidentes de seguridad digital, y, establecer los lineamientos y
+estándares para la estrategia de seguridad digital.
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 1/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+En mérito de lo expuesto,
+RESUELVE:
+Artículo 1°°. Objeto. La presente resolución tiene por objeto establecer los lineamientos generales para la implementación del Modelo de Seguridad y Privacidad de la
+Información (MSPI), la guía de gestión de riesgos de seguridad de la Información y el procedimiento para la gestión de los incidentes de seguridad digital, y, establecer los
+lineamientos y estándares para la estrategia de seguridad digital.
+Artículo 2°°. Ámbito de aplicación. Serán sujetos obligados de la presente resolución los señalados en el Artículo 2°.2.9.1.1.2. del Decreto número 1078 de 2015 (DUR-
+TIC), por medio del cual se expide el Decreto Único Reglamentario del sector de Tecnologías de la Información y las Comunicaciones.
+Artículo 3°°. Lineamientos generales. Los sujetos obligados deben adoptar medidas técnicas, administrativas y de talento humano para garantizar que la seguridad
+digital se incorpore al plan de seguridad y privacidad de la información y así mitigar riesgos relacionados con la protección y la privacidad de la información e incidentes
+de seguridad digital. Las entidades deben contar con políticas, procesos, procedimientos, guías, manuales y formatos para garantizar el cumplimiento al ciclo PHVA del
+MSPI. En ese sentido, deben adoptar los lineamientos del MSPI, guía de riesgos y gestión de incidentes de seguridad digital que se relacionan en el Anexo 1 de la
+presente resolución.
+Para todos los procesos, trámites, sistemas de información, infraestructura tecnológica e infraestructura crítica de los sujetos obligados, se deben adoptar medidas de
+seguridad eficientes alienadas al MSPI, para prestar servicios de confianza, generando protección de la información de los ciudadanos, gestionando los riesgos y los
+incidentes de seguridad digital.
+Artículo 4°°. Sistema de gestión de seguridad de la información y seguridad digital. Los sujetos obligados deben aplicar los modelos, guías, y demás documentos
+técnicos que emita el Ministerio de Tecnologías de la Información y las Comunicaciones a través del habilitador de seguridad y privacidad de la información en el marco de
+la Política de Gobierno Digital y propenderán por la incorporación de estándares internacionales y sus respectivas actualizaciones o modificaciones, al igual que otros
+marcos de trabajo que defina mejores prácticas en la materia.
+Artículo 5°°. La estrategia de seguridad digital. Los sujetos obligados deben adoptar la estrategia de seguridad digital en la que se integren los principios, políticas,
+procedimientos, guías, manuales, formatos y lineamientos para la gestión de la seguridad de la información digital. Dicha estrategia se debe incluir en el Plan de
+Seguridad y Privacidad de la Información que se integra al Plan de Acción en los términos Artículo 2°.2.22.3.14. del Capítulo 3 del Título 22 de la Parte 2 del Libro 2 del
+Decreto número 1083 de 2015, Único Reglamentario del Sector de Función Pública, o la norma que la modifique, adicione, subrogue o derogue.
+El Plan de Seguridad y Privacidad de la Información contempla la protección de la información digital, medios impresos y físicos digitales y no digitales.
+La estrategia de seguridad digital debe definirse en la implementación del Modelo de Seguridad y Privacidad de la Información (MSPI), así como de la guía de gestión de
+riesgos de seguridad de la información y del procedimiento de gestión de incidentes de seguridad digital, incorporadas en el Anexo 1 de la presente resolución y estar
+debidamente articulada al habilitador de seguridad y privacidad de la Política de Gobierno Digital.
+Adicionalmente, la estrategia de seguridad digital debe:
+1. Ser aprobada a través de un acto administrativo de carácter general.
+2. Contar con un análisis y tratamiento de riesgos de seguridad digital e implemen tar controles que permitan gestionarlos.
+3. Establecer los roles y responsabilidades al interior de la entidad asociados a la seguridad digital.
+4. Establecer e implementar los principios, lineamientos y estrategias para promo ver una cultura para la seguridad digital y de la información que incluya activid ades
+de difusión, capacitación y concientización tanto al interior de la entidad como frente a usuarios y terceros que ésta considere relevantes para mejorar habilidades y
+promover conciencia en la seguridad de la información. Estas ac tividades deben realizarse anualmente y pueden incluirse, adicionalmente, en el Plan Institucional
+de Capacitaciones (PIC), o el que haga sus veces.
+5. La estrategia debe incluir todas las tecnologías de la información y las comunic aciones que utiliza la organización, incluida la adopción de nuevas tecnologías o
+tecnologías emergentes.
+6. Aplicar las demás consideraciones que a juicio de la entidad contribuyan a elevar sus estándares de seguridad digital.
+Parágrafo1.°. Los sujetos obligados deben adoptar el Modelo de Seguridad y Privacidad de la Información (MSPI) señalado en el Anexo 1 de la presente resolución,
+como habilitador de la política de Gobierno Digital.
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 2/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+Parágrafo2.°. El Modelo de Seguridad y Privacidad de la Información (MSPI) señalado en el Anexo 1 será actualizado por el MinTIC a través de las sucesivas versiones
+de cada uno de los documentos que lo componen y previo informe del equipo técnico. La actualización se publicará en la sede electrónica de MinTIC.
+Artículo 6°°. La gestión de la seguridad de la información, seguridad digital y la gestión de riesgos de la entidad. Los sujetos obligados deben determinar e
+implementar controles para mitigar los riesgos que pudieran afectar la seguridad digital y física de acuerdo con el resultado del análisis y evaluación de riesgos y cumplir
+con las siguientes características y responsabilidades:
+1. Definir controles considerando aspectos tales como la estructura, tamaño, ca nales de atención, volumen transaccional, número de usuarios, evaluación del riesgo y
+servicios prestados por la entidad.
+2. Realizar una gestión efectiva de la seguridad de la información y la seguridad digital en la entidad.
+3. Reportar los resultados del análisis de riesgos y gestión de incidentes al comité institucional de gestión y desempeño o quien haga sus veces.
+4. Estar al tanto de las nuevas modalidades de ciberataques que pudieran llegar a afectar a la entidad, según las políticas que establezca la entidad de acuerdo con
+su evaluación de riesgo y atendiendo criterios de razonabilidad.
+5. Establecer las capacitaciones que recibirán los funcionarios de la entidad en te mas relacionados con seguridad digital y mantenerlos actualizados sobre las nuev as
+amenazas cibernéticas.
+6. Realizar el monitoreo del cumplimiento de las políticas y procedimientos que se establezcan en materia de seguridad de la información y sin perjuicio de aquellas
+tareas que realizan las autoridades de control.
+7. Asesorar a la dirección de la entidad sobre seguridad de la información y segurid ad digital para que pueda hacer seguimiento y tomar las decisiones adecuadas en
+esta materia.
+8. Realizar un análisis de riesgo para determinar la pertinencia de contratar o imp lementar el servicio de un equipo especializado para atender incidentes de se guridad
+digital. El análisis debe identificar las características del proveedor, he rramientas, servicios y privacidad de la información, entre otros.
+9. Determinar los recursos técnicos, humanos y administrativos de seguridad de la información y seguridad digital, necesarios para la entidad. Dichos recursos deben
+manejarse de manera diferenciada a los de operaciones y tecnología de la información.
+10. Implementar y gestionar un Sistema de Gestión de Seguridad de la Información de acuerdo a lo establecido en el Modelo de Seguridad y Privacidad de la Infor -
+mación, que permita gestionar los riesgos de seguridad de la información de la entidad de una manera adecuada y oportuna.
+11. Cumplir los lineamientos de gestión del riesgo establecidos en la guía para la administración del riesgo y el diseño de controles en entidades públicas expedida en
+el marco del modelo integrado de planeación y gestión.
+Artículo 7°°. Operaciones seguras. Los sujetos obligados deben implementar mecanismos de gestión y monitoreo que protejan la infraestructura de TI de amenazas
+físicas y digitales.
+Artículo 8°°. Controles e interoperabilidad. Los sujetos obligados deben implementar controles y procesos que habiliten la integración al servicio ciudadano digital de
+interoperabilidad de forma segura y cumpliendo de los lineamientos dados sobre el particular en el marco de la política de gobierno digital.
+Artículo 9°°. Gestión de incidentes de seguridad digital. Los sujetos obligados deben establecer un procedimiento de gestión de incidentes de seguridad digital, para
+realizar el tratamiento, investigación y gestión de los incidentes de seguridad digital que se presente en relación con los activos de información de cada proceso, para lo
+cual deben:
+1. Gestionar los incidentes de seguridad digital, según el procedimiento establecido por MinTIC, para lo cual deben crear una bitácora que contenga la descripción de
+cada una de las actividades desarrolladas en la gestión de estos.
+2. Designar dentro de la entidad los responsables de gestionar y dar respuesta a los incidentes de seguridad digital, liderado por el responsable de seguridad digital.
+3. Una vez identificado el incidente de seguridad digital se deberá reportar ante el CSIRT (Equipo de Respuesta a Incidentes de Seguridad Digital) de Gobierno, los
+incidentes catalogados como Muy Grave y Grave por la entidad, para el respec tivo apoyo y coordinación en la gestión de estos a través del formato de reporte
+establecido por el CSIRT Gobierno, el cual estará disponible por los canales de comunicación del CSIRT Gobierno.
+4. Los incidentes catalogados por el responsable de seguridad digital de la entidad, como Menos Grave y Menor, deben ser comunicados al CSIRT Gobierno en el
+formulario establecido una vez sea gestionado, con el fin de poder llevar una estadística de los incidentes y conocer las tipologías de estos.
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 3/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+5. Los sujetos obligados, según el análisis e investigación de los incidentes y te niendo en cuenta la causa raíz, deben realizar los respectivos planes de mejora miento,
+para lo cual el responsable de seguridad digital de la entidad supervisará y hará seguimiento a su cumplimiento.
+Artículo 10°. Privacidad de la información. Los sujetos obligados deben definir una estrategia que permita brindar servicios, controles y condiciones de protección de la
+privacidad de la información de la Entidad y los ciudadanos acorde con lo exigido en la Ley 1581 de 2012 y los decretos reglamentarios.
+Artículo 11°. Mecanismos de autenticación. Los sujetos obligados deben emplear mecanismos para la autenticación y segregar las funciones y responsabilidades de los
+usuarios con privilegios de administrador o que brindan soporte remoto, para mitigar los riesgos de seguridad de la información. Para ello, deben seguir el modelo de
+servicios ciudadanos digitales en particular el modelo de autenticación digital.
+Artículo 12°. Retención y destrucción final de información. Los sujetos obligados deben establecer procesos y procedimientos para la retención y destrucción final de
+la información digital, para ello seguirán las normas de gestión documental digital dispuestas por el Archivo General de la Nación.
+Artículo 13°. Seguridad digital desde el proceso de desarrollo de software. Los sujetos obligados deben integrar la seguridad digital, dentro del ciclo de vida del
+desarrollo del software para todos los sistemas de información, aplicaciones web y móviles, así como cualquier otro sistema que almacene, transmita o presente
+información, desde las etapas iniciales como el diseño y el levantamiento de requerimientos, hasta las pruebas de seguridad una vez el software se encuentre en
+producción, teniendo en cuenta los riesgos asociados a cada sistema de información. Dicho proceso deberá quedar documentado y estar alineado con las normas de
+responsabilidad demostrada en el tratamiento de datos personales señaladas en la Ley 1581 de 2012, el Decreto número 1074 de 2015 y demás normas que las
+desarrollan, adicionen o modifiquen.
+Artículo 14°. Terceros, colaboradores y seguridad digital. Los sujetos obligados deben incluir en su estrategia de seguridad digital y su plan de Seguridad y privacidad
+de la información las medidas y obligaciones pertinentes para la adopción y el cumplimiento de políticas y controles para la gestión de los riesgos de seguridad y
+privacidad de la información por parte de terceros y colaboradores.
+Artículo 15°. Control de las actividades incluidas en la estrategia de seguridad digital y gestión de riesgos. Los sujetos obligados deben establecer los mecanismos
+de control al interior de la entidad que permitan verificar el cumplimiento de las disposiciones establecidas en la política de seguridad de la información que hayan
+aprobado internamente, realizando auditorías de seguridad de la información al menos una vez al año, que contemplen aspectos técnicos de la seguridad digital como
+análisis de vulnerabilidades a sistemas de información críticos, entre otros.
+Así mismo, deberán contar con indicadores para medir la eficacia, efectividad y eficiencia de la gestión de la seguridad de la información y la seguridad digital.
+Artículo 16°. Seguridad digital y responsabilidad. Los sujetos obligados podrán incluir en su estrategia de seguridad digital los elementos de valoración que se
+requerirán para determinar la conveniencia de contar con garantías que cubran los costos asociados a ataques cibernéticos.
+Artículo 17°. Etapas generales de la gestión de incidentes de seguridad digital. Los sujetos obligados deben incluir en su estrategia de seguridad digital las
+actividades a realizar en las etapas de prevención; protección y detección; respuesta y comunicación; recuperación y aprendizaje, como mínimo deberán incorporar:
+1. Prevención
+La función de prevención admite la capacidad de limitar o contener el impacto de un posible incidente de seguridad digital. En esta etapa, los sujetos obligados deben
+cuando menos:
+1.1. Establecer, mantener y documentar los controles de acceso (lógicos, físicos y procedimentales), protección de infraestructura y gestión de identidades, priva -
+cidad y protección de la información.
+1.2. Adoptar políticas, procedimientos y mecanismos para evitar la fuga de datos e información.
+1.3. Gestionar y documentar la seguridad de la plataforma tecnológica.
+1.4. Contar con los recursos tecnológicos necesarios para realizar una adecuada ges tión de seguridad de la información y la ciberseguridad.
+1.5. Identificar, y gestionar los riesgos de seguridad de la información que puedan llegar a afectar a la entidad y establecer controles para su mitigación.
+1.6. Considerar dentro del plan de continuidad del negocio la respuesta, recupera ción, reanudación de la operación en contingencia y restauración ante la materia -
+lización de ataques de seguridad de la información.
+1.7. Realizar pruebas del plan de continuidad del negocio que simulen la materiali zación de ataques de seguridad de la información.
+1.8. Determinar la necesidad de contar con herramientas o servicios que permitan hacer correlación de eventos que puedan alertar sobre incidentes de seguridad,
+entre otros, SIEM (Gestión de eventos de información de seguridad) o SOC (Centro de operaciones de seguridad).
+1.9 De acuerdo con la estructura, infraestructura, canales de atención, volumen tran saccional y número de clientes, monitorear diferentes fuentes de información
+institucionales oficiales tales como sistemas de información, infraestructuras crí ticas, correos electrónicos, sitios web, blogs, dispositivos y perfiles oficiales de
+redes sociales con el propósito de identificar posibles ataques cibernéticos contra la entidad.
+1.10. Colaborar y articular con las autoridades que hacen parte del modelo nacional de gestión de ciberseguridad en los proyectos que se adelanten con el
+propósito de fortalecer la gestión de la ciberseguridad a nivel nacional.
+2. Protección y detección
+La función de protección y detección permite el descubrimiento oportuno de eventos e incidentes de ciberseguridad y cómo protegerse ante los mismos. Los sujetos
+obligados deben:
+1. 1. Adoptar procedimientos y mecanismos para identificar y analizar los incidentes de seguridad que se presenten.
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 4/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+1.2. Gestionar las vulnerabilidades de aquellas infraestructuras críticas o plataformas que soporten activos de información críticos y que estén expuestos en el
+ciberesp acio.
+1.3. Realizar un monitoreo continuo a su plataforma tecnológica e infraestructura crítica con el propósito de identificar y predecir comportamientos inusuales que
+puedan evidenciar ataques contra la entidad.
+1.4. Implementar tecnologías que permitan a la Entidad identificar el origen de los ata ques, tipos de ataques, comportamientos y la detección predictiva de
+amenazas.
+1.5. Realizar periódicamente auditorías de seguridad de la información tanto para los aspectos de gestión como para los aspectos técnicos, como podrían ser:
+auditor ías internas y externas al modelo de Seguridad y Privacidad de la Información, análisis de vulnerabilidades, Hacking ético, pruebas de penetración a
+sistemas informático y pruebas de ingeniería social entre otras.
+3. Respuesta y comunicación
+Aún con las medidas de seguridad adoptadas, los sujetos obligados deben desarrollar e implementar planes de respuesta a incidentes de seguridad digital. Para hacerle
+frente a esta situación los sujetos obligados deben:
+1. 1. Establecer planes y procedimientos de respuesta a incidentes digitales y de segu ridad de la información.
+1. 2. Establecer los procedimientos para reportar, cuando se considere pertinente, al Grupo de Respuesta a Emergencias Cibernéticas de Colombia (COLCERT) o
+quien haga sus veces, a través del CSIRT sectorial, los incidentes de seguridad Digital que requieran de su gestión.
+1. 3. Comunicar a las autoridades competentes después de una fuga o afectación a la privacidad de la información de la Entidad o ciudadanos.
+1. 4. Dar un tratamiento adecuado a las evidencias forenses para que las áreas de se guridad digital y las autoridades puedan realizar su identificación, recolección,
+embalaje y disposición en las investigaciones correspondientes.
+4. Recuperación y aprendizaje
+Desarrollar e implementar actividades apropiadas para definir y mantener los planes de recuperación, resiliencia y restauración de las infraestructuras críticas, servicios,
+sistemas de información, procesos o en general de un activo de información que se haya deteriorado debido a un incidente de seguridad digital. Los sujetos obligados
+deben:
+1. 1. Adoptar los mecanismos necesarios para recuperar los sistemas de información e infraestructuras al estado en que se encontraban antes del ataque de
+seguridad.
+1. 2. Ajustar sus sistemas de gestión de riesgo y de seguridad de la información como consecuencia de los incidentes presentados, adoptando los controles que
+resulten pertinentes.
+1. 3. Socializar, cuando la entidad lo considere pertinente, las lecciones aprendidas al interior de la organización y con las entidades de su sector.
+Artículo 18°. Vigencia. La presente resolución rige a partir de la fecha de su publicación en el Diario Oficial.
+Publíquese y cúmplase.
+Dada en Bogotá, D. C., a 10 de marzo de 2021.
+La Ministra de Tecnologías de la Información y las Comunicaciones,
+Karen Abudinen Abuchaibe.
+Modelo de Seguridad y Privacidad de la Información
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 5/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+Karen Cecilia Abudinen Abuchaibe - Ministra de Tecnologías de la Información y las Comunicaciones
+Germán Camilo Rueda - Viceministro de Transformación Digital
+Aura María Cifuentes Gallo - Directora de Gobierno Digital
+Gersson Jair Castillo Daza- Subdirector de Estándares y Arquitectura de TI
+Angela Janeth Cortés Hernández - Líder del equipo de Seguridad y Privacidad de la Información
+Danny Alejandro Garzón - Asesor del equipo de Seguridad y Privacidad de la Información
+Andrés Díaz Molina - Oficial de Seguridad y Privacidad de la Información
+Juan Carlos Noriega - Líder del equipo de Política
+Marco E. Sánchez Acevedo - Abogado del equipo de Política
+Ministerio de Tecnologías de la Información y las Comunicaciones
+Viceministerio de Transformación Digital
+Dirección de Gobierno Digital
+Comentarios, sugerencias o correcciones pueden ser enviadas al correo electrónico: gobiernodigital@mintic. gov. co Modelo de Seguridad y Privacidad de la Información
+Documento Maestro V 4.0 Esta guía de la Dirección de Gobierno Digital se encuentra bajo una Licencia Creative Commons Atribución 4.0 Internacional.
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 6/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 7/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+01. Introducción
+El Ministerio de Tecnologías de la Información y las Comunicaciones - MinTIC, es consecuente con la realidad de que las entidades públicas están cada vez más
+expuestas a sufrir incidentes de seguridad digital, lo cual, puede afectar su funcionamiento repercutiendo en la prestación de los servicios a la ciudadanía. Razón por la
+cual el ministerio como entidad encargada de diseñar, adoptar y promover políticas, planes, programas y proyectos en el uso y apropiación de las TIC, establece
+lineamientos con el objetivo de generar confianza en el uso del entorno digital, garantizando el máximo aprovechamiento de las tecnologías de la información y las
+comunicaciones.
+La política de gobierno digital tiene como objetivo promover lineamientos, planes, programas y proyectos en el uso y apropiación de las TIC para generar confianza en el
+uso del entorno digital, propendiendo por el máximo aprovechamiento de las tecnologías de la información y las comunicaciones. Además establece como habilitador
+transversal la seguridad y privacidad de la información, mediante el cual se definen de manera detallada la implementación de controles de seguridad físicos y lógicos con
+el fin de asegurar de manera eficiente los trámites, servicios, sistemas de información, plataforma tecnológica e infraestructura física y del entorno de las Entidades
+públicas de orden nacional y territorial, gestionando de manera eficaz, eficiente y efectiva los activos de información, infraestructura critica, los riesgos e incidentes de
+seguridad y privacidad de la información y así evitar la interrupción en la prestación de los servicios de la Entidad enmarcados en su modelo de operación por procesos.
+Teniendo en cuenta lo anterior, el MinTIC elaboró el Modelo de Seguridad y Privacidad de la Información - MSPI y define los lineamientos para la implementación de la
+estrategia de seguridad digital, con el objetivo de formalizar al interior de de los sujetos obligados un sistema de gestión de seguridad de la información - SGSI y
+seguridad digital, el cual contempla su operación basado en un ciclo PHVA (Planear, Hacer, Verificar y Actuar), así como los requerimientos legales, técnicos, normativos,
+reglamentarios y de funcionamiento; el modelo consta de cinco (5) fases las cuales permiten que las Entidades puedan gestionar y mantener adecuadamente la
+seguridad y privacidad de sus activos de información. Por ello, los sujetos obligados deben abordar las siguientes fases:
+1. Diagnóstico: Realizar un diagnóstico o un análisis GAP, cuyo objetivo es identificar el estado actual de la Entidad respecto a la adopción del MSPI. Se recomienda
+usar este diagnóstico al iniciar el proceso de adopción, con el fin de que su resultado sea un insumo para la fase de planificación y luego al finalizar la Fase 4 de
+mejora continua.
+2. Planificación: Determinar las necesidades y objetivos de seguridad y privacidad de la información teniendo en cuenta su mapa de procesos, el tamaño y en general
+su contexto interno y externo. Esta fase define el plan de valoración y tratamiento de riesgos, siendo ésta la parte más importante del ciclo.
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 8/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+3. Operación: Implemetar los controles que van a permitir disminuir el impacto o la probabilidad de ocurrencia de los riesgos de seguridad de la información
+identificados en la etapa de planificación.
+4. Evaluación de desempeño: Determinar el sistema y forma de evaluación de la adopción del modelo.
+5. Mejoramiento Continuo: Establecer procedimientos para identificar desviaciones en las reglas definidas en el modelo y las acciones necesarias para su solución y
+no repetición.
+Cada una de las fases se dará por completada, cuando se cumplan todos los requisitos definidos en cada una de ellas.
+02. Audiencia
+El presente documento está dirigido a los sujetos señalados en el Artículo 2°.2.9.1.1.2. del Decreto 1078 de 2015 (DUR-TIC), "Por medio del cual se expide el Decreto
+Único Reglamentario del sector de Tecnologías de la Información y las Comunicaciones"
+03. Definiciones
+A los efectos de la presente guía se deberán atender las siguientes definiciones:
+Acceso a la Información Pública: Derecho fundamental consistente en la facultad que tienen todas las personas de conocer sobre la existencia y acceso a la
+información pública en posesión o bajo control de sujetos obligados. (Ley 1712 de 2014, art 4)
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 9/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+Activo: En relación con la seguridad de la información, se refiere a cualquier información o elemento relacionado con el tratamiento de ésta (sistemas, soportes,
+edificios, personas, etc.) que tenga valor para la organización. (ISO/IEC 27000).
+Activos de Información y recursos: se refiere a elementos de hardware y de software de procesamiento, almacenamiento y comunicaciones, bases de datos y
+procesos, procedimientos y recursos humanos asociados con el manejo de los datos y la información misional, operativa y administrativa de cada entidad, órgano u
+organismo. (CONPES 3854 de 20116).
+Archivo: Conjunto de documentos, sea cual fuere su fecha, forma y soporte material, acumulados en un proceso natural por una persona o Entidad pública o
+privada, en el transcurso de su gestión, conservados respetando aquel orden para servir como testimonio e información a la persona o institución que los produce y
+a los ciudadanos, o como fuentes de la historia. También se puede entender como la institución que está al servicio de la gestión administrativa, la información, la
+investigación y la cultura. (Ley 594 de 2000, art 3)
+Amenazas: Causa potencial de un incidente no deseado, que puede provocar daños a un sistema o a la organización. (ISO/IEC 27000).
+Análisis de Riesgo: Proceso para comprender la naturaleza del riesgo y determinar el nivel de dicho riesgo. (ISO/IEC 27000).
+Auditoría: Proceso sistemático, independiente y documentado para obtener evidencias de auditoria y obviamente para determinar el grado en el que se cumplen los
+criterios de auditoria. (ISO/IEC 27000).
+Autorización: Consentimiento previo, expreso e informado del Titular para llevar a cabo el Tratamiento de datos personales (Ley 1581 de 2012, art 3)
+Bases de Datos Personales: Conjunto organizado de datos personales que sea objeto de Tratamiento (Ley 1581 de 2012, art 3)
+Ciberseguridad: Protección de activos de información, mediante el tratamiento de las amenazas que ponenn en riesgo la información que se procesa, almacena y
+transporta mediante los sistemas de información que se encuentran interconectados.
+Ciberespacio: Es el ambiente tanto físico como virtual compuesto por computadores, sistemas computacionales, programas computacionales (software), redes de
+telecomunicaciones, datos e información que es utilizado para la interacción entre usuarios. (Resolución CRC 2258 de 2009).
+Control: Las políticas, los procedimientos, las prácticas y las estructuras organizativas concebidas para mantener los riesgos de seguridad de la información por
+debajo del nivel de riesgo asumido. Control es también utilizado como sinónimo de salvaguarda o contramedida. En una definición más simple, es una medida que
+modifica el riesgo.
+Datos Abiertos: Son todos aquellos datos primarios o sin procesar, que se encuentran en formatos estándar e interoperables que facilitan su acceso y reutilización,
+los cuales están bajo la custodia de las Entidades públicas o privadas que cumplen con funciones públicas y que son puestos a disposición de cualquier ciudadano,
+de forma libre y sin restricciones, con el fin de que terceros puedan reutilizarlos y crear servicios derivados de los mismos (Ley 1712 de 2014, art 6)
+3).
+de las personas, a su profesión u oficio y a su calidad de comerciante o de servidor público. Por su naturaleza, los datos públicos pueden estar contenidos, entre
+otros, en registros públicos, documentos públicos, gacetas y boletines oficiales y sentencias judiciales debidamente ejecutoriadas que no estén sometidas a
+reserva. (Decreto 1377 de 2013, art 3)
+tales como aquellos que revelen el origen racial o étnico, la orientación política, las convicciones religiosas o filosóficas, la pertenencia a sindicatos, organizaciones
+sociales, de derechos humanos o que promueva intereses de cualquier partido político o que garanticen los derechos y garantías de partidos políticos de oposición,
+así como los datos relativos a la salud, a la vida sexual, y los datos biométricos. (Decreto 1377 de 2013, art 3)
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 10/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+Derecho a la Intimidad: Derecho fundamental cuyo núcleo esencial lo constituye la existencia y goce de una órbita reservada en cada persona, exenta de la
+intervención del poder del Estado o de las intromisiones arbitrarias de la sociedad, que le permite a dicho individuo el pleno desarrollo de su vida personal, espiritual
+y cultural (Jurisprudencia Corte Constitucional).
+Encargado del Tratamiento de Datos: Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el Tratamiento de datos
+personales por cuenta del responsable del Tratamiento. (Ley 1581 de 2012, art 3) x Gestión de incidentes de seguridad de la información: Procesos para detectar,
+reportar, evaluar, responder, tratar y aprender de los incidentes de seguridad de la información. (ISO/IEC 27000).
+Información Pública Clasificada: Es aquella información que estando en poder o custodia de un sujeto obligado en su calidad de tal, pertenece al ámbito propio,
+particular y privado o semiprivado de una persona natural o jurídica por lo que su acceso podrá ser negado o exceptuado, siempre que se trate de las
+circunstancias legítimas y necesarias y los derechos particulares o privados consagrados en el Artículo 18° de la Ley 1712 de 2014. (Ley 1712 de 2014, art 6) x
+Información Pública Reservada: Es aquella información que estando en poder o custodia de un sujeto obligado en su calidad de tal, es exceptuada de acceso a la
+ciudadanía por daño a intereses públicos y bajo cumplimiento de la totalidad de los requisitos consagrados en el Artículo 19° de la Ley 1712 de 2014. (Ley 1712 de 2014, art 6)
+Ley de Habeas Data: Se refiere a la Ley Estatutaria 1266 de 2008.
+Ley de Transparencia y Acceso a la Información Pública: Se refiere a la Ley Estatutaria 1712 de 2014.
+Mecanismos de protección de datos personales: Lo constituyen las distintas alternativas con que cuentan las Entidades destinatarias para ofrecer protección a los
+Plan de continuidad del negocio: Plan orientado a permitir la continuación de las principales funciones misionales o del negocio en el caso de un evento imprevisto
+que las ponga en peligro. (ISO/IEC 27000).
+Plan de tratamiento de riesgos: Documento que define las acciones para gestionar los riesgos de seguridad de la información inaceptables e implantar los controles
+necesarios para proteger la misma. (ISO/IEC 27000).
+Registro Nacional de Bases de Datos: Directorio público de las bases de datos sujetas a Tratamiento que operan en el país. (Ley 1581 de 2012, art 25)
+Responsabilidad Demostrada: Conducta desplegada por los responsables o Encargados del tratamiento de datos personales bajo la cual a petición de la
+efectivas para cumplir lo establecido en la Ley 1581 de 2012 y sus normas reglamentarias.
+Responsable del Tratamiento de Datos: Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, decida sobre la base de datos y/o el
+Tratamiento de los datos. (Ley 1581 de 2012, Artículo 3°).
+Riesgo: Posibilidad de que una amenaza concreta pueda explotar una vulnerabilidad para causar una pérdida o daño en un activo de información. Suele
+considerarse como una combinación de la probabilidad de un evento y sus consecuencias. (ISO/IEC 27000).
+Seguridad de la información: Preservación de la confidencialidad, integridad, y disponibilidad de la información en cualquier medio: impreso o digital. (ISO/IEC
+27000).
+Seguridad digital: Preservación de la confidencialidad, integridad, y disponibilidad de la información que se encuentra en medios digitales.
+Titulares de la información: Personas naturales cuyos datos personales sean objeto de Tratamiento. (Ley 1581 de 2012, art 3)
+Tratamiento de Datos Personales: Cualquier operación o conjunto de operaciones sobre datos personales, tales como la recolección, almacenamiento, uso,
+circulación o supresión. (Ley 1581 de 2012, art 3).
+Trazabilidad: Cualidad que permite que todas las acciones realizadas sobre la información o un sistema de tratamiento de la información sean asociadas de modo
+inequívoco a un individuo o Entidad. (ISO/IEC 27000).
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 11/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+Vulnerabilidad: Debilidad de un activo o control que puede ser explotada por una o más amenazas. (ISO/IEC 27000).
+Partes interesadas (Stakeholder): Persona u organización que puede afectar a, ser afectada por o percibirse a sí misma como afectada por una decisión o
+actividad.
+04. Propósitos
+Proporcionar a los sujetos obligados mecanismos, lineamientos e instrumentos de implementación claros que les permitan adoptar, implementar y apropiar el MSPI
+con mayor facilidad.
+Aportar en el desarrollo e implementación de la estrategia de seguridad digital de las Entidades.
+Establecer procedimientos de seguridad que permitan a las Entidades apropiar el habilitador de seguridad en la política de Gobierno Digital.
+Institucionalizar la seguridad y privacidad de la información en los procesos y procedimientos de las Entidades.
+Mediante la implementación eficiente, eficaz y efectiva del MSPI, se busca contribuir al incremento de la transparencia en la gestión pública.
+Contribuir en el desarrollo y ejecución del plan estratégico institucional, de cada entidad, a través del plan de seguridad y privacidad de la información.
+05. Marco jurídico
+Conforme con lo establecido en la normatividad vigente el Ministerio de Tecnologías de la Información y las Comunicaciones - MinTIC, hace referencia a las
+siguientes normas, que se deben tener en cuenta para el desarrollo de la apropiación del MSPI en la Entidad:
+Constitución Política de Colombia. Artículos 15, 209 y 269.
+Ley 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales.
+Decreto 2609 de 2012. Por el cual se reglamenta el TÍTULO V de la Ley 594 de 2000, parcialmente los artículos 58 y 59 de la Ley 1437 de 2011 y se dictan otras
+disposiciones en materia de Gestión Documental para todas las Entidades del Estado.
+Decreto 1377 de 2013. Por el cual se reglamenta parcialmente la Ley 1581 de 2012.
+Decreto 886 de 2014. Por el cual se reglamenta el Registro Nacional de Bases de Datos.
+Ley 1712 de 2014. Por medio de la cual se crea la Ley de Transparencia y del Derecho de Acceso a la Información Pública Nacional y se dictan otras disposiciones.
+Decreto 103 de 2015. Por medio del cual se reglamenta parcialmente la Ley 1712 de 2014 y se dictan otras disposiciones.
+Decreto 1074 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Comercio, Industria y Turismo. Reglamenta parcialmente la Ley 1581 de 2012 e imparten instrucciones sobre el Registro Nacional de Bases de Datos. Artículos 25 y 26.
+Decreto 1078 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector de Tecnologías de la Información y las Comunicaciones.
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 12/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+Decreto 1080 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Cultura.
+Decreto 1081 de 2015. Por medio del cual se expide el Decreto Reglamentario del Sector Presidencia.
+Decreto 1083 de 2015 “Por medio del cual se expide el Decreto Único Reglamentario del Sector de Función Pública”, el cual establece las políticas de Gestión y
+Desempeño Institucional, entre las que se encuentran las de “11. Gobierno Digital, antes Gobierno en Línea” y “12. Seguridad Digital”.
+CONPES 3854 de 2016. Política Nacional de Seguridad digital.
+Ley 1915 de 2018. Por la cual se modifica la Ley 23 de 1982 y se establecen otras disposiciones en materia de derecho de autor y derechos conexos.
+Decreto 612 de 2018. Por el cual se fijan directrices para la integración de los planes institucionales y estratégicos al Plan de Acción por parte de las entidades del
+Estado.
+Decreto 2106 de 2019, establece que las autoridades que realicen trámites, procesos y procedimientos por medios digitales, deberán disponer de una estrategia de
+seguridad digital siguiendo los lineamientos que emita el Ministerio de Tecnologías de la Información y las Comunicaciones.
+Ley 1952 de 2019. Por medio de la cual se expide el código general disciplinario
+06. Diagnóstico
+La fase de diagnóstico permite a los sujetos obligados establecer el estado actual de la implementación de la seguridad y privacidad de la información, para tal fin se debe
+realizar un Diagnóstico” utilizando el “instrumento de evaluación MSPI” con el que se identifica de forma específica los controles implementados y faltantes y así tener
+insumos fundamentales para la fase de planificación.
+Este autodiagnóstico se debe realizar antes de iniciar la fase de planificación, y actualizarlo posterior al término de la fase de evaluación de desempeño, esto con el fin de
+identificar los avances en la implementación del Modelo en la entidad, el resultado que se obtenga posterior a la fase de evaluación de desempeño será incluido como un
+insumo, en la fase de mejoramiento continuo.
+07. Planificación
+Para el desarrollo de esta fase se debe utilizar los resultados de la fase anterior y proceder a elaborar el Plan de Seguridad y Privacidad de la Información con el objetivo
+de que la Entidad realice la planeación del tiempo, recursos y presupuesto de las actividades que va a desarrollar relacionadas con el MSPI.
+Los documentos que se deben generar en esta fase son:
+Alcance MSPI
+Acto administrativo con las funciones de seguridad y privacidad de la información.
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 13/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+Política de seguridad y privacidad de la información.
+Documento de roles y responsabilidades asociadas a la seguridad y privacidad de la información
+Procedimiento de inventario y Clasificación de la Información e infraestructura crítica
+Metodología de inventario y clasificación de la información e infraestructura crítica
+Procedimiento de gestión de riesgos de seguridad de la información
+Plan de tratamiento de riesgos de seguridad de la información
+Declaración de aplicabilidad
+Manual de políticas de Seguridad de la Información
+Plan de capacitación, sensibilización y comunicación de seguridad de la información
+7.1 Contexto
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 14/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 15/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 16/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 17/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 18/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+08. Fase 2: Operación
+Una vez culminada las actividades del MSPI de la fase de 7.3 Planificación, se llevará acabo la implementación de los controles, con el fin de dar cumplimiento con los
+requisitos del MSPI.
+Los documentos que se deben generar en esta fase son:
+Plan de implementación de controles de seguridad y privacidad de la información
+Evidencia de la implementación de los controles de seguridad y privacidad de la información
+09. Fase 3: Evaluación de desempeño
+Una vez culminada las actividades del MSPI, se evalúa la efectividad de las acciones tomadas a través de los indicadores definidos en la fase de implementación que
+debe incluir la correcta interacción entre el MSPI, MIPG y los requerimientos de la Ley 1581 de 2012 “Protección de datos personales”, Ley 1712 de 2014 “Ley de
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 19/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+Transparencia y Acceso a la Información Pública”, Decreto 2106 de 2019 o cualquier norma que las reglamente, adicione, modifique o derogue.
+10 Fase 4: Mejoramiento continuo
+Una vez culminada las actividades del MSPI de la fase evaluación y desempeño, se debe consolidar los resultados obtenidos de la fase de evaluación de desempeño y
+diseñar el plan de mejoramiento continuo de seguridad y privacidad de la información, tomando las acciones oportunas para mitigar las debilidades identificadas.
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 20/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+11. ANEXOS
+11.1 Controles y objetivos de control
+La siguiente tabla muestra los controles de seguridad detallando cada uno de los dominios establecidos en el anexo A de la norma NTC: ISO/IEC 27001, los cuales tratan
+de los objetivos de control, y se estructurarán tal como lo muestra la Tabla 1:
+Cada uno de los campos de la tabla anterior se definen de la siguiente manera:
+Núm.: Este campo identifica cada uno de los controles correspondientes al Anexo A de la norma NTC: ISO/IEC 27001.
+Nombre: Este campo hace referencia al nombre del control que se debe aplicar para dar cumplimiento a la política definida.
+Control: Este campo describe el control que se debe implementar con el fin de dar cumplimiento a la política definida.
+Dominio: Este campo describe si el control aplica para uno o múltiples dominios.
+Seleccionado / Excepción: El listado de controles además debe incluir un campo que permita ser utilizado para la generación de la declaración de aplicabilidad,
+donde cada uno de los controles es justificado tanto si se implementa como si se excluye de ser implementado, lo cual ayuda a que la Entidad tenga documentado
+y de fácil acceso el inventario de controles.
+Descripción / Justificación: El listado de controles cuenta con la descripción de cada control en la tabla. Adicionalmente, es posible utilizarlo para la generación de la
+declaración de aplicabilidad, donde cada uno de los controles es justificado tanto si se implementa como si se excluye de ser implementado.
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 21/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 22/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+11.2. Guía - Roles y responsabilidades
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 23/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+11.2.1 Definición de roles y responsabilidades
+Los sujetos obligados deben definir internamente las responsabilidades para ejecutar las actividades específicas de seguridad de la información designando al equipo que
+corresponda.
+El mayor aporte que genera una definición de roles es que se tendrán establecidas las tareas que realizará cada uno de los miembros del equipo del MSPI, dejando un
+campo muy pequeño a que se presenten imprecisiones con referencia a las responsabilidades que cada integrante tiene.
+Partiendo de este punto, las entidades tendrán asegurado que cada actividad establecida dentro de la etapa de planeación del MSPI, tenga un responsable claro y de
+igual forma que cada uno de los miembros del equipo responsable de la ejecución entiendan claramente sus roles y responsabilidades.
+11.2.2 Identificación de los responsables
+En primer lugar, se genera la necesidad de vincular de forma más efectiva al personal de alto nivel que estará vinculado al proceso de desarrollo del MSPI en las
+entidades para que el apoyo se vaya garantizandodesde el principio de la planeación del proyecto e ir marcando un punto de partida de éxito con la implementación del
+modelo de gestión de seguridad de la información planteado para la entidad.
+Los representantes de alto nivel de la entidad deben identificar y establecer, sin perjuicio de lo establecido en la Ley 489 de 1998, en el menor tiempo posible (cada
+entidad establecerá los términos en los cuales se puede cumplir con esta obligación) organizar el grupo de trabajo responsable para implementar el Modelo de seguridad
+de la información en las entidades del Estado, definiendo el perfil y rol de conformdad con lo establecido en su documento de política.
+Teniendo en cuenta lo anterior, al final del ejercicio el equipo directivo que lidera la implementación del MSPI, debe dar a conocer el perfil y responsabilidades de cada
+integrante.
+1. Equipo de gestión al interior de cada una de las entidades
+El equipo de gestión del proyecto en cada una de las entidades se encarga de tomar las medidas necesarias para planear, implementar y hacer seguimiento a todas las
+actividades necesarias para adoptar el Modelo de Seguridad de la Información al interior de su entidad, así como planear las actividades necesarias para una adecuada
+administración y sostenibilidad de este.
+1. Perfiles y responsabilidades
+A continuación, se proponen las siguientes actividades asociadas a la seguridad y privacidad de la
+información:
+1. Responsable de Seguridad de la Información para la entidad
+El Responsable de Seguridad de la información será el lider de la implementación del Modelo de seguridad y privacidad de la información en la Entidad y velará por el
+cumplimiento de las siguientes actividades:
+Fomentar la implementación de la Política de Gobierno Digital
+Asesorar a la Entidad en el diseño, implementación y mantenimiento del Modelo de Seguridad y privacidad de la Información para la entidad de conformidad con la
+regulación vigente.
+Identificar la brecha entre el Modelo de seguridad y privacidad de la información y la situación actual de la entidad.
+Realizar la estimación, planificación y cronograma de la implementación del MSPI.
+Liderar la implementación y hacer seguimiento a las tareas y cronograma definido.
+Definir, elaborar e implementar las políticas, procedimientos, estándares o documentos que sean
+De su competencia para la operación del MSPI.
+Realizar el acompañamiento a los procesos y /o proyectos en materia de seguridad y privacidad de la información.
+Liderar y brindar acompañamiento a los procesos de la entidad en la gestión de riesgos de seguridad y privacidad de la información, así como los controles
+correspondientes para su mitigación y seguimiento al plan de tratamiento de riesgos, de acuerdo con las disposiciones y metodologías en la materia.
+Proponer la formulación de políticas y lineamientos de seguridad y privacidad de la información.
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 24/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+Definir e implementar en coordinación con las dependencias de la Entidad, las estrategias de sensibilización y divulgaciones de seguridad y privacidad de la
+información para servidores públicos y contratistas.
+Apoyar a los procesos de la Entidad en los planes de mejoramiento para dar cumplimiento a los planes de acción en materia de seguridad y privacidad de la
+información.
+Definir, socializar e implementar el procedimiento de Gestión de Incidentes de seguridad de la información en la entidad.
+Efectuar acompañamiento a la alta dirección, para asegurar el liderazgo y cumplimiento de los roles y responsabilidades de los líderes de los procesos en
+seguridad y privacidad de la información.
+Poner en conocimiento de las dependencias con competencia funcional, cuando se detecten irregularidades, incidentes o prácticas que atentes contra la seguridad
+y privacidad de la información de acuerdo con la normativa vigente.
+1. Comité Institucional de Gestión y Desempeño Institucional - Comité de Seguridad y privacidad de la información
+Asegurar la implementación y desarrollo de políticas de gestión y directrices en materia de seguridad y privacidad de la información, mediante el cumplimiento de las
+siguientes actividades:
+Aprobación seguimiento a los planes, programas, proyectos, estrategias y herramientas necesarios para la implementación interna de las políticas de seguridad y
+privacidad de la información.
+Socializar la importancia de adoptar la cultura de seguridad y privacidad de la información a los procesos de la entidad.
+Aprobar acciones y mejores prácticas que en la implementación del MSPI.
+Adoptar las decisiones que permitan la gestión y minimización de riesgos críticos de seguridad de la información.
+Las demás que tengan relación con el estudio, análisis y recomendaciones en materia de seguridad y privacidad de la información.
+11.2.7. Oficina asesora Jurídica
+Brindar asesoría a los procesos de la Entidad en temas jurídicos y legales que involucren acciones ante las autoridades competentes relacionados con seguridad y
+privacidad de la información.
+Brindar asesoría al Comité Institucional de Gestión y Desempeño en materia de temas normativos, jurídicos y legales vigentes que involucren acciones ante las
+autoridades competentes relacionados con seguridad y privacidad de la información.
+Verificar que los contratos o convenios de ingreso que por competencia deban suscribir los sujetos obligados, cuenten con cláusulas de derechos de autor,
+confidencialidad y no divulgación de la información según sea el caso.
+Representar a la Entidad en procesos judiciales ante las autoridades competentes relacionados con seguridad y privacidad de la información.
+Apoyar y asesorar a los procesos en la elaboración del Índice de Información clasificada y reservada de los activos de información de acuerdo con la regulación
+vigente.
+11.2.8. Gestión del Talento Humano
+Controlar y salvaguardar la información de datos personales del personal de planta de la Entidad, en concordancia con la normatividad vigente.
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 25/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+Realizar la gestión de vinculación, capacitación, desvinculación del personal de planta dando cumplimiento a los controles y normatividad vigente relacionada con
+seguridad y privacidad de la información.
+11.2.9. Control Interno
+Dentro de la definición de responsables en cada uno de los Dominios entregados en el Marco de arquitectura Empresarial, está contemplado el papel del responsable de
+seguridad y privacidad de la información de la entidad, de esta forma se tienen las siguientes responsabilidades específicas de acuerdo con el Dominio:
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 26/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+Teniendo en cuenta la naturaleza de la entidad, debe conformarse un equipo para el desarrollo del proyecto al cual deben pertenecer miembros directivos y
+representantes de las áreas misionales, con el propósito de asegurar que toda la información más relevante de la entidad esté disponible oportunamente. De esta forma,
+se busca asegurar que sea una iniciativa de carácter transversal a la entidad, y que no dependa exclusivamente de la oficina o área de TI.
+Una de las tareas principales del líder del proyecto es entregar y dar a conocer los perfiles y responsabilidades de cada Integrante al grupo de trabajo e identificar las
+personas idóneas para tomar cada rol. De esta forma, y de manera general se pone a consideración el siguiente listado para que las entidades analicen de acuerdo con
+su composición orgánica cuales deben ser los miembros del equipo de seguridad y privacidad de la información, de acuerdo con los siguientes perfiles:
+Personal de seguridad de la información.
+Un representante del área de Tecnología.
+Un representante del área de Control Interno.
+Un representante del área de Planeación.
+Un representante de sistemas de Gestión de Calidad.
+Un representante del área Jurídica.
+Funcionarios, proveedores, y ciudadanos
+Es importante resaltar nuevamente la necesidad del compromiso de la Alta dirección de la entidad, de esta forma se presenta la figura No. 01, en la cual se presentan los
+perfiles de manera genérica el nivel al cual pertenecerían según lo propuesto.
+RESPONSABILIDADES DEL EQUIPO DEL PROYECTO:
+Apoyar al líder de proyecto al interior de la entidad.
+Oficiar como consultores de primer nivel en cuanto a las dudas técnicas y de procedimiento que se puedan suscitar en el desarrollo del proyecto.
+Ayudar al líder de proyecto designado, en la gestión de proveedores de tecnología e infraestructura.
+Asistir a las reuniones de seguimiento o de cualquier otra naturaleza planeadas por el líder de proyecto.
+Las que considere el líder del proyecto o el comité de seguridad de la entidad.
+De manera particular se resaltan dos perfiles que deben estar participando de manera activa durante el desarrollo del proyecto, a pesar de que el proyecto no es de
+responsabilidad exclusiva del área de TI su papel es fundamental, y de acuerdo con la Ley de Protección de Datos Personales se debe tener muy presente el rol de
+responsable del tratamiento de los datos personales.
+Teniendo en cuenta que el responsable del tratamiento de datos personales en la entidad, es quien tiene decisión sobre las bases de datos que contengan este tipo de
+datos y que el responsable es quien direcciona las actividades de los encargados de los datos personales (quien realiza el tratamiento directamente), como se
+mencionaba anteriormente, adicional a las responsabilidades arriba citadas se tendrán en cuenta que de acuerdo a la Ley 1581 de 2012 Protección de Datos Personales
+los deberes y responsabilidades de los responsables y/o encargados del tratamiento de los datos personales son:
+Informar y garantizar el ejercicio de los derechos de los titulares de los datos personales.
+Tramitar las consultas, solicitudes y reclamos.
+Utilizar únicamente los datos personales que hayan sido obtenidos mediante autorización, a menos que los mismos no la requieran.
+Respetar las condiciones de seguridad y privacidad de información del titular.
+Cumplir instrucciones y requerimientos impartidos por la autoridad administrativa competente.
+COMITÉ DE SEGURIDAD:
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 27/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+Las funciones de este comité pueden ser incluidas por el comité Institucional de desarrollo administrativo, como instancia orientadora de la implementación de la
+estrategia de Gobierno en línea de acuerdo con el señalado en el Artículo 2°.2.9.1.2.4. Responsable de orientar la implementación de la Estrategia de Gobierno en Línea; ó si
+la Entidad así lo estima conveniente, se debe crear un comité de Seguridad de la Información para la Entidad.
+A continuación, se presenta un ejemplo de plantilla que podría servir como base para la generación de la resolución para la creación del comité de seguridad de la
+información para las entidades, se reitera que está sujeta a las condiciones orgánicas y misionales de cada entidad.
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 28/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+11.3. Guía -Gestión inventario clasificación de activos e infraestructura critica
+Esa guía presenta los lineamientos básicos que debe tener en cuenta para realizar una adecuada identificación, gestión y clasificación de activos de información e
+infraestructura critica de cada Entidad, asi:
+Establecer las responsabilidades de los funcionarios y contratistas de la entidad con los Activos de
+Información.
+Garantizar que los activos de información de la entidad reciban un adecuado nivel de protección
+de acuerdo con su valoración.
+Proporcionar una herramienta que visualice de manera fácil los activos de información de la Entidad.
+Sensibilizar y promover la importancia de los activos de información de la entidad.
+Proveer las pautas requeridas y necesarias para la adecuada identificación, clasificación y valoración de los activos de información de la Entidad.
+Cumplir con la organización y publicación de los activos de información, respetando tanto las normas como los procedimientos que se deben cumplir.
+El inventario y clasificación de activos hace parte de las actividades más relevantes e importantes del Modelo de Seguridad y Privacidad de la Información y está
+compuesta por las fases:
+Identificación y Tipificación de los Activos de Información: Corresponde a la etapa en donde la Dependencia como propietario y custodio de la información, identifica
+y clasifica la información producida, de acuerdo con: Activos de información puros, de Tecnologías de la Información, de Talento humano y Servicios.
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 29/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+Clasificación de los activos de Información: Corresponde a la etapa en donde la Dependencia propietario y custodio de la información califica los activos de
+información de acuerdo con lo establecido en el Artículo 6°o de la Ley 1712 de 2014: Información Pública, Clasificada o Reservada.
+Revisión y Aprobación: Corresponde a la Etapa en donde se valida la clasificación y valoración dada a los activos de información, para la presentación y aprobación
+por el Comité MIG.
+Publicación de los Activos de Información: Corresponde a la etapa de publicación de la información en la página web de la Entidad, Link de transparencia y acceso
+a la Información Pública, Portal de Datos Abiertos del estado colombiano o el sitio que lo modifique o sustituya.
+11.3.1 Identificación y tipificación de los activos de información
+De acuerdo con las directrices del Archivo General de la Nación, que implementan la metodología apropiada sobre el tratamiento de los “tipos de información y
+documentos físicos y electrónicos, así como los sistemas, medios y controles asociados a la gestión”, la identificación y tipificación de los activos de información se deben
+articular de igual forma.
+Los propietarios y custodios de la información producida en el área, deben identificar, clasificar y valorar los activos de información de acuerdo con la siguiente
+compilación de Activos de Información teniendo en cuenta lo establecido en la norma técnica ISO/IEC 27000: (Información; Software como programa informático;
+Hardware como computadora; servicios; personas, y sus calificaciones, habilidades y experiencia; intangibles como reputación e imagen).
+De igual forma, se deben tomar como fuente de información, las Tablas de Retención Documental actualizadas de la entidad, que contemplan las series, sub-series y
+tipos documentales de la información producida, su medio de conservación y preservación. Las fuentes de información no contemplados en este documento, deben ser
+complementadas e identificadas por los Gestores, con los jefes de las áreas, Oficina TI (sistemas de información y tecnologías) y servidores (funcionarios y/o
+contratistas).
+Información básica
+La información básica hace referencia a aquellas características mínimas del activo que deben identificarse durante esta fase:
+Identificador: Número consecutivo único que identifica al activo en el inventario.
+Proceso: Nombre del proceso al que pertenece el activo.
+Nombre Activo: Nombre de identificación del activo dentro del proceso al que pertenece.
+Descripción/Observaciones: Es un espacio para describir el activo de manera que sea claramente identificable por todos los miembros del proceso.
+Ubicación: Describe la ubicación tanto física como electrónica del activo de información.
+Propietario: Es una parte designada de la entidad, un cargo, proceso, o grupo de trabajo que tiene la responsabilidad de garantizar que la información y los activos
+asociados con el proceso se clasifican adecuadamente. Deben definir y revisar periódicamente las restricciones y clasificaciones del acceso.
+Custodio: Es una parte designada de la entidad, un cargo, proceso, o grupo de trabajo encargado de hacer efectivos las restricciones y clasificaciones de acceso
+definidos por el propietario. (Para sistemas de información o información consignada o respaldada, generalmente es TI o para información física, los custodios
+pueden ser los funcionarios o el proceso de archivo o correspondencia, el custodio generalmente se define donde reposa el activo original).
+Tipo: Define el tipo al cual pertenece el activo. Para este campo se utilizan los siguientes valores:
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 30/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+Las razones por las cuales debería realizarse una actualización del inventario de activos son:
+Actualizaciones al proceso al que pertenece el activo.
+Adición de actividades al proceso.
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 31/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+Inclusión de nuevos registros de calidad, nuevos registros de referencia o procesos y procedimientos.
+Inclusión de un nuevo activo.
+Desaparición de un área, proceso o cargo en la entidad que tenía asignado el rol de propietario o custodio (Cambios Organizacionales).
+Cambios o migraciones de sistemas de información en donde se almacenan o reposan activos de la ubicación ya inventariados.
+Cambios físicos de la ubicación de activos de información.
+11.3.2 Clasificación de Activos de Información
+La clasificación de activos de información tiene como objetivo asegurar que la información recibe los niveles de protección adecuados, de acuerdo con sus características
+particulares.
+El sistema de clasificación definido se basa en la Confidencialidad, la Integridad y la Disponibilidad de cada activo. Asimismo, contempla el impacto que causaría la
+pérdida de alguna de estas propiedades.
+Para cada propiedad se establecieron criterios específicos y lineamientos para el tratamiento adecuado del activo. Así mismo en esta guía se definieron tres (3) niveles
+que permiten determinar el valor general o criticidad del activo en la entidad (es importante aclarar que los niveles pueden ser definidos a criterio de la entidad): Alta,
+Media y Baja, con el fin identificar qué activos deben ser tratados de manera prioritaria
+(ver Tabla: Niveles de evaluación).
+11.3.3. Clasificación de acuerdo con la confidencialidad
+La confidencialidad se refiere a que la información no esté disponible ni sea revelada a individuos, entidades o procesos no autorizados, Esta se debe definir de acuerdo
+con las características de los activos que se manejan en cada entidad, a manera de ejemplo en la guía se definieron tres (3) niveles alineados con los tipos de
+información declarados en la ley 1712 del 2014:
+Tabla 6: Esquema de clasificación por confidencialidad
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 32/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+11.3.4 Clasificación de acuerdo con la Integridad
+La integridad se refiere a la exactitud y completitud de la información (ISO 27000) esta propiedad es la que permite que la información sea precisa, coherente y completa
+desde su creación hasta su destrucción. En esta guía se recomienda el siguiente esquema de clasificación de tres (3) niveles:
+11.3.5 Clasificación de acuerdo con la Disponibilidad
+La disponibilidad es la propiedad de la información que se refiere a que ésta debe ser accesible y utilizable por solicitud de una persona, entidad o proceso autorizada
+cuando así lo requiera está, en el momento y en la forma que se requiere ahora y en el futuro, al igual que los recursos necesarios para su uso.
+En esta guía se recomienda el siguiente esquema de clasificación de tres (3) niveles:
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 33/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+11.3.6 Revisión y aprobación de los activos de información
+Posterior a la identificación, clasificación y valoración de los activos de información compilados en la Matriz de Activos de Información, validados y aprobados por los jefes
+de cada dependencia, deben enviar al área correspondiente los activos de información para su consolidación y validación por parte de la Oficina Asesora Jurídica para
+posteriormente presentar ante el Comité MIG y proceder con la publicación correspondiente.
+La aprobación por parte del Comité MIG de los activos de información de la Entidad, se encuentra establecido en la Resolución MinTIC No. 911 del 26 de marzo de 2018,
+siendo este “la instancia orientadora del MIG en donde se tratan los temas referentes a las políticas de gestión y desempeño institucional, y demás componentes del
+modelo, promoviendo sinergias entre las dependencias, Iniciativas, estrategias y proyectos que redunden en beneficios institucionales y en la satisfacción de la
+ciudadanía, usuarios y grupos de interés del Ministerio/Fondo TIC.” Este Comité hará las veces del Comité de Gestión y Desempeño Institucional del que habla el Artículo 2°.2.22.6 del Decreto 1083 de 2015”.
+11.3.7 Publicación de los activos de información
+El área, proceso, grupo interno, funcionario o rol responsable de la custodia del inventario de activos de información debe enviar a la Oficina Asesora de Prensa o quien
+haga sus veces en la Entidad el consolidado del inventario de Activos de Información para la respectiva publicación de la información en la página web de la Entidad, Link
+de transparencia y acceso a la Información Pública, Portal de Datos Abiertos del estado colombiano o el sitio que lo modifique o sustituya.
+11.3.8 Etiquetado de los Activos de Información
+Para realizar el etiquetado de los Activos de Información se proponen los siguientes lineamientos:
+Se deben etiquetar todos los Activos de Información que estén clasificados según el esquema clasificación en Confidencialidad, Integridad y disponibilidad de la
+Entidad.
+Si un Activo de Información en formato impreso no se encuentra etiquetado debe ser tratado en todos sus niveles (Confidencialidad, Integridad y Disponibilidad) como NO CLASIFICADA.
+Para los activos clasificados en confidencialidad como INFORMACION PUBLICA RESERVADA se podría utilizar la etiqueta IPR, INFORMACION PUBLICA
+CLASIFICADA IPC y INFORMACION PUBLICA, IPB.
+Para los activos clasificados en integridad como ALTA se utilizara la etiqueta A, MEDIA, M y BAJA, B.
+Para los activos clasificados en disponibilidad como ALTA se utilizara la etiqueta 1, MEDIA, 2 y BAJA, 3.
+De esta manera se realizarían las combinaciones de acuerdo con los criterios de clasificación de la información.
+11.4 Guía para la gestión de riesgos de seguridad de la información (Anexo 4. DAFP)
+https://www. funcionpublica. gov. co/documents/28587410/34298398/2020-12-16_Guia_administracion_riesgos_dise%C3%B1o_controles_final. pdf/fa179c5e-45bb-dffd-
+027c-043d4733c834 t=1609857497641
+11. Guía - Indicadores Gestión de Seguridad de la Información
+1. Objetivo de la medición
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 34/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+La creación de indicadores de gestión está orientada principalmente en la medición de efectividad, eficiencia y eficacia de los componentes de implementación y gestión
+definidos en el modelo de operación del marco de seguridad y privacidad de la información, indicadores que servirán como insumo para el componente de mejora
+continua, permitiendo adoptar decisiones de mejora.
+Los objetivos de estos procesos de medición en seguridad de la información son:
+Evaluar la efectividad de la implementación de los controles de seguridad
+Evaluar la eficiencia del Modelo de Seguridad y Privacidad de la Información al interior de la entidad.
+Proveer estados de seguridad que sirvan de guía en las revisiones del Modelo de Seguridad y Privacidad de la Información, facilitando mejoras en seguridad de la
+información y nuevas entradas a auditar.
+Comunicar valores de seguridad al interior de la entidad.
+Servir como insumos al plan de análisis y tratamiento de riesgos.
+11.5.2. Construcción de indicadores
+Acorde con la Guía para Diseño, Construcción e Interpretación de Indicadores del DANE, para la construcción de indicadores se debe tener en cuenta un tratamiento
+adecuado de la información que será la base del proceso de revisión control y mejora, de esta forma, dentro de la elaboración de indicadores se tienen definidos cuatro
+etapas específicas, como se menciona a continuación:
+1. IDENTIFICACIÓN DEL OBJETO DE LA MEDICIÓN
+En este primer paso los encargados de la implementación del MSPI, deben tener en cuenta el Plan de Seguridad de la Información que se ha definido y de esta manera
+se desarrolla el objeto de medición sobre los aspectos que consideren más relevantes para evaluar, determinar qué tan fácil es recolectar la información asociada y que
+herramientas estoy empleando para obtener dicha información.
+2. DEFINICIÓN DE LAS VARIABLES
+Una vez determinado el objeto de la medición, se pasa a definir los aspectos que van a precisar los datos que se recolectarán en el levantamiento de la información, de
+esta forma se determinarán los insumos, puntos de control, herramientas usadas y la relación que se puede presentar entre estos aspectos o variables de medición.
+En este sentido, las variables, una vez identificadas, deben ser definidas con la mayor rigurosidad, asignándole un sentido claro, para evitar que se originen
+ambigüedades y discusiones sobre sus resultados.
+Así mismo, se debe tener claridad de quién y cómo produce dicha información para de esta forma mejorar el criterio de confiabilidad.5
+3. SELECCIÓN DE INDICADORES Y CALIDAD DE LOS DATOS
+El punto inicial es determinar si el indicador que se está eligiendo es de interés para la alta dirección, si va a permitir al líder del proyecto (el encargado de la seguridad de
+la información de la entidad) identificar la efectividad no solo del avance en la implementación, sino que, con esta recolección, medición y seguimiento del proyecto se
+logra demostrar cómo éste aporta al objetivo misional de la entidad.
+Finalmente es importante que el indicador sea sencillo de expresar, leer e interpretar, y como se menciona en la guía del DNP, metodológicamente, debe ser elaborado de
+forma sencilla, automática, sistemática y continua.
+4. DISEÑO DEL INDICADOR
+Con el diseño del indicador también deben surtirse algunas actividades o pasos a tener en cuenta para el proceso definitivo en la construcción de los indicadores, de esta
+forma, una vez superados los pasos precedentes,
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 35/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+11.5.3 Indicadores propuestos
+A continuación, se definen una serie de indicadores para medir la gestión y el cumplimiento en el avance de implementación del Nuevo Modelo de Seguridad y Privacidad
+de la Información, esperando que sirva de base para que los encargados de la seguridad de la información de los sujetos obligadosy sea un ejemplo para apoyarlos en
+esta labor.
+Dichos indicadores son:
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 36/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 37/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 38/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 39/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+DERECHOS DE AUTOR
+Todas las referencias a los documentos del Modelo de Seguridad y Privacidad de la Información son derechos reservados por parte del Ministerio de Tecnologías de la
+Información y las Comunicaciones -MINTIC.
+De igual forma, son derechos reservados por parte del MinTIC, todas las referencias a las políticas, definiciones o contenido relacionados con los documentos del MSPI
+publicadas en el compendio de las normas técnicas colombianas vigentes.
+En consecuencia, el MinTIC goza de los derechos de autor6 establecidos en la ley 23 de 1982 y demás normas concordantes y complementarias, respecto de los
+documentos del MGRSD y su contenido.
+Las reproducciones, referencias o enunciaciones de estos documentos deberán ir siempre acompañadas por el nombre o seudónimo del titular de los derechos de autor
+(Ministerio de Tecnologías de la Información y las Comunicaciones).
+Lo anterior, sin perjuicio de los derechos reservados por parte de entidades tales como la International Standard Organization (ISO), ICONTEC, entre otras, respecto de
+referencias, definiciones, documentos o contenido relacionado en el MGRSD y sus documentos o anexos que son de su autoría o propiedad.
+AUDIENCIA
+El presente documento está dirigido a los sujetos obligados señalados en el Artículo 2°.2.9.1.1.2. del Decreto 1078 de 2015 (DUR-TIC), "Por medio del cual se expide el
+Decreto Único Reglamentario del sector de Tecnologías de la Información y las Comunicaciones"
+HERRAMIENTAS DE APOYO
+los sujetos obligados, podrán acceder a las herramientas que se han desarrollado con el objetivo de apoyar en el proceso de implementación del MSPI para los
+encargados de seguridad de la Información y así obtener una guía más práctica en temas específicos que se podrán encontrar en el siguiente link:
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 40/41
+4/8/25, 8:47 a. m. RESOLUCION 500 DE 2021
+https://gobiernodigital. mintic. gov. co/seguridadyprivacidad/portal/Iniciativas/
+https://www. suin-juriscol. gov. co/viewDocument. asp?id=30044822 41/41

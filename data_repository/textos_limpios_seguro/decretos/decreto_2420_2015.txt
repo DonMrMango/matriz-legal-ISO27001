@@ -1,0 +1,1153 @@
+Decreto 2420 de 2015 Normas de contabilidad, de información financiera y de aseguramiento de información
+ADMINISTRACIÓN PÚBLICA
+Por medio del cual se expide el Decreto Único Reglamentario de las Normas de Contabilidad, de Información Financiera y de Aseguramiento de la Información y se dictan otras disposiciones, con el objetivo de compilar y racionalizar las normas de carácter reglamentario, expedidas en desarrollo de la Ley 1314 de 2009. ULTIMA FECHA DE MODIFICACIÓN: 08 DE NOVIEMBRE DE 2023
+DECRETO 2420 de 2015
+(Diciembre 14)
+"Por medio del cual se expide el Decreto Único Reglamentario de las Normas de Contabilidad, de Información Financiera y de Aseguramiento de la Información y se dictan otras disposiciones"
+ÚLTIMA FECHA DE ACTUALIZACIÓN: 08 DE NOVIEMBRE DE 2023
+EL PRESIDENTE DE LA REPÚBLICA DE COLOMBIA,
+En ejercicio de las facultades que le confiere el numeral 11 del Artículo 189° de la Constitución Política, y
+CONSIDERANDO:
+Que la producción normativa ocupa un espacio central en la implementación de políticas públicas, siendo el medio a través del cual se estructuran los instrumentos jurídicos que materializan en gran parte las decisiones del Estado;
+Que la racionalización y simplificación del ordenamiento jurídico es una de las principales herramientas para asegurar la eficiencia económica y social del sistema legal y para afianzar la seguridad jurídica;
+Que constituye una política pública gubernamental la simplificación y compilación orgánica del sistema nacional regulatorio;
+Que la facultad reglamentaria incluye la posibilidad de compilar normas de la misma naturaleza;
+Que por tratarse de un decreto compilatorio de normas reglamentarias preexistentes, las mismas no requieren de consulta previa alguna, dado que las normas fuente cumplieron al momento de su expedición con el procedimiento y las regulaciones vigentes sobre la materia;
+Que la tarea de compilar y racionalizar las normas de carácter reglamentario implica, en algunos casos, la simple actualización de la normativa compilada, para que se ajuste a la realidad institucional y a la normativa vigente, lo cual conlleva, en aspectos puntuales, el ejercicio formal de la facultad reglamentaria;
+Que el contenido material de este decreto guarda correspondencia con el de los decretos compilados; en consecuencia, con su expedición no puede predicarse el decaimiento de las resoluciones, las circulares y demás actos administrativos expedidos por distintas autoridades administrativas con fundamento en las facultades derivadas de los decretos compilados;
+Que por cuanto este decreto constituye un ejercicio de compilación de reglamentaciones preexistentes, los considerandos de los decretos fuente se entienden incorporados en su texto, aunque no se transcriban, para lo cual en cada artículo se indica el origen del mismo;
+Que durante el trabajo compilatorio recogido en este decreto, el Gobierno verificó que ninguna norma compilada hubiera sido objeto de declaración de nulidad o de suspensión provisional, acudiendo para ello a la información suministrada por la Relatoría y la Secretaría General del Consejo de Estado;
+Que con el objetivo de compilar y racionalizar las normas de carácter reglamentario, expedidas en desarrollo de la Ley 1314 de 2009, que rigen en materia de contabilidad, información financiera y aseguramiento de la información y contar con un instrumento jurídico único, se hace necesario expedir el presente Decreto Único Reglamentario sobre estas materias;
+Que conforme a lo establecido en el numeral 8 del Artículo 8° de la Ley 1437 de 2011, el Ministerio de Comercio, Industria y Turismo publicó el presente decreto con el objeto de recibir opiniones, sugerencias o propuestas alternativas;
+DECRETA:
+LIBRO 1
+RÉGIMEN REGLAMENTARIO DE LAS NORMAS DE CONTABILIDAD, INFORMACIÓN FINANCIERA Y DE ASEGURAMIENTO DE LA INFORMACIÓN
+PARTE 1
+NORMAS DE CONTABILIDAD Y DE INFORMACIÓN FINANCIERA
+TÍTULO 1
+RÉGIMEN REGLAMENTARIO NORMATIVO PARA LOS PREPARADORES DE INFORMACIÓN FINANCIERA QUE CONFORMAN EL GRUPO 1
+Artículo 1°.1.1.1.
+Ámbito de aplicación.
+El presente título será aplicable a los preparadores, de información financiera que conforman el Grupo 1, así:
+1.
+Emisores de valores: Entidades y negocios fiduciarios que tengan valores inscritos en el Registro Nacional de Valores y Emisores (RNVE) en los términos del Artículo 1°.1.1.1.1. del Decreto 2555 de 2010.
+(Ver Artículo 1°.1.1.1.1
+del Decreto Decreto 2555 de 2010)
+2.
+Entidades y negocios de interés público.
+3.
+Entidades que no estén en los numerales anteriores, que cuenten con una planta de personal mayor a 200 trabajadores o con activos totales superiores a 30.000 salarios mínimos mensuales legales vigentes (SMMLV) y que, adicionalmente, cumplan con cualquiera de los siguientes parámetros:
+3.1.
+Ser subordinada o sucursal de una compañía extranjera que aplique NIIF plenas.
+3.2.
+Ser subordinada o matriz de una compañía nacional que deba aplicar NIIF plenas.
+3.3.
+Ser matriz, asociada o negocio conjunto de una o más entidades extranjeras que apliquen NIIF plenas.
+3.4.
+Realizar importaciones o exportaciones que representen más del 50% de las compras o de las ventas respectivamente.
+En el caso de entidades cuya actividad comprenda la prestación de servicios, el porcentaje de las importaciones se medirá por los costos y gastos al exterior y el de exportaciones por los ingresos. Cuando importen materiales para el desarrollo de su objeto social, el porcentaje de compras se establecerá sumando los costos y gastos causados en el exterior más el valor de las materias primas importadas. Las adquisiciones y ventas de activos fijos no se incluirán en este cálculo.
+El cálculo del número de trabajadores y de los activos totales a que alude el presente numeral se hará con base en el promedio de doce (12) meses correspondiente al año anterior al período de preparación obligatoria definido en el cronograma establecido en el Artículo 1°.1.1.3., del presente decreto, o al año inmediatamente anterior al período en el cual se determine la obligación de aplicar el Marco Técnico Normativo de que trata este título, en períodos posteriores al período de preparación obligatoria aludido.
+El cumplimiento de las condiciones definidas en los numerales 1, 2, y 3.1., 3.2., y 3.3. se evaluará con base en la información existente al cierre del año anterior al período de preparación obligatoria definido en el cronograma establecido en el Artículo 1°.1.1.3. del presente decreto, o al año inmediatamente anterior al período en el cual se determine la obligación de aplicar el Marco Técnico Normativo de que trata este título, en períodos posteriores al período de preparación obligatoria aludido.
+Para efectos del cálculo del número de trabajadores de que trata el inciso primero del numeral 3, se considerarán como tales aquellas personas que presten de manera personal y directa servicios a la entidad a cambio de una remuneración, independientemente de la naturaleza jurídica del contrato. Se excluyen de esta consideración las personas que presten servicios de consultoría y asesoría externa.
+Parágrafo1.
+Para los efectos de este título son entidades y negocios de interés público los que, previa autorización de la autoridad estatal competente, captan, manejan o administran recursos del público, y se clasifican en:
+1. Establecimientos bancarios, corporaciones financieras, compañías de financiamiento, cooperativas financieras, organismos cooperativos de grado superior y entidades aseguradoras.
+2. Sociedades de capitalización, sociedades comisionistas de bolsa, sociedades administradoras de fondos de pensiones y cesantías privadas, sociedades fiduciarias, bolsas de valores, bolsas de bienes y productos agropecuarios, agroindustriales o de otros
+“commodities”
+y sus miembros, sociedades titularizadoras, cámaras de compensación de bienes, y productos agropecuarios, agroindustriales o de otros
+Ã¢¿commoditiesÃ¢¿, sociedades administradoras de depósitos centralizados de valores, cámaras de riesgo central de contraparte, sociedades administradoras de inversión, sociedades de intermediación cambiaria y servicios financieros especiales (SICA y SFE), los fondos de pensiones voluntarios y obligatorios, los fondos de cesantías, los fondos de inversión colectiva y las universalidades de que trata la Ley 546 de 1999 y el Decreto 2555 de 2010 y otros que cumplan con esta definición.
+Parágrafo2.
+Los portafolios de terceros administrados por las sociedades comisionistas de bolsa de valores, los negocios fiduciarios y cualquier otro vehículo de propósito especial, administrados por entidades vigiladas por la Superintendencia Financiera de Colombia, deberán establecer contractualmente si aplican o no los marcos técnicos normativos vigentes para el grupo 1.
+(Decreto 2784 de 2012, Artículo 1°; modificado por el Decreto 3024 de 2013, Artículo 1°
+).
+Artículo 1°.1.1.2.
+Marco técnico normativo para los preparadores de información financiera que conforman el Grupo 1.
+Se establece un régimen normativo para los preparadores de información financiera que conforman el Grupo 1, que no están detallados en el numeral 1 del Parágrafo1. del Artículo 1°.1.1.1. del presente decreto, quienes deberán aplicar los marcos regulatorios vigentes para el Grupo 1 para sus estados financieros individuales y estados financieros consolidados.
+Se establece un régimen normativo para los preparadores de información financiera detallados en el numeral 1 del Parágrafo1. del Artículo 1°.1.1.1. de este decreto, que conforman el Grupo 1, en los siguientes términos:
+1.
+Entidades que tengan valores inscritos en el Registro Nacional de Valores y Emisores RNVE en los términos del Artículo 1°.1.1.1.1. del Decreto 2555 de 2010:
+(Ver Artículo 1°.1.1.1.1
+del Decreto Decreto 2555 de 2010)
+1.1.
+Para la preparación de los estados financieros consolidados: Aplicarán los marcos regulatorios vigentes para el Grupo 1.
+1.2.
+Para la preparación de los estados financieros separados o individuales: Aplicarán las normas que, en convergencia con las NIIF, se incorporan en el Título 4 del Libro 1 de la Parte 1 del presente decreto.
+2.
+Entidades que no tienen valores inscritos en el Registro Nacional de Valores y Emisores Ã¢¿RNVE- en los términos del Artículo 1°.1.1.1.1. del Decreto 2555 de 2010, aplicarán las normas que, en convergencia con las NIIF, se incorporan en el Título 4 del Libro 1 de la Parte 1 del presente decreto.
+(Decreto 2784 de 2012, Artículo 2°
+).
+(Ver Artículo 1°.1.1.1.1
+del Decreto Decreto 2555 de 2010)
+Artículo 1°.1.1.3.
+Cronograma de aplicación del marco técnico normativo para los preparadores de información financiera del Grupo 1.
+Los primeros estados financieros a los que los preparadores de información financiera que califiquen dentro del Grupo 1, aplicarán el nuevo marco técnico normativo, son aquellos que se preparen con corte al 31 de diciembre de 2015. Esto, sin perjuicio que con posterioridad nuevos preparadores de información financiera califiquen dentro de este Grupo.
+Para efectos de la aplicación del marco técnico normativo de información financiera, los preparadores del Grupo 1 deberán observar las siguientes condiciones:
+1. Período de preparación obligatoria:
+Se refiere al tiempo durante el cual las entidades deberán realizar actividades relacionadas con el proyecto de convergencia y en el que los supervisores podrán solicitar información a los supervisados sobre el desarrollo del proceso. Tratándose de preparación obligatoria, la información solicitada debe ser suministrada con todos los efectos legales que esto implica, de acuerdo con las facultades de los órganos de inspección, control y vigilancia. El período de preparación obligatoria comprende desde el 1 de enero de 2013 hasta el 31 de diciembre de 2013. Dentro de los dos primeros meses de este período, las entidades deberán presentar a los supervisores un plan de implementación de las nuevas normas, de acuerdo con el modelo, que para estos efectos acuerden los supervisores. Este plan debe incluir dentro de sus componentes esenciales la capacitación, la identificación de un responsable del proceso, debe ser aprobado por la Junta Directiva u órgano equivalente, y en general cumplir con las condiciones necesarias para alcanzar el objetivo fijado y debe establecer las herramientas de control y monitoreo para su adecuado cumplimiento.
+2. Fecha de transición:
+Es el inicio del ejercicio anterior a la aplicación por primera vez del nuevo marco técnico normativo de información financiera, momento a partir del cual deberá iniciarse la construcción del primer año de información financiera de acuerdo con el nuevo marco técnico normativo que servirá como base para la presentación de estados financieros comparativos. En el caso de la aplicación del nuevo marco técnico normativo en el corte al 31 de diciembre del 2015, esta fecha será el 1 de enero de 2014.
+3. Estado de situación financiera de apertura:
+Es el estado en el que por primera vez se medirán de acuerdo con el nuevo marco técnico normativo los activos, pasivos y patrimonio de las entidades que apliquen este título. Su fecha de corte es la fecha de transición. El estado de situación financiera de apertura no será puesto en conocimiento del público ni tendrá efectos legales en dicho momento.
+4. Período de transición:
+Es el año anterior a la aplicación del nuevo marco técnico normativo durante el cual deberá llevarse la contabilidad para todos los efectos legales de acuerdo con la normatividad vigente al 29 diciembre de 2012 y simultáneamente obtener información de acuerdo con el nuevo marco técnico normativo de información financiera, con el fin de permitir la construcción de información financiera que pueda ser utilizada para fines comparativos en los estados financieros en los que se aplique por primera vez el nuevo marco técnico normativo. En el caso de la aplicación del nuevo marco técnico normativo en el corte al 31 de diciembre del 2015, este período iniciará el 1 de enero de 2014 y terminará el 31 de diciembre de 2014. Esta información financiera no será puesta en conocimiento del público ni tendrá efectos legales en dicho momento.
+5. Últimos estados financieros conforme a los Decretos número 2649 y 2650 de 1993 y normatividad vigente:
+Se refiere a los estados financieros preparados con corte al 31 de diciembre del año inmediatamente anterior a la fecha de aplicación. Para todos los efectos legales, esta preparación se hará de acuerdo con los Decretos números 2649 y 2650 de 1993 y las normas que los modifiquen o adicionen y la demás normatividad contable vigente sobre la materia para ese entonces. En el caso de la aplicación del nuevo marco técnico normativo en el corte al 31 de diciembre del 2015 esta fecha será el 31 de diciembre de 2014.
+(Ver Decretos
+2649
+y 2650 de 1993)
+6. Fecha de aplicación:
+Es aquella a partir de la cual cesará la utilización de la normatividad contable vigente al 29 diciembre de 2012 y comenzará la aplicación del nuevo marco técnico normativo para todos los efectos, incluyendo la contabilidad oficial, libros de comercio y presentación de estados financieros. En el caso de la aplicación del nuevo marco técnico normativo en el corte al 31 de diciembre del 2015 esta fecha será el 1 de enero de 2015.
+7. Primer período de aplicación:
+Es aquel durante el cual, por primera vez, la contabilidad se llevará, para todos los efectos, de acuerdo con el nuevo marco técnico normativo. En el caso de la aplicación del nuevo marco técnico normativo, este período está comprendido entre el 1 de enero de 2015 y el 31 de diciembre de 2015.
+8. Fecha de reporte:
+Es aquella en la que se presentarán los primeros estados financieros, de acuerdo con el nuevo marco técnico normativo.
+En el caso de la aplicación del nuevo marco técnico normativo será el 31 de diciembre de 2015.
+Los primeros estados financieros elaborados de conformidad con el nuevo marco técnico normativo contenido en el anexo del Decreto 2784 de 2012, modificado por el Decreto 3023 de 2013 o en las normas que los modifiquen o sustituyan, deberán presentarse con corte al 31 de diciembre de 2015. Los emisores de valores deben presentar al público, durante el año 2015, estados financieros de períodos intermedios de propósito general, según lo establecido por el Artículo 5°.2.4.1.3 del Decreto 2555 de 2010.
+Los preparadores de información financiera pertenecientes al Grupo 1 que utilicen las NIIF con anterioridad a la fecha de transición, y entreguen estados financieros a un usuario externo en los que se incluya una declaración explícita y sin reservas de cumplimiento de las NIIF, con corte al cierre del ejercicio inmediatamente anterior a la fecha de la primera aplicación en Colombia, no requerirán volver a preparar el estado de situación financiera de apertura. En este caso, el estado de situación financiera utilizado para iniciar el proceso de aplicación de las NIIF en Colombia corresponderá al inicio del período de transición, es decir, al 1 de enero de 2014 de acuerdo con el cronograma incluido en este título, sobre la información financiera presentada a usuarios externos de acuerdo con las NIIF. Los ajustes que pudieran resultar al iniciar el proceso de conversión a NIIF en Colombia, deberán ceñirse a lo establecido en las NIIF, en cuanto al cambio de políticas contables y corrección de errores de acuerdo con el anexo técnico normativo del Decreto 2784 de 2012, modificado por el Decreto 3023 de 2013, o en las normas que los modifiquen o sustituyan. En consecuencia, en la fecha de reporte deberán de todas maneras presentar tres estados de situación financiera, además de estados financieros comparativos de Resultado Integral, Flujos de Efectivo y Cambios en el Patrimonio.
+Adicionalmente, las entidades que se acojan a lo dispuesto en el inciso anterior, deberán presentar una conciliación patrimonial con corte a la fecha de transición y a la fecha de la primera aplicación y de resultados con corte a la fecha de la primera aplicación.
+En la circunstancia mencionada en el presente numeral, la exención de preparar un nuevo estado de situación financiera de apertura, no implica que para los efectos legales pueda llevarse contabilidad de acuerdo con las NIIF antes de las fechas previstas en el cronograma incluido en el presente artículo. En consecuencia, en la fecha de transición prevista en Colombia para el Grupo 1, a cambio de preparar el estado de situación financiera de apertura, las entidades que se acojan a lo dispuesto en el presente numeral deberán efectuar un traslado de saldos por las cifras que arrojen sus activos, pasivos y patrimonio de acuerdo con las NIIF a esa fecha, y aplicar lo dispuesto en el numeral 4 del presente artículo.
+Parágrafo1.
+Los órganos que ejercen inspección, vigilancia y control deberán tomar las medidas necesarias para adecuar sus recursos en orden a observar lo dispuesto y para los fines contemplados en este decreto.
+Parágrafo2.
+El Consejo Técnico de la Contaduría Pública, resolverá las inquietudes que se formulen en desarrollo de la adecuada aplicación del marco técnico normativo de información financiera para los Preparadores de información financiera del Grupo 1.
+Parágrafo3.
+Las entidades que no pertenezcan al Grupo 1 podrán voluntariamente aplicar el marco regulatorio vigente dispuesto para este Grupo. En este caso:
+1.
+Deberán cumplir con todas las obligaciones que de dicha decisión se derivarán. En consecuencia, para efectos del cronograma señalado en el presente artículo, se utilizarán los mismos conceptos indicados en el citado artículo, adaptándolos a las fechas que corresponda.
+2.
+Se ceñirán al procedimiento dispuesto en el Artículo 1°.1.1.5 de este decreto.
+3.
+Deberán informar al ente de control y vigilancia correspondiente o dejarán la evidencia pertinente para ser exhibida ante las autoridades facultadas para solicitar información, si no se encuentran vigiladas o controladas directamente por ningún organismo.
+(Decreto 2784 de 2012, Artículo 3°; modificado en el numeral
+8
+y Parágrafo3. por los artículos
+2
+y
+6, respectivamente, del Decreto 3024 de 2013).
+Artículo 1°.1.1.4.
+Procedimiento para determinar el Grupo de pertenencia.
+En relación con las entidades que se constituyan a partir del 27 de diciembre de 2013 o de aquellas entidades que se hayan constituido antes de dicha fecha y no cuenten con información mínima del período anterior al período de preparación obligatoria, para efectos de establecer el grupo al cual pertenecerán se procederá de la siguiente manera:
+1.
+Si la entidad se constituyó antes de la fecha señalada, efectuará el cálculo con base en el tiempo sobre el cual cuenten con información disponible.
+2.
+Si la entidad se constituye después de dicha fecha, los requisitos de trabajadores, activos totales y relaciones de inversión contenidas en el numeral 3 del Artículo 1°.1.1.1. de este decreto se determinarán con base en la información existente al momento de la inscripción en el registro que le corresponda de acuerdo con su naturaleza.
+(Decreto 2784 de 2012, Artículo 3°.1; adicionado por el Decreto 3024 de 2013, Artículo 3°
+)
+Artículo 1°.1.1.5.
+Permanencia.
+Los preparadores de información financiera que hagan parte del Grupo 1 en función del cumplimiento de las condiciones establecidas por el Artículo 1°.1.1.1. del presente decreto, deberán permanecer en dicho grupo durante un término no inferior a tres (3) años, contados a partir de su estado de situación financiera de apertura, o de su estado de situación financiera inicial en Colombia (el cual corresponderá al reportado a usuarios externos al inicio del período inmediatamente anterior a la primera fecha de reporte con base en los marcos técnicos normativos vigentes para el Grupo 1, realizando los ajustes practicables para cambios de políticas contables o corrección de errores conforme lo disponen dichos marcos, independientemente de si en ese término dejan de cumplir las condiciones para pertenecer a dicho grupo. Lo anterior implica que presentarán por lo menos dos períodos de estados financieros comparativos de acuerdo con el marco normativo los marcos técnicos normativos vigentes para el Grupo 1. Cumplido este término evaluarán si deben pertenecer a otro grupo o continuar en el grupo seleccionado.
+Las entidades que decidan permanecer en el Grupo 1 deberán informar de ello al organismo que ejerza control y vigilancia, o dejando la evidencia pertinente para ser exhibida ante las autoridades facultadas para solicitar información, si no se encuentran vigiladas o controladas directamente por ningún organismo.
+(Decreto 2784 de 2012, Artículo 3°.2; adicionado por el Decreto 3024 de 2013, Artículo 4°
+)
+Artículo 1°.1.1.6.
+Aplicación para entidades provenientes de los Grupos 2 y 3.
+Las entidades que pertenezcan a los Grupos 2 y 3 y luego cumplan los requisitos para pertenecer al Grupo 1, deberán ceñirse a los procedimientos establecidos en este título para la aplicación por primera vez de este marco técnico normativo. En estas circunstancias, deberán preparar su estado de situación financiera de apertura al inicio del período siguiente al cual se decida o sea obligatorio el cambio, con base en la evaluación de las condiciones para pertenecer al Grupo 1, efectuada con referencia a la información correspondiente al período anterior a aquel en el que se tome la decisión o se genere la obligatoriedad de cambio de grupo. Posteriormente, deberá permanecer mínimo durante tres (3) años en el Grupo 1, debiendo presentar por lo menos dos períodos de estados financieros comparativos.
+(Decreto 2784 de 2012, Artículo 3°.3; adicionado por el Decreto 3024 de 2013, Artículo 5°
+)
+TÍTULO 2
+RÉGIMEN REGLAMENTARIO NORMATIVO PARA LOS PREPARADORES DE INFORMACIÓN FINANCIERA QUE CONFORMAN EL GRUPO 2
+Artículo 1°.1.2.1.
+Ámbito de Aplicación.
+El presente título será aplicable a los preparadores de información financiera que conforman el Grupo 2 detallados a continuación:
+1. Entidades que no apliquen las Normas de Información Financiera para entidades del Grupo 1, ni que apliquen las Normas de Información Financiera para entidades del Grupo 3.
+2. Entidades que cumpliendo requisitos para pertenecer al Grupo 3, hayan decidido aplicar de manera voluntaria las Normas de Información Financiera para entidades del Grupo 2.
+3. Los portafolios de terceros administrados por las sociedades comisionistas de bolsa de valores, los negocios fiduciarios y cualquier otro vehículo de propósito especial, administrados por entidades vigiladas por la Superintendencia Financiera de Colombia, que no establezcan contractualmente aplicar los marcos técnicos normativos vigentes para el Grupo 1, ni sean de interés público, y cuyo objeto principal del contrato sea la obtención de resultados en la ejecución del negocio, lo cual implica autogestión de la entidad y, por lo tanto, un interés residual en los activos netos del negocio por parte del fideicomitente y/o cliente.
+(Modificado por el Artículo 1°
+del Decreto 1670 de 2021)
+(Decreto 3022 de 2013, Artículo 1°; modificado por el Decreto 2267 de 2014, Artículo 3°)
+Artículo 1°.1.2.2.
+Marco técnico normativo para los preparadores de información financiera que conforman el Grupo 2.
+Se establece un régimen normativo para los preparadores de información financiera que conforman el Grupo 2, quienes deberán aplicar el marco regulatorio dispuesto en el Anexo 2 del presente decreto, para sus estados financieros individuales, separados, consolidados y combinados.
+Parágrafo1.
+Se consideran estados financieros individuales, aquellos que cumplen con los requerimientos de las Secciones 3 a 7 de la NIIF para las Pymes, normas establecidas en el Anexo 2 del presente decreto, y presentados por una entidad que no tiene inversiones en las cuales tenga la condición de asociada, negocio conjunto o controladora.
+Parágrafo2.
+Los preparadores de información financiera clasificados en el Artículo 2°.1.2.1. del presente decreto, que se encuentren bajo la supervisión de la Superintendencia Financiera de Colombia, aplicarán el marco técnico establecido en el Anexo 2 del presente decreto, salvo en lo que concierne con la clasificación y valoración de las inversiones.
+La Superintendencia Financiera de Colombia definirá las normas técnicas especiales, interpretaciones y guías en materia de contabilidad y de información financiera, en relación con las salvedades señaladas en el inciso anterior, así como el procedimiento a seguir e instrucciones que se requieran para efectos del régimen prudencial.
+(Decreto 3022 de 2013, Artículo 2°; modificado por el Decreto 2267 de 2014, Artículo 3°)
+Artículo 1°.1.2.3.
+Cronograma de aplicación del marco técnico normativo para los preparadores de información financiera del Grupo 2.
+Los primeros estados financieros a los que los preparadores de la información financiera que califiquen dentro del Grupo 2, aplicarán el marco técnico normativo contenido en el Anexo 2 del presente decreto, son aquellos que se preparen con corte al 31 de diciembre del 2016. Esto, sin perjuicio de que con posterioridad nuevos preparadores de información financiera califiquen dentro de este Grupo. Para efectos de la aplicación del marco técnico normativo de información financiera, los preparadores del Grupo 2 deberán observar las siguientes condiciones:
+1. Período de preparación obligatoria.
+Se refiere al tiempo durante el cual las entidades deberán realizar actividades relacionadas con el proyecto de convergencia y en el que los supervisores podrán solicitar información a los supervisados sobre el desarrollo del proceso. Tratándose de preparación obligatoria, la información solicitada debe ser suministrada para todos los efectos legales que esto implica, de acuerdo con las facultades de los órganos de inspección, control y vigilancia. El período de preparación obligatoria comprende desde el 1 de enero de 2014 hasta el 31 de diciembre de 2014. Las entidades deberán presentar a los supervisores un plan de implementación de las nuevas normas, de acuerdo con el modelo que para estos efectos acuerden los supervisores. Este plan debe incluir entre sus componentes esenciales la capacitación, la identificación de un responsable del proceso, el cual debe ser aprobado por la Junta Directiva u órgano equivalente y, en general, cumplir con las condiciones necesarias para alcanzar el objetivo fijado y debe establecer las herramientas de control y monitoreo para su adecuado cumplimiento.
+2. Fecha de transición.
+Es el inicio del ejercicio anterior a la aplicación por primera vez del nuevo marco técnico normativo de información financiera, momento a partir del cual deberá iniciarse la construcción del primer año de información financiera de acuerdo con el nuevo marco técnico normativo que servirá como base para la presentación de estados financieros comparativos. En el caso de la aplicación del nuevo marco técnico normativo en el corte al 31 de diciembre de 2016, esta fecha será el 1 de enero de 2015.
+3. Estado de situación financiera de apertura.
+Es el estado en el que por primera vez se medirán de acuerdo con el nuevo marco normativo los activos, pasivos y patrimonio de las entidades que apliquen este título. Su fecha de corte es la fecha de transición. El estado de situación financiera de apertura no será puesto en conocimiento del público ni tendrá efectos legales en dicho momento.
+4. Período de transición.
+Es el año anterior a la aplicación del nuevo marco técnico normativo durante el cual deberá llevarse la contabilidad para todos los efectos legales de acuerdo a la normatividad vigente al 27 de diciembre de 2013 y, simultáneamente, obtener información de acuerdo con el nuevo marco normativo de información financiera, con el fin de permitir la construcción de información financiera que pueda ser utilizada para fines comparativos en los estados financieros en los que se aplique por primera vez el nuevo marco técnico normativo. En el caso de la aplicación del nuevo marco técnico normativo con corte al 31 de diciembre de 2016, este período iniciará el 1 de enero de 2015 y terminará el 31 de diciembre de 2015. Esta información financiera no será puesta en conocimiento público ni tendrá efectos legales en dicho momento.
+5. Últimos estados financieros conforme a los Decretos números
+2649
+y 2650 de 1993 y demás normatividad vigente:
+Se refiere a los estados financieros preparados con corte al 31 de diciembre del año inmediatamente anterior a la fecha de aplicación. Para todos los efectos legales, esta preparación se hará de acuerdo con los Decretos números
+2649
+y 2650 de 1993 y las normas que las modifiquen o adicionen y la demás normatividad contable vigente sobre la materia para ese entonces. En el caso de la aplicación del nuevo marco técnico normativo con corte al 31 de diciembre de 2016, esta fecha será el 31 de diciembre de 2015.
+6. Fecha de aplicación.
+Es aquella a partir de la cual cesará la utilización de la normatividad contable vigente al 27 de diciembre de 2013 y comenzará la aplicación del nuevo marco técnico normativo para todos los efectos, incluyendo la contabilidad oficial, libros de comercio y presentación de estados financieros. En el caso de la aplicación del nuevo marco técnico normativo con corte al 31 de diciembre del 2016, esta fecha será el 1 de enero de 2016.
+7. Primer período de aplicación.
+Es aquel durante el cual, por primera vez, la contabilidad se llevará, para todos los efectos, de acuerdo con el nuevo marco técnico normativo. En el caso de la aplicación del nuevo marco técnico normativo, este período está comprendido entre el 1 de enero de 2016 y el 31 de diciembre de 2016.
+8. Fecha de reporte.
+Es aquella en la que se presentarán los primeros estados financieros de acuerdo con el nuevo marco técnico normativo. En el caso de la aplicación del nuevo marco técnico normativo será el 31 de diciembre de 2016. Los primeros estados financieros elaborados de conformidad con el nuevo marco técnico normativo, contenido en el Anexo 2 del presente decreto, deberán presentarse con corte al 31 de diciembre de 2016.
+Parágrafo1.
+Los órganos que ejercen inspección, vigilancia y control deberán tomar las medidas necesarias para adecuar sus recursos en orden a observar lo dispuesto en este título.
+Parágrafo2.
+El Consejo Técnico de la Contaduría Pública, resolverá las inquietudes que se formulen en desarrollo de la adecuada aplicación del marco técnico normativo de información financiera para los preparadores de información financiera del Grupo 2.
+Parágrafo3.
+Las entidades que se clasifiquen en el Grupo 3, conforme a lo dispuesto el Título 3 del Parte 1 del Libro 1 del presente decreto podrán voluntariamente aplicar el marco regulatorio dispuesto en el Anexo 2 del presente decreto. En este caso:
+1.
+Deberán cumplir con todas las obligaciones que de dicha decisión se derivarán. En consecuencia, para efectos del cronograma señalado en el presente artículo, se utilizarán los mismos conceptos indicados en el mismo, adaptándolos a las fechas que corresponda.
+2.
+Se ceñirán al procedimiento dispuesto en el Artículo 1°.1.2.4 de este decreto.
+3.
+Deberán informar al ente de control y vigilancia correspondiente o dejarán la evidencia pertinente para ser exhibida ante las autoridades facultadas para solicitar información, si no se encuentran vigiladas o controladas directamente por ningún organismo.
+Parágrafo4.
+Las entidades señaladas en el Artículo 1°.1.2.1. del presente decreto, podrán voluntariamente aplicar el marco técnico normativo correspondiente al Grupo 1 y para el efecto podrán sujetarse al cronograma establecido para el Grupo 2.
+(Decreto 3022 de 2013, Artículo 3°)
+Artículo 1°.1.2.4.
+Permanencia y cambio de grupo.
+Cuando un preparador que esté obligado a presentar información financiera con propósito general cumpla los requisitos para pertenecer al Grupo 2 o cuando voluntariamente un preparador de información financiera del Grupo 3 opte por aplicar las normas de información financiera del Grupo 2, deberá aplicar los requisitos establecidos en la sección 35 de la NIIF para las PYMES, incorporada en el anexo técnico compilatorio No. 2 de las Normas de Información Financiera para Entidades del Grupo 2 del Decreto 2483 de 2018, compiladas en el Decreto 2420 de 2015, Decreto Único Reglamentario de las Normas de Contabilidad, de Información Financiera y de Aseguramiento de la Información y por las normas que las modifiquen, adicionen o sustituyan, incorporadas en el presente Decreto.
+Los preparadores de información financiera con propósito general que voluntariamente hagan parte u opten por pertenecer al Grupo 2, deberán permanecer en dicho grupo durante un término no inferior a tres (3) años, contados a partir de su estado de situación financiera de apertura, o de su estado de situación financiera inicial en Colombia. Lo anterior implica que presentarán por lo menos dos periodos de estados financieros comparativos de acuerdo con el marco normativo vigente para el Grupo 2. Cumplido este término, si cumplen con las condiciones o requisitos establecidos, podrán optar por cambiarse de grupo o continuar en el grupo seleccionado previamente.
+Vencido el término, las entidades que cumplan los requisitos para pertenecer al Grupo 3 y decidan permanecer en el Grupo 2 deberán informar de ello al organismo que ejerza control y vigilancia, o dejar la evidencia pertinente para ser exhibida ante las autoridades facultadas para solicitar información, si no se encuentran vigiladas o controladas directamente por algún organismo de supervisión.
+(Modificado por el Artículo 1°
+del Decreto 1670 de 2021)
+(Decreto 3022 de 2013, Artículo 4°)
+Artículo 1°.1.2.5.
+Aplicación obligatoria para entidades provenientes del Grupo 3.
+Las entidades que pertenezcan al Grupo 3 y luego cumplan los requisitos para pertenecer al Grupo 2, deberán ceñirse a los procedimientos establecidos en este título para la aplicación por primera vez de este marco técnico normativo. En estas circunstancias, deberán preparar su estado de situación financiera de apertura al inicio del período siguiente al cual se decida o sea obligatorio el cambio, con base en la evaluación de las condiciones para pertenecer al Grupo 2, efectuadas con referencia a la información correspondiente al período anterior a aquel en el que se tome la decisión o se genere la obligatoriedad de cambio de grupo. Posteriormente, deberán permanecer mínimo durante tres (3) años en el Grupo 2, debiendo presentar por lo menos dos períodos de estados financieros comparativos.
+(Derogado por el Artículo 2°
+del Decreto 1670 de 2021)
+(Decreto 3022 de 2013, Artículo 5°)
+Artículo 1°.1.2.6.
+Requisitos para las nuevas entidades y para aquellas que no cuenten con la información mínima requerida.
+En relación con las entidades que se constituyan a partir del 27 de diciembre de 2013 o de aquellas entidades que se hayan constituido antes y no cuenten con información mínima del año anterior al período de preparación obligatoria, para efectos de establecer el grupo al cual pertenecerán se procederá de la siguiente manera:
+1.
+Si la entidad se constituye antes de la fecha mencionada, efectuará el cálculo con base en el tiempo sobre el cual cuente con información disponible.
+2.
+Si la entidad se constituye después de dicha fecha, los requisitos de trabajadores y activos totales se determinarán con base en la información existente al momento de la inscripción en el registro que le corresponda de acuerdo con su naturaleza.
+(Numeral 2, Derogado por el Artículo 2°
+del Decreto 1670 de 2021)
+(Decreto 3022 de 2013, Artículo 6°)
+TÍTULO 3
+RÉGIMEN REGLAMENTARIO NORMATIVO PARA LOS PREPARADORES DE INFORMACIÓN FINANCIERA QUE CONFORMAN EL GRUPO 3
+Artículo 1°.1.3.1.
+Marco Técnico Normativo de Información Financiera denominado Normas de Información Financiera para entidades pertenecientes al Grupo 3
+Los preparadores de información financiera con propósito general que conforman el Grupo 3 deberán aplicar la Norma de Información Financiera del Anexo 3 de este Decreto. Sin embargo, podrán optar por aplicar la Norma de Información Financiera del Anexo 2 en los términos de los artículos 1.1.2.1. y 1.1.2.4. del presente Decreto.
+El Grupo 3 corresponde a las personas naturales y jurídicas obligadas a llevar contabilidad, a quienes sin estar obligados a llevarla pretendan hacerla valer como prueba, y a las microempresas que se clasifiquen como tal, de conformidad con lo establecido en el Capítulo
+13, del Título 1, de la Parte 2, del Libro 2 del Decreto 1074 de 2015, Decreto Único Reglamentario del Sector Comercio, Industria y Turismo; siempre y cuando cumplan con la totalidad de los siguientes requisitos:
+1. No mantener inversiones en instrumentos de patrimonio en subsidiarias, negocios conjuntos o asociadas;
+2. No estar obligados a presentar estados financieros combinados, consolidados o separados;
+3. No realizar transacciones relacionadas con pagos basados en acciones;
+4. No mantener planes de beneficios posempleo por beneficios definidos;
+5. No ser una cooperativa de ahorro y crédito, y
+6. No obtener ingresos de Ã¢¿actividades ordinarias que superen los topes para microempresas de acuerdo al sector al que pertenezcan, conforme lo establecido en el Decreto
+1074
+del 2015, Decreto Único Reglamentario del Sector Comercio, Industria y Turismo.
+Parágrafo. Las nuevas entidades que se constituyan podrán permanecer en el grupo 3 y aplicar la norma de información financiera del anexo 3 de este Decreto, hasta por un período de 3 años, aún en el evento de no cumplir los requisitos estipulados en el presente artículo."
+(Modificado por el Artículo 1°
+del Decreto 1670 de 2021)
+(Decreto 2706 de 2012, Artículo 1°) (El marco regulatorio establecido en el anexo del Decreto 2706 de 2012 fue modificado parcialmente por el Decreto 3019 de 2013, y se compila en el Anexo 3 del presente decreto).
+Artículo 1°.1.3.2.
+Ámbito de aplicación.
+El presente título será aplicable a las microempresas descritas en el Capítulo 1 del marco técnico normativo de información financiera contenido en el Anexo 3 del presente decreto.
+(Decreto 2706 de 2012, Artículo 2°).
+Artículo 1°.1.3.3.
+Cronograma de aplicación del marco técnico normativo de información financiera para las microempresas.
+Para efectos de la aplicación del marco técnico normativo de información financiera para las microempresas deberán observarse los siguientes períodos:
+1. Período de preparación obligatoria:
+Este período está comprendido entre el 1 de enero de 2013 y el 31 de diciembre de 2013. Se refiere al tiempo durante el cual las microempresas deberán realizar actividades relacionadas con el proyecto de convergencia y en el que los supervisores podrán solicitar información a los vigilados sobre el desarrollo del proceso. Tratándose de preparación obligatoria, la información solicitada debe ser suministrada con todos los efectos legales que esto implica, de acuerdo con las facultades de los órganos de inspección, control y vigilancia. Para el efecto, estas entidades deberán coordinar la solicitud de información, de tal manera que esta obligación resulte razonable y acorde a las circunstancias de los destinatarios de este decreto. Las microempresas que no son objeto de inspección, vigilancia y control, igualmente deberán observar este marco técnico normativo para todos los efectos y podrán consultar las inquietudes para su aplicación al Consejo Técnico de la Contaduría Pública.
+2. Fecha de transición: 1 de enero de 2014. Es el momento a partir del cual deberá iniciarse la construcción del primer año de información financiera de acuerdo con los nuevos estándares, que servirán como base para la presentación de estados financieros comparativos.
+3. Estado de situación financiera de apertura:
+1 de enero de 2014. Es el estado en el que por primera vez se medirán de acuerdo con los nuevos estándares los activos, pasivos y patrimonio de las entidades afectadas. Su fecha de corte es la fecha de transición.
+4. Período de transición.
+Este período estará comprendido entre el 1 de enero de 2014 y 31 de diciembre de 2014. Es el año durante el cual deberá llevarse la contabilidad para todos los efectos legales de acuerdo con los Decretos números 2649 y 2650 de 1993 y las normas que los modifiquen o adicionen y la demás normatividad contable vigente sobre la materia para ese entonces, pero a su vez, un paralelo contable de acuerdo con los nuevos estándares con el fin de permitir la construcción de información que pueda ser utilizada el siguiente año para fines comparativos. Los estados financieros que se preparen de acuerdo con la nueva normatividad con corte a la fecha referida en el presente acápite, no serán puestos en conocimiento del público ni tendrán efectos legales en este momento.
+5. Últimos estados financieros conforme a los Decretos números 2649 y 2650 de 1993 y normatividad vigente:
+Se refiere a los estados financieros preparados al 31 de diciembre de 2014 inmediatamente anterior a la fecha de aplicación. Para todos los efectos legales, esta preparación se hará de acuerdo con lo previsto en los Decretos números 2649 y 2650 de 1993 y las normas que los modifiquen o adicionen y la demás normatividad contable vigente sobre la materia para ese entonces.
+6. Fecha de aplicación:
+1 de enero de 2015. Es aquella fecha a partir de la cual cesará la utilización de la normatividad contable actual y comenzará la aplicación de los nuevos estándares para todos los efectos, incluyendo la contabilidad oficial, libros de comercio y presentación de estados financieros.
+7. Primer período de aplicación:
+Período comprendido entre el 1 de enero de 2015 al 31 de diciembre de 2015. Es aquel durante el cual, por primera vez, la contabilidad se llevará para todos los efectos de acuerdo con los nuevos estándares.
+8. Fecha de reporte:
+31 de diciembre de 2015. Es aquella fecha a la que se presentarán los primeros estados financieros comparativos de acuerdo con los nuevos estándares.
+Parágrafo1.
+Los órganos que ejercen inspección, vigilancia y control deberán tomar las medidas necesarias para adecuar sus recursos en orden a observar lo dispuesto y para los fines contemplados en este título.
+Parágrafo2.
+Las entidades de inspección, vigilancia y control deberán expedir coordinadamente dentro de los tres primeros meses del período obligatorio de preparación, las normas técnicas, interpretaciones y guías en materia de contabilidad e información financiera, dentro del marco legal dispuesto en la Ley 1314 de 2009 y en este título, que permitan una adecuada preparación obligatoria a las microempresas a este régimen.
+Parágrafo3.
+El Consejo Técnico de la Contaduría Pública, resolverá las inquietudes que se formulen en desarrollo de la adecuada aplicación del marco técnico normativo de información financiera para las microempresas.
+(Decreto 2706 de 2012, Artículo 3°)
+TÍTULO 4
+REGÍMENES ESPECIALES
+CAPÍTULO 1
+NORMAS DE INFORMACIÓN FINANCIERA APLICABLES A LOS PREPARADORES DE INFORMACIÓN FINANCIERA QUE SE CLASIFICAN DENTRO DEL NUMERAL 1 DEL Parágrafo1. DEL Artículo 1°.1.1.1. DEL PRESENTE DECRETO
+Artículo 1°.1.4.1.1.
+Ámbito de aplicación.
+Este capítulo será aplicable a los preparadores de información financiera que se clasifican dentro del numeral 1 del Parágrafo1. del Artículo 1°.1.1.1. del presente decreto, esto es: establecimientos bancarios, corporaciones financieras, compañías de financiamiento, cooperativas financieras, organismos cooperativos de grado superior y entidades aseguradoras.
+(Decreto 1851 de 2013, Artículo 1°)
+Artículo 1°.1.4.1.2.
+Marco técnico normativo para los preparadores de información financiera que se clasifican dentro del numeral 1 del Parágrafo1. del Artículo 1°.1.1.1. del presente decreto.
+Se establece un régimen normativo para los preparadores de información financiera detallados en el Artículo 1°.1.4.1.1. de este decreto, en los siguientes términos:
+Para la preparación de los estados financieros consolidados aplicarán los marcos técnicos normativos vigentes para el Grupo 1.
+Para la preparación de los estados financieros individuales y separados aplicarán los marcos técnicos normativos vigentes para el Grupo 1, salvo lo dispuesto respecto de:
+1. El tratamiento de la cartera de crédito y su deterioro, y la clasificación y valoración de las inversiones en la NIC39 y la NIIF9 contenidas en el anexo técnico del Grupo 1.
+2.
+El tratamiento de las reservas técnicas especiales de riesgos en curso y riesgos catastróficos del ramo de terremoto que hace referencia el capítulo 1, del título 5, del libro 31, de la parte 2 del Decreto 2555 de 2010; la reserva de desviación de siniestralidad para riesgos laborales y la reserva de recobro de enfermedad laboral que trata el Libro 31 del Decreto 2555 de 2010; los amparos de riesgos políticos o extraordinarios del seguro de crédito a la exportación garantizado por la Nación del Decreto 1068 de 2015; y los Beneficios Económicos Periódicos (BEPS) que trata el Decreto 1833 de 2016; en la NIIF 17, contratos de seguros, contenida en el anexo técnico normativo 01 de 2024 del Grupo 1.
+La Superintendencia Financiera de Colombia definirá las normas técnicas especiales, interpretaciones y guías en materia de contabilidad y de información financiera, en relación con las salvedades señaladas en el presente artículo, así como el procedimiento a seguir e instrucciones que se requieran para efectos del régimen prudencial."
+(Numeral 2 modificado por el Artículo 3°
+del Decreto 1271 de 2024)
+Parágrafo1.
+Se consideran Estados Financieros Individuales aquellos Estados Financieros que cumplen con los requerimientos de la NIC1 o la NIC34 contenidas en el anexo técnico del Grupo 1, y que sean de obligatoria aplicación en Colombia, que son presentados por una entidad que no tiene inversiones en la cual tenga la condición de asociada, negocio conjunto o controlador.
+Parágrafo2.
+Para los efectos de la aplicación de la Norma Internacional de Información Financiera NIIF 17, contratos de seguro, los ajustes graduales de las reservas constituidas antes del 1 de octubre 2010 para el cálculo de los productos de pensiones del Sistema General de Pensiones (incluidas las conmutaciones pensionales celebradas), del Sistema General de Riesgos Laborales y de los demás productos de seguros que utilicen las tablas de mortalidad rentistas en su cálculo, establecidas por la Superintendencia Financiera de Colombia, se continuarán aplicando los periodos de transición establecidos en el Decreto 2973 de 2013, o las normas que lo modifiquen o sustituyan. Lo anterior sin perjuicio que las entidades puedan cumplir anticipadamente con los plazos previstos en los regímenes de transición a los que se alude con anterioridad. En todo caso, las compañías de seguros deberán incluir en sus estados financieros una nota sobre el particular."
+(Parágrafo2. modificado por el Artículo 3°
+del Decreto 1271 de 2024)
+(Decreto 1851 de 2013, Artículo 2°; modificado por el Decreto 2267 de 2014, Artículo 1°)
+Artículo 1°.1.4.1.3.
+Cronograma de aplicación.
+Para la aplicación del marco técnico normativo establecido en el artículo anterior, los preparadores de información financiera detallados en el Artículo 1°.1.4.1.1. del presente decreto, deberán atender el cronograma determinado en el Artículo 1°.1.1.3. del presente decreto.
+(Decreto 1851 de 2013, Artículo 3°)
+Artículo 1°.1.4.1.4.
+Simplificaciones para la implementación de la Norma Internacional de Información Financiera NIIF 17, contratos de seguro, que deben aplicar los preparadores de información financiera del Grupo 1 y que sean vigilados por la Superintendencia Financiera de Colombia.
+Para la implementación de la Norma Internacional de Información Financiera-NIIF 17, contratos de seguro, los preparadores de información financiera que sean vigilados por la Superintendencia Financiera de Colombia, deberán aplicar las directrices allí contenidas teniendo en cuenta las siguientes simplificaciones, para los estados financieros individuales y separados.
+Nivel de agregación.
+1.1. Carteras.
+En lo relacionado con el párrafo 14, las carteras que comprenden contratos sujetos a riesgos similares y son gestionados conjuntamente corresponderán, como mínimo, a los niveles de agregación de ramos técnicos definidos por la Superintendencia Financiera de Colombia. Cuando se observe que, dentro de un mismo ramo técnico, los contratos sujetos a riesgos o vigencia de su cobertura diferentes estos contratos deberán desagregarse en carteras adicionales, de acuerdo con las políticas establecidas por cada entidad aseguradora, las cuales deberán estar a disposición de la Superintendencia Financiera de Colombia.
+1.2. Onerosidad.
+En lo relacionado con el párrafo 16, una entidad solo dividirá una cartera de contratos de seguro en los grupos descritos en los literales a) y c) de dicho párrafo.
+1.3. Cohortes.
+En lo relacionado con el párrafo 22, una entidad incluirá en el mismo grupo de contratos los emitidos desde el 1 enero hasta de 31 diciembre de cada año.
+Medición
+2.1. Estimación de flujos de efectivos futuros.
+a. En lo relacionado con el párrafo B59 del apéndice B sobre la posibilidad de que los flujos de efectivos futuros sean sensibles a la inflación, se deberá utilizar un vector inflación conforme a lo dispuesto en del Libro 31, de la Parte 2, del Decreto 2555 de 2010.
+b. En lo relacionado con párrafo 33 y los párrafos B36 a B71 del apéndice B sobre la posibilidad que los flujos de efectivos futuros sean sensibles a variaciones del salario mínimo, se deberá utilizar un vector de salario mínimo conforme a lo dispuesto en el Título 4 del Libro 31 de la Parte 2 del Decreto 2555 de 2010.
+2.2. Tasa de descuento.
+a. En lo relacionado con la tasa de descuento descrita en el párrafo 36 y los párrafos B72 a B85 del apéndice B, los preparadores de información utilizarán únicamente el enfoque de abajo hacia arriba descrito en el párrafo B80.
+b. Para el cálculo de la tasa de descuento, la curva libre de riesgo será calculada conforme a lo dispuesto en Título 4, del Libro 31, de la Parte 2, del Decreto 2555 de 2010.
+c. La prima de iliquidez corresponde a un ajuste a la curva de rendimiento libre de riesgo de liquidez con el objetivo de incorporar las diferencias entre las características de liquidez de los instrumentos financieros que subyacen en las tasas observadas en el mercado y las características de liquidez de los contratos de seguro de las entidades aseguradoras. La prima de iliquidez será calculada conforme a lo dispuesto en el Título 4, del Libro 31, de la Parte 2, del Decreto 2555 de 2010.
+2.3. Ajuste por riesgo no financiero.
+En lo relacionado con el cálculo del ajuste del riesgo para el riesgo no financiero, descrito en el párrafo 37 y en los párrafos B86 a B92 del apéndice B, los preparadores de información financiera deberán utilizar una metodología de coste de capital conforme a lo dispuesto en el Título 4, del Libro 31, de la 2, del Decreto 2555 de 2010.
+Enfoque general.
+En lo relacionado con los grupos de contratos de seguro que hace referencia el párrafo 29, los preparadores de información aplicarán el enfoque general descrito en los párrafos 30 a 52 y tendrán en cuenta los siguientes aspectos:
+3.1. Onerosidad.
+En el análisis de onerosidad de los ramos técnicos y productos de seguros que apliquen el enfoque general de medición, los preparadores de información financiera deberán realizarlo por cada póliza, amparo y riesgo asegurado. Se podrá realizar el análisis de onerosidad a partir de un conjunto de contratos de seguro si se cuenta con información razonable y sustentable para concluir que hacen parte de una misma cartera de contratos. Esta información deberá estar a disposición de la Superintendencia Financiera de Colombia.
+3.2. Margen de servicio contractual.
+Los preparadores de información financiera devengarán el margen de servicio contractual, que trata el párrafo 38, con base en las unidades de cobertura. La metodología utilizada para la amortización del margen de servicio contractual deberá estar a disposición de la Superintendencia Financiera de Colombia.
+Los preparadores de información financiera podrán utilizar el enfoque de asignación de prima descrito en el numeral 4 del presente artículo, para contratos de seguro con una duración mayor a un (1) año, siempre que se cumpla la condición descrita en el literal a) del párrafo 53. En todo caso el análisis sobre el cálculo del pasivo por cobertura restante resultado bajo la aplicación de ambos enfoques deberá estar a disposición de la Superintendencia Financiera de Colombia.
+La Superintendencia Financiera de Colombia podrá determinar la obligación de que los preparadores de información financiera apliquen el enfoque de valoración general que trata el presente numeral, cuando identifique que la aplicación del enfoque de asignación de prima, por parte del preparador de información financiera, no tiene el suficiente sustento tanto teórico como práctico.
+La Superintendencia Financiera de Colombia, mediante instrucciones de carácter especial, podrá adicionar o modificar los ramos y productos de seguros que deben aplicar el enfoque de valoración general que trata este numeral, cuando se observen cambios en las condiciones de operación o cuando se creen nuevos productos o ramos.
+Enfoque de asignación de prima.
+En lo relacionado con los grupos de contratos de seguro a que hace referencia el literal a) del párrafo 29, los preparadores de información aplicarán el enfoque de asignación de prima descrito en los párrafos 55 a 59.
+En cuanto a las primas recibidas a que hace referencia el numeral (i) del literal (a) del párrafo 55, los preparadores información aplicarán el criterio de prima emitida.
+La Superintendencia Financiera de Colombia, mediante instrucciones de carácter espacial, podrá adicionar o modificar los ramos y productos de seguros que deben aplicar el enfoque de asignación de prima que trata este numeral, cuando se observen cambios en las condiciones operación o cuando se creen nuevos productos o ramos.
+Enfoque de comisión variable.
+En lo relacionado con los grupos de contratos de seguro que hace referencia el párrafo 101 del apéndice B, los preparadores deberán mantener a disposición de la Superintendencia Financiera de Colombia la metodología para su medición.
+La Superintendencia Financiera de Colombia, mediante instrucciones de carácter especial, podrá adicionar o modificar los ramos y productos de seguros que deben aplicar el enfoque de comisión variable que trata este numeral cuando se observen cambios en las condiciones de operación o cuando se creen nuevos productos o ramos.
+Prueba de onerosidad.
+En lo relacionado con la onerosidad de los contratos de seguro a la que hace referencia el párrafo 47, los preparadores de información financiera deberán realizar una prueba de onerosidad en el momento de medición inicial y en las mediciones posteriores, basado en una prueba de suficiencia de prima. Para ello deberán tener en cuenta los siguientes elementos técnicos:
+a. El cálculo deberá ser bruto de reaseguro.
+b. Se deberá contemplar el ajuste por riesgo no financiero que trata el subnumeral 2.3., del numeral 2, del presente artículo.
+c. Se deberá tener en cuenta el cálculo de la siniestralidad esperada de acuerdo con las hipótesis de tarifación, así como los ajustes por experiencia de las hipótesis a partir del comportamiento observado.
+Ajustes por experiencia y esperados.
+En lo relacionado con los ajustes por experiencia que tratan los párrafos B96, B97 y B113, se deberán reflejar como mínimo en los estados financieros intermedios y de cierre de ejercicio.
+(Adicionado por el Artículo 2°
+del Decreto 1271 de 2024)
+CAPÍTULO 2
+NORMAS DE INFORMACIÓN FINANCIERA APLICABLES A LOS PREPARADORES DE INFORMACIÓN FINANCIERA QUE SE CLASIFICAN DENTRO DEL NUMERAL 2 DEL Parágrafo1. DEL Artículo 1°.1.1.1. DEL PRESENTE DECRETO
+Artículo 1°.1.4.2.1.
+Clasificación y valoración de inversiones.
+Los preparadores de información que se clasifican dentro del numeral 2 del Parágrafo1. del Artículo 1°.1.1.1., del presente decreto, aplicarán los marcos técnicos normativos del Grupo 1, salvo lo dispuesto sobre la clasificación y valoración las inversiones de la NIC 39 y la NIIF 9 contenidas en dichos marcos.
+(Decreto 2267 de 2014, Artículo 2°)
+CAPÍTULO 3
+NORMAS DE INFORMACIÓN FINANCIERA APLICABLES A LOS PORTAFOLIOS DE TERCEROS ADMINISTRADOS POR LAS SOCIEDADES COMISIONISTAS DE BOLSA DE VALORES, LOS NEGOCIOS FIDUCIARIOS Y CUALQUIER OTRO VEHÍCULO DE PROPÓSITO ESPECIAL
+Artículo 1°.1.4.3.1.
+Informes para fines de supervisión.
+Los portafolios de terceros administrados por las sociedades comisionistas de bolsa de valores, los negocios fiduciarios y cualquier otro vehículo de propósito especial, administrados por entidades vigiladas por la Superintendencia Financiera de Colombia, que no establezcan contractualmente aplicar el marco técnico normativo establecido en el anexo del Decreto 2784 de 2012, o de las normas que lo modifiquen o adicionen, ni sean de interés público, prepararán información financiera para fines de supervisión, en los términos que para el efecto establezca la Superintendencia Financiera de Colombia, teniendo en cuenta los marcos técnicos normativos de información financiera expedidos por el Gobierno nacional en desarrollo de la Ley 1314 de 2009.
+(Decreto 2267 de 2014, Artículo 4°)
+PARTE 2
+NORMAS DE ASEGURAMIENTO DE LA INFORMACIÓN
+TÍTULO 1
+DISPOSICIONES GENERALES
+Artículo 1°.2.1.1.
+Marco Técnico normativo de las Normas de Aseguramiento de la Información (NAI).
+Expídase el Marco Técnico normativo de las Normas de Aseguramiento de la Información (NAI), que contiene: las Normas internacionales de Auditoría (NIA), las Normas Internacionales de Control de Calidad (NICC); las Normas Internacionales de Trabajos de Revisión (NITR); las Normas Internacionales de Trabajos para Atestiguar (ISAE por sus siglas en inglés); las Normas Internacionales de Servicios Relacionados (NISR) y el Código de Ética para Profesionales de la Contaduría, conforme se dispone en el anexo 4 del presente decreto.
+(Decreto 302 de 2015, Artículo 1°)
+Artículo 1°.2.1.2.
+Ámbito de aplicación.
+El presente título será de aplicación obliÂ­gatoria para todos los contadores públicos, en las siguientes condiciones:
+1. Los revisores fiscales que presten sus servicios, a entidades del Grupo 1, y a las entidades del Grupo 2 que tengan más de 30.000 salarios mínimos mensuales legales vigentes (SMMLV) de activos o, más de 200 trabajadores, en los términos establecidos para tales efectos en el titulo 1 de la Parte 1 del Libro 1 y en el título 2 de la Parte 1 del Libro 1, respectivamente, del Decreto 2420 de 2015 y normas posteriores que lo modiÂ­fiquen, adicionen o sustituyan, así como a los revisores fiscales que dictaminen estados financieros consolidados de estas entidades, aplicarán las NIA contenidas en el anexo 4, o el anexo que lo modifique o adicione, de dicho Decreto 2420 de 2015, en cumplimiento de las responsabilidades contenidas en los artículos 207, numeral 7, y 208 del Código de Comercio, en relación con el dictamen de los estados financieros, y aplicarán las ISAE contenidas en dicho anexo 4, o el anexo que lo modifique o adicione, en desarrollo de las responsabilidades contenidas en el Artículo 209° del Código de Comercio, relacionadas con la evaluación del cumplimiento de las disposiciones estatutarias y de la asamblea o junta de socios y con la evaluación del control interno.
+A los revisores fiscales de las entidades que no pertenezcan al Grupo 1 y que volunÂ­tariamente se acogieron a emplear el marco técnico normativo de dicho Grupo, les será aplicable lo dispuesto en el presente artículo.
+2. Los revisores fiscales que presten sus servicios a las entidades estatales obligadas a aplicar el marco normativo para empresas que cotizan en el mercado de valores, o que captan o administran ahorro del público aplicarán las NIA contenidas en el anexo 4, o el anexo que lo modifique o adicione, en relación con el dictamen de los estados financieros, sean estos individuales o consolidados, y aplicarán las ISAE, contenidas en dicho anexo, en relación con la evaluación del control interno y en cumplimiento de las disposiciones legales, estatutarias y de la asamblea o junta de socios.
+3. Los revisores fiscales que presten sus servicios a entidades no contempladas en los numerales precedentes de este artículo, cualquiera sea el sector al que pertenezcan, para el cumplimiento de sus funciones, observarán los criterios establecidos en el Artículo 7°° de la Ley 43 de 1990 y demás normas que lo desarrollen; no obstante, los revisores fiscales a los que hace referencia el presente numeral podrán aplicar voluntariamente las NAI descritas en el numeral 1 anterior.
+4. La NIA 701 será de obligatoria aplicación para los contadores públicos independientes y revisores fiscales que emitan dictámenes en las auditorías de conjuntos completos de estados financieros con propósito general de entidades emisoras de valores que publican su información financiera en el Registro Nacional de Valores y Emisores (RNVE), así como aquellas consideradas de interés público, de conformidad con el Parágrafo1., del Artículo 1°.1.1.1., del Decreto Único Reglamentario 2420 de 2015 y, voluntariamente en circunstancias en las que, el auditor o revisor fiscal en las demás entidades, decida comunicar cuestiones claves de la auditoría en el informe del auditor externo y revisor fiscal.
+(Numeral 4, Modificado por el Artículo 1°
+del Decreto 1899 de 2023)
+Parágrafo.
+Los revisores fiscales que presten sus servicios a entidades no contempladas en este artículo, continuarán aplicando los procedimientos de auditoría previstos en el marco regulatorio vigente y sus modificaciones, y podrán aplicar voluntariamente las NAI descritas en los artículos 1.2.1.3. y 1.2.1.4. del presente Decreto.
+(Decreto 302 de 2015, Artículo 2°)
+Artículo 1°.2.1.3.
+Aplicación de las NIA por el revisor fiscal.
+El revisor fiscal aplicará las NIA, anexas a este libro, en cumplimiento de las responsabilidades contenidas en los Artículo 207°, numeral 7, y 208 del Código de Comercio, en relación con el dictamen de los estados financieros.
+(Decreto 302 de 2015, Artículo 3°)
+Artículo 1°.2.1.4.
+Aplicación de las ISAE por el revisor fiscal.
+El revisor fiscal aplicará las ISAE, anexas a este título, en desarrollo de las responsabilidades contenidas en el Artículo 209° del Código de Comercio, relacionadas con la evaluación del cumplimiento de las disposiciones estatutarias y de la asamblea o junta de socios y con la evaluación del control interno.
+(Decreto 302 de 2015, Artículo 4°)
+Artículo 1°.2.1.5.
+Opinión o concepto del revisor fiscal.
+Para efectos de la aplicación del Artículo 1°.2.1.4., del presente Decreto no será necesario que el revisor fiscal prepare informes separados, pero sí que exprese una opinión o concepto sobre cada uno de los temas contenidos en ellos. El Consejo Técnico de la Contaduría Pública expedirá las orientaciones técnicas necesarias estos fines.
+(Decreto 302 de 2015, Artículo 5°)
+Artículo 1°.2.1.6.
+Código de ética.
+Los Contadores Públicos aplicarán en sus actuaciones profesionales el Código de Ética para Profesionales de la Contaduría, contenido en el Anexo 4 del presente decreto, en consonancia con el CAPÍTULO Cuarto, Título Primero de la Ley 43 de 1990.
+(Decreto 302 de 2015, Artículo 6°)
+Artículo 1°.2.1.7.
+Aplicación de normas NICC.
+Los Contadores Públicos que presten servicios de revisoría fiscal, auditoría de información financiera, revisión de información financiera histórica u otros trabajos de aseguramiento, aplicarán en sus actuaciones profesionales las NICC, contenidas en el Anexo 4 de este decreto.
+(Decreto 302 de 2015, Artículo 7°)
+Artículo 1°.2.1.8.
+Aplicación de normas NIA, las NITR, las ISAE o las NISR.
+Los Contadores Públicos que realicen trabajos de auditoría de información financiera, revisión de información financiera histórica, otros trabajos de aseguramiento u otros servicios profesionales, aplicarán las NIA, las NITR, las ISAE o las NISR, contenidas en el anexo 4 del presente Decreto, según corresponda.
+(Decreto 302 de 2015, Artículo 8°)
+Artículo 1°.2.1.9.
+Conceptos del Consejo Técnico de la Contaduría Pública.
+El Consejo Técnico de la Contaduría Pública resolverá las inquietudes que se formulen en desarrollo de la adecuada aplicación de este Libro y su marco técnico normativo.
+(Decreto 302 de 2015, Artículo 9°)
+LIBRO 2
+DISPOSICIONES FINALES
+PARTE 1
+DEROGATORIA Y VIGENCIA
+Artículo 2°.1.1.
+Derogatoria Integral.
+Este decreto regula íntegramente las materias contenidas en él. Por consiguiente, de conformidad con el Artículo 3° de la Ley 153 de 1887, quedan derogadas todas las disposiciones de naturaleza reglamentaria que versan sobre las mismas materias, con excepción, exclusiva, de los siguientes asuntos:
+1.
+No quedan cobijados por la derogatoria anterior los decretos: (
+i
+) 691 de 2010
+“por el cual se modifica la conformación del Consejo Técnico de la Contaduría Pública y se dictan otras disposiciones”;
+(
+ii
+) 1955 de 2010,
+“por el cual se modifica parcialmente la estructura de la Junta Central de Contadores y se dictan otras disipaciones”; (
+iii
+) 3048 de 2011,
+“por el cual se crea la Comisión Intersectorial de Normas de Contabilidad, Información Financiera y de Aseguramiento de la Información”; (
+iv
+) 3567 de 2011,
+“por el cual se dictan disposiciones en materia de organización y funcionamiento del Consejo Técnico de la Contaduría Pública”.
+2.
+Los actos administrativos expedidos con fundamento en las disposiciones compiladas en el presente decreto mantendrán su vigencia y ejecutoriedad, bajo el entendido de que sus fundamentos jurídicos permanecen en el presente decreto compilatorio.
+3.
+Los Decretos números 2649 y 2650 de 1993 no se compilan en razón a que: los Decretos números 2784 de 2012; 2706 de 2012, y 3022 de 2013, compilados en el presente decreto, dispusieron que Ã¢¿a partir de la fecha de aplicación establecida dentro de la vigencia de los mismosÃ¢¿ cesará la utilización del marco normativo vigente contenido en los Decretos números 2649 y 2650 de 1993 y sus normas modificatorias, y comenzará la aplicación de los nuevos estándares para todos los efectos, con excepción de los efectos tributarios, para los cuales, conforme al Decreto 2548 de 2014, reglamentario del Artículo 4° de la Ley 1314 de 2009 y del Artículo 165° de la Ley 1607, las remisiones contenidas en las normas tributarias a las contables se entenderán realizadas a los Decretos números 2649 y 2650 de 1993 por un período de cuatro (4) años contados a partir de las fechas señaladas en el Artículo 1° del Decreto 2548 de 2014.
+El Decreto 2649 de 1993, además de lo previsto para los efectos contemplados en el Decreto 2548 de 2014, continuará vigente en lo no regulado por los Decretos números 2784 de 2012, 2706 de 2012 y 3022 de 2013 y demás normas que los modifiquen, adicionen o sustituyan.
+Artículo 2°.1.2.
+Vigencia.
+El presente decreto rige a partir de su publicación en el Diario Oficial; observando las siguientes disposiciones transitorias.
+1.
+El marco técnico normativo anexo al Decreto 2784 de 2012, incluida la modificación efectuada a este por el Decreto 3023 de 2013, continuará vigente hasta el 31 de diciembre de 2015, por lo cual no será objeto de compilación en el presente decreto. A partir del 1 de enero de 2016 entrará en vigencia el Anexo 1 del presente decreto, el cual corresponde al marco técnico normativo de información financiera para los preparadores que conforman el Grupo 1, incorporado por medio del Decreto 2615 de 2014.
+2.
+El libro 2 del presente Decreto, será aplicable a partir del 1 de enero del año 2016, para aquellos trabajos profesionales que se inicien a partir de esta fecha, de acuerdo a lo dispuesto en el inciso 1 del Artículo 14° de la Ley 1314 de 2009, pero se permite de manera voluntaria su aplicación anticipada.
+PUBLÍQUESE Y CÚMPLASE.
+Dado en Bogotá, D. C., a los, 14 días del mes de diciembre de 2015.
+CECILIA ÁLVAREZ Ã¢¿ CORREA GLEN.
+LA MINISTRA DE COMERCIO, INDUSTRIA Y TURISMO,
+Nota: Publicado en el Diario Oficial No. 49726 de 14 de diciembre de 2015.
+ANEXOS
+Anexo
+1.
+Incorpórese como Anexo 1 del presente Decreto, el marco técnico normativo para los preparadores de la información financiera que conforman el Grupo 1, contenido en el Decreto 2615 de 2014.
+(Anexo 1, modificado por el Artículo 1°
+del Decreto 1432 de 2020)
+MODIFICACIÓN A LA NIIF 16 DEL ANEXO TÉCNICO COMPILATORIO Y ACTUALIZADO 1 - 2019, DE LAS NORMAS DE INFORMACIÓN FINANCIERA NIIF, GRUPO 1
+Norma Internacional de Información Financiera 16
+Arrendamientos
+Objetivo
+1 Esta Norma establece los principios para el reconocimiento, medición, presentación e información a revelar de los arrendamientos. El objetivo es asegurar que los arrendatarios y arrendadores proporcionen información relevante de forma que represente fielmente esas transacciones. Esta información proporciona una base a los usuarios de los estados financieros para evaluar el efecto que los arrendamientos tienen sobre la situación financiera, el rendimiento financiero y los flujos de efectivo de una entidad.
+2 Cuando aplique esta Norma, una entidad considerará los términos y condiciones de los contratos y todos los hechos y circunstancias relevantes. Una entidad aplicará esta Norma de forma congruente a los contratos con características similares y circunstancias parecidas.
+Alcance
+3 Una entidad aplicará esta Norma a todos los arrendamientos, incluyendo los arrendamientos de activos de derechos de uso en un subarrendamiento, excepto en:
+(a) acuerdos de arrendamiento para la exploración o uso de minerales, petróleo, gas natural y recursos no renovables similares;
+(b) activos biológicos dentro del alcance de la NIC 41 Agricultura mantenidos por un arrendatario;
+(c) acuerdos de concesión de servicios dentro del alcance de la CINIIF 12 Acuerdos de Concesión de Servicios;
+(d) licencias de propiedad intelectual concedidas por un arrendador dentro del alcance de la NIIF 15 Ingresos de Actividades Ordinarias procedentes de Contratos con Clientes; y
+(e) derechos mantenidos por un arrendatario bajo acuerdos de licencia que estén dentro del alcance de la NIC 38 Activos Intangibles para elementos como películas de cine, videos, juegos, manuscritos, patentes y derechos de autor.
+4 Un arrendatario puede, pero no se le exige, aplicar esta Norma a arrendamientos de activos intangibles distintos de los descritos en el párrafo 3(e).
+Exenciones al reconocimiento (párrafos B3 a B8)
+5 Un arrendatario puede optar por no aplicar los requerimientos de los párrafos 22 a 49 a:
+(a) arrendamientos a corto plazo; y
+(b) arrendamientos en los que el activo subyacente es de bajo valor (como se describe en los párrafos B3 a B8).
+6 Si un arrendatario opta por no aplicar los requerimientos de los párrafos 22 a 49 a los arrendamientos a corto plazo o a arrendamientos en los que el activo subyacente es de bajo valor, el arrendatario reconocerá los pagos por arrendamiento asociados con los arrendamientos como un gasto de forma lineal a lo largo del plazo del arrendamiento o según otra base sistemática. El arrendatario aplicará otra base sistemática sí aquella es más representativa del patrón de beneficios del arrendatario.
+7 Sí un arrendatario contabiliza los arrendamientos a corto plazo aplicando el párrafo 6, considerará el arrendamiento como un arrendamiento nuevo a efectos de esta Norma si:
+(a) hay una modificación del arrendamiento; o
+(b) se ha producido un cambio en el plazo del arrendamiento (por ejemplo, el arrendatario ejerce una opción no incluida anteriormente en su determinación del plazo del arrendamiento).
+8 La elección para los arrendamientos a corto plazo se realizará por clase de activo subyacente con el que se relaciona el derecho de uso. La elección de los arrendamientos en los que el activo subyacente es de bajo valor puede hacerse arrendamiento por arrendamiento.
+Identificación de u arrendamiento (párrafos B9 a B33)
+9 Al inicio de un contrato, una entidad evaluará si el contrato es, o contiene, un arrendamiento. Un contrato es, o contiene, un arrendamiento si transmite el derecho a controlar el uso de un activo identificado por un periodo de tiempo a cambio de una contraprestación. Los párrafos B9 a B31 establecen guías sobre la evaluación de si un contrato es, o contiene, un arrendamiento.
+10. Un periodo de tiempo puede describirse en términos de la cantidad de uso de un activo identificado (por ejemplo, el número de unidades de producción que un elemento de equipo se usará para fabricar).
+11 Una entidad evaluará nuevamente si un contrato es, o contiene, un arrendamiento solo si cambian los términos y condiciones del contrato.
+Separación de componentes de un contrato
+12 Para un contrato que es, o contiene, un arrendamiento, una entidad contabilizará cada componente del arrendamiento dentro del contrato como un arrendamiento de forma separada de los componentes del contrato que no constituyen un arrendamiento, a menos que aplique la solución práctica del párrafo 15. Los párrafos B32 y B33 establecen guías sobre la separación de los componentes de un contrato.
+Arrendatario
+13 Para un contrato que contiene un componente de arrendamiento y uno o más componentes adicionales de arrendamiento u otros que no son de arrendamiento, un arrendatario distribuirá la contraprestación del contrato a cada componente del arrendamiento sobre la base de precio relativo independiente del componente del arrendamiento y del precio agregado independiente de los componentes que no son arrendamiento.
+14 El precio relativo independiente de los componentes de arrendamiento y de los que no son de arrendamiento se determinará sobre la base del precio que el arrendador, o un proveedor similar, cargaría de forma separada a una entidad por ese componente, o por uno similar. Si no existe un precio observable independiente fácilmente disponible, el arrendatario estimará el precio independiente, maximizando el uso de información observable.
+15 Como una solución práctica, un arrendatario puede elegir, por clase de activo subyacente, no separar los componentes que no son arrendamiento de los componentes de arrendamiento, y, en su lugar, contabilizará cada componente de arrendamiento y cualquier componente asociado que no sea de arrendamiento como si se tratase de un componente de arrendamiento único. Un arrendatario no aplicará esta solución práctica a derivados implícitos que cumplan los criterios del párrafo 4.3.3 de la NIIF 9 Instrumentos Financieros.
+16 A menos que utilice la solución práctica del párrafo 15, un arrendatario contabilizará los componentes que no son de arrendamiento aplicando otras Normas aplicables.
+Arrendador
+17 Para un contrato que contiene un componente de arrendamiento y uno o más componentes adicionales de arrendamiento o que no son de arrendamiento, un arrendador distribuirá la contraprestación del contrato aplicando los párrafos 73 a 90 de la NIIF 15.
+Plazo del arrendamiento (párrafos B34 a B41)
+18 Una entidad determinará el plazo del arrendamiento como el periodo no cancelable de un arrendamiento, junto con:
+(a) los periodos cubiertos por una opción de ampliar el arrendamiento si el arrendatario va a ejercer con razonable certeza esa opción; y
+(b) los periodos cubiertos por una opción para terminar el arrendamiento si el arrendatario no va a ejercer con razonable certeza esa opción.
+19 Al evaluar si un arrendatario va a ejercer con razonable certeza una opción de ampliar un arrendamiento, o no va a ejercer una opción de terminar un arrendamiento, una entidad considerará todos los hechos y circunstancias relevantes que creen un incentivo económico para que el arrendatario ejerza la opción de ampliar el arrendamiento o bien no ejerza la opción de terminar el arrendamiento, tal y como se describe en los párrafos B37 a B40.
+20 Un arrendatario evaluará nuevamente si es razonable que ejerza una opción de ampliación, o no ejerza una opción de terminación, en el momento en que ocurra un suceso o cambio significativo en circunstancias que:
+(a) esté dentro del control del arrendatario; y
+(b) afectan a la razonable certeza de que el arrendatario va a ejercer una opción no incluida en su determinación previa del plazo del arrendamiento, o no va a ejercer una opción incluida en su determinación previa del plazo del arrendamiento (como se describe en el párrafo B41).
+21 Una entidad modificará el plazo del arrendamiento si hay un cambio en el periodo no cancelable de un arrendamiento. Por ejemplo, el periodo no cancelable de un arrendamiento cambiará si:
+(a) el arrendatario ejerce una opción no incluida anteriormente en la determinación por la entidad del plazo del arrendamiento;
+(b) el arrendatario no ejerce una opción incluida anteriormente en la determinación por la entidad del plazo del arrendamiento;
+(c) ocurre un suceso que obliga contractualmente al arrendatario a ejercer una opción no incluida en la determinación previa que la entidad haya hecho del plazo del arrendamiento; o
+(d) ocurre un suceso que prohíbe contractualmente al arrendatario ejercer una opción incluida en la determinación previa por la entidad del plazo del arrendamiento.
+Arrendatario
+Reconocimiento
+22 En la fecha de comienzo, un arrendatario reconocerá un activo por derecho de uso y un pasivo por arrendamiento.
+Medición
+Medición inicial
+Medición inicial del activo por derecho de uso
+23 En la fecha de comienzo, un arrendatario medirá un activo por derecho de uso al
+costo.
+24 El costo del activo por derecho de uso comprenderá:
+(a) el importe de la medición inicial del pasivo por arrendamiento, como se describe en el párrafo 26;
+(b) los pagos por arrendamiento realizados antes o a partir de la fecha de comienzo, menos los incentivos de arrendamiento recibidos;
+(c) los costos directos iniciales incurridos por el arrendatario; y
+(d) una estimación de los costos a incurrir por el arrendatario al desmantelar y eliminar el activo subyacente, restaurando el lugar en el que está ubicado o restaurar el activo subyacente a la condición requerida por los términos y condiciones del arrendamiento, a menos que se incurra en esos costos para producir inventarios. El arrendatario incurre en obligaciones a consecuencia de esos costos ya sea en la fecha de comienzo o como una consecuencia de haber usado el activo subyacente durante un periodo concreto.
+25 Un arrendatario reconocerá los costos descritos en el párrafo 24(d) como parte del costo del activo por derecho de uso cuando incurre en una obligación a consecuencia de esos costos. Un arrendatario aplicará la NIC 2 Inventarios a los costos que en los que se incurre durante un periodo concreto como consecuencia de haber usado el activo por derecho de uso para producir inventarios durante ese periodo. Las obligaciones por estos costos contabilizados aplicando esta Norma o la NIC 2 se reconocerán y medirán aplicando la NIC 37 Provisiones, Pasivos Contingentes y Activos Contingentes.
+Medición inicial del pasivo por arrendamiento
+26. En la fecha de comienzo, un arrendatario medirá el pasivo por arrendamiento al valor presente de los pagos por arrendamiento que no se hayan pagado en esa fecha. Los pagos por arrendamiento se descontarán usando la tasa de interés implícita en el arrendamiento, si esa tasa pudiera determinarse fácilmente. Si esa tasa no puede determinarse fácilmente, el arrendatario utilizará la tasa incremental por préstamos del arrendatario.
+27 En la fecha de comienzo, los pagos por arrendamiento incluidos en la medición del pasivo por arrendamiento comprenden los pagos siguientes por el derecho a usar el activo subyacente durante el plazo del arrendamiento que no se paguen en la fecha de comienzo:
+(a) pagos fijos (incluyendo los pagos fijos en esencia como se describe en el párrafo B42), menos cualquier incentivo de arrendamiento por cobrar;
+(b) pagos por arrendamiento variables, que dependen de un índice o una tasa, inicialmente medidos usando el índice o tasa en la fecha de comienzo (como se describe en el párrafo 28);
+(c) importes que espera pagar el arrendatario como garantías de valor residual;
+(d) el precio de ejercicio de una opción de compra si el arrendatario está razonablemente seguro de ejercer esa opción (evaluada considerando los factores descritos en los párrafos B37 a B40); y
+(e) pagos por penalizaciones derivadas de la terminación del arrendamiento, si el plazo del arrendamiento refleja que el arrendatario ejercerá una opción para terminar el arrendamiento.
+28 Los pagos por arrendamiento variables que dependen de un índice o una tasa descritos en el párrafo 27(b) incluyen, por ejemplo, pagos vinculados al índice de precios al consumidor, precios vinculados a una tasa de interés de referencia (tal como la Ll80R) o pagos que varían para reflejar cambios en los precios de alquiler del mercado.
+Medición posterior
+Medición posterior del activo por derecho de uso
+29 Después de la fecha de comienzo, un arrendatario medirá su activo por derecho de uso aplicando el modelo del costo, a menos que aplique los modelos de medición descritos en los párrafos 34 y 35.
+Modelo del costo
+30 Para aplicar un modelo del costo, un arrendatario medirá un activo por derecho de uso al costo:
+(a) menos la depreciación acumulada y las pérdidas acumuladas por deterioro del valor; y
+(b) ajustado por cualquier nueva medición del pasivo por arrendamiento especificado en el párrafo 36(c).
+31 Un arrendatario aplicará los requerimientos de la depreciación de la NIC 16 Propiedades, Planta y Equipo al depreciar el activo por derecho de uso, sujeto a los requerimientos del párrafo 32.
+32 Si el arrendamiento transfiere la propiedad del activo subyacente al arrendatario al fin del plazo del arrendamiento o si el costo del activo por derecho de uso refleja que el arrendatario ejercerá una opción de compra, el arrendatario depreciará el activo por derecho de uso desde la fecha de comienzo del mismo hasta el final de la vida útil del activo subyacente. En otro caso, el arrendatario depreciará el activo por derecho de uso desde la fecha de comienzo hasta el final de la vida útil del activo cuyo derecho de uso tiene o hasta el final del plazo del arrendamiento, lo que tenga lugar primero.
+33 Un arrendatario aplicará la NIC 36 Deterioro del Valor de los Activos para determinar si el activo por derecho de uso presenta deterioro de valor y contabilizar las pérdidas por deterioro de valor identificadas.
+Otros modelos de medición
+34 Si un arrendatario aplica el modelo del valor razonable de la NlC 40 Propiedades de Inversión a sus propiedades de inversión, el arrendatario también aplicará ese modelo del valor razonable a los activos por derecho de uso que cumplan la definición de propiedad de inversión de la NIC 40.
+35 Si el derecho de uso de los activos se relaciona con una clase de propiedades, planta y equipo a la que el arrendatario aplica el modelo de revaluación de la NIC 16, éste podría optar por utilizar ese modelo de revaluación para todos los activos por derecho de uso de activos relacionados con esa clase de propiedades, planta y equipo.
+Medición posterior del pasivo por arrendamiento
+36 Después de la fecha de comienzo, un arrendatario medirá un pasivo por arrendamiento:
+(a) incrementando el importe en libros para reflejar el interés sobre el pasivo por arrendamiento;
+(b) reduciendo el importe en libros para reflejar los pagos por arrendamiento realizados; y
+(c) midiendo nuevamente el importe en libros para reflejar las nuevas mediciones o modificaciones del arrendamiento especificadas en los párrafos 39 a 46, y también para reflejar los pagos por arrendamiento fijos en esencia que hayan sido revisados (véase el párrafo B42).
+37 El interés de un pasivo por arrendamiento en cada periodo durante el plazo del arrendamiento será el importe que produce una tasa periódica constante de interés sobre el saldo restante del pasivo por arrendamiento. La tasa periódica de interés es la tasa de descuento descrita en el párrafo 26 o, si es aplicable, la tasa de descuento modificad descrita en el párrafo 41, el párrafo 43 o el párrafo 45(c).
+38 Después de la fecha de comienzo, un arrendatario reconocerá en el resultado del periodo, a menos que los costos se incluyan, en función de otras Normas aplicables, en el importe en libros de otro activo:
+(a) el interés sobre el pasivo por arrendamiento; y
+(b) los pagos por arrendamiento variables no incluidos en la medición del pasivo por arrendamiento en el periodo en el que ocurre el suceso o condición que da lugar a esos pagos.
+Nueva evaluación del pasivo por arrendamiento
+39 Después de la fecha de comienzo, un arrendatario aplicará los párrafos 40 a 43 para medir nuevamente el pasivo por arrendamiento para reflejar cambios en los pagos por arrendamiento. Un arrendatario reconocerá el importe de la nueva medición del pasivo por arrendamiento como un ajuste al activo por derecho de uso. Sin embargo, si el importe en libros del activo por derecho de uso se reduce a cero y se produce una reducción adicional en la medición del pasivo por arrendamiento, un arrendatario reconocerá los importes restantes de la nueva medición en el resultado del periodo.
+40 Un arrendatario medirá nuevamente el pasivo por arrendamiento descontando los pagos por arrendamiento modificados usando una tasa de descuento modificada, si:
+(a) se produce un cambio en el plazo del arrendamiento, tal como se describe en los párrafos 20 y 21. Un arrendatario determinará los pagos por arrendamiento modificados sobre la base del plazo del arrendamiento modificado; o
+(b) se produce un cambio en la evaluación de una opción para comprar el activo subyacente, que se haya evaluado considerando los sucesos y circunstancias descritos en los párrafos 20 y 21 en el contexto de una opción de compra. Un arrendatario determinará los pagos por arrendamiento modificados para reflejar el cambio en los importes por pagar bajo la opción de compra.
+41 Al aplicar el párrafo 40, un arrendatario determinará la tasa de descuento revisada como la tasa de interés implícita en el arrendamiento para lo que resta del plazo del arrendamiento, si esa tasa puede determinarse con facilidad, o la tasa incremental por préstamos del arrendatario en la fecha de la nueva evaluación, si la tasa de interés implícita en el arrendamiento no pudiera determinarse con facilidad.
+42 Un arrendatario medirá nuevamente el pasivo por arrendamiento descontando los pagos por arrendamiento modificados, si:
+(a) Se produce un cambio en los importes por pagar esperados relacionados con una garantía de valor residual. Un arrendatario determinará los pagos por arrendamiento modificados para reflejar el cambio en los importes que se espera pagar bajo la garantía de valor residual.
+(b) Se produce un cambio en los pagos por arrendamiento futuros procedente de un cambio en un índice o una tasa usados para determinar esos pagos, incluyendo, por ejemplo, un cambio para reflejar los cambios en los precios de alquiler del mercado que siguen a una revisión de los alquileres del mercado. El arrendatario medirá nuevamente el pasivo por arrendamiento para reflejar los pagos por arrendamiento modificados solo cuando haya un cambio en los flujos de efectivo (es decir, cuando el ajuste a los pagos por arrendamiento tenga efecto). Un arrendatario determinará los pagos por arrendamiento revisados, por lo que resta del plazo del arrendamiento, sobre la base de los pagos contractuales revisados.
+43 Al aplicar el párrafo 42, un arrendatario usará una tasa de descuento sin cambios, a menos que el cambio en los pagos por arrendamiento proceda de un cambio en las tasas de interés variables. En ese caso, el arrendatario usará una tasa de descuento modificada que refleje los cambios en la tasa de interés.
+Modificaciones del arrendamiento
+44 Un arrendatario contabilizará una modificación del arrendamiento como un arrendamiento separado si:
+(a) la modificación incrementa el alcance del arrendamiento añadiendo el derecho a usar uno o más activos subyacentes; y
+(b) la contraprestación por el arrendamiento se incrementa por un importe acorde con el precio independiente del incremento en el alcance y por cualquier ajuste adecuado a ese precio independiente para reflejar las circunstancias del contrato concreto.
+45 En el caso de una modificación del arrendamiento que no se contabilice como un arrendamiento separado, en la fecha efectiva de la modificación del arrendamiento un arrendatario:
+(a) distribuirá la contraprestación del contrato modificado aplicando los párrafos 13 a 16;
+(b) determinará el plazo del arrendamiento modificado aplicando los párrafos 18 y 19; y
+(c) medirá nuevamente el pasivo por arrendamiento descontando los pagos por arrendamiento revisados aplicando una tasa de descuento revisada. La tasa de descuento revisada se determinará como la tasa de interés implícita en el arrendamiento para lo que resta del plazo del arrendamiento, si esa tasa puede ser determinada con facilidad, o la tasa incremental por préstamos del arrendatario en la fecha de vigencia de la modificación, si la tasa de interés implícita en el arrendamiento no pudiera determinarse con facilidad.
+46 En una modificación del arrendamiento que no se contabilice como un arrendamiento separado, el arrendatario contabilizará la nueva medición del pasivo por arrendamiento:
+(a) Disminuyendo el importe en libros del activo por derecho de uso para reflejar la terminación parcial o total del arrendamiento, en las modificaciones de arrendamiento que disminuyen el alcance de éste. El arrendatario reconocerá en el resultado del periodo las ganancias o pérdidas relacionadas con la terminación parcial o total del arrendamiento.
+(b) Haciendo el correspondiente ajuste al activo por derecho de uso para todas las demás modificaciones del arrendamiento.
+46A Como solución práctica, un arrendatario puede optar por no evaluar si la reducción del alquiler que cumple las condiciones del párrafo 46B es una modificación del arrendamiento. Un arrendatario que realiza esta elección contabilizará los cambios en los pagos por arrendamiento procedentes de las reducciones del alquiler de la misma forma que contabilizaría el cambio aplicando esta Norma si dicho cambio no fuera una modificación del arrendamiento.
+46B La solución práctica del párrafo 46A se aplica solo a las reducciones del alquiler que ocurran como consecuencia directa de la pandemia covid-19 y solo si se cumplen las siguientes condiciones:
+(a) el cambio en los pagos por arrendamiento da lugar a la revisión de la contraprestación por el arrendamiento que es sustancialmente la misma, o menor, que la contraprestación por el arrendamiento inmediata anterior al cambio;
+(b) cualquier reducción en los pagos por arrendamiento afecta únicamente los pagos originalmente vencidos hasta el 30 de junio de 2021 (por ejemplo, una reducción del alquiler cumpliría esta condición si diera lugar a una reducción de los pagos por arrendamiento hasta el 30 de junio de 2021 y a un incremento en los pagos por arrendamiento que se prolongue más allá del 30 de junio de 2021); y
+(c) no existe un cambio sustancial en los otros términos y condiciones del arrendamiento.
+Presentación
+47 Un arrendatario presentará en el estado de situación financiera o en las notas:
+(a) Los activos por derecho de uso por separado de otros activos. Si un arrendatario no presenta los activos por derecho de uso por separado en el estado de situación financiera, el arrendatario:
+(i) incluirá los activos por derecho de uso dentro de la misma partida de los estados financieros que le hubiera correspondido a los activos subyacentes de haber sido de su propiedad; y
+(ii) revelará qué partidas del estado de situación financiera incluyen esos activos de derechos de uso.
+(b) Los pasivos por arrendamiento por separado de otros pasivos. Si el arrendatario no presenta pasivos por arrendamiento de forma separada en el estado de situación financiera, el arrendatario revelará qué partidas del estado de situación financiera incluyen esos pasivos.
+48 El requerimiento del párrafo 47(a) no se aplica a los activos por derecho de uso que cumplen la definición de propiedades de inversión, que se presentarán en el estado de situación financiera como propiedades de inversión.
+49 En el estado del resultado del periodo y otro resultado integral, un arrendatario presentará el gasto por intereses por el pasivo por arrendamiento de forma separada del cargo por depreciación del activo por derecho de uso. El gasto por intereses sobre el pasivo por arrendamiento es un componente de los costos financieros, que el párrafo 82(b) de la NIC 1 Presentación de Estados Financieros requiere que se presente por separado en el estado del resultado del periodo y otro resultado integral.
+50 En el estado de flujos de efectivo, un arrendatario clasificará:
+(a) los pagos en efectivo por la parte del principal del pasivo por arrendamiento dentro de las actividades de financiación;
+(b) los pagos en efectivo por la parte de intereses del pasivo por arrendamiento aplicando los requerimientos de la NIC 7 Estado de Flujos de Efectivo por los intereses pagados; y
+(c) los pagos por arrendamiento a corto plazo, pagos por arrendamiento de activos de bajo valor y los pagos por arrendamiento variables no incluidos en la medición del pasivo por arrendamiento dentro de las actividades de operación.
+Información a revelar
+51 El objetivo de la información a revelar para los arrendatarios es revelar información en las notas que, junto con la información proporcionada en el estado de situación financiera, estado del resultado del periodo y estado de flujos de efectivo, dé una base a los usuarios de los estados financieros para evaluar el efecto que tienen los arrendamientos sobre la situación financiera, rendimiento financiero y flujos de efectivo del arrendatario. Los párrafos 52 a 60 especifican los requerimientos sobre cómo cumplir este objetivo.
+52 Un arrendatario revelará información sobre sus arrendamientos en los que actúa como arrendatario en una nota única o sección separada de sus estados financieros. Sin embargo, un arrendatario no necesita duplicar información que ya esté presentada en cualquier otro lugar de los estados financieros, siempre que dicha información se incorpore mediante referencias cruzadas en la nota única o sección separada sobre arrendamientos.
+53 Un arrendatario revelará los siguientes importes para el periodo sobre que se informa:
+(a) cargo por depreciación de los activos por derecho de uso por clase de activo subyacente;
+(b) gasto por intereses por los pasivos por arrendamiento;
+(c) el gasto relacionado con arrendamientos a corto plazo contabilizados aplicando el párrafo 6. Este gasto no necesita incluir el gasto relacionado con arrendamientos de duración igual o inferior a un mes;
+(d) el gasto relacionado con arrendamientos de activos de bajo valor contabilizados aplicando el párrafo 6. Este gasto no incluirá el relativo a arrendamientos a corto plazo de activos de bajo valor incluidos en el párrafo 53(c);
+(e) el gasto relativo a pagos por arrendamiento variables no incluidos en la medición de los pasivos por arrendamiento;
+(f) ingresos por subarrendamientos de los derechos de uso de activos; (g) salidas de efectivo totales por arrendamientos;
+(h) incorporaciones de activos por derecho de uso;
+(i) ganancias o pérdidas que surgen de transacciones de venta con arrendamiento posterior; y
+(j) el importe en libros de los activos por derecho de uso al final del periodo sobre el que se informa por clase del activo subyacente.
+54 Un arrendatario proporcionará la información a revelar especificada en el párrafo 53 en formato de tabla, a menos que sea más apropiado otro formato. Los importes revelados incluirán costos que un arrendatario haya incluido en el importe en libros de otro activo durante el periodo sobre el que se informa.
+55 Un arrendatario revelará el importe de sus compromisos por arrendamientos para los arrendamientos a corto plazo contabilizados aplicando el párrafo 6, si la cartera de arrendamientos a corto plazo a los que se ha comprometido al final del periodo sobre el que se informa no es igual que la cartera de arrendamientos a corto plazo con la que se relaciona el gasto por arrendamientos a corto plazo revelado aplicando el párrafo 53(c).
+56 Si los activos por derecho de uso cumplen la definición de propiedades de inversión, un arrendatario aplicará los requerimientos de información a revelar de la NIC 40. En ese caso, no se requiere que un arrendatario proporcione la información a revelar del párrafo 53(a), (f), (h) o Q) sobre los activos por derecho de uso.
+57 Si un arrendatario mide los activos por derecho de uso a importes revaluados aplicando la NIC 16, el arrendatario revelará la información requerida por el párrafo 77 de la NIC 16 para esos activos por derecho de uso.
+58 Un arrendatario revelará un análisis de vencimientos de los pasivos por arrendamiento aplicando los párrafos 39 y B11 de la NllF 7 Instrumentos Financieros: Información a Revelar de forma separada de los análisis de vencimientos de otros pasivos financieros.
+59 Además, de la información a revelar requerida por los párrafos 53 a 58, un arrendatario revelará información cualitativa y cuantitativa adicional sobre sus actividades de arrendamiento necesaria para cumplir el objetivo de información a revelar del párrafo 51 (como se describe en el párrafo B48). Esta información adicional puede incluir, pero no limitarse a, información que ayude a los usuarios de los estados financieros a evaluar:
+(a) la naturaleza de las actividades por arrendamiento del arrendatario;
+(b) salidas de efectivo futuras a las que el arrendatario está potencialmente expuesto y no están reflejadas en la medición de los pasivos por arrendamiento. Esto incluye la exposición que surge de:
+(i) pagos por arrendamiento variables (como se describe en el párrafo B49);
+(ii) opciones de ampliación y opciones de terminación (como se describe en el párrafo B50);
+(iii) garantías de valor residual (como se describe en el párrafo B51); y
+(iv) arrendamientos todavía no comenzados a los que se compromete el arrendatario.
+(c) restricciones o pactos impuestos por los arrendamientos; y
+(d) transacciones de venta con arrendamiento posterior (como se describe en el párrafo B52).
+60 Un arrendatario que contabilice los arrendamientos a corto plazo o los arrendamientos de activos de bajo valor aplicando el párrafo 6 revelará ese hecho.
+60 A Si un arrendatario aplica la solución práctica del párrafo 46A revelará:
+(a) que ha aplicado la solución práctica a todas las reducciones del alquiler que cumplen las condiciones del párrafo 46B o, si no la ha aplicado a todas las reducciones del alquiler, revelará información sobre la naturaleza de los contratos a los que ha aplicado la solución práctica (véase el párrafo 2); y
+(b) el importe reconocido en el resultado del periodo sobre el que se informa para reflejar los cambios en los pagos por arrendamiento que surgen de las reducciones de alquiler a las que el arrendatario ha aplicado la solución práctica del párrafo 46A.
+Arrendador
+Clasificación de los arrendamientos (B53 a B5B)
+61 Un arrendador clasificará cada uno de sus arrendamientos como un arrendamiento operativo o un arrendamiento financiero.
+62 Un arrendamiento se clasificará como financiero cuando transfiera sustancialmente todos los riesgos y ventajas inherentes a la propiedad de un activo subyacente. Un arrendamiento se clasificará como operativo si no transfiere sustancialmente todos los riesgos y ventajas inherentes a la propiedad de un activo subyacente.
+63 Si un arrendamiento es un arrendamiento financiero u operativo depende de la esencia de la transacción y no de la forma del contrato. Ejemplos de situaciones que, individualmente o en combinación, normalmente llevarían a clasificar un arrendamiento como financiero son:
+(a) el arrendamiento transfiere la propiedad del activo subyacente al arrendatario al finalizar el plazo del arrendamiento;
+(b) el arrendatario tiene la opción de comprar el activo subyacente a un precio que se espera sea suficientemente inferior al valor razonable en el momento en que la opción sea ejercitable, de modo que, en la fecha de inicio del acuerdo, se prevea con razonable certeza que tal opción será ejercida;
+(c) el plazo del arrendamiento cubre la mayor parte de la vida económica del activo subyacente incluso si la propiedad no se transfiere al final de la operación;
+(d) en la fecha de inicio del acuerdo, el valor presente de los pagos por el arrendamiento es al menos equivalente en la práctica a la totalidad del valor razonable del activo subyacente objeto de la operación; y
+(e) el activo subyacente es de una naturaleza tan especializada que solo el arrendatario puede usarlo sin realizarle modificaciones importantes.
+64 Otros indicadores de situaciones que podrían llevar, por sí solas o de forma conjunta con otras, a la clasificación de un arrendamiento como de carácter financiero, son las siguientes:
+(a) si el arrendatario puede cancelar el contrato de arrendamiento, y las pérdidas sufridas por el arrendador a causa de tal cancelación fueran asumidas por el arrendatario;
+(b) las pérdidas o ganancias derivadas de las fluctuaciones en el valor razonable del importe residual recaen sobre el arrendatario (por ejemplo en la forma de un descuento por importe similar al valor de venta del activo al final del arrendamiento); y
+(c) el arrendatario tiene la posibilidad de prorrogar el arrendamiento durante un segundo periodo, con unos pagos por arrendamiento que son sustancialmente inferiores a los habituales del mercado.
+65 Los ejemplos e indicadores contenidos en los párrafos 63 y 64 no son siempre concluyentes. Si resulta claro, por otras características, que el arrendamiento no transfiere sustancialmente todos los riesgos y ventajas inherentes a la propiedad de un activo subyacente, se clasificará como operativo. Por ejemplo, este podría ser el caso en el que se transfiera la propiedad del activo subyacente, al término del arrendamiento, por un pago variable que sea igual a su valor razonable en ese momento, o si existen pagos por arrendamiento variables, como consecuencia de los cuales el arrendador no transfiere sustancialmente todos esos riesgos y ventajas.
+66 La clasificación del arrendamiento se realiza en la fecha de inicio del acuerdo y se evalúa nuevamente solo si se produce una modificación del arrendamiento. Los cambios en las estimaciones (por ejemplo las que suponen modificaciones en la vida económica o en el valor residual del activo subyacente) o los cambios en circunstancias (por ejemplo el incumplimiento por parte del arrendatario), no darán lugar a una nueva clasificación del arrendamiento a efectos contables.
+Arrendamientos financieros
+Reconocimiento y medición
+67 En la fecha de comienzo, un arrendador reconocerá en su estado de situación financiera los activos que mantenga en arrendamientos financieros y los presentará como una partida por cobrar, por un importe igual al de la inversión neta en el arrendamiento.
+Medición inicial
+68 El arrendador usará la tasa de interés implícita en el arrendamiento para medir la inversión neta en el arrendamiento. En el caso de un subarrendamiento, si la tasa de interés implícita en el subarrendamiento no puede determinarse con facilidad, un arrendador intermedio puede usar la tasa de descuento utilizada en el arrendamiento principal (ajustada por los costos directos iniciales asociados con el subarrendamiento) para medir la inversión neta en el subarrendamiento.
+69 Los costos directos iniciales distintos de los incurridos por los arrendadores que sean a la vez fabricantes o distribuidores de los bienes arrendados se incluirán en la medición inicial de la inversión neta en el arrendamiento y reducirán el importe de los ingresos reconocidos a lo largo de la duración del arrendamiento. La tasa de interés implícita del arrendamiento se define de forma que los costos directos iniciales se incluyen automáticamente en la inversión neta del arrendamiento; esto es, no hay necesidad de añadirlos de forma independiente.
+Medición inicial de los pagos por arrendamiento incluidos en la inversión neta en el arrendamiento.
+70 En la fecha de comienzo, los pagos por arrendamiento incluidos en la medición de la inversión neta en el arrendamiento comprenden los pagos siguientes por el derecho a usar el activo subyacente durante el plazo del arrendamiento que no se reciban en la fecha de comienzo:
+(a) pagos fijos (incluyendo los pagos fijos en esencia como se describe en el párrafo B42), menos los incentivos del arrendamiento por pagar;
+(b) pagos por arrendamiento variables, que dependen de un índice o una tasa, inicialmente medida usando el índice o tasa en la fecha de comienzo;
+(c) cualquier garantía de valor residual proporcionada al arrendador por el arrendatario, una parte relacionada con el arrendatario o un tercero no relacionado con el arrendador que es financieramente capaz de satisfacer las obligaciones bajo la garantía;
+(d) el precio de ejercicio de una opción de compra si el arrendatario está razonablemente seguro de ejercer esa opción (evaluada considerando los factores descritos en el párrafo B37); y
+(e) pagos por penalizaciones derivadas de la terminación del arrendamiento, si el plazo del arrendamiento refleja que el arrendatario ejercerá una opción para terminar el arrendamiento.
+Arrendadores que son a la vez fabricantes o distribuidores de los bienes arrendados
+71 En la fecha de comienzo, un arrendador que es a la vez fabricante o distribuidor de los bienes arrendados reconocerá lo siguiente para cada uno de sus arrendamientos financieros:
+(a) ingresos de actividades ordinarias por el valor razonable del activo subyacente, o si es menor, por el valor presente de los pagos por arrendamiento acumulados (devengados) al arrendador, descontados usando una tasa de interés de mercado;
+(b) el costo de venta por el costo o el importe en libros, si fuera distinto, del activo subyacente, menos el valor presente del valor residual no garantizado; y
+(c) el resultado de la venta (que es la diferencia entre los ingresos de actividades ordinarias y el costo de la venta) de acuerdo con su política de ventas directas a los que se aplica la NllF 15. Un arrendador, que es a la vez fabricante o distribuidor de los bienes arrendados, reconocerá el resultado de la venta sobre un arrendamiento financiero en la fecha de comienzo, independientemente de si el arrendador transfiere el activo subyacente como describe la NllF 15.
+72 Los fabricantes o distribuidores ofrecen a menudo a sus clientes la posibilidad de comprar o alquilar un activo. Un arrendamiento financiero de un activo por un arrendador, que es a la vez fabricante o distribuidor de los bienes arrendados, da lugar a resultados equivalentes a los procedentes de la venta directa de un activo subyacente, por precios de venta normales, en los que se tenga en cuenta cualquier descuento comercial o por volumen aplicable.
+73 Los fabricantes o distribuidores que son también arrendadores aplican a veces tasas de interés artificialmente bajas a fin de atraer a los clientes. El uso de dichas tasas podría dar lugar a que un arrendador reconozca, en la fecha de comienzo, una porción excesiva del resultado total de la transacción. Si se han aplicado tasas de interés artificialmente bajas, un arrendador, que sea a la vez fabricante o distribuidor de los bienes arrendados, reducirá la ganancia por venta a la que se hubiera obtenido de haber aplicado tasas de interés de mercado.
+74 Un arrendador, que sea a la vez fabricante o distribuidor de los bienes arrendados, reconocerá como un gasto los costos incurridos en relación con la obtención de un arrendamiento financiero en la fecha del comienzo, puesto que principalmente se relacionan con la obtención de la ganancia por venta del fabricante o distribuidor. Los costos incurridos por los arrendadores, que son a la vez fabricantes o distribuidores de los bienes arrendados en relación con la obtención de un arrendamiento financiero se excluyen de la definición de los costos directos iniciales y, por ello, de la inversión neta en el arrendamiento.
+Medición posterior
+75 Un arrendador reconocerá los ingresos financieros a lo largo del plazo del arrendamiento, sobre la base de una pauta que refleje una tasa de rendimiento constante sobre la inversión financiera neta que el arrendador ha realizado en el arrendamiento.
+76 Un arrendador aspira a distribuir el ingreso financiero sobre una base sistemática y racional, a lo largo del plazo del arrendamiento. Un arrendador aplicará los pagos por arrendamiento relacionados con el periodo contra la inversión bruta en el arrendamiento, para reducir tanto el principal como los ingresos financieros no acumulados (devengados).
+77 Un arrendador aplicará los requerimientos de baja en cuentas y de deterioro de valor de la NllF 9 a la inversión neta en el arrendamiento. Un arrendador revisará regularmente los valores residuales no garantizados estimados utilizados para calcular la inversión neta en el arrendamiento. Si se hubiera producido una reducción permanente en la estimación del valor residual no garantizado, el arrendador revisará el ingreso asignado a lo largo del plazo del arrendamiento, y reconocerá de forma inmediata cualquier reducción respecto a los importes acumulados (devengados).
+78 Un arrendador que clasifique un activo bajo arrendamiento financiero como mantenido para la venta {o incluido en un grupo de activos para su disposición clasificado como mantenido para la venta) que aplique la NllF 5 Activos No corrientes Mantenidos para la Venta y Operaciones Discontinuadas, contabilizará el activo de acuerdo con esa Norma.
+Modificaciones del arrendamiento
+79 Un arrendador contabilizará una modificación de un arrendamiento financiero como un arrendamiento separado si:
+(a) la modificación incrementa el alcance del arrendamiento añadiendo el derecho a usar uno o más activos subyacentes; y
+(b) la contraprestación por el arrendamiento se incrementa por un importe acorde con el precio independiente del incremento en el alcance y por cualquier ajuste adecuado a ese precio independiente para reflejar las circunstancias del contrato concreto.
+80 Para una modificación de un arrendamiento financiero que no se contabilice como un arrendamiento separado, un arrendador contabilizará la modificación de la forma siguiente:
+(a) si el arrendamiento hubiera sido clasificado como un arrendamiento operativo si la modificación hubiera estado vigente en la fecha de inicio del acuerdo, el arrendador:
+(i) contabilizará la modificación del arrendamiento como un arrendamiento nuevo desde la fecha de vigencia de la modificación; y
+(ii) medirá el importe en libros del activo subyacente como la inversión neta en el arrendamiento inmediatamente antes de la fecha de vigencia de la modificación del arrendamiento.
+(b) En otro caso, el arrendador aplicará los requerimientos de la NllF 9.
+Arrendamientos operativos
+Reconocimiento y medición
+81 Un arrendador reconocerá los pagos por arrendamiento procedentes de los arrendamientos operativos como ingresos de forma lineal o de acuerdo con otra base sistemática. El arrendador aplicará otra base sistemática si ésta es más representativa del patrón con la que se disminuye el beneficio del uso del activo subyacente.
+82 Un arrendador reconocerá como un gasto los costos, incluyendo la depreciación, incurridos para obtener los ingresos del arrendamiento.
+83 Un arrendador añadirá los costos directos iniciales incurridos para obtener un arrendamiento operativo al importe en libros del activo subyacente y reconocerá dichos costos como gasto a lo largo de la duración de arrendamiento, sobre la misma base que los ingresos del arrendamiento.
+84 La política de depreciación para activos subyacentes depreciables sujetos a arrendamientos operativos será congruente con la política de depreciación normal que el arrendador siga para activos similares. Un arrendador calculará la depreciación de acuerdo con la NIC 16 y la NIC 38.
+85 Un arrendador aplicará la NIC 36 para determinar si un activo subyacente sujeto a un arrendamiento operativo ha sufrido deterioro de valor y contabilizará cualquier pérdida por deterioro de valor identificada.
+86 El arrendador, que sea a la vez fabricante o distribuidor de los bienes arrendados, no reconocerá ningún resultado por la venta cuando celebre un contrato de arrendamiento operativo, puesto que la operación no es equivalente a una venta.
+Modificaciones del arrendamiento
+87 Un arrendador contabilizará una modificación en un arrendamiento operativo como un nuevo arrendamiento desde la fecha de vigencia de la modificación, considerando los pagos por arrendamiento anticipados o acumulados (devengados) relacionados con el arrendamiento original como parte de los pagos del nuevo arrendamiento.
+Presentación
+88 Un arrendador presentará los activos subyacentes sujetos a arrendamientos operativos en su estado de situación financiera de acuerdo con la naturaleza de los activos subyacentes.
+Información a revelar
+89 El objetivo de la información a revelar para los arrendatarios es revelar información en las notas que, junto con la información proporcionada en el estado de situación financiera, estado del resultado del periodo y estado de flujos de efectivo, dé una base a los usuarios de los estados financieros para evaluar el efecto que tienen los arrendamientos sobre la situación financiera, rendimiento financiero y flujos de efectivo del arrendatario. Los párrafos 90 a 97 especifican los requerimientos sobre cómo cumplir este objetivo.
+90 Un arrendador revelará los siguientes importes para el periodo sobre que se informa:
+(a) Para arrendamientos financieros:
+(i) resultados de las ventas;
+(ii) ingresos financieros sobre la inversión neta en el arrendamiento; y
+(iii) el ingreso relativo a pagos por arrendamiento variables no incluidos en la medición de la inversión neta en el arrendamiento.
+(b) Para arrendamientos operativos, el ingreso del arrendamiento, revelando por separado el ingreso relacionado con pagos por arrendamiento variables que no dependen de un índice o una tasa.
+91 Un arrendador proporcionará la información a revelar especificada en el párrafo
+90 en formato de tabla, a menos que sea más apropiado otro formato.
+92 Un arrendador revelará información cuantitativa y cualitativa adicional sobre sus actividades de arrendamiento, necesaria para cumplir el objetivo de información a revelar del párrafo 89. Esta información adicional incluye, pero no se limita a, información que ayude a los usuarios de los estados financieros a evaluar:
+(a) la naturaleza de las actividades por arrendamientos del arrendador; y
+(b) la forma en que el arrendador gestiona el riesgo asociado con cualquier derecho que conserve sobre los activos subyacentes. En concreto, un arrendador revelará su estrategia de gestión de riesgos para los derechos que conserve sobre los activos subyacentes, incluyendo cualquier medio por el cual reduce ese riesgo. Estos medios pueden incluir, por ejemplo, acuerdos de recompra, garantías de valor residual, o pagos por arrendamiento variables a usar al superar límites especificados.
+Arrendamientos financieros
+93 Un arrendador proporcionará una explicación cuantitativa y cualitativa de los cambios significativos en el importe en libros de la inversión neta en los arrendamientos financieros.
+94 Un arrendador revelará un análisis de vencimientos de los pagos por arrendamiento por cobrar, mostrando los pagos por arrendamiento sin descontar a recibir anualmente durante un mínimo de cada uno de los cinco primeros años y un total de los importes para los años restantes. Un arrendador conciliará los pagos por arrendamiento no descontados con la inversión neta en el arrendamiento. La conciliación identificará el ingreso financiero no acumulado (o no devengado) relacionado con los pagos por arrendamiento por recibir y cualquier valor residual no garantizado descontado.
+Arrendamientos operativos
+95 Para partidas de propiedades, planta y equipo sujetas a un arrendamiento operativo, un arrendador aplicará los requerimientos de información a revelar de la NIC 16. Al aplicar los requerimientos de información a revelar de la NIC 16, un arrendador desagregará cada clase de propiedades, planta y equipo en activos sujetos a arrendamientos operativos y activos no sujetos a arrendamientos operativos. Por consiguiente, un arrendador proporcionará la información a revelar requerida por la NIC 16 para activos sujetos a un arrendamiento operativo (por clase de activo subyacente) de forma separada de los activos mantenidos y usados por el arrendador de los que es éste propietario.
+96 Un arrendador aplicará los requerimientos de información a revelar de las NIC 36, NIC 38, NIC 40 y NIC 41 para activos sujetos a arrendamientos operativos.
+97 Un arrendador revelará un análisis de vencimientos de los pagos por arrendamiento, mostrando los pagos por arrendamiento sin descontar a recibir anualmente durante un mínimo de cada uno de los cinco primeros años y un total de los importes para los años restantes.
+Transacciones de venta con arrendamiento posterior
+98 Si una entidad (el arrendatario-vendedor) transfiere un activo a otra entidad (el arrendador-comprador) y la primera toma en arrendamiento ese activo de la segunda, el arrendatario-vendedor y el arrendador-comprador contabilizarán el contrato de transferencia y el arrendamiento aplicando los párrafos 99 a 103.
+Evaluación de si la transferencia del activo es una venta
+99 Una entidad aplicará los requerimientos para la determinación de cuándo se satisface una obligación de desempeño según la NllF 15 para establecer si la transferencia de un activo se contabiliza como una venta de ese activo.
+La transferencia del activo es una venta
+100 Si la transferencia de un activo por el arrendatario-vendedor satisface los requerimientos de la NllF 15 para ser contabilizada como una venta del activo:
+(a) El arrendatario-vendedor medirá el activo por derecho de uso que surge de la venta con arrendamiento posterior en la proporción del importe en libros anterior del activo que se relaciona con los derechos de uso conservados por el arrendatario-vendedor. Por consiguiente, el arrendatario-vendedor reconocerá solo el importe de cualquier ganancia o pérdida relacionada con los derechos transferidos al arrendador-comprador.
+(b) El arrendador-comprador contabilizará la compra del activo aplicando las Normas que correspondan, y el arrendamiento aplicando los requerimientos de contabilización del arrendador de esta Norma.
+101 Si el valor razonable de la contraprestación por la venta de un activo no iguala el valor razonable del activo, o si los pagos por el arrendamiento no son a tasas de mercado, una entidad hará los ajustes siguientes para medir los recursos procedentes de la venta a valor razonable:
+(a) cualesquiera términos por debajo del mercado se contabilizarán como un anticipo de pagos por arrendamiento; y
+(b) cualesquiera términos por encima del mercado se contabilizarán como financiación adicional proporcionada por el arrendador-comprador al arrendatario-vendedor.
+102 La entidad medirá cualquier ajuste potencial requerido por el párrafo 101 sobre la base del más fácilmente determinable, entre los siguientes:
+(a) la diferencia entre el valor razonable de la contraprestación por la venta y el valor razonable del activo; y
+(b) la diferencia entre el valor presente de los pagos contractuales por el arrendamiento y el valor presente de los pagos por el arrendamiento a tasas de mercado.
+La transferencia del activo no es una venta
+103 Si la transferencia de un activo por el arrendatario-vendedor no satisface los requerimientos de la NllF 15 para ser contabilizada como una venta del activo:
+(a) el arrendatario-vendedor continuará reconociendo el activo transferido y reconocerá un pasivo financiero igual a los recursos de la transferencia. El pasivo financiero se contabilizará aplicando la NllF 9.
+(b) El arrendador-comprador no reconocerá el activo transferido y reconocerá un activo financiero igual a los recursos de la transferencia. El activo financiero se contabilizará aplicando la NllF 9.
+Apéndice A
+Definiciones de términos
+Este apéndice es parte integrante de la Norma.
+fecha
+de comienzo del arrendamiento (fecha de comienzo) La fecha en la que un arrendador pone un activo subyacente a disposición de un arrendatario.
+vida
+económica
+El periodo a lo largo del cual se espera que un activo se use económicamente por uno o más usuarios o la cantidad de producción o unidades similares que se espera obtener de un activo por uno o más usuarios.
+fecha
+de vigencia de la modificación
+La fecha en la que las partes acuerdan una
+modificación del arrendamiento.
+valor
+razonable
+A efectos de que la aplicación por parte del
+arrendador
+de los requerimientos de contabilización de esta Norma, el importe por el cual puede ser intercambiado un activo o cancelado un pasivo, entre un comprador y un vendedor interesados y debidamente informados, en condiciones de independencia mutua.
+arrendamiento
+financiero
+Un
+arrendamiento
+que transfiere sustancialmente todos los riesgos y ventajas inherentes a la propiedad del activo
+subyacente.
+pagos
+Los pagos realizados por un
+arrendatario
+a un arrendador por el derecho a usar un
+activo subyacente
+a lo largo del
+plazo del arrendamiento, excluyendo los
+pagos por arrendamiento variables.
+bruta en el arrendamiento
+La suma de:
+(a) los
+pagos por arrendamiento
+a recibir por el
+arrendador
+por el
+arrendamiento financiero;
+y
+(b) cualquier
+valor residual no garantizado
+que corresponda al arrendador.
+fecha
+de inicio del acuerdo de arrendamiento (fecha de inicio del acuerdo) La fecha más temprana entre la del acuerdo de un
+arrendamiento
+y la del compromiso de ejecutar, por las partes, los principales términos y condiciones del acuerdo.
+costos
+directos iniciales
+Los costos incrementales de obtener un
+arrendamiento
+en los que no se habría incurrido si el arrendamiento no se hubiera obtenido, excepto los costos incurridos por un
+arrendador, que es a la vez fabricante o distribuidor de los bienes arrendados, en relación con un
+arrendamiento financiero.
+tasa
+de interés implícita en el arrendamiento
+Tasa de interés que iguala el valor presente de (a) los
+pagos por el arrendamiento
+y (b) el valor residual no garantizado, con la suma de (i) el valor razonable del activo subyacente y (ii) cualquier costo directo inicial del arrendador.
+arrendamiento
+Un contrato, o parte de un contrato, que transmite el derecho a usar un activo (
+el activo subyacente
+) por un periodo de tiempo a cambio de una contraprestación.
+incentivos
+del arrendamiento
+Pagos realizados por un
+arrendador al arrendatario asociados
+con un arrendamiento, o el reembolso o la asunción por un arrendador de los costos de un arrendatario.
+modificación
+del arrendamiento
+Un cambio en el alcance de un
+arrendamiento, o la contraprestación de un arrendamiento, que no fue parte de los términos y condiciones originales (por ejemplo, añadir o terminar el derecho a usar uno o más activos subyacentes, o ampliar o acortar la duración contractual del arrendamiento).
+pagos
+por arrendamiento
+Los pagos realizados por un arrendatario a un
+arrendador
+relacionados con el derecho a usar un activo subyacente a lo largo del
+plazo del arrendamiento, que comprenden lo siguiente:
+(a) pagos fijos
+(incluyendo los pagos fijos en esencia), menos los
+incentivos del arrendamiento
+por pagar;
+(b) pagos por arrendamiento variables
+que dependen de un índice o una tasa;
+(c) el precio de ejercicio de una opción de compra si el arrendatario está razonablemente seguro de ejercer esa opción; y
+(d) pagos por penalizaciones derivadas de la terminación del arrendamiento, si el plazo del
+arrendamiento
+refleja que el arrendatario ejercerá una opción para terminar el arrendamiento.
+Para el arrendatario, los pagos por arrendamiento también incluyen los importes a pagar por el arrendatario según las
+garantías de valor residual.
+Los pagos por arrendamiento no incluyen pagos asignados a los componentes de un contrato que no son arrendamientos, a menos que el arrendatario elija combinar componentes que no son arrendamientos con un componente de arrendamiento y contabilizarlos como un componente de arrendamiento único.
+Para el arrendador, los pagos por arrendamiento también incluyen cualquier garantía de valor residual proporcionada al arrendador por el arrendatario, una parte relacionada con el arrendatario o un tercero no relacionado con el arrendador que es financieramente capaz de satisfacer las obligaciones bajo garantía; Los pagos por arrendamiento no incluyen los pagos asignados a componentes que no son arrendamientos.
+plazo
+del arrendamiento
+El periodo no cancelable por el cual un
+arrendatario
+tiene un derecho a usar un activo subyacente, junto con:
+(a) los periodos cubiertos por una opción de ampliar el
+arrendamiento
+si el arrendatario va a ejercer con razonable certeza esa opción; y
+(b) los periodos cubiertos por una opción para terminar el arrendamiento si el arrendatario no va a ejercer con razonable certeza esa opción.
+arrendatario
+Una entidad que obtiene el derecho a usar un activo subyacente por un periodo de tiempo a cambio de una contraprestación.
+tasa
+incremental de los préstamos del arrendatario
+La tasa de interés que un
+arrendatario
+tendría que pagar por pedir prestado por un plazo similar, y con una seguridad semejante, los fondos necesarios para obtener un activo de valor similar al
+activo por derecho de uso
+en un entorno económico parecido.
+arrendador
+Una entidad que proporciona el derecho a usar un activo subyacente por un periodo de tiempo a cambio de una contraprestación.
+neta en el arrendamiento
+La inversión bruta en el arrendamiento
+descontada a la
+tasa de interés implícita en éste.
+arrendamiento
+operativo
+Un
+arrendamiento
+que no transfiere sustancialmente todos los riesgos y ventajas inherentes a la propiedad del activo subyacente.
+pagos
+opcionales del arrendamiento
+Pagos a realizar por un
+arrendatario
+a un
+arrendador
+por el derecho a usar un activo
+subyacente
+durante los periodos cubiertos por una opción de ampliar o terminar un
+arrendamiento
+que no están incluidos en el
+plazo del arrendamiento.
+El periodo total de tiempo que se usa un activo para cumplir un contrato con un cliente (incluyendo los periodos de tiempo no consecutivos).
+garantia
+de valor residual
+Una garantía realizada a un
+arrendador
+por una parte no relacionada con éste de que el valor (o una parte del valor) de un
+activo subyacente
+al final periodo de un arrendamiento será, al menos, de un importe especificado.
+activo
+por derecho de uso
+Un activo que representa un derecho a que un
+arrendatario
+use un activo subyacente durante el
+plazo del arrendamiento.
+arrendamiento
+a corto plazo
+Un
+arrendamiento
+que, en la
+fecha de comienzo,
+tiene un
+plazo de arrendamiento
+de 12 meses o menos. Un arrendamiento que contiene una opción de compra no es un arrendamiento a corto plazo.
+subarrendamiento
+Una transacción por la cual un activo subyacente es arrendado nuevamente por un
+arrendatario
+("arrendador intermedio") a un tercero, y el
+arrendamiento
+("arrendamiento principal") entre el arrendador que es el propietario y el arrendatario permanece vigente.
+activo
+subyacente
+Un activo que es el objeto de un
+arrendamiento, por el cual el derecho a usar ese activo ha sido proporcionado por un
+arrendado
+r a un
+arrendatario.
+financieros no acumulados {no devengados) La diferencia entre:
+(a) la
+inversión bruta en el arrendamiento; y
+(b) la
+inversión neta en el arrendamiento.
+valor
+residual no garantizado
+Parte del valor residual del
+activo subyacente, cuya realización por parte del arrendador no está asegurada o que solo está garantizada por un tercero relacionado con el arrendador.
+pagos
+variables del arrendamiento
+La parte de los pagos realizados por un
+arrendatario
+a un
+arrendado
+r, por el derecho a usar un activo subyacente durante el
+plazo del arrendamiento,
+que varía debido a cambios en hechos y circunstancias ocurridos después de la
+fecha de comienzo, y son distintos del paso del tiempo.
+Términos definidos en otras Normas y usados en ésta con el mismo significado
+contrato
+Un contrato es un acuerdo entre dos o más partes que crea derechos y obligaciones exigibles.
+vida
+El periodo durante el cual se espera utilizar el activo por parte de la entidad; el número de unidades de producción o similares que se espera obtener del activo por parte de una entidad.
+Apéndice B
+Guía de aplicación
+Este apéndice es parte integrante de la Norma. Describe la aplicación de los párrafos 1 a 103 y tiene el mismo valor normativo que las otras partes de la Norma.
+Aplicación de la cartera
+B1 Esta Norma especifica la contabilización de un arrendamiento individual. Sin embargo, como una solución práctica, una entidad puede aplicar esta Norma a una cartera de arrendamientos con características similares, si espera de forma razonable que los efectos sobre los estados financieros de aplicar esta Norma a la cartera no diferirían de forma significativa de su aplicación a los arrendamientos individuales de la cartera. Al contabilizar una cartera, una entidad utilizará estimaciones y suposiciones que reflejen el tamaño y composición de la cartera.
+Combinación de contratos
+B2 Al aplicar esta Norma, una entidad combinará dos o más contratos realizados al mismo tiempo, o próximos entre sí, con la misma contraparte (o con partes relacionadas con esa contraparte) y contabilizará los contratos como uno único, si se cumplen uno o más de los siguientes criterios:
+(a) los contratos se negocian como un paquete con un objetivo comercial global que no puede comprenderse sin considerar los contratos conjuntamente;
+(b) el importe de la contraprestación a pagar en un contrato depende del precio o desempeño del otro contrato; o
+(c) los derechos a usar los activos subyacentes transmitidos en los contratos (o algunos derechos a usar los activos subyacentes transmitidos en cada uno de los contratos} forman un componente del arrendamiento único como se describe en el párrafo B32.
+Exención de reconocimiento: arrendamientos para los que el activo subyacente es de bajo valor (párrafos 5 a 8)
+B3 Excepto por lo que se especifica en el párrafo 87, esta Norma permite que un arrendatario aplique el párrafo 6 para contabilizar arrendamientos en los que el activo subyacente es de bajo valor.
+B4 La evaluación de si un activo subyacente es de bajo valor se realiza en términos absolutos. Los arrendamientos de activos de bajo valor cumplen los requisitos del tratamiento contable del párrafo 6 independientemente de si esos arrendamientos son significativos para el arrendatario. La evaluación no se ve afectada por el tamaño, naturaleza o circunstancias del arrendatario. Por consiguiente, se espera que los diferentes arrendatarios alcancen las mismas conclusiones sobre si un activo subyacente concreto es de bajo valor.
+B5 Un activo subyacente puede ser de bajo valor solo si:
+(a) el arrendatario puede beneficiarse del uso del activo subyacente en sí mismo o junto con otros recursos que están fácilmente disponibles para el arrendatario; y
+(b) el activo subyacente no es altamente dependiente o está altamente interrelacionado con otros activos.
+B6 Un arrendamiento de un activo subyacente no cumple los requisitos de un arrendamiento de un activo de bajo valor si la naturaleza del activo es tal que, cuando es nuevo, el activo no es habitualmente de bajo valor. Por ejemplo, los arrendamientos de vehículos no cumplirían los requisitos de activos de bajo valor porque un vehículo nuevo no sería habitualmente de bajo valor.
+B7 Si un arrendatario subarrienda un activo, o espera subarrendar un activo, el arrendamiento principal no cumple los requisitos de un arrendamiento de un activo de bajo valor.
+B8 Algunos ejemplos, de activos subyacentes de bajo valor pueden ser las tabletas y computadoras personales, así como los elementos pequeños de mobiliario de oficina y teléfonos.
+Identificación de un arrendamiento (párrafos 9 a 11)
+B9 Para evaluar si un contrato transmite el derecho de controlar el uso de un activo identificado (véanse los párrafos B13 a B20) por un periodo de tiempo, una entidad evaluará si, a lo largo de todo el periodo de uso, el cliente tiene:
+(a) el derecho a obtener sustancialmente todos los beneficios económicos del uso del activo identificado (como se describe en los párrafos B21 a B23); y
+(b) el derecho a decidir el uso del activo identificado (como se describe en los párrafos B24 a B30).
+B10 Si el cliente tiene el derecho de controlar el uso de un activo identificado durante solo una parte del plazo del contrato, dicho contrato contiene un arrendamiento por esa parte del plazo.
+B11 Un contrato para recibir bienes o servicios puede realizarse mediante un acuerdo conjunto, o en nombre de un acuerdo conjunto, como se define en la NllF 11 Acuerdos Conjuntos. En este caso, el acuerdo conjunto se considera que es el cliente en el contrato. Por consiguiente, al evaluar si un contrato contiene un arrendamiento, una entidad evaluará si el acuerdo conjunto tiene el derecho de controlar el uso de un activo identificado a lo largo de todo el periodo de uso.
+B12 Una entidad evaluará si un contrato contiene un arrendamiento para cada componente potencial del arrendamiento separado. Dirigirse al párrafo B32 para guías sobre los componentes separados del arrendamiento.
+Activos identificados
+B13 Un activo se identifica habitualmente por estar explícitamente especificado en un contrato. Sin embargo, un activo puede también identificarse por estar implícitamente especificado en el momento en que el activo está disponible para su uso por el cliente.
+Derechos sustantivos de sustitución
+B14 Incluso si se especifica un activo, un cliente no tiene el derecho a usar un activo identificado si el proveedor tiene el derecho sustantivo de sustituir el activo a lo largo de todo el periodo de uso. El derecho de un proveedor de sustituir un activo es sustantivo solo si existen las siguientes condiciones:
+(a) el proveedor tiene la capacidad práctica de sustituir activos alternativos a lo largo de todo el periodo de uso (por ejemplo, el cliente no puede impedir que el proveedor sustituya el activo y hay activos alternativos fácilmente disponibles para el proveedor o podrían encontrarse por el proveedor dentro de un periodo de tiempo razonable); y
+(b) el proveedor se beneficiaría económicamente del ejercicio de su derecho a sustituir el activo (es decir, se espera que los beneficios económicos asociados con la sustitución superen los costos asociados con la sustitución del activo).
+B15 Si el proveedor tiene un derecho o una obligación de sustituir el activo solo a partir de una fecha concreta o de que ocurra un suceso especificado, el derecho de sustitución del proveedor no es sustantivo porque el proveedor no tiene la capacidad práctica de sustituir activos alternativos a lo largo de todo el periodo de uso.
+B16 La evaluación por una entidad de si el derecho de sustitución de un proveedor es sustantivo se basa en hechos y circunstancias al inicio del contrato y excluirá la consideración de sucesos futuros que, al inicio del contrato, no se considera probable que ocurran. Algunos ejemplos de sucesos futuros que, al inicio del contrato, no se consideraría probable que ocurran y, por ello, deben excluirse de la evaluación incluyen:
+(a) un acuerdo por un cliente futuro de pagar un precio por uso del activo superior al de mercado;
+(b) la introducción de nueva tecnología que no está sustancialmente desarrollada al inicio del contrato;
+(c) una diferencia sustancial entre el uso del activo por el cliente, o el rendimiento del activo, y el uso o rendimiento considerado probable al inicio del contrato; y
+(d) una diferencia sustancial entre el precio de mercado del activo durante el periodo de uso, y el precio de mercado considerado probable al inicio del contrato.
+B17 Si el activo se encuentra en los locales del cliente o en cualquier otro sitio, los costos asociados con la sustitución son generalmente mayores que cuando se encuentra en los locales del proveedor y, por ello, son más probables que superen los beneficios asociados con la sustitución del activo.
+B18 Los derechos u obligaciones del proveedor para sustituir el activo por reparaciones y mantenimiento, si el activo no está operando adecuadamente o si una actualización técnica pasa a estar disponible no impide al cliente tener el derecho a usar un activo identificado.
+B19 Si el cliente no puede determinar fácilmente si el proveedor tiene un derecho de sustitución sustantivo, el cliente supondrá que cualquier derecho de sustitución no es sustantivo.
+Parles de los activos
+B20 Una parte de la capacidad de un activo es un activo identificable si es físicamente distinto (por ejemplo, un piso de un edificio). Una capacidad u otra parte de un activo que no es físicamente distinta (por ejemplo, una parte de la capacidad de un cable de fibra óptica) no es un activo identificable, a menos que represente sustancialmente toda la capacidad del activo y, de ese modo proporcione al cliente el derecho a obtener sustancialmente todos los beneficios económicos del uso del activo.
+Derecho a obtener beneficios económicos del uso
+B21 Para controlar el uso de un activo identificable, se requiere que un cliente tenga el derecho a obtener sustancialmente todos los beneficios económicos del uso del activo a lo largo de todo el periodo de uso (por ejemplo, teniendo el uso exclusivo del activo a largo de todo ese periodo). Un cliente puede obtener los beneficios económicos del uso de un activo directamente o indirectamente de muchas formas, tales como usando, manteniendo o subarrendando el activo. Los beneficios económicos del uso de un activo incluyen sus productos principales y subproductos (incluyendo los flujos de efectivo potenciales procedentes de estos elementos), y otros beneficios económicos procedentes del uso del activo que podrían realizarse por una transacción comercial con un tercero.
+B22 Al evaluar el derecho a obtener sustancialmente todos los beneficios económicos del uso de un activo, una entidad considerará los beneficios económicos que proceden del uso del activo, dentro del alcance delimitado por el derecho de un cliente a usar el activo (véase el párrafo B30). Por ejemplo:
+(a) Si un contrato limita el uso de un vehículo a motor a solo un territorio concreto durante el periodo de uso, una entidad considerará solo los beneficios económicos del uso del vehículo de motor dentro del territorio, y no más fuera del mismo.
+(b) Sí un contrato especifica que un cliente puede conducir un vehículo a motor solo hasta un número concreto de kilómetros durante el periodo de uso, una entidad considerará solo los beneficios económicos del uso del vehículo de motor para el kilometraje permitido y no más allá.
+B23 Si un contrato requiere que un cliente pague al proveedor o a un tercero una parte de los flujos de efectivo procedentes del uso de un activo como contraprestación, esos flujos de efectivo pagados como contraprestación se considerarán parte de los beneficios económicos que el cliente obtiene del uso del activo. Por ejemplo, si se requiere que el cliente pague al proveedor un porcentaje de las ventas por el uso de un espacio comercial como contraprestación por ese uso, ese requerimiento no impide que el cliente tenga el derecho a obtener sustancialmente todos los beneficios económicos del uso del espacio comercial. Esto es así porque los flujos de efectivo que surgen de esas ventas se consideran que son beneficios económicos que obtiene el cliente del uso del espacio comercial, una parte del cual paga al proveedor como contraprestación por el derecho a usar ese espacio.
+Derecho a decidir el uso
+B24 Un cliente tiene el derecho a decidir sobre el uso de un activo identificado a lo largo de todo el periodo de uso solo si:
+(a) el cliente tiene el derecho a decidir cómo y para qué propósito se usa el activo a lo largo de todo el periodo de uso (como se describe en los párrafos B25 a B30); o
+(b) las decisiones relevantes sobre cómo y para qué propósito se usa están predeterminadas y:
+(i) el cliente tiene el derecho a operar el activo (o dirigir a otros para operar el activo de la forma que determine) a lo largo de todo el periodo de uso, sin que el proveedor tenga el derecho a cambiar esas instrucciones operativas; o
+(ii) el cliente diseñó el activo (o aspectos específicos del mismo) de forma que predetermina cómo y para qué propósito se usará el activo a lo largo de todo el periodo de uso.
+Cómo y para qué propósito se usa el activo
+B25 Un cliente tiene el derecho a decidir cómo y para qué propósito se usa el activo si, dentro del alcance de su derecho definido en el contrato, puede cambiar el cómo y para qué propósito se usa el activo a lo largo de todo el periodo de uso. Para hacer esta evaluación, una entidad considera los derechos a tomar decisiones que son más relevantes para cambiar el cómo y para qué propósito se usa el activo a lo largo de todo el periodo de uso. Los derechos de toma de decisiones son relevantes cuando afectan los beneficios económicos que proceden del uso. Es probable que los derechos de toma de decisiones que son más relevantes sean diferentes para distintos contratos, dependiendo de la naturaleza del activo y los términos y condiciones del contrato.
+B26 Algunos ejemplos de derechos de toma de decisiones que, dependiendo de las circunstancias, conceden el derecho a cambiar el cómo y para qué propósito se usa el activo, dentro del alcance definido de los derechos de uso del cliente, incluyen:
+(a) derechos a cambiar el tipo de producto que se fabrica mediante el activo (por ejemplo, para decidir si usar un contenedor de transporte para trasladar bienes o para almacenar, o para decidir sobre el conjunto de productos vendidos desde el espacio comercial);
+(b) derechos a cambiar cuándo se fabrica el producto (por ejemplo, decidir cuándo se usará un elemento de maquinaria o una planta de electricidad);
+(c) derechos a cambiar donde tiene lugar la producción (por ejemplo, decidir sobre el destino de un camión o un barco, o decidir cuándo se usa un elemento de equipo); y
+(d) derechos a cambiar si se fabrica el producto, y la cantidad de ese producto (por ejemplo, decidir si producir energía desde la planta de electricidad y cuánta energía producir desde esa planta).
+B27 Ejemplos de derechos de toma de decisiones que no conceden el derecho a cambiar cómo y para qué propósito se usa el activo incluyen derechos que se limitan a operar o mantener el activo. Estos derechos pueden corresponder al cliente o el proveedor. Aunque derechos tales como los de operar o mantener un activo son, a menudo, esenciales para el uso eficiente de un activo, no son derechos a dirigir cómo y para qué propósito se usa el activo y, a menudo, dependen de decisiones sobre cómo y para qué propósito se usa el activo. Sin embargo, los derechos a operar un activo pueden conceder al cliente el derecho a decidir el uso del activo si las decisiones relevantes sobre cómo y para qué propósito se usa el activo están predeterminados [véase el párrafo B24(b) (i) ].
+Decisiones determinadas antes y durante el periodo de uso
+B28 Las decisiones relevantes sobre cómo y para qué propósito se usa el activo pueden predeterminarse de diversas formas. Por ejemplo, las decisiones relevantes pueden predeterminarse mediante el diseño del activo o mediante restricciones contractuales sobre el uso del activo.
+B29 Al evaluar si un cliente tiene el derecho a decidir el uso de un activo, una entidad considerará solo los derechos a tomar decisiones sobre el uso del activo durante el periodo de uso, a menos que el cliente diseñe el activo (o aspectos específicos de éste) como se describe en el párrafo B24 (b) (ii). Por consiguiente, a menos que se den las condiciones del párrafo B24 (b) (ii), una entidad no considerará decisiones que estén predeterminadas antes del periodo de uso. Por ejemplo, si un cliente puede solo especificar la producción a obtener de un activo antes del periodo de uso, el cliente no tiene el derecho a decidir el uso de ese activo. La capacidad de especificar la producción en un contrato antes del periodo de uso, sin ningún otro derecho a tomar decisiones relacionadas con el uso del activo, otorga al cliente los mismos derechos que a cualquier cliente que compre bienes o servicios.
+Derechos protectores
+B30 Un contrato puede incluir términos y condiciones diseñados para proteger el interés del proveedor en el activo u otros activos, para proteger su personal, o para asegurar el cumplimiento del proveedor de las leyes o regulaciones. Estos son ejemplos de derechos protectores. Por ejemplo, un contrato puede (i) especificar la cantidad máxima de uso de un activo o el límite de dónde y cuándo puede usar el cliente el activo, (ii) requerir que un cliente siga prácticas operativas concretas, o (iii) requerir que un cliente informe al proveedor de cambios relativos a cómo se usará un activo. Los derechos protectores habitualmente definen el alcance de los derechos de uso del cliente, pero no impiden al cliente, por sí solos, ejercer el derecho a decidir el uso de un activo.
+B31 El siguiente flujograma pueda ayudar a las entidades a hacer la evaluación de si un contrato es, o contiene, un arrendamiento.
+VER TABLA
+Componentes separados de un contrato (párrafos 12 a 17)
+B32 El derecho a usar un activo subyacente es un componente del arrendamiento separado si:
+(a) el arrendatario puede beneficiarse del uso del activo subyacente por sí mismo o junto con otros recursos que están fácilmente disponibles para el arrendatario. Recursos fácilmente disponibles son bienes o servicios que se venden o arriendan por separado (por el arrendador u otros proveedores) o recursos que el arrendatario ya ha obtenido (del arrendador o de otras transacciones o sucesos); y
+(b) el activo subyacente no es altamente dependiente ni está altamente interrelacionado con otros activos subyacentes en el contrato. Por ejemplo, el hecho de que un arrendatario pueda decidir no arrendar el activo subyacente sin afectar significativamente sus derechos a usar otros activos subyacentes en el contrato, puede indicar que el activo subyacente no es altamente dependiente o no está altamente interrelacionado con los otros activos subyacentes.
+B33 Un contrato puede incluir un importe por pagar por el arrendatario para actividades y costos que no transfieren un bien o servicio al arrendatario. Por ejemplo, un arrendador puede incluir en el importe total por pagar un cargo por tareas administrativas, u otros costos incurridos asociados con el arrendamiento, que no transfieren un bien o servicio al arrendatario. Estos importes por pagar no dan lugar a un componente separado del contrato, pero se consideran parte de la contraprestación total que se distribuye a los componentes identificados por separado del contrato.
+Plazo del arrendamiento (párrafos 18 a 21)
+B34 Para determinar el plazo del arrendamiento y evaluar la duración del periodo no cancelable del arrendamiento, una entidad aplicará la definición de un contrato y determinará el periodo por el que dicho contrato es exigible. Un arrendamiento deja de ser exigible cuando el arrendatario y el arrendador tienen, cada uno por separado, el derecho de terminar el arrendamiento sin permiso de la otra parte con una penalización insignificante.
+B35 Si solo el arrendatario tiene el derecho a terminar un arrendamiento, ese derecho se considera que es una opción a terminar el arrendamiento disponible para el arrendatario, que una entidad ha de considerar al determinar el plazo del arrendamiento. Si solo el arrendador tiene el derecho a terminar un arrendamiento, el periodo no cancelable del arrendamiento incluye el periodo cubierto por la opción de terminar el arrendamiento.
+B36 El plazo del arrendamiento empieza en la fecha de comienzo e incluye los periodos libres de renta proporcionados al arrendatario por el arrendador.
+B37 En la fecha de comienzo, una entidad evalúa si es razonablemente cierto que el arrendatario ejerza una opción para ampliar el arrendamiento o comprar el activo subyacente, o no ejerza una opción de terminar el arrendamiento. La entidad considera todos los hechos y circunstancias relevantes que crean un incentivo económico para que los arrendatarios ejerzan, o no, la opción, incluyendo los cambios esperados en hechos y circunstancias desde la fecha de comienzo hasta la fecha de ejercicio de la opción. Ejemplos de factores a considerar incluyen, pero no se limitan a:
+(a) los términos y condiciones contractuales para los periodos opcionales comparados con las tasas de mercado, tales como:
+(i) el importe de pagos por el arrendamiento en cualquier periodo opcional;
+(ii) el importe de cualquier pago variable por el arrendamiento u otros pagos contingentes, tales como pagos que procedan de penalizaciones por terminación y garantías de valor residual; y
+(iii) los términos y condiciones de las opciones que son ejercitables después de los periodos opcionales iniciales (por ejemplo, una opción de compra que es ejercitable al final de un periodo de ampliación a una tasa que está actualmente por debajo de las tasas de mercado).
+(b) mejoras del arrendamiento significativas llevadas a cabo (o que se espera llevar a cabo) a lo largo del plazo del contrato, que se espera que tengan un beneficio económico significativo para el arrendatario cuando la opción de ampliar o terminar el arrendamiento, o comprar el activo subyacente, pase a ser ejercitable;
+(c) costos relacionados con la terminación del arrendamiento, tal como los costos de negociación, costos de reubicación, costos de identificar otro activo subyacente adecuado para las necesidades del arrendatario, costos de integrar un nuevo activo en las operaciones del arrendatario, o penalizaciones de terminación y costos similares, incluyendo los costos asociados con la devolución del activo subyacente en una condición especificada contractualmente o a una ubicación especificada contractualmente;
+(d) la importancia de ese activo subyacente para las operaciones del arrendatario, considerando, por ejemplo, si el activo subyacente es un activo especializado, la ubicación del activo subyacente y la disponibilidad de alternativas adecuadas; y
+(e) condicionalmente asociado con el ejercicio de la opción (es decir, cuando la opción puede ejercerse solo si se cumplen una o más condiciones), y la probabilidad de que existirán esas condiciones.
+B38 Una opción de ampliar o terminar un arrendamiento puede combinarse con una o más características contractuales (por ejemplo, una garantía de valor residual), tales que el arrendatario garantice al arrendador una rentabilidad mínima o cobros fijos que son sustancialmente los mismos independientemente de si ejerce o no la opción. En estos casos, y a pesar de las guías sobre pagos fijos en esencia del párrafo B42, una entidad supondrá que el arrendatario tiene una razonable certeza de que ejercerá la opción de ampliar el arrendamiento, o no ejercerá la opción de terminar con él.
+B39 Cuánto más corto sea el periodo no cancelable de un arrendamiento, mayor será la probabilidad de que un arrendatario ejerza una opción de ampliar el arrendamiento o no ejercer una opción de terminar el arrendamiento. Esto es así porque los costos asociados con la obtención un activo de sustitución es probable que sean proporcionalmente más altos cuánto más corto sea el periodo no cancelable.
+B40 La práctica pasada de un arrendatario con respecto al periodo sobre el que ha usado habitualmente tipos concretos de activos (si arrendados o comprados), junto con sus razones económicas para hacerlo así, pueden proporcionar información que sea útil para evaluar si el arrendatario tiene certeza razonable de ejercer o no, una opción. Por ejemplo, si un arrendatario ha usado habitualmente tipos concretos de activos por un determinado periodo de tiempo o si el arrendatario tiene la práctica de ejercer frecuentemente las opciones sobre los arrendamientos de tipos concretos de activos subyacentes, el arrendatario considerará las razones económicas de esa práctica pasada al evaluar si hay certeza razonable de ejercer una opción sobre arrendamientos de esos activos.
+B41 El párrafo 20 especifica que, después de la fecha de comienzo, un arrendatario evaluará nuevamente el plazo del arrendamiento en el momento en que ocurra un suceso o cambio significativo en las circunstancias que están bajo el control del arrendatario y afectan a la certeza razonable que posee de ejercer una opción no incluida previamente en su determinación del plazo del arrendamiento, o bien de no ejercer una opción anteriormente incluida en su determinación del plazo del arrendamiento. Algunos ejemplos de sucesos o cambios significativos en circunstancias incluyen:
+(a) mejoras del arrendamiento significativas no anticipadas en la fecha de comienzo que se espera que tengan un beneficio económico significativo para el arrendatario cuando la opción de ampliar o terminar el arrendamiento, o comprar el activo subyacente, pasa a ser ejercitable;
+(b) una modificación significativa, o bien la personalización del activo subyacente, que no se hubiera podido anticipar en la fecha de comienzo;
+(c) el inicio de un subarrendamiento del activo subyacente para un periodo superior al final de plazo de arrendamiento determinado con anterioridad; y
+(d) una decisión de negocio del arrendatario que es directamente relevante para ejercer, o no, una opción (por ejemplo, una decisión de ampliar el arrendamiento de un activo complementario, disponer de un activo alternativo o disponer de una unidad de negocio en la que se emplea el activo por derecho de uso).
+Pagos por arrendamiento que son fijos en esencia [párrafos 27(a), 36(c) y 70(a) ]
+B42 Los pagos por arrendamiento incluyen cualquier pago fijo por arrendamiento en esencia. Los pagos fijos por arrendamiento en esencia son pagos que pueden, formalmente contener variabilidad pero son, en esencia, inevitables. Los pagos fijos en esencia por arrendamiento se dan, por ejemplo, cuando:
+(a) los pagos se estructuran como pagos por arrendamiento variables, pero no existe una variabilidad real en ellos. Esos pagos contienen cláusulas variables que no tienen esencia económica real.
+(i) pagos que deben hacerse solo si se prueba que un activo solo puede operar durante el arrendamiento, o solo si ocurre un suceso que no tiene posibilidad auténtica de no ocurrir; o
+(ii) pagos que están estructurados inicialmente como pagos por arrendamiento variables vinculados al uso del activo subyacente, pero para los que la variabilidad se resolverá en algún momento después de la fecha de comienzo, de forma que los pagos pasen a ser fijos para el resto-del plazo del arrendamiento. Dichos pagos pasan a ser pagos fijos en esencia cuando se resuelve la variabilidad.
+(b) existe más de un conjunto de pagos que un arrendatario podría realizar, pero solo uno de esos conjuntos de pagos es realista. En este caso, una entidad considerará al conjunto realista de pagos como pagos por arrendamiento.
+(c) existe más de un conjunto realista de pagos que podría hacer un arrendatario, pero debe realizar al menos uno de esos conjuntos de pagos. En este caso, una entidad considerará que los pagos por arrendamiento son el conjunto de pagos que suma el menor importe (sobre una base descontada).
+Implicación del arrendatario con el activo subyacente antes de la fecha de comienzo
+Los costos del arrendamiento relacionados con la construcción o diseño del activo subyacente
+B43 Una entidad puede negociar un arrendamiento antes de que esté disponible el activo subyacente para su uso por el arrendatario. Para algunos arrendamientos, el activo subyacente puede tener necesidad ser construido o rediseñado para su uso por el arrendatario. Dependiendo de los términos y condiciones del contrato, puede requerirse a un arrendatario para que realice pagos relacionados con la construcción o diseño del activo.
+B44 Si un arrendatario incurre en costos relacionados con la construcción o diseño de un activo subyacente, contabilizará esos costos utilizando otras Normas aplicables, tal como la NIC 16. Los costos relacionados con la construcción o diseño de un activo subyacente no incluyen los pagos realizados por el arrendatario por el derecho a usar el activo subyacente. Los pagos por el derecho a usar un activo subyacente son pagos por un arrendamiento, independientemente del calendario de esos pagos.
+Derecho legal al activo subyacente
+B45 Un arrendatario puede obtener el derecho legal a un activo subyacente antes de que se transfiera el derecho legal al arrendador y el activo se arriende al arrendatario. La obtención del derecho legal no determina por sí mismo cómo contabilizar la transacción.
+B46 Si el arrendatario controla (u obtiene el control) del activo subyacente antes de que se transfiera al arrendador, la transacción es una venta con arrendamiento posterior que se contabiliza aplicando los párrafos 98 a 103.
+B47 Sin embargo, si el arrendatario no obtiene el control del activo subyacente antes de que se transfiera al arrendador, la transacción no es una venta con arrendamiento posterior. Por ejemplo, este podría ser el caso si un fabricante, un arrendador y un arrendatario negocian una transacción de compra de un activo al fabricante por el arrendador que a su vez arrienda al arrendatario. En este caso, si el arrendatario obtiene el derecho legal al activo subyacente pero no obtiene el control del activo antes de que se transfiera al arrendador, la transacción no se contabiliza como una venta con arrendamiento posterior, sino como un arrendamiento.
+Información a revelar por el arrendatario (párrafo 59)
+B48 Para determinar si es necesaria información adicional sobre las actividades de arrendamiento para cumplir el objetivo de información a revelar del párrafo 51, un arrendatario considerará:
+(a) si esa información es relevante para los usuarios de los estados financieros. Un arrendatario proporcionará la información adicional especificada en el párrafo 59 solo si se espera que sea relevante para los usuarios de los estados financieros. En este contexto, es probable que éste sea el caso si ayuda a los usuarios a comprender:
+(i) la flexibilidad proporcionada por los arrendamientos. Los arrendamientos pueden proporcionar flexibilidad si, por ejemplo, un arrendatario puede reducir su exposición ejerciendo las opciones de terminación o renovación de dichos arrendamientos en términos y condiciones favorables.
+(ii) restricciones impuestas por los arrendamientos. Los arrendamientos pueden imponer restricciones, por ejemplo, requiriendo que los arrendatarios mantengan ratios financieros concretos.
+(iii) sensibilidad de la información presentada a variables clave. La información presentada puede ser sensible a, por ejemplo, los pagos variables futuros por arrendamiento.
+(iv) exposición a otros riesgos que surgen de los arrendamientos.
+(v) desviaciones de la práctica del sector industrial. Estas desviaciones pueden incluir, por ejemplo, términos y condiciones de arrendamiento inusuales o extraordinarias que afectan la cartera de arrendamientos de un arrendatario.
+(b) Si esa información se desprende de información presentada en los estados financieros principales o revelada en las notas. Un arrendatario no necesita duplicar información que ya se presenta en cualquier otro sitio de los estados financieros.
+B49 Información adicional relacionada con pagos por arrendamiento variables que, dependiendo de las circunstancias, podría ser necesaria para satisfacer el objetivo de información a revelar del párrafo 51, podría incluir información que ayude a los usuarios de los estados financieros a evaluar, por ejemplo:
+(a) las razones del arrendatario para usar pagos por arrendamiento variables y la preponderancia de esos pagos;
+(b) la magnitud relativa de los pagos por arrendamiento variables con respecto a los pagos fijos;
+(c) variables clave de las que dependen los pagos por arrendamiento variables, y cómo se espera que varíen dichos pagos en respuesta a cambios en dichas variables; y
+(d) otros efectos financieros y operativos de los pagos por arrendamiento variables.
+B50 Entre la información adicional relacionada con las opciones de ampliación o terminación que, dependiendo de las circunstancias, podría ser necesaria para satisfacer el objetivo de información a revelar del párrafo 51, se incluiría información que ayude a los usuarios de los estados financieros a evaluar, por ejemplo:
+(a) las razones del arrendatario para usar las opciones de ampliación o terminación y la preponderancia de esos pagos;
+(b) la magnitud relativa de los pagos por arrendamiento opcionales con respecto a los pagos por arrendamiento;
+(c) la preponderancia del ejercicio de las opciones que no se incluyeron en la medición de los pasivos por arrendamiento; y
+(d) otros efectos financieros y operativos de esas opciones.
+B51 Información adicional relacionada con las garantías de valor residual que, dependiendo de las circunstancias, podría ser necesaria para satisfacer el objetivo de información a revelar del párrafo 51, podría incluir información que ayude a los usuarios de los estados financieros a evaluar, por ejemplo:
+(a) las razones del arrendatario para proporcionar garantía de valor residual y la preponderancia de esas garantías;
+(b) la magnitud de la exposición de un arrendatario al riesgo del valor residual;
+(c) la naturaleza de los activos subyacentes para los que se proporcionan esas garantías; y
+(d) otros efectos financieros y operativos de esas garantías.
+B52 Información adicional relacionada con las transacciones de venta con arrendamiento posterior que, dependiendo de las circunstancias, podría ser necesaria para satisfacer el objetivo de información a revelar del párrafo 51, podría incluir información que ayude a los usuarios de los estados financieros a evaluar, por ejemplo:
+(a) las razones del arrendatario para realizar transacciones de venta con arrendamiento posterior y la preponderancia de esas transacciones;
+(b) términos y condiciones clave de las ventas con arrendamiento posterior a nivel individual;
+(c) pagos no incluidos en la medición de los pasivos por arrendamiento; y
+(d) el efecto de los flujos de efectivo de las transacciones de venta con arrendamiento posterior en el periodo sobre el que se informa.
+Clasificación del arrendamiento por el arrendador (párrafos 61 a 66)
+B53 La clasificación de los arrendamientos por el arrendador en esta Norma se basa en la medida en que el arrendamiento transfiere los riesgos y recompensas inherentes a la propiedad de un activo subyacente. Entre tales riesgos se incluyen la posibilidad de pérdidas por capacidad ociosa u obsolescencia tecnológica, así como las variaciones en el desempeño debidas a cambios en las condiciones económicas. Las ventajas pueden estar representadas por la expectativa de una operación rentable a lo largo de la vida económica del activo, así como por una ganancia por revalorización o por una realización del valor residual.
+B54 Un contrato de arrendamiento podría incluir términos y condiciones para ajustar los pagos por arrendamiento por cambios concretos que ocurran entre la fecha de inicio del acuerdo y la de comienzo (tal como un cambio en el costo del arrendador del activo subyacente o un cambio en el costo del arrendador de la financiación del arrendamiento). En ese caso, a efectos de clasificar el arrendamiento, el efecto de cualquier cambio se considerará que ha tenido lugar en la fecha de inicio del acuerdo.
+B55 Cuando un arrendamiento incluya componentes de terrenos y de edificios conjuntamente, la entidad evaluará la clasificación de cada componente por separado como un arrendamiento financiero u operativo, de acuerdo con los párrafos 62 a 66, B53 y B54. Al determinar si el componente de terreno es un arrendamiento financiero u operativo, una consideración importante es que los terrenos normalmente tienen una vida económica indefinida.
+B56 Cuando sea necesario para clasificar y contabilizar un arrendamiento de terrenos y edificios, un arrendador distribuirá los pagos por el arrendamiento (incluyendo todo pago por adelantado) entre los componentes de terrenos y edificios en proporción a los valores razonables relativos que representan los derechos de arrendamiento en los citados componentes de terrenos y edificios en la fecha de inicio del acuerdo. Si los pagos por el arrendamiento no pueden repartirse fiablemente entre estos dos componentes, todo el arrendamiento se clasificará como arrendamiento financiero, a menos que esté claro que ambos componentes son arrendamientos operativos, en cuyo caso todo el arrendamiento se clasificará como operativo.
+B57 Para un arrendamiento de terreno y edificios en los que el importe del terreno no es significativo para el arrendamiento, un arrendador puede tratar el terreno y los edificios como una sola unidad a efectos de la clasificación del arrendamiento y clasificarlo como un arrendamiento financiero o un arrendamiento operativo aplicando los párrafos 62 a 66 y B53 y B54. En este caso, un arrendador considerará la vida económica de los edificios como la que corresponde al activo subyacente en su totalidad.
+Clasificación de subarrendamientos
+B58 Para clasificar un subarrendamiento, un arrendador intermedio clasificará el subarrendamiento como un arrendamiento financiero o un arrendamiento operativo de la forma siguiente:
+(a) Si el arrendamiento principal es un arrendamiento a corto plazo que la entidad, como arrendatario, ha contabilizado aplicando el párrafo 6, el subarrendamiento se clasificará como un arrendamiento operativo.
+(b) En otro caso, el subarrendamiento se clasificará por referencia al activo por derecho de uso que surge del arrendamiento principal, en lugar de por referencia al activo subyacente (por ejemplo, el elemento de propiedades, planta y equipo que es sujeto del arrendamiento).
+Apéndice C
+Fecha de vigencia y transición
+Este apéndice forma parte integrante de la NIIF y tiene el mismo carácter normativo que las otras partes de la Norma.
+Fecha de vigencia
+C1 Una entidad aplicará esta Norma para los periodos anuales que comiencen a partir del 1 de enero de 2019. Se permite su aplicación anticipada para entidades que utilicen la NllF 15 Ingresos de Actividades Ordinarias Procedentes de Contratos con Clientes antes de la fecha de aplicación inicial de esta Norma. Si una entidad aplica esta Norma en un periodo que comience con anterioridad, revelará ese hecho.
+C1A Reducciones del Alquiler Relacionadas con el Covid-19, emitida en mayo de 2020, añadió los párrafos 46A, 46B, 60A, C20A y C20B. Un arrendatario aplicará esa modificación para los periodos anuales que comiencen a partir del 1 de junio de 2020. Se permite la aplicación anticipada, incluyendo en los estados financieros no autorizados para su publicación a 28 de mayo de 2020.
+Transición
+C2 A efectos de los requerimientos de los párrafos C 1 a C 19, la fecha de aplicación inicial es el comienzo del periodo anual sobre el que se informa en que la entidad aplique esta Norma por primera vez.
+Definición de un arrendamiento
+C3 Como una solución práctica, no se requiere que una entidad evalúe nuevamente si un contrato es, o contiene, un arrendamiento en la fecha de aplicación inicial. En su lugar, se permite que la entidad:
+(a) aplique esta Norma a contratos que estaban anteriormente identificados como arrendamientos aplicando la NIC 17 Arrendamientos y la CINllF 4 Determinación de sí un Acuerdo contiene un Arrendamiento. La entidad aplicará los requerimientos de transición de los párrafos C5 a C18 a esos arrendamientos.
+(b) No aplicará esta Norma a contratos que no fueron anteriormente identificados como que contenían un arrendamiento aplicando las NIC 17 y CINllF 4.
+C4 Si una entidad elige la solución práctica del párrafo C3, revelará ese hecho y aplicará la solución práctica a todos sus contratos. Como resultado, la entidad aplicará los requerimientos de los párrafos 9 a 11 solo a contratos realizados (o modificados) a partir de la fecha de aplicación inicial.
+Arrendatarios
+C5 Un arrendatario aplicará esta Norma a sus arrendamientos:
+(a) de forma retroactiva a cada periodo sobre el que se informa anterior presentado, aplicando la NIC 8 Políticas Contables, Cambios en las Estimaciones Contables y Errores; o
+(b) retroactivamente con el efecto acumulado de la aplicación inicial de la Norma reconocido en la fecha de aplicación inicial, de acuerdo con los párrafos C7 a C13.
+C6 Un arrendatario aplicará la alternativa descrita en el párrafo C5 de forma congruente a todos los arrendamientos en los que sea arrendatario.
+C7 Si un arrendatario opta por aplicar esta Norma de acuerdo con el párrafo C5 (b), no reexpresará la información comparativa. En su lugar el arrendatario reconocerá el efecto acumulado de la aplicación inicial de esta Norma como un ajuste al saldo de apertura de las ganancias acumuladas (u otro componente de patrimonio según proceda) en la fecha de aplicación inicial.
+Arrendamientos anteriormente clasificados como arrendamientos operativos
+C8 Si un arrendatario opta por aplicar esta Norma de acuerdo con el párrafo C5 (b):
+(a) Reconocerá un pasivo por arrendamiento en la fecha de aplicación inicial para los arrendamientos anteriormente clasificados como un arrendamiento operativo utilizando la NIC 17. El arrendatario medirá ese pasivo por arrendamiento al valor presente de los pagos por arrendamiento restantes, descontados usando la tasa incremental por préstamos del arrendatario en la fecha de aplicación inicial.
+(b) Reconocerá un activo por derecho de uso en la fecha de aplicación inicial para los arrendamientos anteriormente clasificados como un arrendamiento operativo utilizando la NIC 17. El arrendatario optará, arrendamiento por arrendamiento, por medir el activo por derecho de uso:
+(i) su importe en libros como si la Norma se hubiera aplicado desde la fecha de comienzo, pero descontado usando la tasa incremental por préstamos del arrendatario en la fecha de aplicación inicial; o
+(ii) un importe igual al pasivo por arrendamiento, ajustado por el importe de cualquier pago por arrendamientos anticipado o acumulado (devengado) relacionado con ese arrendamiento reconocido en el estado de situación financiera inmediatamente antes de la fecha de aplicación inicial.
+(c) La aplicación de la NIC 36 Deterioro de Valor de los Activos a los activos por derecho de uso en la fecha de aplicación inicial, a menos que el arrendatario utilice la solución práctica del párrafo C1D (b).
+C9 A pesar de los requerimientos del párrafo C8, para arrendamientos anteriormente clasificados como arrendamientos operativos aplicando la NIC 17, un arrendatario:
+(a) No se requiere hacer ningún ajuste en la transición por arrendamientos para los que el activo subyacente es de bajo valor (como se describe en los párrafos 83 a 88) que se contabilizan según el párrafo 6. El arrendatario contabilizará esos arrendamientos aplicando esta Norma desde la fecha de aplicación inicial.
+(b) No se requiere hacer ningún ajuste en la transición a los arrendamientos anteriormente contabilizados como propiedades de inversión usando el modelo del valor razonable de la NIC 40 Propiedades de Inversión. El arrendatario contabilizará el activo por derecho de uso y el pasivo por arrendamiento que surgen de la aplicación de la NIC 40 y está Norma desde la fecha de aplicación inicial.
+(c) Éste medirá el activo por derecho de uso al valor razonable en la fecha de aplicación inicial para arrendamientos anteriormente contabilizados como arrendamientos operativos aplicando la NIC 17 y que se contabilizarán como propiedades de inversión usando el modelo del valor razonable de la NIC 40 desde la fecha de aplicación inicial. El arrendatario contabilizará el activo por derecho de uso y el pasivo por arrendamiento que surgen de la aplicación de la NIC 40 y está Norma desde la fecha de aplicación inicial.
+C10 El arrendatario puede usar una o más de las siguientes soluciones prácticas al aplicar esta Norma de forma retroactiva de acuerdo con el párrafo CS (b) para arrendamientos anteriormente clasificados como arrendamientos operativos utilizando la NIC 17. Se permite que un arrendatario aplique estas soluciones prácticas arrendamiento por arrendamiento:
+(a) Un arrendatario puede aplicar una tasa de descuento única a una cartera de arrendamientos con características razonablemente similares (tales como arrendamientos con plazo de arrendamiento similar para una clase semejante de activo subyacente en un entorno económico parecido).
+(b) Como alternativa a realizar una revisión del deterioro del valor, un arrendatario puede confiar en su evaluación de si los arrendamientos son onerosos aplicando la NIC 37 Provisiones, Pasivos Contingentes y Activos Contingentes inmediatamente antes de la fecha de aplicación inicial. Si un arrendatario elige esta solución práctica, ajustará el activo por derecho de uso en la fecha de la aplicación inicial por el importe de cualquier provisión por arrendamientos onerosos que haya sido reconocida en el estado de situación financiera inmediatamente antes de la fecha de aplicación inicial.
+(c) Un arrendatario puede elegir no aplicar los requerimientos del párrafo C8 a los arrendamientos cuyo plazo finalice dentro de los 12 meses de la fecha de aplicación inicial. En este caso, un arrendatario:
+(i) contabilizará esos arrendamientos de la misma forma que los arrendamientos a corto plazo como se describe en el párrafo 6; e
+(ii) incluirá el costo asociado con esos arrendamientos dentro de la información a revelar del gasto por arrendamientos a corto plazo en el periodo anual sobre el que se informa que incluye la fecha de aplicación inicial.
+(d) Un arrendatario puede excluir los costos directos iniciales de la medición del activo por derecho de uso en la fecha de aplicación inicial.
+(e) Un arrendatario puede usar el razonamiento en retrospectiva, tales como al determinar el plazo del arrendamiento, si el contrato contiene opciones para ampliar o terminar el arrendamiento.
+Arrendamientos anteriormente clasificados como arrendamientos financieros
+C11 Si un arrendatario opta por aplicar esta norma de acuerdo con el párrafo C5 (b), a arrendamientos que fueron clasificados como arrendamientos financieros utilizando la NIC 17, el importe en libros del activo por derecho de uso y el pasivo por arrendamiento en la fecha de la aplicación inicial será el importe en libros del activo de arrendamiento y el pasivo por arrendamiento inmediatamente antes de la fecha de medida aplicando la NIC 17. Para esos arrendamientos, el arrendatario contabilizará el activo por derecho de uso y el pasivo por arrendamiento aplicando esta Norma desde la fecha de aplicación inicial.
+Información a revelar
+C12 Si un arrendatario opta por aplicar esta Norma de acuerdo con el párrafo C5(b), el arrendatario revelará información sobre la aplicación inicial requerida por el párrafo 28 de la NIC 8, excepto por lo que se refiere a la información especificada en el párrafo 28(f) de NIC 8. En lugar de la información especificada en el párrafo 28(f) de la NIC 8 el arrendatario revelará:
+(a) el promedio ponderado de la tasa incremental por préstamos del arrendatario aplicada a los pasivos por arrendamiento reconocidos en el estado de situación financiera en la fecha de aplicación inicial; y
+(b) una explicación de las diferencias entre:
+(i) los compromisos de arrendamientos operativos revelados aplicando la NIC 17 al final del periodo anual sobre el que se informa inmediatamente anterior a la fecha de aplicación inicial, descontados usando la tasa incremental por préstamos en la fecha de aplicación inicial como se describe en el párrafo C8(a); y
+(ii) los pasivos por préstamos reconocidos en el estado de situación financiera en la fecha de aplicación inicial.
+C13 Si un arrendatario utiliza una o más de las soluciones prácticas especificadas en el párrafo C10, revelará ese hecho.
+Arrendadores
+C14 Excepto por lo descrito en el párrafo C15, no se requiere que un arrendador realice ningún ajuste en la transición para arrendamientos en los que es arrendador y contabilizará esos arrendamientos aplicando esta Norma desde la fecha de aplicación inicial.
+C15 Un arrendador intermedio:
+(a) evaluará nuevamente los subarrendamientos que fueron clasificados como arrendamientos operativos aplicando la NIC 17 y que se mantienen en la fecha de aplicación inicial, para determinar si cada subarrendamiento debe clasificarse como un arrendamiento operativo o un arrendamiento financiero utilizando esta Norma. El arrendador intermedio realizará esta evaluación en la fecha de aplicación inicial sobre la base de los términos y condiciones contractuales que se mantienen del arrendamiento principal y el subarrendamiento en esa fecha.
+(b) Para subarrendamientos que se clasificaron como arrendamientos operativos aplicando la NIC 17 pero como arrendamientos financieros utilizando esta Norma, contabilizará el subarrendamiento como un arrendamiento financiero nuevo realizado en la fecha de aplicación inicial.
+Transacciones de venta con arrendamiento posterior antes de la fecha de aplicación inicial
+C16 Una entidad no evaluará nuevamente las transacciones de venta con arrendamiento posterior realizadas antes de la fecha de aplicación inicial para determinar si la transferencia del activo subyacente satisface los requerimientos de la NllF 15 para contabilizarse como una venta.
+C17 Si una transacción de venta con arrendamiento posterior se contabilizó como una venta y un arrendamiento financiero aplicando la NIC 17, el arrendatario-vendedor:
+(a) contabilizará el arrendamiento posterior de la misma forma que contabilice cualquier otro arrendamiento financiero que exista en la fecha de aplicación inicial; y
+(b) continuará amortizando cualquier ganancia sobre la venta a lo largo del plazo del arrendamiento.
+C18 Si una transacción de venta con arrendamiento posterior se contabilizó como una venta y un arrendamiento operativo aplicando la NIC 17, el arrendatario-vendedor:
+(a) contabilizará el arrendamiento posterior de la misma forma que contabilice cualquier otro arrendamiento operativo que exista en la fecha de aplicación inicial; y
+(b) ajustará el arrendamiento posterior del activo por derecho de uso por cualquier ganancia o pérdida diferida que se relacione con condiciones que no son de mercado reconocidas en el estado de situación financiera inmediatamente antes de la fecha de aplicación inicial
+Importes anteriormente reconocidos con respecto a combinaciones de negocios
+C19 Si un arrendatario reconoció anteriormente un activo o un pasivo aplicando la NllF 3 Combinaciones de Negocios relacionados con condiciones favorables o desfavorables de un arrendamiento operativo adquirido como parte de una combinación de negocios, el arrendatario dará de baja ese activo o pasivo y ajustará, en la fecha de aplicación inicial, el importe en libros del activo por derecho de uso aplicando el importe correspondiente.
+Referencias a la NllF 9
+C20 Si una entidad aplica esta Norma pero no aplica todavía la NllF 9 Instrumentos Financieros, cualquier referencia en esta Norma a la NllF 9 deberá interpretarse como una referencia a la NIC 39 Instrumentos Financieros: Reconocimiento y Medición
+Reducciones del alquiler relacionadas con el Covid-19 para los arrendatarios
+C20A Un arrendatario aplicará Reducciones del Alquiler Relacionadas con el Covid-19 (véase el párrafo C1A) de forma retroactiva, reconociendo el efecto acumulado de la aplicación inicial de esa modificación como un ajuste en el saldo inicial de las ganancias acumuladas (u otro componente del patrimonio, según proceda) al comienzo del periodo anual sobre el que se informa en el que el arrendatario aplique por primera vez la modificación.
+C20B En el periodo sobre el que se informa en el que un arrendatario aplica por primera vez Reducciones del Alquiler Relacionadas con el Covid-19, no se requiere que un arrendatario revele la información exigida por el párrafo 28(f) de la NIC 8.
+Derogación de otras Normas
+C21 Esta Norma sustituye las siguientes Normas e Interpretaciones:
+(a) NIC 17 Arrendamientos
+(b) CINllF 4 Determinación de si un Acuerdo contiene un Arrendamiento
+(c) SIC-15 Arrendamientos Operativos-Incentivos; y
+(d) SIC-27 Evaluación de la Esencia de las Transacciones que Adoptan la Forma Legal de un Arrendamiento.
+"Las Normas Internacionales de Información Financiera (NllF) junto con su documentación complementaria se emiten por el Consejo de Normas Internacionales de Contabilidad (IASB), 30 Cannon Street, London EC4M 6XH, United Kingdom. Tel: +44 (0)20 7246 6410 Fax: +44 (0)20 7246 6411Correo electrónico: iasb@ifrs. org Web: www. ifrs. orgCopvright Â© 2011 IFRS Foundation El IASB, la Fundación IFRS, los autores y los editores no aceptan responsabilidad alguna por las pérdidas que se puedan causar a las personas que actúen o se abstengan de actuar basándose en el material incluido en esta publicación, ya se haya causado esta pérdida por negligencia o por otra causa. Las NllF (que incluyen las Normas Internacionales de Contabilidad e Interpretaciones) son propiedad de la Fundación IFRS. El texto aprobado de las NllF es el emitido por el IASB en idioma inglés. Se pueden obtener copias en el Departamento de Publicaciones de la Fundación IFRS. Para consultar las cuestiones relativas a los derechos de propiedad y copia, dirigirse a: IFRS Foundation Publications Department; 30 Cannon Street, London EC4M 6XH, United Kingdom. Tel: +44 (0)20 7332 2730 Fax: +44 (0)20 7332 2749 Correo electrónico: publicatíons@ifrs. org Web: www. ifrs. org Reservados todos los derechos. Ninguna parte de estas publicaciones puede ser traducida, reimpresa, ni reproducida o utilizada en ninguna forma, ya sea total o parcialmente, ni siquiera utilizando medíos electrónicos, mecánicos o de otro tipo, existentes o por inventar, incluyendo fotocopiado y grabación u otros sistemas de almacenamiento o recuperación de información, sin el permiso previo, por escrito, de la Fundación IFRS. La traducción al español de las Normas Internacionales de Información Financiera, Interpretaciones y del resto del material procedente del IASB, que se ha incluido en esta publicación, ha sido aprobada por un Comité de Revisión nombrado por la Fundación IFRS. La traducción al español se publica en Colombia, con el permiso de la Fundación IFRS por el Consejo Técnico de la Contaduría Pública, el Ministerio de Comercio, Industria y Turismo y entes gubernamentales, en colaboración con el Instituto Nacional de Contadores Públicos de Colombia. Los derechos de autor de la traducción al español son de la Fundación IFRS."
+"La fundación IFRS ha renunciado al derecho de hacer valer sus derechos de autor sobre los estándares internacionales de información financiera en el territorio de Colombia en español solamente. La fundación IFRS se reserva todos los derechos fuera del territorio antes mencionado."
+Anexo
+1.
+Modificado como Anexo 1 del presente Decreto, de las Normas de Información Financiera para el Grupo 1, contenido en el Decreto 938 de 2021
+Anexo
+2.
+Incorpórese como Anexo 2 del presente Decreto, el marco técnico normativo para los preparadores de la información financiera que conforman el Grupo 2, contenido en el Decreto 3022 de 2013.
+Anexo
+3.
+Incorpórese como Anexo 3 del presente Decreto, el marco técnico normativo para los preparadores de la información financiera que conforman el Grupo 3, contenido en el Decreto 2706 de 2012.
+(Numerales 1.1, 1.2, 1.3 y 1.4 del Anexo 3, Derogados por el Artículo 2°
+del Decreto 1670 de 2021)
+Anexo
+4.
+Incorpórese como Anexo 4 del presente Decreto, el marco técnico normativo, contenido en el Decreto 302 de 2015

@@ -1,0 +1,184 @@
+CIRCULAR EXTERNA No. 003 DE 2024
+22 de agosto de 2024
+Para: Administradores de entidades vigiladas por la Superintendencia de Industria y Comercio
+en su rol de Autoridad de Protección de Datos personales.
+Asunto: Instrucciones para los administradores societarios en relacién con el Tratamiento de
+Consideraciones
+El artículo 2 de la Constitución Política de Colombia señala como uno de los fines esenciales
+del Estado: “garantizar la efectividad de los principios, derechos y deberes consagrados en la
+Constitución”. Se desprende de ello, la exigencia tanto a particulares como a autoridades de
+garantizar resultados concretos para materializar el conjunto de las disposiciones
+constitucionales, legales y reglamentarias, entre las que se encuentran las relacionadas con la
+protección al Habeas Data y con el debido Tratamiento de Datos personales previstos en el
+artículo 15 de la Constitucion.
+El artículo 333 de la Constitución Política de Colombia establece que “la actividad econémica
+y la inictativa privada son libres, dentro de los límites del bien comin’. Dicho mandato
+constitucional resalta que la “libre competencia econémica es un derecho de todos que supone
+responsabilidades” y que la “empresa, como base del desarrollo, tiene una funcién social que
+implica obligaciones”. Dentro de tales obligaciones se encuentran aquellas que permiten
+materializar los derechos de los Titulares de los Datos personales.
+Cuando la forma juridica escogida para desarrollar una actividad empresarial es una sociedad,
+los administradores de esta cumplen un papel esencial para el cumplimiento de tales
+obligaciones. Parte de esas disposiciones legales incluyen las normas sobre Tratamiento de
+2157 de 2021 y sus decretos reglamentarios'. Asi, siendo el Tratamiento de Datos personales
+parte de la actividad de las empresas, los administradores societarios estan obligados a actuar
+con la diligencia de un buen hombre de negocios velando por el estricto cumplimiento de las
+disposiciones legales y reglamentarias.
+La Corte Constitucional, en la sentencia C-123 de 2006, resalt6 la importancia de los
+administradores debido al impacto que tienen en el orden social y econédmico de pais. Indicé
+la Corte:
+“Puede concluir la Corte, que en materia de sociedades, dada Ia importante labor
+que desempefian sus administradores, en razon a la gran responsabilidad que
+' Téngase presente: Decreto 2952 de 2010 (incorporado en el Decreto unico Reglamentario 1074 de 2015), Decreto 1377 de 2013
+(incorporado en el Decreto Unico Reglamentario 1074 de 2015) y el Decreto 255 de 2022.
+St
+003
+industria y Comercio
+asumen y la repercusi6n que sus actuaciones pueden tener en el desarrollo social,
+ha sido la ley la que les ha impuesto de manera general a éstos, ejercer sus
+funciones con sujeci6n a los principios de lealtad y buena fe, asi como actuar con
+la diligencia de un buen hombre de negocios, en interés de la sociedad y teniendo
+en cuenta los intereses de sus asociados. En tal medida, la actuacién de los
+administradores debe ir mas alla de la diligencia comun y corriente, pues su
+gestion profesional de caracter comercial debe orientarse al cumplimiento de las
+metas propuestas por la sociedaa”.
+En materia de Tratamiento de Datos personales impera como regla de responsabilidad el deber
+de responsabilidad demostrada o “accountability’, el cual exige a los administradores
+societarios adoptar medidas Utiles, oportunas, eficientes y demostrables para acreditar el total
+y correcto cumplimiento de la regulacién. Lo anterior, se ve materializado en el artículo 19A de
+la Ley Estatutaria 1266 de 2008, que establece: “Los operadores, fuentes y usuarios de
+información financiera, crediticia, comercial y de servicios deben ser capaces de demostrar
+gue han implementado medidas apropiadas, efectivas y verificables para cumplir con las
+obligaciones establecidas en la Ley 1266 de 2008” (subrayado fuera de texto). Y, a su vez, en
+el artículo 26 del Decreto 1377 de 2013 (incorporado en el Decreto Unico Reglamentario 1074
+de 2015) al establecer que: “Los Responsables del Tratamiento de Datos personales deben
+ser capaces de demostrar, a peticion de la Superintendencia de Industria y Comercio,
+que han implementado medidas apropiadas y efectivas para cumplir con las obligaciones
+establecidas en la Ley 1581 de 2012 y este decreto”. (Subrayado fuera de texto).
+El literal e) del del artículo 3 de la Ley Estatutaria 1581 de 2012 define al Responsable del
+Tratamiento como “Persona natural o juridica, publica o privada, que por si misma o en
+asocio con otros, decida sobre la base de datos y/o el Tratamiento de los datos”. (Destacado
+fuera de texto).
+Por su parte, la Corte Constitucional, en Sentencia C--748 de 2011, al revisar la
+constitucionalidad de la definicidn de Responsable del Tratamiento, estableci6 que:
+“(...) no basta con que una ley o un contrato sefialen expresamente que una
+determinada persona o grupo de personas son Responsables del Tratamiento, por
+cuanto en cada caso correspondera analizar el contexto de las actuaciones de los
+agentes concernidos en el Tratamiento del dato para establecer su verdadera posicion
+y, en este orden, sus obligaciones y régimen de responsabilidad. En ese orden de ideas,
+correspondera a_ la autoridad competente de asegurar la vigilancia, control y
+garantia del dato personal, examinar la posici6n que ocupa cada agente en el
+Tratamiento del dato, en especial, porque como Io sefala la misma definicion de
+Responsable y de encargado del Tratamiento, éstos pueden estar constituidos por
+una pluralidad de sujetos que pueden tener distintos grados de responsabilidad.
+NS
+003
+Industria y Comercio
+Finalmente, como ejemplifica la Directiva referida -ejemplos que la Sala considera
+también son aplicables a nuestro caso, el Responsable del Tratamiento puede surgir:
+(i) cuando en el cumplimiento de una determinada funcion, se impone la recoleccion de
+datos, por ejemplo, en el caso de la seguridad social; la directiva en comento denomina
+esta situacién competencia legal explicita; (ii) cuando en el ambito propio de la actividad
+se produce el Tratamiento, se trata del caso de los empleadores frente a sus
+trabajadores, lo que se denomina competencia juridica implicita; y (iii) cuando sin
+existir las competencias anteriores, se tiene la capacidad de determinacion, hecho
+que se denomina capacidad de influencia de hecho.””. (Destacado fuera de texto).
+Asi, siguiendo el alcance de la definicién de “Responsable del Tratamiento”, los
+administradores societarios seran corresponsables del Tratamiento cuando en conjunto con la
+persona juridica determinen, respecto de unas operaciones de Tratamiento especificas, o bien
+los fines o bien aquellos elementos esenciales de los medios que caracterizan al Responsable
+del Tratamiento.
+En materia de datos personales, la Superintendencia de Industria y Comercio tiene entre las
+funciones asignadas por la Ley Estatutaria 1581 de 2012, las de “velar por el cumplimiento de
+la legislacién en materia de protecci6n de datos personales” e “impartir instrucciones sobre las
+medidas y procedimientos necesarios para la adecuacién de las operaciones de los
+Responsables del Tratamiento y Encargados del Tratamiento a las disposiciones previstas en
+la presente ley’>.
+Las circulares no tienen como propésito repetir exactamente lo que la ley dice. Las circulares
+son instrumentos normativos para ampliar y actualizar nociones juridicas. Las circulares tienen
+la vocaci6n de dar alcance a lo establecido en la norma y ampliar, actualizar y adaptar el marco
+de aplicacién como poder instructivo de la administraci6n a luz de las facultades otorgadas por
+la Ley Estatutaria 1581 de 2012 a la Autoridad de datos personales. Justamente, afirma la
+Funcion Publica que “Las circulares deben expresar el criterio juridico o interpretacion que un
+Organo administrativo formula en textos un tanto complejos sobre la legislacién que aplica”*. La
+naturaleza juridica de los datos personales estan determinada por cambios tecnoldgicos
+constantes, cambios sociales y practicas nuevas de las empresas. El rol de la Autoridad es
+responder a los nuevos desafios juridicos con un alto grado de especificidad y tecnicismo,
+buscando desarrollar un marco de protección integral y reforzado al derecho fundamental al
+Habeas Data.
+2 Sobre el particular la Corte Constitucional trae a colacién el Dictamen 1/2010 sobre los conceptos de «Responsable del tratamiento» y
+«encargado del tratamiento» del Grupo del Artículo 29 sobre Proteccidn de Datos. Documento disponible en:
+https://ec. europa. eu/justice/article-29/documentation/opinion-
+recommendation/files/2010/wp169_es. pdf#:~: text=Dictamen%201%2F2010%20sobre%20los %20conceptos%20de%20%C2%ABResponsa
+ble%20del, protecci*C3%B3n%20de%20datos%20y%20derecho%20a%20la%20intimidad.
+3 Literales a) y e) del artículo 21 de la Ley Estatutaria 1581 de 2012.
+4 Concepto 100921 de 2021 Departamento Administrativo de la Funcién Publica del 23 de marzo del 2021.
+003
+industria y Comercio
+Por su parte, el numeral 55 del artículo 1° del Decreto 092 de 2022 sefala que la
+de administracién de datos personales, fijar criterios que faciliten su cumplimiento y sefalar los
+procedimientos para su cabal aplicaci6n.
+Conductas y deberes de los administradores
+La Superintendencia de Industria y Comercio instruye a los administradores societarios de
+entidades bajo nuestra vigilancia, acerca del alcance de las obligaciones en el Tratamiento de
+|. Los administradores estan obligados al cumplimiento de los establecido por la
+regulacion relativa a la protecci6n de datos personales.
+ll. | Las Políticas Internas Efectivas® que establezcan los administradores para garantizar el
+debido Tratamiento de Datos personales en la actividad econdmica deben ser objeto de
+monitoreo y control para garantizar su cumplimiento.
+Ill. | Laadopcién de mecanismos internos para hacer cumplir las Políticas Internas Efectivas,
+incluyendo herramientas de implementación, entrenamiento y programas de
+sensibilizacion, deben ser conocidas y promovidas por los administradores. Para lograr
+estos objetivos, se puede: i) designar a la persona o al area que asumira la funcidn de
+protección de Datos personales dentro de la organizacion; ii) aprobar y verificar el real
+y efectivo cumplimiento de un manual interno de políticas y procedimientos® para
+garantizar el adecuado cumplimiento de las normas; iii) establecer canales de
+comunicacion que le permitan a la persona o al area responsable informar de manera
+periddica a los administradores sobre la ejecucidén de las Políticas Internas Efectivas de
+la organizacion.
+IV. Los administradores deben establecer los lineamientos corporativos adecuados para
+adoptar medidas precautorias 0 preventivas para proteger los derechos de los titulares
+de Datos personales, como lo son, por ejemplo, los estudios de impacto de privacidad’.
+Los estudios de impacto de privacidad podrian incluir, como minimo, lo siguiente:
+1. Una descripciodn detallada de las operaciones de Tratamiento de Datos
+personales.
+5 Artículo 27 del Decreto 1377 de 2013 (incorporado en el Decreto Unico Reglamentario 1074 de 2015).
+° El literal k) de la Ley Estatutaria 1581 de 2012 establece el deber de “Adoptar un manual interno de políticas y procedimientos para garantizar
+el adecuado cumplimiento de la presente ley y en especial, para la atencién de consultas y reclamos’”.
+T Previo al disefio y desarrollo del proyecto de cualquier organizacion, y en la medida en que sea probable que el mismo entrafie un alto riesgo
+de afectacién del derecho a la Protección de Datos personales de los Titulares, se sugiere efectuar una evaluacién de impacto en la con el
+fin de poner en funcionamiento un sistema efectivo de manejo de riesgos y controles internos para garantizar que los datos se trataran
+debidamente y conforme con la regulacién existente.
+Se
+Industria y Comercio
+2. Una evaluación de los riesgos especificos para los derechos y libertades de los
+Titulares de los Datos personales. En la evaluaci6én de riesgos se espera, por lo
+menos, la identificacion y clasificaci6n estos.
+3. Las medidas previstas para evitar la materializacién de los riesgos, medidas de
+seguridad, disefio de software, tecnologías y mecanismos que garanticen la
+protección de Datos personales, teniendo en cuenta los derechos e intereses
+legitimos de los Titulares de los datos y de otras personas que puedan
+eventualmente resultar afectadas.
+V. Los administradores deben establecer los lineamientos para fortalecer continuamente
+las medidas de seguridad de la informacién. En especial, el manual interno de políticas
+deberia involucrar un componente de gestidn de riesgos que le permita a la empresa
+identificar sus vulnerabilidades a tiempo y enfocar sus recursos en la adopcion de las
+medidas de mitigacién de riesgos, tanto para ellas como para los Titulares de la
+Informacién®.
+En armonia con las normas citadas y la jurisprudencia constitucional, los administradores
+societarios seran corresponsables del Tratamiento cuando en conjunto con la persona juridica
+determinen, respecto de unas operaciones de Tratamiento especificas, los fines 0 los medios
+sobre la base de datos y/o el Tratamiento de los datos.
+De esa manera, estas instrucciones armonizan las anteriores normas para garantizar el fin
+constitucional de una efectiva proteccidn del derecho al Habeas Data y al debido Tratamiento
+de datos personales.
+Cordialmente,
+Me
+CIELO ELAINNE RUSINQUE URREGO
+SUPERINTENDENTE DE INDUSTRIA Y COMERCIO
+Elabord: Grenfieth Sierra/ Alejandro Londofio
+Revis6: Héctor Barragan / Grenfieth Sierra
+Aprobo: Grenfieth Sierra /Gabriel Turbay
+8 Esta Superintendencia de Industria y Comercio ha puesto a disposicién de los sujetos obligados la “GUIA PARA LA GESTION DE
+INCIDENTES DE SEGURIDAD EN EL TRATAMIENTO DE DATOS PERSONALESDATOS PERSONALES?”. Para mayor detalle en la materia:
+https://www. sic. gov. co/sites/default/files/files/Publicaciones/Guia_gestion_incidentes dic21 2020. pdf

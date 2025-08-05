@@ -1,0 +1,265 @@
+CIRCULAR EXTERNA No. 002 DE 2024
+21 de agosto de 2024
+Para: Sujetos vigilados por la Superintendencia de Industria y Comercio en su rol de Autoridad
+de Protección de Datos personales.
+Asuntos: Lineamientos sobre el Tratamiento de Datos personales en Sistemas de Inteligencia
+Artificial.
+La Ley Estatutaria 1581 de 2012 estableció el régimen general de protección de Datos
+personales en la Republica de Colombia, concretizando el derecho fundamental al Habeas
+Data’, con el proposito de establecer los lineamientos de protección del Tratamiento de Datos
+personales. La norma, por su parte, reconoce el derecho de los Titulares para proteger su
+información y el deber de los Administradores de Datos personales? en la recoleccion,
+almacenamiento, uso, circulacién de la informacién para finalidades constitucionales en el
+marco del Estado Social de Derecho.
+La Inteligencia Artificial (en adelante “IA”) es una tecnología que tiene una dimension tanto
+cientifica como social?. Su importancia esta determinada por los profundos cambios sociales
+que produce, y en particular que para su funcionamiento se necesitan de grandes volumenes
+de datos, y la mayoria de las veces de Datos personales. Asi, el impacto de la IA en el derecho
+fundamental al Habeas Data es evidente.
+Esta circular tiene como propdésito proveer a los Administradores de Datos personales
+certidumbre sobre el Tratamiento de Datos personales para desarrollar, desplegar o usar
+sistemas de Inteligencia artificial ("Sistemas de IA"), y brindar a los Titulares seguridad sobre
+el uso de sus Datos personales en los Sistemas de IA, ya que tipicamente se utilizan para
+tomar decisiónes auténomas o para asistir a un tomador de decisiónes humano a través de
+recomendaciones y predicciones.
+1 Artículo 15 de la Constitución Política de Colombia de 1991.
+2 Se entiende por Administradores de Datos personales a: los Responsables del Tratamiento (literal e) artículo 3 de la Ley Estatutaria 1581
+de 2012), los Encargados del Tratamiento (literal d) artículo 3 de la Ley Estatutaria 1581 de 2012), las Fuentes de información (literal b) artículo 3 de la Ley Estatutaria 1266 de 2008), los Operadores de informaci6n (literal c) artículo 3 de la Ley Estatutaria 1266 de 2008) y a
+los Usuarios (literal d) artículo 3 de la Ley Estatutaria 1266 de 2008).
+3 SIERRA CADENA, Grenfieth de Jesus. Implementaci6n de la Inteligencia Artificial en las Altas Cortes de Colombia: los casos de la Corte
+C Do On Is ti 1t 0u. c 1io 4n 4a 0l 9 /ry ee dl oeC don as. e vj 1o 1 i1d. e 13E 8s 2t 4ad o. “ UnR ev fi es nt éa d meE nu or ol ca it ei ntn io fa icm oe ri y ca sn oca i ald e quD ee re pc oh so e e Ad um ni an is dt or ba lt ei vo n, a tuS ra an lt ea z a. F e, Esv ol. c on11 s, i dn e. ra1, d ae 25 a3, la en ve e. Z/ ju cl. o mo20 24 u. n
+avance tecnolégico-cientifico y un instrumento de transformaciones sociales. Tiene su origen en las ciencias de la computaci6n, la informatica
+y las matematicas. Durante los ultimos 30 afios ha vivido cambios exponenciales, al punto de lograr que el desarrollo computacional se cada
+vez mas potente, con mayor capacidad en procesamiento de datos, llegando a simular comportamientos humanos1. Como fenomeno social
+hace referencia a la llegada de aplicaciones, de plataformas, de redes sociales, de componentes tecnolégicos que estan modificando
+estructuralmente las relaciones humanas; determinando nuevas formas de sociedad y de gobierno.”
+002
+El CONPES 39754 define la inteligencia artificial como “(...) un campo de la informatica
+dedicado a resolver problemas cognitivos comunmente asociados con la inteligencia humana
+Oo seres inteligentes, entendidos como aquellos que pueden adaptarse a situaciones
+cambiantes. Su base es el desarrollo de sistemas informaticos, la disponibilidad de datos y los
+algoritmos”.
+Los Estados miembros de la Organizacién para la Cooperacién y Desarrollo Econdémico
+(OCDE) definieron en el 2023 un Sistema de Inteligencia Artificial como “un sistema basado
+en maquinas que, con objetivos explicitos o implicitos, infiere, a partir de la entrada que recibe,
+como generar salidas como predicciones, contenido, recomendaciones o decisiónes que
+pueden influir en entornos fisicos o virtuales. Los diferentes sistemas de IA varian en sus
+niveles de autonomia y adaptabilidad después de su implementación’”*.
+Las leyes estatutarias 1266 de 2008 y 1581 de 2012 son normas neutrales tematica y
+tecnologicamente que se aplican a todo Tratamiento de Datos personales por parte de
+Administradores de Datos personales, incluyendo la recoleccion y/o Tratamiento de Datos
+personales para desarrollar, probar y monitorear Sistemas de Inteligencia Artificial o como
+parte de su proceso de implementacidn.
+En ese orden de ideas, la normatividad sobre Tratamiento de Datos personales debe aplicarse
+al margen de los procedimientos, metodologias o tecnologías que se utilicen para tratar la
+información personal de los Titulares. Asi las cosas, la ley colombiana permite el uso de
+tecnologías para tratar datos, pero, al mismo tiempo, exige que se haga de manera respetuosa
+de su ordenamiento juridico.
+En materia de Tratamiento de Datos personales impera como regla de responsabilidad el deber
+de responsabilidad demostrada 0 “accountability’, el cual exige a los Administradores de Datos
+personales adoptar medidas utiles, oportunas, eficientes y demostrables para acreditar el total
+y correcto cumplimiento de la regulacion. Lo anterior, se ve materializado en el artículo 19A de
+la Ley Estatutaria 1266 de 2008, que establece: “Los operadores, fuentes y usuarios de
+información financiera, crediticia, comercial y de servicios deben ser capaces de demostrar
+que han implementado medidas apropiadas, efectivas y verificables para cumplir con las
+“Consejo Nacional de Política Econémica y Social Republica de Colombia Departamento Nacional De Planeacién. Documento CONPES 3975
+POLITICA NACIONAL PARA LA TRANSFORMACION DIGITAL E NTELIGENCIA ARTIFICIA
+° Organizaci6n para la Cooperacién y Desarrollo Econémico (OCDE). EXPLANATORY MEMORANDUM ON THE PDATED OECD
+DEFINITION OF AN Al SYSTEM. Marzo 2024. https://www. oecd-ilibrary. org/docserver/623da898-
+en. pdf?expires=1723212626&id=id&accname=quest&checksum=E9A3D570869087CCF8A0A929BBE2B2FF
+obligaciones establecidas en la Ley 1266 de 2008” (subrayado fuera de texto). Y, a Su vez, en
+el artículo 2.2.2.25.6.1 del Decreto Unico Reglamentario del Sector Comercio, Industria y
+Turismo, Decreto 1074 de 2015, al disponer que: “Los Responsables del Tratamiento de Datos
+personales deben ser capaces de demostrar, a petici6n de la Superintendencia de Industriay
+Comercio, que han implementado medidas apropiadas y efectivas para cumplir con las
+obligaciones establecidas en la Ley 1581 de 2012 y este decreto”. (Subrayado fuera de texto).
+La privacidad desde el disefio y por defecto (Privacy by Design and by Default), es considerada
+una medida proactiva para, entre otras, cumplir con el Principio de Responsabilidad
+Demostrada. Al introducir la privacidad desde el disefio, se garantiza el debido Tratamiento de
+los datos utilizados en los proyectos informaticos que involucren Tratamiento de Datos
+personales.
+Esto implica que en el momento de hacer analitica de datos para entrenar una maquina con
+inteligencia artificial se deberan aplicar técnicas matematicas que impidan identificar a la
+persona que proporciona la información. Con esto se busca prevenir niveles de riesgo no
+aceptables, por su impacto al vulnerar el consentimiento de los Titulares en su derecho
+fundamental a la privacidad. Asi, el debido Tratamiento de la informacién debe ser un
+componente esencial del disefio y puesta en marcha de proyectos de inteligencia artificial; lo
+cual implica la materializaci6n del principio de seguridad previsto tanto en el literal f) del artículo
+4 de la Ley Estatutaria 1266 de 2008, como en el literal g) del artículo 5 de la Ley Estatutaria
+1581 de 2012, en tanto conlleva la adopcion de medidas técnicas, humanas y administrativas
+necesarias para otorgar seguridad a los registros, evitando su adulteracion, pérdida, consulta,
+uso 0 acceso no autorizado o fraudulento.
+Esta Superintendencia a través de la Delegatura para la Protección de Datos personales tiene
+entre las funciones asignadas por la Ley Estatutaria 1581 de 2012, las de “velar por el
+cumplimiento de la legislaci6n en materia de protección de Datos personales” e “impartir
+instrucciones sobre las medidas y procedimientos necesarios para la adecuacién de las
+operaciones de los Responsables del Tratamiento y Encargados del Tratamiento a las
+disposiciones previstas en la presente ley’”®.
+6 Literales a) y e) del artículo 21 de la Ley Estatutaria 1581 de 2012.
+002
+Ademas de lo anterior, en Sentencia C-1011 de 2008, la Corte Constitucional de Colombia
+revisando la constitucionalidad del proyecto correspondiente a la hoy Ley Estatutaria 1266 de
+2008, se pronuncié respecto de las funciones de esta Superintendencia que:
+“Para cumplir con esta obligacién de protección y garantia de los derechos del sujeto
+concernido, el legislador estatutario establecid en el artículo 17 que las
+vigilancia de los operadores, fuentes y usuarios de información financiera, crediticia,
+comercial, de servicios y la proveniente de terceros paises, en cuanto refiere a la
+administracién de Datos personales regulada por la normatividad objeto de estudio.
+Estas funciones de vigilancia consisten, entre otros aspectos, en impartir
+instrucciones y 6rdenes sobre la manera como deben cumplirse las disposiciones
+previstas por la normatividad estatutaria, relacionadas con la administraci6n de
+la mencionada información, para lo cual las Superintendencias fijaran los criterios
+que faciliten su cumplimiento y señalaran procedimientos para su cabal
+aplicacion.” (Destacado fuera de texto).
+A su vez, mediante Sentencia C - 748 de 2011 (de constitucionalidad del proyecto
+correspondiente a la Ley Estatutaria 1582 de 2012) la Corporaci6n se refirid a las facultades
+de esta autoridad establecidas en el artículo 21 del citado proyecto en los siguientes términos:
+‘Esta disposicion enlista las funciones que ejercera la nueva Delegatura de protección
+de Datos personales. Al estudiar las funciones a ella asignadas, encuentra esta Sala
+que todas corresponden y despliegan los estandares internacionales establecidos sobre
+la autoridad de vigilancia. En efecto, desarrollan las funciones de vigilancia del
+cumplimiento de la normativa, de investigacién y sancién por su incumplimiento, de
+vigilancia de la transferencia internacional de datos y de promocion de la protección de
+datos.
+Ademas, debe afirmarse que, tal como lo estableci6é la Corte en la Sentencia C-1011 de
+2008, la naturaleza de las facultades atribuidas a la Superintendencia -a través de
+la Delegatura-, “caen dentro del ambito de las funciones de policia administrativa
+que corresponden a esos 6rganos técnicos adscritos al ejecutivo (Artículo 115° C. P.),
+en tanto expresi6n de la potestad de direccion e intervencién del Estado en la economia
+(Artículo 334°), y de intervencion reforzada del Gobierno en las actividades financiera,
+bursatiles y aseguradoras (Artículo 335° C. P.).” (Destacado fuera de texto).
+Igualmente, el numeral 55 del artículo 1 del Decreto 4886 de 2011 (modificado por el Decreto 092 de 2022) señala que esta Superintendencia des competente para “impartir instrucciones
+en materia de administracién de Datos personales, fijar criterios que faciliten su cumplimiento
+y señalar los procedimientos para su cabal aplicacién”. Todo ello independientemente, de los
+sistemas informaticos en los cuales se estén tratando los Datos personales; tecnologías de la
+información y las comunicaciones.
+A su vez, la Corte Constitucional en Sentencia T- 323 del 2024 reafirma la necesidad de cumplir
+lo establecido en la regulacién sobre protección de Datos personales en el Tratamiento que se
+haga sobre aquellos por cualquier sistema de IA, en los siguientes términos:
+“Ahora bien, en cuanto a la regulacion del Tratamiento de datos en Colombia es
+importante destacar que las leyes estatutarias 1266 de 2008 y 1581 de 2012 fueron
+redactadas neutralmente, en el sentido que sus disposiciones aplican al Tratamiento de
+datos que se realice mediante cualquier herramienta manual o tecnologica. En este
+sentido, cualquier sistema de IA debe garantizar el cumplimiento de estas
+normatividades.”
+En este sentido, esta Superintendencia, como Autoridad Nacional de Protección de Datos
+personales, instruye sobre el Tratamiento de Datos personales en Sistemas de Inteligencia
+Artificial en los siguientes términos:
+|. El Tratamiento de Datos personales en la IA presupone la necesidad de realizar una
+ponderacién atendiendo cuatro criterios, destinados a salvaguardar los principios
+establecidos en las Leyes Estatutarias 1266 de 2008 y 1581 de 2012:
+qa. Idoneidad: El Tratamiento es capaz de alcanzar el objetivo propuesto;
+b. Necesidad: No exista otra medida mas moderada en cuanto al impacto de las
+operaciones de Tratamiento en la protección de Datos personales e igual de
+eficaz para conseguir tal objetivo;
+c. Razonabilidad: El Tratamiento debe estar orientado a cumplir finalidades
+constitucionales;
+d. Proporcionalidad en sentido estricto: Las ventajas obtenidas como consecuencia
+de la restriccion del derecho a la protección de datos no deberan ser superadas
+por las desventajas de afectar el derecho al Habeas Data.
+Il. En caso de presentarse falta de certeza frente a los potenciales dafios que puede
+causar el Tratamiento de Datos personales, y con miras a evitar que se cause un dano
+grave e irreversible, los Administradores de Datos personales deberan abstenerse de
+002
+realizar dicho Tratamiento o adoptar medidas precautorias o preventivas para proteger
+los derechos del Titular del dato, su dignidad y otros derechos humanos.
+La identificacion y clasificaci6n de riesgos, asi como la adopcién de medidas para
+mitigarlos, son elementos esenciales del principio de responsabilidad demostrada’. Asi,
+en el Tratamiento de Datos personales en la IA se requiere que los Administradores de
+asociados al Tratamiento de aquella informacién. Lo anterior, con el objetivo de
+identificar, medir, controlar y monitorear todos aquellos hechos o situaciones que
+puedan incidir en la debida administracién del riesgo que estan expuestos en desarrollo
+del cumplimiento de las normas de proteccidn de Datos personales.
+Previo al disefio y desarrollo de la IA, y en la medida en que sea probable que los
+productos realizados a través de dichas técnicas entrafien un alto riesgo de afectacién
+a los Titulares de la informacién, sera necesario efectuar y documentar un estudio de
+impacto de privacidad. Aquel, como minimo, debera contener lo siguiente:
+a. Una descripcién detallada de las operaciones de Tratamiento de Datos
+personales.
+b. Una evaluación de los riesgos especificos para los derechos y libertades de los
+Titulares de los Datos personales. En la evaluaci6n de riesgos se espera, por lo
+menos, la identificacion y clasificacién estos.
+c. Las medidas previstas para evitar la materializacién de los riesgos, medidas de
+seguridad, disefo de software, tecnologías y mecanismos que garanticen la
+protección de Datos personales, teniendo en cuenta los derechos e intereses
+legitimos de los Titulares de los datos y de otras personas que puedan
+eventualmente resultar afectadas.
+Los Datos personales sujetos a Tratamiento en la IA deben ser veraces, completos,
+exactos, actualizados, comprobables y comprensibles. De esta manera, se prohibe por
+el ordenamiento juridico® el Tratamiento de Datos personales parciales, incompletos,
+fraccionados o que induzcan a error.
+Vi. Una manera para dar cumplimiento a la privacidad desde el disefio y por defecto por
+medio de técnicas matematicas es la privacidad diferencial?.
+’ Los riesgos asociados al Tratamiento de Datos personales en la IA deben estar sujetos a planificacién y esfuerzos de mitigacién
+proporcionales a la gravedad de los eventuales dafios que se pueden generar. Entre las contingencias para tener en cuenta deben estar las
+inherentes a la operaci6én de los algoritmos (sesgos humanos, fallas técnicas, vulnerabilidades de seguridad, fallas en la implementaci6n), y
+a su disefio.
+8 Literal d) del Artículo 4 de la Ley Estatutaria 1581 de 2012.
+° En palabras de la profesora de la Facultad de Matematicas de la Universidad de los Andes, Valérie Gauthier “La privacidad diferencial es un
+conjunto de técnicas mateméaticas que permiten hacer analitica sobre datos sin revelar información de las personas que proporcionaron esos
+datos. En este caso se confia en una entidad central que tiene los datos, y responde preguntas sobre los datos de tal manera que no se
+pueda revelar información de los individuos en particular, aun cuando se combine con otro conjunto de datos.
+002
+Vil. En el Tratamiento de Datos personales en la IA debe garantizarse el derecho de los
+Titulares de la información a obtener de los Administradores de Datos personales, en
+cualquier momento y sin restricciones, información acerca del Tratamiento de sus Datos
+personales’°.
+Vill. Para cumplir el principio de seguridad, en el desarrollo y despliegue de la IA, se requiere
+adoptar medidas tecnoldgicas'', humanas, administrativas, fisicas, contractuales y de
+cualquier otra indole para evitar:
+qa. El acceso indebido o no autorizado a los Datos personales.
+La manipulacién de la información.
+0 La destrucci6n de la información.
+0
+9 El uso indebido o no autorizado de la información.
+2
+9_ Circular o suministrar la informacién a personas no autorizadas.
+Las medidas de seguridad implementadas deben ser auditables por las autoridades
+para su evaluacién y mejoras permanentes.
+IX. La informacién personal que es "accesible al publico" no es, per se, información "de
+naturaleza publica"'?. El hecho de que estén disponibles en internet no significa que
+cualquier persona puede tratarlos sin autorizacion previa, expresa e informada del
+Titular del Dato’. De esta manera, los Administradores de Datos personales que
+recolecten Datos personales privados, semiprivados o sensibles en internet no estan
+legitimados para apropiarse de dicha información y tratarla para cualquier finalidad que
+consideren apropiado sin la autorizacion previa, expresa e informada del Titular de la
+información.
+X. El Tratamiento de Datos personales que se realice en sistemas de IA debe prever
+estrategias pertinentes, eficientes y demostrables para garantizar el cumplimiento de
+La privacidad diferencial local, tiene un mismo proposito, pero no necesita una entidad central de confianza. Cada individuo va a afiadir un
+ruido a sus datos de tal manera que nadie conozca el valor real de sus datos, pero que no afecte la analitica de los datos globalmente.
+Para ambos métodos hay que tener un presupuesto de privacidad, de tal manera que permita tener analitica de datos muy aproximados a los
+reales sin perder la privacidad de las personas. Ese presupuesto puede depender de la sensibilidad y del valor de los datos en cuestion’.
+DPa wr oa r k, m as Ci nfo &r maci Ro on t h, s obre A. la (p 2r 0i 1v 4a )c. i dad Thd eif eren Ac li gal o: r ithmic Foundations of Differential Privacy. Theoretical Computer Science.
+Wh at nt gps,: //w
+T
+ww. &c is J. hu ap,
+enn S.. e du (/ 2~ 0a 1a 7r ). o th/ LP oa cp ae lr lys /pr Di iv ffa ec ry eb nto io ak l.
+ly
+pdf
+P rivate Protocols for Frequency Estimation. USENIX Security Symposium.
+https://www. usenix. org/system/files/conference/usenixsecurity1 7/sec17-wang-tianhaopd. f
+10 Literal e) del Artículo 4 de la Ley Estatutaria 1581 de 2012.
+1 1 cP e1 2 i s u v tb iL E l al li ] r it de cnr eou ca l om l ne e a tsr sg ) e a nl p“ i(d e. e d. rl o.2 s ) s oA, d nr e e /l at i s edc, a nau r ttl t roo i ea c u q s4 l o uuo t e d r e p o3 sr n, oo dl fa e el es sL ne ie D a 6y e n rc esrE guees imt t sia to Op rft ir ou c st i1 i a v3 or a7 pi d7 uya o b, la d i1 e cs5 p ou8 r s 21, i0 c v1 aa l3d dd ie o o d a c(2 di o u 0 n m1 c s2 d eeo e. nnr s tp ci oo b or sl ma e ed. ro p c ui bSe laon in n c t oe el sc, o D n oe s gc di ar ed ce e et sr to ea a rd svU o in s di y oc ro bd oa p ltR u eo be ts l ig i nl cp ea ou sm. b le in oPc ft oo ia rs cr, ia i s lo u ee sn nt1 r a y0 e t 7 u s4 ro e at nlrd to ee s ez, na 2, c 0 il1 o as l5 s o) sd ja d ue t das o itt s co a isb ar l lee pl ec ua se t b i lv dioq c esu o b e s i a dl u p an e u m s e etD d naa e tdt n eoo
+e 13j e Rc eu st oo lr ui ca id oa ns q Nou. e 7n 1o 40e 6s té dn e l so 15m e dt ei da ns o via e mr be rse er va d’ e. 2023. Por la cual se imparten unas ordenes administrativas a LinkedIn.
+002
+los derechos de los Titulares de la información establecidos en las leyes estatutarias
+1266 de 2008 y 1581 de 2012 y sus decretos reglamentarios".
+Asi, en armonia con las normas citadas y la jurisprudencia constitucional, el Tratamiento de
+establecido en materia de protección de Datos personales. La ley colombiana permite el uso
+de tecnologías para tratar datos, pero, al mismo tiempo, exige que se haga de manera
+respetuosa del ordenamiento juridico. Quienes crean, disefian o usan “innovaciones
+tecnologicas” deben cumplir todas las normas sobre Tratamiento de Datos personales
+recolectados y/o tratados en Colombia.
+De esa manera, estas instrucciones armonizan las anteriores normas para garantizar el fin
+constitucional de una efectiva protección del derecho al Habeas Data y el debido Tratamiento
+de Datos personales.
+Cordialmente,
+Labagmte
+CIELO ELAINNE RUSINQUE URREGO
+SUPERINTENDENTE DE INDUSTRIA Y COMERCIO
+Elaboro: Grenfieth Sierra/ Alejandro Londofio
+Revis6: Héctor Barragan'/ Grenfieth Sierra
+Aprobo: Grenfigif Sierra /Gabriel Turbayy/~
+‘* Téngase presente: Decreto 2952 de 2010 (incorporado en el Decreto Unico Reglamentario 1074 de 2015), Decreto 1377 de 2013
+(incorporado en el Decreto Unico Reglamentario 1074 de 2015) y el Decreto 255 de 2022.
