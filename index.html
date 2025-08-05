@@ -1996,6 +1996,8 @@
                             this.showPrivacyModal = false;
                             
                             console.log('✅ Privacy policy accepted and recorded');
+                        } else {
+                            throw new Error('Server error');
                         }
                     } catch (error) {
                         console.error('Error recording privacy acceptance:', error);
