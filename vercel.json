@@ -1,6 +1,7 @@
 {
   "version": 2,
   "rewrites": [
+    { "source": "/admin", "destination": "/admin.html" },
     { "source": "/api/(.*)", "destination": "/api" },
     { "source": "/(.*)", "destination": "/index.html" }
   ],
@@ -8,5 +9,10 @@
     "api/index.py": {
       "maxDuration": 30
     }
+  },
+  "env": {
+    "ADMIN_TOKEN": "@admin_token",
+    "GROQ_API_KEY": "@groq_api_key", 
+    "OPENAI_API_KEY": "@openai_api_key"
   }
 }

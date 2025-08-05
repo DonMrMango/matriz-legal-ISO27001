@@ -10,9 +10,12 @@ Best of both worlds: reliability + optimal presentation
 import sqlite3
 import json
 import os
-from datetime import datetime
-from flask import Flask, jsonify, request, send_from_directory
+import time
+import hashlib
+from datetime import datetime, timedelta
+from flask import Flask, jsonify, request, send_from_directory, g
 from flask_cors import CORS
+from functools import wraps
 
 # Try to import custom modules with error handling - Vercel compatible
 import sys
@@ -115,6 +118,255 @@ def get_db_connection():
         print(f"Database connection failed: {e}")
         raise
 
+def init_analytics_tables():
+    """Initialize analytics tables in the database"""
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        
+        # Sessions table - track user sessions
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS analytics_sessions (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                session_id TEXT UNIQUE NOT NULL,
+                ip_address TEXT,
+                user_agent TEXT,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                last_activity TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                page_views INTEGER DEFAULT 0,
+                queries_count INTEGER DEFAULT 0
+            )
+        ''')
+        
+        # Page views table - track page/endpoint access
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS analytics_page_views (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                session_id TEXT,
+                endpoint TEXT,
+                method TEXT,
+                timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                response_time_ms INTEGER,
+                status_code INTEGER,
+                document_id TEXT,
+                FOREIGN KEY (session_id) REFERENCES analytics_sessions(session_id)
+            )
+        ''')
+        
+        # Chat queries table - track chatbot usage (NO personal data)
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS analytics_chat_queries (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                session_id TEXT,
+                timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                query_type TEXT,
+                query_length INTEGER,
+                response_time_ms INTEGER,
+                documents_found INTEGER,
+                tokens_used INTEGER,
+                success BOOLEAN,
+                FOREIGN KEY (session_id) REFERENCES analytics_sessions(session_id)
+            )
+        ''')
+        
+        # Document access table - track which documents are consulted
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS analytics_document_access (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                session_id TEXT,
+                document_id TEXT,
+                document_title TEXT,
+                document_type TEXT,
+                timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                access_type TEXT,
+                FOREIGN KEY (session_id) REFERENCES analytics_sessions(session_id)
+            )
+        ''')
+        
+        # System metrics table - performance and usage stats
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS analytics_system_metrics (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                metric_name TEXT,
+                metric_value REAL,
+                metric_unit TEXT
+            )
+        ''')
+        
+        conn.commit()
+        conn.close()
+        print("✅ Analytics tables initialized successfully")
+        
+    except Exception as e:
+        print(f"❌ Error initializing analytics tables: {e}")
+
+def get_or_create_session():
+    """Get or create analytics session"""
+    session_id = request.headers.get('X-Session-ID')
+    
+    if not session_id:
+        # Create new session ID
+        session_data = f"{request.remote_addr}_{time.time()}_{request.user_agent}"
+        session_id = hashlib.md5(session_data.encode()).hexdigest()
+    
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        
+        # Get client IP (handle proxy headers)
+        client_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
+        if client_ip and ',' in client_ip:
+            client_ip = client_ip.split(',')[0].strip()
+        
+        user_agent = request.headers.get('User-Agent', '')
+        
+        # Try to get existing session
+        cursor.execute('SELECT * FROM analytics_sessions WHERE session_id = ?', (session_id,))
+        session = cursor.fetchone()
+        
+        if session:
+            # Update last activity
+            cursor.execute('''
+                UPDATE analytics_sessions 
+                SET last_activity = CURRENT_TIMESTAMP 
+                WHERE session_id = ?
+            ''', (session_id,))
+        else:
+            # Create new session
+            cursor.execute('''
+                INSERT INTO analytics_sessions (session_id, ip_address, user_agent)
+                VALUES (?, ?, ?)
+            ''', (session_id, client_ip, user_agent))
+        
+        conn.commit()
+        conn.close()
+        
+        return session_id
+        
+    except Exception as e:
+        print(f"Session tracking error: {e}")
+        return session_id
+
+def track_request(endpoint, method, document_id=None, response_time=None, status_code=200):
+    """Track page view/endpoint access"""
+    try:
+        session_id = g.get('session_id')
+        if not session_id:
+            return
+            
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        
+        # Insert page view
+        cursor.execute('''
+            INSERT INTO analytics_page_views 
+            (session_id, endpoint, method, response_time_ms, status_code, document_id)
+            VALUES (?, ?, ?, ?, ?, ?)
+        ''', (session_id, endpoint, method, response_time, status_code, document_id))
+        
+        # Update session page views count
+        cursor.execute('''
+            UPDATE analytics_sessions 
+            SET page_views = page_views + 1, last_activity = CURRENT_TIMESTAMP
+            WHERE session_id = ?
+        ''', (session_id,))
+        
+        conn.commit()
+        conn.close()
+        
+    except Exception as e:
+        print(f"Request tracking error: {e}")
+
+def track_chat_query(query_type, query_length, response_time, documents_found, tokens_used, success=True):
+    """Track chatbot query (NO personal data stored)"""
+    try:
+        session_id = g.get('session_id')
+        if not session_id:
+            return
+            
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        
+        cursor.execute('''
+            INSERT INTO analytics_chat_queries 
+            (session_id, query_type, query_length, response_time_ms, documents_found, tokens_used, success)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
+        ''', (session_id, query_type, query_length, response_time, documents_found, tokens_used, success))
+        
+        # Update session queries count
+        cursor.execute('''
+            UPDATE analytics_sessions 
+            SET queries_count = queries_count + 1, last_activity = CURRENT_TIMESTAMP
+            WHERE session_id = ?
+        ''', (session_id,))
+        
+        conn.commit()
+        conn.close()
+        
+    except Exception as e:
+        print(f"Chat tracking error: {e}")
+
+def track_document_access(document_id, document_title, document_type, access_type='view'):
+    """Track document access"""
+    try:
+        session_id = g.get('session_id')
+        if not session_id:
+            return
+            
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        
+        cursor.execute('''
+            INSERT INTO analytics_document_access 
+            (session_id, document_id, document_title, document_type, access_type)
+            VALUES (?, ?, ?, ?, ?)
+        ''', (session_id, document_id, document_title, document_type, access_type))
+        
+        conn.commit()
+        conn.close()
+        
+    except Exception as e:
+        print(f"Document tracking error: {e}")
+
+# Authentication decorator for admin endpoints
+def require_admin_auth(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        # Simple admin authentication - can be enhanced
+        auth_token = request.headers.get('Authorization')
+        admin_token = os.getenv('ADMIN_TOKEN', 'admin_daniel_2024')
+        
+        if auth_token != f'Bearer {admin_token}':
+            return jsonify({'error': 'Unauthorized'}), 401
+        
+        return f(*args, **kwargs)
+    return decorated_function
+
+# Middleware to track all requests
+@app.before_request
+def before_request():
+    g.request_start_time = time.time()
+    g.session_id = get_or_create_session()
+
+@app.after_request
+def after_request(response):
+    # Track request performance and details
+    if hasattr(g, 'request_start_time'):
+        response_time = int((time.time() - g.request_start_time) * 1000)  # ms
+        endpoint = request.endpoint or request.path
+        
+        # Skip tracking for admin endpoints to avoid noise
+        if not endpoint.startswith('/api/admin'):
+            track_request(
+                endpoint=endpoint,
+                method=request.method,
+                response_time=response_time,
+                status_code=response.status_code
+            )
+    
+    return response
+
 # Text library for visual interface
 if TEXT_LIBRARY_AVAILABLE:
     try:
@@ -152,6 +404,9 @@ print(f"🔄 DUAL SYSTEM ACTIVE:")
 print(f"  📊 Database: {DB_PATH}")
 print(f"  📄 Text Files: {TEXTS_PATH}")
 print(f"  🤖 AI Formatting: {'✅ Available' if QWEN_AVAILABLE else '❌ Disabled'}")
+
+# Initialize analytics tables
+init_analytics_tables()
 
 @app.route('/api/test')
 def test():
@@ -310,6 +565,9 @@ def get_document_content(document_id):
                 
                 # Extract articles for navigation
                 articles = extract_articles_simple(raw_content)
+                
+                # Track document access
+                track_document_access(document_id, document_title, document_type, 'view')
                 
                 return jsonify({
                     'success': True,
@@ -695,20 +953,450 @@ def extract_articles_simple(text_content):
     
     return articles
 
+# ================== ADMIN ANALYTICS ENDPOINTS ==================
+
+@app.route('/api/admin/analytics/overview', methods=['GET'])
+@require_admin_auth
+def get_analytics_overview():
+    """Get general analytics overview"""
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        
+        # Get time range
+        hours = int(request.args.get('hours', 24))  # Default 24 hours
+        start_time = datetime.now() - timedelta(hours=hours)
+        
+        # Total sessions
+        cursor.execute('''
+            SELECT COUNT(*) as total_sessions,
+                   COUNT(CASE WHEN created_at >= ? THEN 1 END) as recent_sessions
+            FROM analytics_sessions
+        ''', (start_time,))
+        sessions_data = cursor.fetchone()
+        
+        # Total page views
+        cursor.execute('''
+            SELECT COUNT(*) as total_views,
+                   COUNT(CASE WHEN timestamp >= ? THEN 1 END) as recent_views,
+                   AVG(response_time_ms) as avg_response_time
+            FROM analytics_page_views
+        ''', (start_time,))
+        views_data = cursor.fetchone()
+        
+        # Chat queries
+        cursor.execute('''
+            SELECT COUNT(*) as total_queries,
+                   COUNT(CASE WHEN timestamp >= ? THEN 1 END) as recent_queries,
+                   AVG(response_time_ms) as avg_query_time,
+                   SUM(tokens_used) as total_tokens,
+                   AVG(documents_found) as avg_docs_found
+            FROM analytics_chat_queries
+        ''', (start_time,))
+        queries_data = cursor.fetchone()
+        
+        # Most accessed documents
+        cursor.execute('''
+            SELECT document_id, document_title, document_type, COUNT(*) as access_count
+            FROM analytics_document_access
+            WHERE timestamp >= ?
+            GROUP BY document_id, document_title, document_type
+            ORDER BY access_count DESC
+            LIMIT 10
+        ''', (start_time,))
+        top_documents = [dict(row) for row in cursor.fetchall()]
+        
+        # Query types breakdown
+        cursor.execute('''
+            SELECT query_type, COUNT(*) as count
+            FROM analytics_chat_queries
+            WHERE timestamp >= ?
+            GROUP BY query_type
+            ORDER BY count DESC
+        ''', (start_time,))
+        query_types = [dict(row) for row in cursor.fetchall()]
+        
+        conn.close()
+        
+        return jsonify({
+            'success': True,
+            'data': {
+                'time_range_hours': hours,
+                'sessions': {
+                    'total': sessions_data['total_sessions'],
+                    'recent': sessions_data['recent_sessions']
+                },
+                'page_views': {
+                    'total': views_data['total_views'],
+                    'recent': views_data['recent_views'],
+                    'avg_response_time_ms': round(views_data['avg_response_time'] or 0, 2)
+                },
+                'chat_queries': {
+                    'total': queries_data['total_queries'],
+                    'recent': queries_data['recent_queries'],
+                    'avg_response_time_ms': round(queries_data['avg_query_time'] or 0, 2),
+                    'total_tokens_used': queries_data['total_tokens'] or 0,
+                    'avg_documents_found': round(queries_data['avg_docs_found'] or 0, 2)
+                },
+                'top_documents': top_documents,
+                'query_types': query_types
+            }
+        })
+        
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
+
+@app.route('/api/admin/analytics/sessions', methods=['GET'])
+@require_admin_auth
+def get_sessions_analytics():
+    """Get detailed session analytics"""
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        
+        hours = int(request.args.get('hours', 24))
+        start_time = datetime.now() - timedelta(hours=hours)
+        
+        # Recent sessions with details
+        cursor.execute('''
+            SELECT session_id, ip_address, user_agent, created_at, last_activity,
+                   page_views, queries_count,
+                   CAST((julianday(last_activity) - julianday(created_at)) * 86400 AS INTEGER) as session_duration_sec
+            FROM analytics_sessions
+            WHERE created_at >= ?
+            ORDER BY created_at DESC
+            LIMIT 100
+        ''', (start_time,))
+        sessions = [dict(row) for row in cursor.fetchall()]
+        
+        # Sessions per hour
+        cursor.execute('''
+            SELECT strftime('%Y-%m-%d %H:00:00', created_at) as hour,
+                   COUNT(*) as session_count
+            FROM analytics_sessions
+            WHERE created_at >= ?
+            GROUP BY strftime('%Y-%m-%d %H:00:00', created_at)
+            ORDER BY hour
+        ''', (start_time,))
+        sessions_by_hour = [dict(row) for row in cursor.fetchall()]
+        
+        # Top IPs
+        cursor.execute('''
+            SELECT ip_address, COUNT(*) as session_count,
+                   MAX(created_at) as last_seen
+            FROM analytics_sessions
+            WHERE created_at >= ?
+            GROUP BY ip_address
+            ORDER BY session_count DESC
+            LIMIT 20
+        ''', (start_time,))
+        top_ips = [dict(row) for row in cursor.fetchall()]
+        
+        conn.close()
+        
+        return jsonify({
+            'success': True,
+            'data': {
+                'recent_sessions': sessions,
+                'sessions_by_hour': sessions_by_hour,
+                'top_ips': top_ips
+            }
+        })
+        
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
+
+@app.route('/api/admin/analytics/performance', methods=['GET'])
+@require_admin_auth
+def get_performance_analytics():
+    """Get performance metrics"""
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        
+        hours = int(request.args.get('hours', 24))
+        start_time = datetime.now() - timedelta(hours=hours)
+        
+        # Response times by endpoint
+        cursor.execute('''
+            SELECT endpoint, 
+                   COUNT(*) as request_count,
+                   AVG(response_time_ms) as avg_response_time,
+                   MIN(response_time_ms) as min_response_time,
+                   MAX(response_time_ms) as max_response_time
+            FROM analytics_page_views
+            WHERE timestamp >= ? AND response_time_ms IS NOT NULL
+            GROUP BY endpoint
+            ORDER BY request_count DESC
+        ''', (start_time,))
+        endpoint_performance = [dict(row) for row in cursor.fetchall()]
+        
+        # Response times over time
+        cursor.execute('''
+            SELECT strftime('%Y-%m-%d %H:00:00', timestamp) as hour,
+                   AVG(response_time_ms) as avg_response_time,
+                   COUNT(*) as request_count
+            FROM analytics_page_views
+            WHERE timestamp >= ? AND response_time_ms IS NOT NULL
+            GROUP BY strftime('%Y-%m-%d %H:00:00', timestamp)
+            ORDER BY hour
+        ''', (start_time,))
+        response_times_by_hour = [dict(row) for row in cursor.fetchall()]
+        
+        # Status codes distribution
+        cursor.execute('''
+            SELECT status_code, COUNT(*) as count
+            FROM analytics_page_views
+            WHERE timestamp >= ?
+            GROUP BY status_code
+            ORDER BY count DESC
+        ''', (start_time,))
+        status_codes = [dict(row) for row in cursor.fetchall()]
+        
+        conn.close()
+        
+        return jsonify({
+            'success': True,
+            'data': {
+                'endpoint_performance': endpoint_performance,
+                'response_times_by_hour': response_times_by_hour,
+                'status_codes': status_codes
+            }
+        })
+        
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
+
+@app.route('/api/admin/analytics/chat', methods=['GET'])
+@require_admin_auth
+def get_chat_analytics():
+    """Get chatbot usage analytics"""
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        
+        hours = int(request.args.get('hours', 24))
+        start_time = datetime.now() - timedelta(hours=hours)
+        
+        # Chat queries over time
+        cursor.execute('''
+            SELECT strftime('%Y-%m-%d %H:00:00', timestamp) as hour,
+                   COUNT(*) as query_count,
+                   AVG(response_time_ms) as avg_response_time,
+                   SUM(tokens_used) as tokens_used
+            FROM analytics_chat_queries
+            WHERE timestamp >= ?
+            GROUP BY strftime('%Y-%m-%d %H:00:00', timestamp)
+            ORDER BY hour
+        ''', (start_time,))
+        queries_by_hour = [dict(row) for row in cursor.fetchall()]
+        
+        # Query types analysis
+        cursor.execute('''
+            SELECT query_type, 
+                   COUNT(*) as count,
+                   AVG(response_time_ms) as avg_response_time,
+                   AVG(documents_found) as avg_documents_found,
+                   AVG(query_length) as avg_query_length
+            FROM analytics_chat_queries
+            WHERE timestamp >= ?
+            GROUP BY query_type
+            ORDER BY count DESC
+        ''', (start_time,))
+        query_type_stats = [dict(row) for row in cursor.fetchall()]
+        
+        # Success rate
+        cursor.execute('''
+            SELECT success,
+                   COUNT(*) as count,
+                   ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM analytics_chat_queries WHERE timestamp >= ?), 2) as percentage
+            FROM analytics_chat_queries
+            WHERE timestamp >= ?
+            GROUP BY success
+        ''', (start_time, start_time))
+        success_rate = [dict(row) for row in cursor.fetchall()]
+        
+        conn.close()
+        
+        return jsonify({
+            'success': True,
+            'data': {
+                'queries_by_hour': queries_by_hour,
+                'query_type_stats': query_type_stats,
+                'success_rate': success_rate
+            }
+        })
+        
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
+
+@app.route('/api/admin/analytics/documents', methods=['GET'])
+@require_admin_auth
+def get_document_analytics():
+    """Get document access analytics"""
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        
+        hours = int(request.args.get('hours', 24))
+        start_time = datetime.now() - timedelta(hours=hours)
+        
+        # Most accessed documents
+        cursor.execute('''
+            SELECT document_id, document_title, document_type,
+                   COUNT(*) as access_count,
+                   COUNT(DISTINCT session_id) as unique_sessions
+            FROM analytics_document_access
+            WHERE timestamp >= ?
+            GROUP BY document_id, document_title, document_type
+            ORDER BY access_count DESC
+            LIMIT 20
+        ''', (start_time,))
+        most_accessed = [dict(row) for row in cursor.fetchall()]
+        
+        # Document access by type
+        cursor.execute('''
+            SELECT document_type,
+                   COUNT(*) as access_count,
+                   COUNT(DISTINCT document_id) as unique_documents
+            FROM analytics_document_access
+            WHERE timestamp >= ?
+            GROUP BY document_type
+            ORDER BY access_count DESC
+        ''', (start_time,))
+        access_by_type = [dict(row) for row in cursor.fetchall()]
+        
+        # Document access over time
+        cursor.execute('''
+            SELECT strftime('%Y-%m-%d %H:00:00', timestamp) as hour,
+                   COUNT(*) as access_count
+            FROM analytics_document_access
+            WHERE timestamp >= ?
+            GROUP BY strftime('%Y-%m-%d %H:00:00', timestamp)
+            ORDER BY hour
+        ''', (start_time,))
+        access_by_hour = [dict(row) for row in cursor.fetchall()]
+        
+        conn.close()
+        
+        return jsonify({
+            'success': True,
+            'data': {
+                'most_accessed_documents': most_accessed,
+                'access_by_type': access_by_type,
+                'access_by_hour': access_by_hour
+            }
+        })
+        
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
+
+@app.route('/api/admin/analytics/realtime', methods=['GET'])
+@require_admin_auth
+def get_realtime_analytics():
+    """Get real-time analytics data"""
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        
+        # Last 5 minutes activity
+        last_5_min = datetime.now() - timedelta(minutes=5)
+        
+        # Active sessions (activity in last 5 minutes)
+        cursor.execute('''
+            SELECT COUNT(*) as active_sessions
+            FROM analytics_sessions
+            WHERE last_activity >= ?
+        ''', (last_5_min,))
+        active_sessions = cursor.fetchone()['active_sessions']
+        
+        # Recent page views
+        cursor.execute('''
+            SELECT COUNT(*) as recent_views
+            FROM analytics_page_views
+            WHERE timestamp >= ?
+        ''', (last_5_min,))
+        recent_views = cursor.fetchone()['recent_views']
+        
+        # Recent chat queries
+        cursor.execute('''
+            SELECT COUNT(*) as recent_queries
+            FROM analytics_chat_queries
+            WHERE timestamp >= ?
+        ''', (last_5_min,))
+        recent_queries = cursor.fetchone()['recent_queries']
+        
+        # Latest activity
+        cursor.execute('''
+            SELECT 'page_view' as activity_type, endpoint as details, timestamp
+            FROM analytics_page_views
+            WHERE timestamp >= ?
+            UNION ALL
+            SELECT 'chat_query' as activity_type, 
+                   query_type || ' (' || documents_found || ' docs)' as details, 
+                   timestamp
+            FROM analytics_chat_queries
+            WHERE timestamp >= ?
+            ORDER BY timestamp DESC
+            LIMIT 10
+        ''', (last_5_min, last_5_min))
+        latest_activity = [dict(row) for row in cursor.fetchall()]
+        
+        conn.close()
+        
+        return jsonify({
+            'success': True,
+            'data': {
+                'timestamp': datetime.now().isoformat(),
+                'active_sessions': active_sessions,
+                'recent_views': recent_views,
+                'recent_queries': recent_queries,
+                'latest_activity': latest_activity
+            }
+        })
+        
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
+
 @app.route('/')
 def serve_frontend():
     """Serve the main frontend file"""
     return send_from_directory(project_root, 'index.html')
+
+@app.route('/admin')
+def serve_admin():
+    """Serve the admin dashboard"""
+    return send_from_directory(project_root, 'admin.html')
 
 @app.route('/api/chat', methods=['POST'])
 def chat_legal():
     """
     Endpoint del chatbot legal especializado
     """
+    start_time = time.time()
     try:
         data = request.get_json()
         
         if not data or 'query' not in data:
+            track_chat_query('invalid', 0, 0, 0, 0, False)
             return jsonify({
                 'success': False,
                 'error': 'Query is required'
@@ -718,6 +1406,7 @@ def chat_legal():
         chat_history = data.get('chat_history', [])  # Historial de mensajes previos
         
         if len(user_query) < 3:
+            track_chat_query('too_short', len(user_query), 0, 0, 0, False)
             return jsonify({
                 'success': False,
                 'error': 'Query too short'
@@ -725,6 +1414,7 @@ def chat_legal():
         
         # Búsqueda en archivos de texto - COMPATIBLE CON VERCEL
         if not library:
+            track_chat_query('system_error', len(user_query), int((time.time() - start_time) * 1000), 0, 0, False)
             return jsonify({
                 'success': False,
                 'response': 'Sistema de archivos no disponible',
@@ -906,6 +1596,11 @@ RESPUESTA:"""
                     
                     ai_response = completion.choices[0].message.content
                     
+                    # Track AI-powered query with token usage estimation
+                    estimated_tokens = len(prompt.split()) + len(ai_response.split())
+                    track_chat_query('ai_powered', len(user_query), int((time.time() - start_time) * 1000), 
+                                   len(documents), estimated_tokens, True)
+                    
                     result = {
                         'success': True,
                         'response': ai_response,
@@ -913,6 +1608,8 @@ RESPUESTA:"""
                     }
                 except Exception as ai_error:
                     # Fallback sin AI
+                    track_chat_query('fallback', len(user_query), int((time.time() - start_time) * 1000), 
+                                   len(documents), 0, True)
                     result = {
                         'success': True,
                         'response': f"Encontré información relevante en {len(documents)} documentos. Los temas principales incluyen: {', '.join([doc['titulo'] for doc in documents[:3]])}",
@@ -920,12 +1617,17 @@ RESPUESTA:"""
                     }
             else:
                 # Sin AI - respuesta básica
+                track_chat_query('basic', len(user_query), int((time.time() - start_time) * 1000), 
+                               len(documents), 0, True)
                 result = {
                     'success': True,  
                     'response': f"Encontré información relevante en {len(documents)} documentos: {', '.join([doc['titulo'] for doc in documents[:3]])}",
                     'sources': sources
                 }
         else:
+            # No documents found
+            track_chat_query('no_results', len(user_query), int((time.time() - start_time) * 1000), 
+                           0, 0, True)
             result = {
                 'success': False,
                 'response': 'No encontré información relevante en la normativa disponible para tu consulta.',
@@ -935,6 +1637,8 @@ RESPUESTA:"""
         return jsonify(result)
         
     except Exception as e:
+        track_chat_query('error', len(user_query) if 'user_query' in locals() else 0, 
+                        int((time.time() - start_time) * 1000), 0, 0, False)
         return jsonify({
             'success': False,
             'error': str(e),
@@ -991,4 +1695,4 @@ if __name__ == '__main__':
     if not os.path.exists(DB_PATH):
         print(f"Warning: Database not found at {DB_PATH}")
     
-    app.run(debug=True, host='0.0.0.0', port=5001)
+    app.run(debug=True, host='0.0.0.0', port=5002)
