@@ -14,10 +14,24 @@ from datetime import datetime
 from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
 
-# Try to import custom modules with error handling
+# Try to import custom modules with error handling - Vercel compatible
+import sys
+import os
+
+# Add current directory to path for Vercel compatibility
+current_dir = os.path.dirname(os.path.abspath(__file__))
+if current_dir not in sys.path:
+    sys.path.insert(0, current_dir)
+
+# Add parent directory for local development
+parent_dir = os.path.dirname(current_dir)
+if parent_dir not in sys.path:
+    sys.path.insert(0, parent_dir)
+
 try:
     from text_library import TextLegalLibrary
     TEXT_LIBRARY_AVAILABLE = True
+    print("✅ text_library imported successfully")
 except Exception as e:
     print(f"Warning: Could not import text_library: {e}")
     TEXT_LIBRARY_AVAILABLE = False
@@ -26,6 +40,7 @@ except Exception as e:
 try:
     from qwen_formatter import QwenLegalFormatter, process_document_with_qwen
     QWEN_FORMATTER_AVAILABLE = True
+    print("✅ qwen_formatter imported successfully")
 except Exception as e:
     print(f"Warning: Could not import qwen_formatter: {e}")
     QWEN_FORMATTER_AVAILABLE = False
@@ -35,24 +50,39 @@ except Exception as e:
 app = Flask(__name__)
 
 # Configure CORS securely
-if os.getenv('FLASK_ENV') == 'production':
+if os.getenv('VERCEL_ENV') == 'production' or os.getenv('FLASK_ENV') == 'production':
     # Production: only allow specific origins
     CORS(app, origins=[
         "https://matriz-legal-iso-27001.vercel.app",
         "https://matriz-legal-iso-27001-*.vercel.app"
     ])
 else:
-    # Development: allow localhost
-    CORS(app, origins=["http://localhost:*", "http://127.0.0.1:*"])
+    # Development: allow localhost and any Vercel preview
+    CORS(app, origins=[
+        "http://localhost:*", 
+        "http://127.0.0.1:*",
+        "https://matriz-legal-iso-27001-*.vercel.app"
+    ])
 
 # Load environment variables
 from dotenv import load_dotenv
 load_dotenv()
 
-# 🔄 DUAL ARCHITECTURE SETUP
+# 🔄 DUAL ARCHITECTURE SETUP - Vercel compatible paths
 # Database for chatbot queries & reliable metadata
-DB_PATH = os.path.join(os.path.dirname(__file__), '..', 'data_repository', 'repositorio.db')
-TEXTS_PATH = os.path.join(os.path.dirname(__file__), '..', 'data_repository', 'textos_limpios_seguro')
+api_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.dirname(api_dir)
+
+DB_PATH = os.path.join(project_root, 'data_repository', 'repositorio.db')
+TEXTS_PATH = os.path.join(project_root, 'data_repository', 'textos_limpios_seguro')
+
+print(f"🔍 Path Configuration:")
+print(f"   API dir: {api_dir}")
+print(f"   Project root: {project_root}")
+print(f"   DB path: {DB_PATH}")
+print(f"   Texts path: {TEXTS_PATH}")
+print(f"   DB exists: {os.path.exists(DB_PATH)}")
+print(f"   Texts exists: {os.path.exists(TEXTS_PATH)}")
 
 def get_db_connection():
     """Get database connection for metadata queries"""
@@ -63,25 +93,35 @@ def get_db_connection():
 # Text library for visual interface
 if TEXT_LIBRARY_AVAILABLE:
     try:
-        library = TextLegalLibrary()
+        library = TextLegalLibrary(texts_path=TEXTS_PATH)
         # Clear cache to force recalculation of titles with new logic
         library.clear_cache()
+        print(f"✅ TextLegalLibrary initialized with {len(library.get_all_documents())} documents")
     except Exception as e:
-        print(f"Error initializing TextLegalLibrary: {e}")
+        print(f"❌ Error initializing TextLegalLibrary: {e}")
+        import traceback
+        traceback.print_exc()
         library = None
 else:
     library = None
 
-# Initialize Qwen formatter for AI-powered text formatting
-try:
-    formatter = QwenLegalFormatter()
-    QWEN_AVAILABLE = True
-    print("✅ Qwen AI formatter initialized - Enhanced text formatting with complete metadata extraction")
-except Exception as e:
+# Initialize Qwen formatter for AI-powered text formatting (only if API key available)
+if QWEN_FORMATTER_AVAILABLE and os.getenv('OPENAI_API_KEY'):
+    try:
+        formatter = QwenLegalFormatter()
+        QWEN_AVAILABLE = True
+        print("✅ Qwen AI formatter initialized - Enhanced text formatting with complete metadata extraction")
+    except Exception as e:
+        formatter = None
+        QWEN_AVAILABLE = False
+        print(f"⚠️  Qwen initialization failed: {e}")
+else:
     formatter = None
     QWEN_AVAILABLE = False
-    print(f"⚠️  Qwen not available: {e}")
-    print("💡 Set GROQ_API_KEY environment variable to enable AI formatting")
+    if not QWEN_FORMATTER_AVAILABLE:
+        print("⚠️  Qwen formatter module not available")
+    elif not os.getenv('OPENAI_API_KEY'):
+        print("💡 Set OPENAI_API_KEY environment variable to enable AI formatting")
 
 print(f"🔄 DUAL SYSTEM ACTIVE:")
 print(f"  📊 Database: {DB_PATH}")
@@ -459,8 +499,13 @@ def chat_legal():
                 'error': 'Query too short'
             }), 400
         
-        # Importar y usar chatbot
-        from chatbot_legal import ChatbotLegal
+        # Importar y usar chatbot - Vercel compatible
+        try:
+            from chatbot_legal import ChatbotLegal
+        except ImportError:
+            # Try from parent directory
+            sys.path.insert(0, project_root)
+            from chatbot_legal import ChatbotLegal
         
         chatbot = ChatbotLegal(
             db_path=DB_PATH,
@@ -508,46 +553,6 @@ def accept_privacy_policy():
             'message': 'Privacy policy acceptance recorded',
             'timestamp': privacy_record['timestamp']
         }), 200
-        
-        '''
-        # Connect to database
-        conn = get_db_connection()
-        
-        # Create privacy_acceptances table if it doesn't exist
-        conn.execute('''
-            CREATE TABLE IF NOT EXISTS privacy_acceptances (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                timestamp TEXT NOT NULL,
-                client_ip TEXT,
-                user_agent TEXT,
-                screen_resolution TEXT,
-                accepted BOOLEAN DEFAULT TRUE,
-                created_at DATETIME DEFAULT CURRENT_TIMESTAMP
-            )
-        ''')
-        
-        # Insert record
-        conn.execute('''
-            INSERT INTO privacy_acceptances 
-            (timestamp, client_ip, user_agent, screen_resolution, accepted)
-            VALUES (?, ?, ?, ?, ?)
-        ''', (
-            privacy_record['timestamp'],
-            privacy_record['client_ip'],
-            privacy_record['user_agent'],
-            privacy_record['screen_resolution'],
-            privacy_record['accepted']
-        ))
-        
-        conn.commit()
-        conn.close()
-        
-        return jsonify({
-            'success': True,
-            'message': 'Privacy policy acceptance recorded',
-            'timestamp': privacy_record['timestamp']
-        })
-        '''
         
     except Exception as e:
         return jsonify({
