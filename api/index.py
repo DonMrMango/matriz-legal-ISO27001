@@ -698,7 +698,7 @@ def extract_articles_simple(text_content):
 @app.route('/')
 def serve_frontend():
     """Serve the main frontend file"""
-    return send_from_directory('.', 'index.html')
+    return send_from_directory(project_root, 'index.html')
 
 @app.route('/api/chat', methods=['POST'])
 def chat_legal():
@@ -723,21 +723,83 @@ def chat_legal():
                 'error': 'Query too short'
             }), 400
         
-        # Importar y usar chatbot - Vercel compatible
-        try:
-            from chatbot_legal import ChatbotLegal
-        except ImportError:
-            # Try from parent directory
-            sys.path.insert(0, project_root)
-            from chatbot_legal import ChatbotLegal
+        # Búsqueda directa en base de datos - SOLUCIÓN INMEDIATA
+        conn = get_db_connection()
         
-        chatbot = ChatbotLegal(
-            db_path=DB_PATH,
-            texts_path=TEXTS_PATH
-        )
+        # Buscar documentos relevantes en la BD
+        cursor = conn.execute("""
+            SELECT nombre_archivo, titulo, contenido_texto, tipo_norma 
+            FROM textos_repositorio 
+            WHERE contenido_texto LIKE ? OR titulo LIKE ?
+            LIMIT 5
+        """, (f'%{user_query}%', f'%{user_query}%'))
         
-        # Procesar consulta con contexto de chat
-        result = chatbot.process_query_with_context(user_query, chat_history)
+        documents = cursor.fetchall()
+        conn.close()
+        
+        if documents:
+            # Construir respuesta con documentos encontrados
+            sources = []
+            context = ""
+            
+            for doc in documents:
+                sources.append({
+                    'nombre_archivo': doc['nombre_archivo'],
+                    'titulo': doc['titulo'],
+                    'tipo': doc['tipo_norma']
+                })
+                context += f"Documento: {doc['titulo']}\n{doc['contenido_texto'][:500]}\n\n"
+            
+            # Respuesta inteligente usando Groq AI
+            if os.getenv('GROQ_API_KEY'):
+                try:
+                    from groq import Groq
+                    client = Groq(api_key=os.getenv('GROQ_API_KEY'))
+                    
+                    prompt = f"""Eres un asistente legal especializado en normativa colombiana. 
+                    Basándote únicamente en el siguiente contexto legal, responde la pregunta del usuario de manera precisa y profesional.
+                    
+                    CONTEXTO LEGAL:
+                    {context}
+                    
+                    PREGUNTA: {user_query}
+                    
+                    Responde de manera clara y cita los artículos o secciones relevantes."""
+                    
+                    completion = client.chat.completions.create(
+                        model="llama3-8b-8192",
+                        messages=[{"role": "user", "content": prompt}],
+                        max_tokens=1000,
+                        temperature=0.3
+                    )
+                    
+                    ai_response = completion.choices[0].message.content
+                    
+                    result = {
+                        'success': True,
+                        'response': ai_response,
+                        'sources': sources
+                    }
+                except Exception as ai_error:
+                    # Fallback sin AI
+                    result = {
+                        'success': True,
+                        'response': f"Encontré información relevante en {len(documents)} documentos. Los temas principales incluyen: {', '.join([doc['titulo'] for doc in documents[:3]])}",
+                        'sources': sources
+                    }
+            else:
+                # Sin AI - respuesta básica
+                result = {
+                    'success': True,  
+                    'response': f"Encontré información relevante en {len(documents)} documentos: {', '.join([doc['titulo'] for doc in documents[:3]])}",
+                    'sources': sources
+                }
+        else:
+            result = {
+                'success': False,
+                'response': 'No encontré información relevante en la normativa disponible para tu consulta.',
+                'sources': []
+            }
         
         return jsonify(result)
         
@@ -787,7 +849,7 @@ def accept_privacy_policy():
 @app.route('/<path:filename>')
 def serve_static(filename):
     """Serve static files"""
-    return send_from_directory('.', filename)
+    return send_from_directory(project_root, filename)
 
 if __name__ == '__main__':
     print("Starting Matriz Legal API Server...")

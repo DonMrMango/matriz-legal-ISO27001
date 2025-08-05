@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Chatbot - Matriz Legal</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .test-button { background: #007bff; color: white; padding: 12px 24px; border: none; border-radius: 5px; cursor: pointer; margin: 10px 5px; }
+        .test-button:hover { background: #0056b3; }
+        .result { margin: 20px 0; padding: 15px; border-radius: 5px; }
+        .success { background: #d4edda; border: 1px solid #c3e6cb; color: #155724; }
+        .error { background: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔧 Test Diagnóstico del Chatbot Legal</h1>
+        <p>Este es un test simple para verificar que el chatbot esté funcionando correctamente.</p>
+        
+        <div>
+            <button class="test-button" onclick="testHello()">Test: Saludo</button>
+            <button class="test-button" onclick="testObligaciones()">Test: Obligaciones del Responsable</button>
+            <button class="test-button" onclick="testServer()">Test: Servidor</button>
+        </div>
+        
+        <div id="results"></div>
+    </div>
+
+    <script>
+        const resultsDiv = document.getElementById('results');
+        
+        function addResult(message, isSuccess = true) {
+            const div = document.createElement('div');
+            div.className = `result ${isSuccess ? 'success' : 'error'}`;
+            div.innerHTML = `<strong>${new Date().toLocaleTimeString()}</strong>: ${message}`;
+            resultsDiv.appendChild(div);
+            resultsDiv.scrollTop = resultsDiv.scrollHeight;
+        }
+        
+        async function testServer() {
+            try {
+                addResult('Probando conexión al servidor...', true);
+                const response = await fetch('/api/test');
+                const data = await response.json();
+                
+                if (data.status === 'ok') {
+                    addResult(`✅ Servidor funcionando. DB: ${data.database.status}, Files: ${data.text_files.status}`, true);
+                } else {
+                    addResult(`⚠️ Servidor responde pero hay problemas: ${JSON.stringify(data)}`, false);
+                }
+            } catch (error) {
+                addResult(`❌ Error de conexión al servidor: ${error.message}`, false);
+            }
+        }
+        
+        async function testHello() {
+            try {
+                addResult('Probando saludo...', true);
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ query: 'hola' })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    addResult(`✅ Saludo exitoso: "${data.response.substring(0, 100)}..."`, true);
+                } else {
+                    addResult(`❌ Saludo falló: ${data.response}`, false);
+                }
+            } catch (error) {
+                addResult(`❌ Error en test de saludo: ${error.message}`, false);
+            }
+        }
+        
+        async function testObligaciones() {
+            try {
+                addResult('Probando consulta sobre obligaciones del responsable...', true);
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ query: 'obligaciones del responsable del tratamiento de datos' })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    if (data.response.includes('No encontré información')) {
+                        addResult(`❌ PROBLEMA ENCONTRADO: Respuesta indica que no encontró información: "${data.response.substring(0, 200)}..."`, false);
+                    } else {
+                        addResult(`✅ Consulta exitosa: Encontró información sobre obligaciones. Respuesta de ${data.response.length} caracteres. Fuentes: ${data.sources?.join(', ') || 'ninguna'}`, true);
+                    }
+                } else {
+                    addResult(`❌ Consulta falló: ${data.response}`, false);
+                }
+            } catch (error) {
+                addResult(`❌ Error en test de obligaciones: ${error.message}`, false);
+            }
+        }
+        
+        // Auto-test al cargar
+        window.onload = function() {
+            addResult('🚀 Iniciando tests automáticos...', true);
+            setTimeout(testServer, 500);
+            setTimeout(testHello, 2000);
+            setTimeout(testObligaciones, 4000);
+        };
+    </script>
+</body>
+</html>
