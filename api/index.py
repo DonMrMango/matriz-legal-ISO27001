@@ -723,19 +723,37 @@ def chat_legal():
                 'error': 'Query too short'
             }), 400
         
-        # Búsqueda directa en base de datos - SOLUCIÓN INMEDIATA
-        conn = get_db_connection()
+        # Búsqueda en archivos de texto - COMPATIBLE CON VERCEL
+        if not library:
+            return jsonify({
+                'success': False,
+                'response': 'Sistema de archivos no disponible',
+                'sources': []
+            })
         
-        # Buscar documentos relevantes en la BD
-        cursor = conn.execute("""
-            SELECT nombre_archivo, titulo, contenido_texto, tipo_norma 
-            FROM textos_repositorio 
-            WHERE contenido_texto LIKE ? OR titulo LIKE ?
-            LIMIT 5
-        """, (f'%{user_query}%', f'%{user_query}%'))
+        # Obtener todos los documentos
+        all_docs = library.get_all_documents()
+        documents = []
         
-        documents = cursor.fetchall()
-        conn.close()
+        # Buscar en contenido de archivos
+        query_lower = user_query.lower()
+        for doc in all_docs:
+            content_result = library.get_document_content(doc['nombre_archivo'])
+            if content_result['success']:
+                content = content_result['raw_content'].lower()
+                title = doc['titulo'].lower()
+                
+                # Si encuentra la consulta en el contenido o título
+                if query_lower in content or query_lower in title:
+                    documents.append({
+                        'nombre_archivo': doc['nombre_archivo'],
+                        'titulo': doc['titulo'],
+                        'contenido_texto': content_result['raw_content'][:1000],  # Primeros 1000 chars
+                        'tipo_norma': doc.get('tipo', 'Norma')
+                    })
+                    
+                    if len(documents) >= 5:  # Limitar a 5 documentos
+                        break
         
         if documents:
             # Construir respuesta con documentos encontrados
