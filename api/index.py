@@ -85,10 +85,35 @@ print(f"   DB exists: {os.path.exists(DB_PATH)}")
 print(f"   Texts exists: {os.path.exists(TEXTS_PATH)}")
 
 def get_db_connection():
-    """Get database connection for metadata queries"""
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
-    return conn
+    """Get database connection for metadata queries - VERCEL COMPATIBLE"""
+    try:
+        # Try primary path
+        if os.path.exists(DB_PATH):
+            conn = sqlite3.connect(DB_PATH)
+            conn.row_factory = sqlite3.Row
+            return conn
+        
+        # Try alternative paths for Vercel
+        alternative_paths = [
+            os.path.join(os.getcwd(), 'data_repository', 'repositorio.db'),
+            os.path.join(os.path.dirname(__file__), 'data_repository', 'repositorio.db'),
+            os.path.join('/', 'var', 'task', 'data_repository', 'repositorio.db'),
+            './data_repository/repositorio.db'
+        ]
+        
+        for alt_path in alternative_paths:
+            if os.path.exists(alt_path):
+                print(f"Using alternative DB path: {alt_path}")
+                conn = sqlite3.connect(alt_path)
+                conn.row_factory = sqlite3.Row
+                return conn
+        
+        # If no database found, raise an exception
+        raise FileNotFoundError(f"Database not found. Tried paths: {[DB_PATH] + alternative_paths}")
+        
+    except Exception as e:
+        print(f"Database connection failed: {e}")
+        raise
 
 # Text library for visual interface
 if TEXT_LIBRARY_AVAILABLE:
@@ -131,15 +156,60 @@ print(f"  🤖 AI Formatting: {'✅ Available' if QWEN_AVAILABLE else '❌ Disab
 @app.route('/api/test')
 def test():
     """Test endpoint to check what's working"""
+    # Test database connection
+    db_status = 'unknown'
+    db_error = None
+    try:
+        conn = get_db_connection()
+        cursor = conn.execute("SELECT COUNT(*) as count FROM textos_repositorio")
+        db_count = cursor.fetchone()['count']
+        conn.close()
+        db_status = f'working ({db_count} docs)'
+    except Exception as e:
+        db_status = 'failed'
+        db_error = str(e)
+    
+    # Test text files
+    text_files_count = 0
+    text_files_status = 'unknown'
+    try:
+        if os.path.exists(TEXTS_PATH):
+            for folder in ['leyes', 'decretos', 'circulares', 'resoluciones', 'conpes', 'otros']:
+                folder_path = os.path.join(TEXTS_PATH, folder)
+                if os.path.exists(folder_path):
+                    text_files_count += len([f for f in os.listdir(folder_path) if f.endswith('.txt')])
+            text_files_status = f'working ({text_files_count} files)'
+        else:
+            text_files_status = 'path not found'
+    except Exception as e:
+        text_files_status = f'failed: {str(e)}'
+    
     return jsonify({
         'status': 'ok',
-        'text_library': TEXT_LIBRARY_AVAILABLE,
-        'qwen_formatter': QWEN_FORMATTER_AVAILABLE,
-        'library_initialized': library is not None,
-        'formatter_initialized': 'formatter' in globals() and formatter is not None,
-        'db_path': DB_PATH,
-        'texts_path': TEXTS_PATH,
-        'env': os.getenv('FLASK_ENV', 'not set')
+        'environment': {
+            'vercel_env': os.getenv('VERCEL_ENV', 'not set'),
+            'flask_env': os.getenv('FLASK_ENV', 'not set'),
+            'cwd': os.getcwd(),
+            'api_dir': os.path.dirname(__file__)
+        },
+        'components': {
+            'text_library': TEXT_LIBRARY_AVAILABLE,
+            'qwen_formatter': QWEN_FORMATTER_AVAILABLE,
+            'library_initialized': library is not None,
+            'formatter_initialized': 'formatter' in globals() and formatter is not None
+        },
+        'database': {
+            'status': db_status,
+            'path': DB_PATH,
+            'exists': os.path.exists(DB_PATH),
+            'error': db_error
+        },
+        'text_files': {
+            'status': text_files_status,
+            'path': TEXTS_PATH,
+            'exists': os.path.exists(TEXTS_PATH),
+            'count': text_files_count
+        }
     })
 
 @app.route('/api/documents', methods=['GET'])
@@ -224,99 +294,210 @@ def get_document(document_id):
 
 @app.route('/api/documents/<document_id>/content', methods=['GET'])
 def get_document_content(document_id):
-    """📄 Get document content using TEXT FILES + Groq AI formatting"""
+    """📄 Get document content - VERCEL COMPATIBLE with fallback"""
     try:
-        # Get metadata from database (reliable source)
-        conn = get_db_connection()
-        cursor = conn.execute(
-            "SELECT tipo_norma, titulo FROM textos_repositorio WHERE nombre_archivo = ?", 
-            (document_id,)
-        )
-        db_document = cursor.fetchone()
-        conn.close()
+        # SOLUTION 1: Try text files first (most reliable for Vercel)
+        if library:
+            content_result = library.get_document_content(document_id)
+            
+            if content_result['success']:
+                raw_content = content_result['raw_content']
+                document_title = content_result['title']
+                document_type = content_result['type']
+                
+                # 📄 SIMPLE DISPLAY with basic formatting
+                html_content = f'<div class="document-content"><pre style="white-space: pre-wrap; font-family: inherit; font-size: inherit;">{raw_content}</pre></div>'
+                
+                # Extract articles for navigation
+                articles = extract_articles_simple(raw_content)
+                
+                return jsonify({
+                    'success': True,
+                    'data': {
+                        'titulo': document_title,
+                        'contenido': html_content,
+                        'articles': articles,
+                        'raw_content': raw_content,
+                        'word_count': len(raw_content.split()),
+                        'formatting': 'basic',
+                        'architecture': 'text_files_only',
+                        'type': document_type
+                    }
+                })
         
-        if not db_document:
-            return jsonify({
-                'success': False,
-                'error': 'Document not found in database'
-            }), 404
+        # SOLUTION 2: Fallback to database (if available and working)
+        try:
+            conn = get_db_connection()
+            cursor = conn.execute(
+                "SELECT tipo_norma, titulo FROM textos_repositorio WHERE nombre_archivo = ?", 
+                (document_id,)
+            )
+            db_document = cursor.fetchone()
+            conn.close()
+            
+            if db_document and library:
+                # Try to get content from files again with DB metadata
+                content_result = library.get_document_content(document_id)
+                if content_result['success']:
+                    raw_content = content_result['raw_content']
+                    document_title = db_document['titulo']  # Use DB title
+                    
+                    html_content = f'<div class="document-content"><pre style="white-space: pre-wrap; font-family: inherit; font-size: inherit;">{raw_content}</pre></div>'
+                    articles = extract_articles_simple(raw_content)
+                    
+                    return jsonify({
+                        'success': True,
+                        'data': {
+                            'titulo': document_title,
+                            'contenido': html_content,
+                            'articles': articles,
+                            'raw_content': raw_content,
+                            'word_count': len(raw_content.split()),
+                            'formatting': 'basic',
+                            'architecture': 'dual_system'
+                        }
+                    })
+        except Exception as db_error:
+            print(f"Database fallback failed: {db_error}")
+            # Continue to final fallback
         
-        # Get content from text files (visual source)
-        content_result = library.get_document_content(document_id)
+        # SOLUTION 3: Direct file system access (emergency fallback)
+        try:
+            # Try to find file directly in filesystem
+            for folder in ['leyes', 'decretos', 'circulares', 'resoluciones', 'conpes', 'otros']:
+                file_path = os.path.join(TEXTS_PATH, folder, f"{document_id}.txt")
+                if os.path.exists(file_path):
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        raw_content = f.read()
+                    
+                    # Basic title extraction
+                    lines = raw_content.split('\n')[:10]
+                    document_title = document_id.replace('_', ' ').title()
+                    for line in lines:
+                        if len(line.strip()) > 10 and any(word in line.upper() for word in ['LEY', 'DECRETO', 'CIRCULAR', 'RESOLUCIÓN', 'CONPES']):
+                            document_title = line.strip()
+                            break
+                    
+                    html_content = f'<div class="document-content"><pre style="white-space: pre-wrap; font-family: inherit; font-size: inherit;">{raw_content}</pre></div>'
+                    articles = extract_articles_simple(raw_content)
+                    
+                    return jsonify({
+                        'success': True,
+                        'data': {
+                            'titulo': document_title,
+                            'contenido': html_content,
+                            'articles': articles,
+                            'raw_content': raw_content,
+                            'word_count': len(raw_content.split()),
+                            'formatting': 'basic',
+                            'architecture': 'direct_filesystem'
+                        }
+                    })
+        except Exception as fs_error:
+            print(f"Direct filesystem access failed: {fs_error}")
         
-        if not content_result['success']:
-            return jsonify({
-                'success': False,
-                'error': f"Text file not found: {content_result['error']}"
-            }), 404
-        
-        raw_content = content_result['raw_content']
-        document_title = db_document['titulo']  # Use DB title (more reliable)
-        
-        # 📄 SIMPLE DISPLAY: Just show the text with minimal formatting
-        html_content = f'<div class="document-content"><pre style="white-space: pre-wrap; font-family: inherit; font-size: inherit;">{raw_content}</pre></div>'
-        
-        # Extract articles for navigation (simple method)
-        articles = extract_articles_simple(raw_content)
-        
+        # Final error if all methods fail
         return jsonify({
-            'success': True,
-            'data': {
-                'titulo': document_title,
-                'contenido': html_content,
-                'articles': articles,
-                'raw_content': raw_content,
-                'word_count': len(raw_content.split()),
-                'formatting': 'basic',
-                'architecture': 'dual_system'
-            }
-        })
+            'success': False,
+            'error': 'Document not found',
+            'tried_methods': ['text_library', 'database_fallback', 'direct_filesystem']
+        }), 404
         
     except Exception as e:
         return jsonify({
             'success': False,
-            'error': str(e)
+            'error': f"Content retrieval failed: {str(e)}",
+            'debug_info': {
+                'document_id': document_id,
+                'library_available': library is not None,
+                'texts_path_exists': os.path.exists(TEXTS_PATH),
+                'db_path_exists': os.path.exists(DB_PATH)
+            }
         }), 500
 
 @app.route('/api/stats', methods=['GET'])
 def get_repository_stats():
-    """Get repository statistics"""
+    """Get repository statistics - VERCEL COMPATIBLE with fallback"""
     try:
-        conn = get_db_connection()
-        
-        # Total documents
-        cursor = conn.execute("SELECT COUNT(*) as total FROM textos_repositorio")
-        total = cursor.fetchone()['total']
-        
-        # Documents by type
-        cursor = conn.execute("""
-            SELECT tipo_norma, COUNT(*) as count 
-            FROM textos_repositorio 
-            GROUP BY tipo_norma
-        """)
-        by_type = {row['tipo_norma']: row['count'] for row in cursor.fetchall()}
-        
-        # Documents by year
-        cursor = conn.execute("""
-            SELECT año, COUNT(*) as count 
-            FROM textos_repositorio 
-            GROUP BY año 
-            ORDER BY año
-        """)
-        by_year = {row['año']: row['count'] for row in cursor.fetchall()}
-        
-        conn.close()
-        
-        return jsonify({
-            'success': True,
-            'data': {
-                'total': total,
-                'by_type': by_type,
-                'by_year': by_year,
-                'procesadas': total,  # All documents are processed
-                'referencias': total * 2  # Approximate
-            }
-        })
+        # Try database first
+        try:
+            conn = get_db_connection()
+            
+            # Total documents
+            cursor = conn.execute("SELECT COUNT(*) as total FROM textos_repositorio")
+            total = cursor.fetchone()['total']
+            
+            # Documents by type
+            cursor = conn.execute("""
+                SELECT tipo_norma, COUNT(*) as count 
+                FROM textos_repositorio 
+                GROUP BY tipo_norma
+            """)
+            by_type = {row['tipo_norma']: row['count'] for row in cursor.fetchall()}
+            
+            # Documents by year
+            cursor = conn.execute("""
+                SELECT año, COUNT(*) as count 
+                FROM textos_repositorio 
+                GROUP BY año 
+                ORDER BY año
+            """)
+            by_year = {row['año']: row['count'] for row in cursor.fetchall()}
+            
+            conn.close()
+            
+            return jsonify({
+                'success': True,
+                'data': {
+                    'total': total,
+                    'by_type': by_type,
+                    'by_year': by_year,
+                    'procesadas': total,
+                    'referencias': total * 2,
+                    'source': 'database'
+                }
+            })
+            
+        except Exception as db_error:
+            print(f"Database stats failed: {db_error}")
+            
+            # Fallback to text library
+            if library:
+                stats = library.get_library_stats()
+                return jsonify({
+                    'success': True,
+                    'data': {
+                        'total': stats['total_documents'],
+                        'by_type': stats['by_type'],
+                        'by_year': stats['by_year'],
+                        'procesadas': stats['total_documents'],
+                        'referencias': stats['total_documents'] * 2,
+                        'source': 'text_files'
+                    }
+                })
+            
+            # Final fallback: count files directly
+            total = 0
+            by_type = {}
+            for folder_name in ['leyes', 'decretos', 'circulares', 'resoluciones', 'conpes', 'otros']:
+                folder_path = os.path.join(TEXTS_PATH, folder_name)
+                if os.path.exists(folder_path):
+                    txt_files = [f for f in os.listdir(folder_path) if f.endswith('.txt')]
+                    count = len(txt_files)
+                    total += count
+                    by_type[folder_name.title()] = count
+            
+            return jsonify({
+                'success': True,
+                'data': {
+                    'total': total,
+                    'by_type': by_type,
+                    'by_year': {},
+                    'procesadas': total,
+                    'referencias': total * 2,
+                    'source': 'direct_filesystem'
+                }
+            })
         
     except Exception as e:
         return jsonify({
@@ -326,7 +507,7 @@ def get_repository_stats():
 
 @app.route('/api/search', methods=['GET'])
 def search_documents():
-    """Full-text search across documents"""
+    """Full-text search across documents - VERCEL COMPATIBLE"""
     query = request.args.get('q', '').strip()
     
     if not query:
@@ -336,23 +517,66 @@ def search_documents():
         }), 400
     
     try:
-        conn = get_db_connection()
-        
-        # Search in title and load content for full-text search
-        cursor = conn.execute("""
-            SELECT * FROM textos_repositorio 
-            WHERE titulo LIKE ? OR numero LIKE ?
-        """, (f"%{query}%", f"%{query}%"))
-        
-        results = [dict(row) for row in cursor.fetchall()]
-        conn.close()
-        
-        return jsonify({
-            'success': True,
-            'data': results,
-            'query': query,
-            'count': len(results)
-        })
+        # Try database first
+        try:
+            conn = get_db_connection()
+            
+            # Search in title and load content for full-text search
+            cursor = conn.execute("""
+                SELECT * FROM textos_repositorio 
+                WHERE titulo LIKE ? OR numero LIKE ?
+            """, (f"%{query}%", f"%{query}%"))
+            
+            results = [dict(row) for row in cursor.fetchall()]
+            conn.close()
+            
+            return jsonify({
+                'success': True,
+                'data': results,
+                'query': query,
+                'count': len(results),
+                'source': 'database'
+            })
+            
+        except Exception as db_error:
+            print(f"Database search failed: {db_error}")
+            
+            # Fallback to text library search
+            if library:
+                results = library.search_documents(query)
+                return jsonify({
+                    'success': True,
+                    'data': results,
+                    'query': query,
+                    'count': len(results),
+                    'source': 'text_files'
+                })
+            
+            # Final fallback: basic file search
+            results = []
+            query_lower = query.lower()
+            
+            for folder_name in ['leyes', 'decretos', 'circulares', 'resoluciones', 'conpes', 'otros']:
+                folder_path = os.path.join(TEXTS_PATH, folder_name)
+                if not os.path.exists(folder_path):
+                    continue
+                    
+                for filename in os.listdir(folder_path):
+                    if filename.endswith('.txt') and query_lower in filename.lower():
+                        results.append({
+                            'document_id': filename.replace('.txt', ''),
+                            'titulo': filename.replace('_', ' ').title(),
+                            'tipo_norma': folder_name.title(),
+                            'match_type': 'filename'
+                        })
+            
+            return jsonify({
+                'success': True,
+                'data': results[:20],  # Limit results
+                'query': query,
+                'count': len(results),
+                'source': 'direct_filesystem'
+            })
         
     except Exception as e:
         return jsonify({
