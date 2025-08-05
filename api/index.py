@@ -815,7 +815,7 @@ def chat_legal():
             documents.append({
                 'nombre_archivo': scored_doc['doc']['nombre_archivo'],
                 'titulo': scored_doc['doc']['titulo'],
-                'contenido_texto': scored_doc['content'][:2000],  # Más contenido para contexto
+                'contenido_texto': scored_doc['content'],  # CONTENIDO COMPLETO para mejor contexto
                 'tipo_norma': scored_doc['doc'].get('tipo', 'Norma'),
                 'score': scored_doc['score'],
                 'relevance': scored_doc['relevance_factors']
@@ -832,7 +832,37 @@ def chat_legal():
                     'titulo': doc['titulo'],
                     'tipo': doc['tipo_norma']
                 })
-                context += f"Documento: {doc['titulo']}\n{doc['contenido_texto'][:500]}\n\n"
+                
+                # BÚSQUEDA ESPECÍFICA DE ARTÍCULOS SI SE PREGUNTA POR UNO
+                if "artículo" in query_lower or "articulo" in query_lower:
+                    article_numbers = []
+                    for term in query_terms:
+                        if term.isdigit():
+                            article_numbers.append(term)
+                    
+                    if article_numbers:
+                        # Buscar artículos específicos en el contenido
+                        content_lines = doc['contenido_texto'].split('\n')
+                        relevant_content = []
+                        
+                        for line in content_lines:
+                            line_lower = line.lower()
+                            for art_num in article_numbers:
+                                if f"artículo {art_num}" in line_lower or f"articulo {art_num}" in line_lower or f"art. {art_num}" in line_lower or f"art {art_num}" in line_lower:
+                                    # Incluir el artículo y las siguientes 10 líneas
+                                    start_idx = content_lines.index(line)
+                                    end_idx = min(start_idx + 10, len(content_lines))
+                                    relevant_content.extend(content_lines[start_idx:end_idx])
+                                    break
+                        
+                        if relevant_content:
+                            context += f"Documento: {doc['titulo']}\n" + "\n".join(relevant_content) + "\n\n"
+                        else:
+                            context += f"Documento: {doc['titulo']}\n{doc['contenido_texto'][:3000]}\n\n"
+                    else:
+                        context += f"Documento: {doc['titulo']}\n{doc['contenido_texto'][:3000]}\n\n"
+                else:
+                    context += f"Documento: {doc['titulo']}\n{doc['contenido_texto'][:3000]}\n\n"
             
             # Respuesta inteligente usando Groq AI
             if os.getenv('GROQ_API_KEY'):
