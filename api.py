@@ -35,8 +35,8 @@ load_dotenv()
 
 # 🔄 DUAL ARCHITECTURE SETUP
 # Database for chatbot queries & reliable metadata
-DB_PATH = os.path.join(os.path.dirname(__file__), '..', 'data_repository', 'repositorio.db')
-TEXTS_PATH = os.path.join(os.path.dirname(__file__), '..', 'data_repository', 'textos_limpios_seguro')
+DB_PATH = os.path.join(os.path.dirname(__file__), 'data_repository', 'repositorio.db')
+TEXTS_PATH = os.path.join(os.path.dirname(__file__), 'data_repository', 'textos_limpios_seguro')
 
 def get_db_connection():
     """Get database connection for metadata queries"""
