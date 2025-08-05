@@ -735,9 +735,11 @@ def chat_legal():
         all_docs = library.get_all_documents()
         documents = []
         
-        # Buscar en contenido de archivos con múltiples términos
+        # SISTEMA DE BÚSQUEDA INTELIGENTE CON SCORING
         query_lower = user_query.lower()
         query_terms = query_lower.split()
+        document_scores = []
+        
         for doc in all_docs:
             content_result = library.get_document_content(doc['nombre_archivo'])
             if content_result['success']:
@@ -745,31 +747,79 @@ def chat_legal():
                 title = doc['titulo'].lower()
                 filename = doc['nombre_archivo'].lower()
                 
-                # Búsqueda más inteligente: cualquier término o combinaciones
-                found = False
+                # SISTEMA DE PUNTUACIÓN INTELIGENTE
+                score = 0
+                relevance_factors = []
+                
+                # 1. BÚSQUEDA EXACTA EN TÍTULO (MÁXIMA PRIORIDAD)
                 for term in query_terms:
-                    if term in content or term in title or term in filename:
-                        found = True
-                        break
+                    if term in title:
+                        if term.isdigit():
+                            score += 100  # Números exactos en título = altísima relevancia
+                            relevance_factors.append(f"Number '{term}' in title")
+                        else:
+                            score += 50   # Palabras exactas en título = alta relevancia
+                            relevance_factors.append(f"Term '{term}' in title")
                 
-                # Búsqueda específica para decretos
-                if "decreto" in query_lower and any(term.isdigit() for term in query_terms):
-                    numbers = [term for term in query_terms if term.isdigit()]
-                    for num in numbers:
-                        if num in filename or num in title:
-                            found = True
-                            break
+                # 2. BÚSQUEDA EXACTA EN NOMBRE DE ARCHIVO
+                for term in query_terms:
+                    if term in filename:
+                        if term.isdigit():
+                            score += 80   # Números en filename = muy alta relevancia
+                            relevance_factors.append(f"Number '{term}' in filename")
+                        else:
+                            score += 30   # Palabras en filename = buena relevancia
+                            relevance_factors.append(f"Term '{term}' in filename")
                 
-                if found:
-                    documents.append({
-                        'nombre_archivo': doc['nombre_archivo'],
-                        'titulo': doc['titulo'],
-                        'contenido_texto': content_result['raw_content'][:1000],  # Primeros 1000 chars
-                        'tipo_norma': doc.get('tipo', 'Norma')
+                # 3. BÚSQUEDA EN CONTENIDO (MENOR PRIORIDAD)
+                content_matches = 0
+                for term in query_terms:
+                    if term in content:
+                        content_matches += 1
+                
+                if content_matches > 0:
+                    score += content_matches * 5  # Cada match en contenido suma 5 puntos
+                    relevance_factors.append(f"{content_matches} terms in content")
+                
+                # 4. FILTROS ESPECÍFICOS POR TIPO DE CONSULTA
+                if "decreto" in query_lower:
+                    if "decreto" in filename:
+                        score += 60  # Boost para decretos cuando se buscan decretos
+                        relevance_factors.append("Decreto type match")
+                
+                if "ley" in query_lower:
+                    if "ley" in filename:
+                        score += 60  # Boost para leyes cuando se buscan leyes
+                        relevance_factors.append("Ley type match")
+                
+                if "circular" in query_lower:
+                    if "circular" in filename:
+                        score += 60  # Boost para circulares
+                        relevance_factors.append("Circular type match")
+                
+                # Solo incluir documentos con score mínimo
+                if score >= 30:  # Umbral mínimo de relevancia
+                    document_scores.append({
+                        'doc': doc,
+                        'content': content_result['raw_content'],
+                        'score': score,
+                        'relevance_factors': relevance_factors
                     })
-                    
-                    if len(documents) >= 5:  # Limitar a 5 documentos
-                        break
+        
+        # ORDENAR POR RELEVANCIA (SCORE MÁS ALTO PRIMERO)
+        document_scores.sort(key=lambda x: x['score'], reverse=True)
+        
+        # TOMAR SOLO LOS MÁS RELEVANTES
+        documents = []
+        for scored_doc in document_scores[:3]:  # Solo top 3 documentos más relevantes
+            documents.append({
+                'nombre_archivo': scored_doc['doc']['nombre_archivo'],
+                'titulo': scored_doc['doc']['titulo'],
+                'contenido_texto': scored_doc['content'][:2000],  # Más contenido para contexto
+                'tipo_norma': scored_doc['doc'].get('tipo', 'Norma'),
+                'score': scored_doc['score'],
+                'relevance': scored_doc['relevance_factors']
+            })
         
         if documents:
             # Construir respuesta con documentos encontrados
@@ -790,15 +840,32 @@ def chat_legal():
                     from groq import Groq
                     client = Groq(api_key=os.getenv('GROQ_API_KEY'))
                     
-                    prompt = f"""Eres un asistente legal especializado en normativa colombiana. 
-                    Basándote únicamente en el siguiente contexto legal, responde la pregunta del usuario de manera precisa y profesional.
+                    # CONSTRUIR LISTADO DE DOCUMENTOS DISPONIBLES
+                    available_docs = []
+                    for scored_doc in document_scores:
+                        doc = scored_doc['doc']
+                        available_docs.append(f"- {doc['titulo']} ({doc['nombre_archivo']})")
                     
-                    CONTEXTO LEGAL:
-                    {context}
+                    available_list = "\n".join(available_docs[:10])  # Primeros 10 para referencia
                     
-                    PREGUNTA: {user_query}
-                    
-                    Responde de manera clara y cita los artículos o secciones relevantes."""
+                    prompt = f"""Eres un asistente legal especializado en normativa colombiana ISO 27001.
+
+DOCUMENTOS DISPONIBLES EN LA BASE LEGAL:
+{available_list}
+
+CONTEXTO LEGAL RELEVANTE PARA TU RESPUESTA:
+{context}
+
+INSTRUCCIONES IMPORTANTES:
+1. Responde ÚNICAMENTE basándote en el contexto legal proporcionado arriba
+2. Si el documento específico mencionado en la pregunta NO está en el contexto, menciona qué documentos SÍ tienes disponibles que son relevantes
+3. Cita artículos, números de norma y fechas cuando sean específicos
+4. Si no encuentras información específica, sugiere documentos alternativos del listado disponible
+5. Sé preciso y profesional
+
+PREGUNTA DEL USUARIO: {user_query}
+
+RESPUESTA:"""
                     
                     completion = client.chat.completions.create(
                         model="llama3-8b-8192",
