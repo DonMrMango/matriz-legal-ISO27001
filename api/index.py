@@ -736,7 +736,8 @@ def chat_legal():
         documents = []
         
         # Buscar en contenido de archivos con múltiples términos
-        query_terms = user_query.lower().split()
+        query_lower = user_query.lower()
+        query_terms = query_lower.split()
         for doc in all_docs:
             content_result = library.get_document_content(doc['nombre_archivo'])
             if content_result['success']:
