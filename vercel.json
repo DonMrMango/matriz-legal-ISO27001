@@ -1,8 +1,9 @@
 {
   "version": 2,
+  "outputDirectory": "public",
   "rewrites": [
     { "source": "/admin", "destination": "/admin.html" },
-    { "source": "/iso", "destination": "/iso_chatbot.html" },
+    { "source": "/iso", "destination": "/templates/iso_chatbot.html" },
     { "source": "/api/(.*)", "destination": "/api" },
     { "source": "/(.*)", "destination": "/index.html" }
   ],

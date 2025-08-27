@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script para configurar BD_ISO.txt durante el despliegue en Vercel
+# Script para configurar BD_ISO.txt y preparar el despliegue en Vercel
 
 echo "🔄 Preparando archivo BD_ISO.txt para Vercel..."
 
@@ -49,3 +49,49 @@ cp "./BD_ISO.txt" "./data/BD_ISO.txt"
 echo "📋 BD_ISO.txt respaldado en data/"
 
 echo "✅ Preparación de BD_ISO.txt completada"
+
+# Crear directorio public si no existe
+echo "🔄 Preparando directorio public para Vercel..."
+mkdir -p public
+
+# Copiar archivos HTML, CSS y JS a public
+echo "📋 Copiando archivos estáticos a public/"
+if [ -f "index.html" ]; then
+    cp index.html public/
+fi
+
+if [ -f "admin.html" ]; then
+    cp admin.html public/
+fi
+
+if [ -f "index_modified.html" ]; then
+    cp index_modified.html public/index.html
+fi
+
+# Copiar templates e ISO chatbot
+if [ -d "templates" ]; then
+    echo "📋 Copiando templates a public/"
+    
+    # Crear directorio en public
+    mkdir -p public/templates
+    
+    # Copiar archivos HTML
+    cp templates/*.html public/templates/ 2>/dev/null || echo "No se encontraron archivos HTML en templates/"
+fi
+
+# Copiar directorio static
+if [ -d "static" ]; then
+    echo "📋 Copiando directorio static a public/"
+    
+    # Crear directorio en public
+    mkdir -p public/static
+    
+    # Copiar archivos
+    cp -r static/* public/static/ 2>/dev/null || echo "No se encontraron archivos en static/"
+fi
+
+# Copiar BD_ISO.txt a public
+cp "./BD_ISO.txt" "./public/BD_ISO.txt"
+
+echo "✅ Directorio public preparado para despliegue en Vercel"
+ls -la public/
