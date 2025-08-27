@@ -18,15 +18,26 @@ else
     elif [ -f "/tmp/BD_ISO.txt" ]; then
         echo "📂 Copiando BD_ISO.txt desde /tmp a la raíz..."
         cp "/tmp/BD_ISO.txt" "./BD_ISO.txt"
+    # Comprobar si existe en Desktop/ISO-27001 (entorno local)
+    elif [ -f "/Users/donmrmango/Desktop/ISO-27001/BD_ISO.txt" ]; then
+        echo "📂 Copiando BD_ISO.txt desde Desktop/ISO-27001 a la raíz..."
+        cp "/Users/donmrmango/Desktop/ISO-27001/BD_ISO.txt" "./BD_ISO.txt"
     else
-        echo "⚠️ BD_ISO.txt no encontrado, creando versión mínima de ejemplo..."
-        echo "[5.23] Enmascaramiento de datos
+        echo "⚠️ BD_ISO.txt no encontrado, utilizando archivo completo de respaldo..."
+        # Si no se encuentra en ninguna ubicación, usar archivo completo adjunto en el repositorio
+        if [ -f "./backup_BD_ISO.txt" ]; then
+            cp "./backup_BD_ISO.txt" "./BD_ISO.txt"
+            echo "✅ Usando backup_BD_ISO.txt como fuente principal"
+        else
+            echo "⚠️ No se encontró backup, creando versión mínima de ejemplo..."
+            echo "[5.23] Enmascaramiento de datos
     Las técnicas de enmascaramiento de datos deberían aplicarse a la información que necesite protección en los entornos de prueba/desarrollo.
 
     OBJETIVO: Proteger la información sensible utilizada para el desarrollo y pruebas.
 
     GUÍA DE IMPLEMENTACIÓN:
       Las técnicas de enmascaramiento de datos, a veces denominadas ofuscación de datos o sustitución de datos, incluyen cualquier método que oculte datos sensibles en los entornos de desarrollo o prueba." > "./BD_ISO.txt"
+        fi
     fi
 fi
 

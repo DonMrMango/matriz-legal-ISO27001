@@ -36,23 +36,41 @@ MODEL = "llama-3.1-8b-instant"  # Modelo rápido con 128K de contexto
 def get_iso_bd_path():
     """Determina la ruta correcta al archivo BD_ISO.txt en diferentes entornos"""
     possible_paths = [
-        # Desarrollo local
+        # Desarrollo local - directorio principal
         os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "BD_ISO.txt"),
+        # Desarrollo local - directorio de respaldo
+        os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "backup_BD_ISO.txt"),
         # Vercel - raíz del proyecto
         os.path.join(os.path.dirname(parent_dir), "BD_ISO.txt"),
         # Alternativa - mismo directorio que el script
         os.path.join(parent_dir, "BD_ISO.txt"),
         # Alternativa - directorio data
         os.path.join(parent_dir, "data", "BD_ISO.txt"),
+        # Directorio específico local
+        "/Users/donmrmango/Desktop/ISO-27001/BD_ISO.txt",
+        # Directorio temporal
+        "/tmp/BD_ISO.txt",
+        # Público en Vercel
+        os.path.join(parent_dir, "public", "BD_ISO.txt"),
     ]
     
     for path in possible_paths:
         if os.path.exists(path):
-            print(f"✅ BD_ISO.txt encontrado en: {path}")
+            # Verificar que el archivo tiene un tamaño mínimo (50KB)
+            if os.path.getsize(path) > 50000:
+                print(f"✅ BD_ISO.txt completo encontrado en: {path}")
+                return path
+            else:
+                print(f"⚠️ BD_ISO.txt encontrado en {path} pero parece incompleto ({os.path.getsize(path)} bytes)")
+    
+    # Segunda pasada - aceptar cualquier archivo si no encontramos uno completo
+    for path in possible_paths:
+        if os.path.exists(path):
+            print(f"⚠️ Usando BD_ISO.txt posiblemente incompleto en: {path}")
             return path
     
     # Último recurso: crear un archivo de prueba temporal
-    if os.getenv('VERCEL_ENV') == 'production':
+    if os.getenv('VERCEL_ENV') == 'production' or True:  # Siempre crear el archivo temporal como último recurso
         temp_path = "/tmp/BD_ISO.txt"
         if not os.path.exists(temp_path):
             with open(temp_path, "w") as f:
