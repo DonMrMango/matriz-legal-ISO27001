@@ -28,7 +28,8 @@ except ImportError:
     pass
 
 # Configuración
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+# Usar una clave de prueba para entorno de desarrollo (límite de uso bajo)
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "gsk_zIFx9l0MN2pqNe7BfE2eO1DL8Q0aPaOSYn2QObr9e9MPb8j0")
 MODEL = "llama-3.1-8b-instant"  # Modelo rápido con 128K de contexto
 
 # Determinación de ruta de BD_ISO.txt para funcionar tanto en desarrollo como en Vercel

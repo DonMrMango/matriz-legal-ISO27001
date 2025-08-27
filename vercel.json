@@ -14,8 +14,5 @@
       "maxDuration": 30
     }
   },
-  "env": {
-    "GROQ_API_KEY": "@groq_api_key"
-  },
   "buildCommand": "chmod +x ./vercel_build.sh && ./vercel_build.sh"
 }
