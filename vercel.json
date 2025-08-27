@@ -1,18 +1,19 @@
 {
   "version": 2,
+  "outputDirectory": "public",
   "rewrites": [
     { "source": "/admin", "destination": "/admin.html" },
+    { "source": "/iso", "destination": "/templates/iso_chatbot.html" },
     { "source": "/api/(.*)", "destination": "/api" },
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "functions": {
     "api/index.py": {
       "maxDuration": 30
+    },
+    "api/iso_chat.py": {
+      "maxDuration": 30
     }
   },
-  "env": {
-    "ADMIN_TOKEN": "@admin_token",
-    "GROQ_API_KEY": "@groq_api_key", 
-    "OPENAI_API_KEY": "@openai_api_key"
-  }
+  "buildCommand": "chmod +x ./vercel_build.sh && ./vercel_build.sh"
 }
