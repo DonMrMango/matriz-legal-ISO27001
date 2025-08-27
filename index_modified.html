@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz Legal + ISO 27001/27002 - INSOFT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .hero-section {
+            background: linear-gradient(135deg, #0a2463, #3e92cc);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            height: 100%;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #0a2463;
+        }
+        .feature-section {
+            padding: 60px 0;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+        .cta-button {
+            background-color: #0a2463;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        .cta-button:hover {
+            background-color: #061a4b;
+        }
+        .floating-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Matriz Legal + ISO 27001/27002</h1>
+            <p class="lead mb-4">Plataforma completa para consulta de normativa legal y estándares de seguridad de la información</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="/iso" class="btn btn-light cta-button">
+                    <i class="bi bi-shield-lock"></i> Chatbot ISO 27001/27002
+                </a>
+                <a href="/" class="btn btn-outline-light cta-button">
+                    <i class="bi bi-bank"></i> Matriz Legal
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature Section -->
+    <div class="feature-section" id="legal-matrix">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Consulta inteligente de normativa</h2>
+                <p class="lead text-muted">Accede a todas las herramientas desde una única plataforma integrada</p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- ISO Chatbot Card -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <span class="badge bg-primary floating-badge">Nuevo</span>
+                        <div class="card-body text-center p-4">
+                            <div class="card-icon">
+                                <i class="bi bi-shield-lock"></i>
+                            </div>
+                            <h3 class="card-title">Chatbot ISO 27001/27002</h3>
+                            <p class="card-text">Consulta interactiva sobre controles y requisitos de ISO 27001/27002 utilizando lenguaje natural.</p>
+                            <a href="/iso" class="btn btn-primary mt-3">Acceder al chatbot</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Legal Matrix Card -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="card-icon">
+                                <i class="bi bi-bank"></i>
+                            </div>
+                            <h3 class="card-title">Matriz Legal</h3>
+                            <p class="card-text">Base de datos completa de normativa colombiana con búsqueda avanzada y filtros.</p>
+                            <a href="/" class="btn btn-primary mt-3">Explorar matriz</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- AI Assistant Card -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="card-icon">
+                                <i class="bi bi-robot"></i>
+                            </div>
+                            <h3 class="card-title">Asistente IA</h3>
+                            <p class="card-text">Asistente inteligente para consultas complejas sobre cumplimiento normativo.</p>
+                            <a href="/chatbot" class="btn btn-primary mt-3">Consultar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Matriz Legal + ISO 27001/27002</h5>
+                    <p class="small">Plataforma desarrollada para INSOFT como herramienta de cumplimiento normativo y seguridad de la información.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="small">© 2025 INSOFT. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

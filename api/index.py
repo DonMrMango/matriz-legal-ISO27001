@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-Dual-Architecture API server for Matriz Legal INSOFT
+Dual-Architecture API server for Matriz Legal INSOFT + ISO 27001/27002
 🔄 DUAL SYSTEM:
   📊 SQLite Database → Chatbot queries & metadata 
   📄 Text Files + Groq AI → Visual interface & formatting
+  🔐 ISO 27001/27002 → Specialized security standards chatbot
 Best of both worlds: reliability + optimal presentation
 """
 
@@ -49,6 +50,16 @@ except Exception as e:
     QWEN_FORMATTER_AVAILABLE = False
     QwenLegalFormatter = None
     process_document_with_qwen = None
+
+# NUEVO: Importar módulo de ISO
+try:
+    from api.iso_endpoint import register_iso_endpoints
+    ISO_ENDPOINTS_AVAILABLE = True
+    print("✅ iso_endpoint imported successfully")
+except Exception as e:
+    print(f"Warning: Could not import iso_endpoint: {e}")
+    ISO_ENDPOINTS_AVAILABLE = False
+    register_iso_endpoints = None
 
 app = Flask(__name__)
 
@@ -406,6 +417,17 @@ print(f"  📄 Text Files: {TEXTS_PATH}")
 print(f"  🤖 AI Formatting: {'✅ Available' if QWEN_AVAILABLE else '❌ Disabled'}")
 
 # Initialize analytics tables
+# Exponemos la función de track_chat_query para que pueda ser utilizada por los módulos ISO
+app.track_chat_query = track_chat_query
+
+# 🆕 INTEGRACIÓN ISO 27001/27002
+# Registrar endpoints ISO si están disponibles
+if ISO_ENDPOINTS_AVAILABLE:
+    register_iso_endpoints(app)
+    print("🔐 Chatbot ISO 27001/27002 integrado correctamente")
+else:
+    print("⚠️ Endpoints ISO no disponibles. Chatbot ISO no estará activo.")
+
 init_analytics_tables()
 
 @app.route('/api/test')
@@ -439,6 +461,17 @@ def test():
     except Exception as e:
         text_files_status = f'failed: {str(e)}'
     
+    # NUEVO: Test ISO chat
+    iso_status = 'unknown'
+    try:
+        if ISO_ENDPOINTS_AVAILABLE:
+            from api.iso_chat import ISO_CONTEXTO
+            iso_status = f'working ({len(ISO_CONTEXTO)} chars)'
+        else:
+            iso_status = 'module not available'
+    except Exception as e:
+        iso_status = f'failed: {str(e)}'
+    
     return jsonify({
         'status': 'ok',
         'environment': {
@@ -450,6 +483,7 @@ def test():
         'components': {
             'text_library': TEXT_LIBRARY_AVAILABLE,
             'qwen_formatter': QWEN_FORMATTER_AVAILABLE,
+            'iso_chatbot': ISO_ENDPOINTS_AVAILABLE,
             'library_initialized': library is not None,
             'formatter_initialized': 'formatter' in globals() and formatter is not None
         },
@@ -464,6 +498,10 @@ def test():
             'path': TEXTS_PATH,
             'exists': os.path.exists(TEXTS_PATH),
             'count': text_files_count
+        },
+        'iso_chatbot': {
+            'status': iso_status,
+            'endpoints': ['/api/iso/chat', '/api/iso/status'] if ISO_ENDPOINTS_AVAILABLE else []
         }
     })
 
@@ -1687,9 +1725,12 @@ def serve_static(filename):
     return send_from_directory(project_root, filename)
 
 if __name__ == '__main__':
-    print("Starting Matriz Legal API Server...")
+    print("Starting Matriz Legal + ISO 27001/27002 API Server...")
     print(f"Database: {DB_PATH}")
     print(f"Texts: {TEXTS_PATH}")
+    if ISO_ENDPOINTS_AVAILABLE:
+        from api.iso_chat import ISO_CONTEXTO
+        print(f"ISO Context: {len(ISO_CONTEXTO)} characters, {len(ISO_CONTEXTO.split('\n'))} lines")
     
     # Check if database exists
     if not os.path.exists(DB_PATH):

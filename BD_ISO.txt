@@ -1,0 +1,24 @@
+[5.23] Enmascaramiento de datos
+    Las técnicas de enmascaramiento de datos deberían aplicarse a la información que necesite protección en los entornos de prueba/desarrollo.
+
+    OBJETIVO: Proteger la información sensible utilizada para el desarrollo y pruebas.
+
+    GUÍA DE IMPLEMENTACIÓN:
+      Las técnicas de enmascaramiento de datos, a veces denominadas ofuscación de datos o sustitución de datos, incluyen cualquier método que oculte datos sensibles en los entornos de desarrollo o prueba. Dichas técnicas están diseñadas para reducir el riesgo de que los datos sensibles o confidenciales se utilicen indebidamente con fines distintos a aquellos para los que la información se recopiló o adquirió inicialmente.
+      En algunas situaciones, como las pruebas de desarrollo de software, es posible que se necesiten datos de prueba que sean lo más similares posible a los datos reales utilizados en los sistemas de producción. Se debe evitar utilizar datos de producción reales para los entornos de prueba, salvo que existan controles proporcionales a los de producción.
+      Las técnicas de enmascaramiento de datos que deberían considerarse incluyen, pero no se limitan a:
+       a) mezclar los datos de tal manera que aún proporcionen valores realistas, pero asegurándose de que los registros individuales no se puedan deducir;
+       b) cambiar el orden de los registros;
+       c) eliminar las relaciones con eventos que pueden ser rastreados, como la distorsión de las fechas;
+       d) eliminar o enmascarar campos sensibles como los campos de tarjetas de crédito o la información de identificación personal de manera que no tengan sentido fuera de un contexto legítimo;
+       e) mantener coherencia interna donde las claves de referencia permanezcan igual y el nivel de granularidad adecuado se mantiene intacto;
+       f) alterar la visibilidad de los registros (por ejemplo, hacer visibles solo 100 de 1000 registros).
+      El enmascaramiento de datos se debería utilizar siempre que sea necesario para proteger la información sensible o confidencial en los entornos de prueba, desarrollo o en otros entornos ajenos a la producción.
+
+[5.7] Seguridad física y del entorno
+    La organización debería implementar controles de seguridad física para proteger sus activos físicos e información.
+
+    OBJETIVO: Proteger los activos físicos e información contra acceso no autorizado, daño o interferencia.
+
+    GUÍA DE IMPLEMENTACIÓN:
+      Los controles de seguridad física incluyen perímetros de seguridad, controles de entrada, seguridad de oficinas y equipos, y protección contra amenazas ambientales. Se debe implementar una política de escritorio limpio y pantalla limpia para evitar la divulgación no autorizada de información.
