@@ -15,9 +15,7 @@
     }
   },
   "env": {
-    "ADMIN_TOKEN": "@admin_token",
-    "GROQ_API_KEY": "@groq_api_key", 
-    "OPENAI_API_KEY": "@openai_api_key"
+    "GROQ_API_KEY": "@groq_api_key"
   },
   "buildCommand": "chmod +x ./vercel_build.sh && ./vercel_build.sh"
 }
